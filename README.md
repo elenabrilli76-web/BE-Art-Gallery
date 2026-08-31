@@ -1,28 +1,35 @@
-# BE Art Gallery — strumenti per i contenuti social
+# BE Art Gallery — contenuti social
 
-Questo repository contiene **gli strumenti e il processo**, non i materiali.
+Gli **strumenti e il processo** per produrre i contenuti social della galleria.
+I materiali — foto, video, logo — restano nell'archivio: qui c'è solo ciò che
+serve a trasformarli in contenuti pubblicabili.
 
-Foto, video, logo e depliant restano su Google Drive: sono file pesanti, si
-sfogliano meglio da lì e GitHub non è fatto per conservarli.
+## Il giro, in quattro mosse
 
-## Da dove si parte
+```
+1. metti le foto in contenuti-social\in-lavorazione\foto\
+2. dici a Claude cosa vuoi
+3. py strumenti\crea.py
+4. scarichi da pronti\ e pubblichi
+```
 
-👉 **[`contenuti-social/PROCESSO.md`](contenuti-social/PROCESSO.md)** — come si
-prepara un reel, un post, un carosello o una storia. Passo per passo.
+Vale per reel, post, caroselli e storie: cambia solo cosa chiedi al passo 2.
+
+👉 Il processo completo: **[`contenuti-social/PROCESSO.md`](contenuti-social/PROCESSO.md)**
 
 ## Cosa c'è
 
 | Cartella | Cosa contiene |
 |---|---|
-| [`contenuti-social/`](contenuti-social/) | il processo, il modello di brief, lo spazio di lavoro e l'archivio |
-| [`reel/`](reel/) | il generatore di reel: da una cartella di foto a un MP4 verticale pronto per Instagram |
+| [`contenuti-social/`](contenuti-social/) | il processo, lo spazio di lavoro, l'archivio dei contenuti usciti |
+| [`strumenti/`](strumenti/) | i generatori di reel, post, caroselli e storie |
 
 E [`CLAUDE.md`](CLAUDE.md), che dà il contesto a chi apre una sessione di
-Claude Code su questo repository: eventi, date, regole di tono, dove stanno
-i materiali.
+Claude Code su questo repository: chi siamo, come parliamo, come funzionano
+gli eventi.
 
 ## Installazione, una volta sola
 
-```bash
-pip install -r reel/requirements.txt
+```
+py -m pip install -r strumenti\requirements.txt
 ```

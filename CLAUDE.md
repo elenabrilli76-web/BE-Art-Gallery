@@ -27,7 +27,6 @@ Non i materiali: quelli stanno sul Drive.
 | Cosa | Dove |
 |---|---|
 | Foto, logo, depliant, biglietti, video | **Google Drive**, cartella `BE Art Gallery` |
-| Grafica di marca (colori, font, logo) | **Canva**, brand kit `BE Art Gallery` |
 | Codice del sito | repository `be-art-gallery-site` |
 | Strumenti, processo e testi | **questo repository** |
 
@@ -93,16 +92,22 @@ alternando i contenuti — non affastellandoli nello stesso post.
 ## Come si lavora
 
 Il processo completo è in [`contenuti-social/PROCESSO.md`](contenuti-social/PROCESSO.md).
-In breve: si compila un brief, si mettono le foto in una cartella, Claude scrive
-i testi, poi il reel si genera con lo script e post, caroselli e storie si fanno
-in Canva sul brand kit.
+In breve: le foto vanno in una cartella, Elena dice cosa vuole, Claude scrive
+i testi e il file `contenuto.json`, un comando produce tutto.
 
-```bash
-pip install -r reel/requirements.txt
-python3 reel/reel.py --foto ./contenuti-social/in-lavorazione/foto --out reel.mp4
+```
+py strumenti\\crea.py
 ```
 
-Istruzioni complete: [`reel/README.md`](reel/README.md).
+Il comando legge `contenuti-social/in-lavorazione/contenuto.json` e salva reel,
+post, caroselli e storie in `in-lavorazione/pronti/`, pronti da pubblicare.
+
+**Quando arriva una richiesta di contenuto**, Claude scrive due file in
+`contenuti-social/in-lavorazione/`: `testi.md` con le caption e `contenuto.json`
+con le istruzioni per il comando. Le foto restano sul computer di Elena: Claude
+non le vede, quindi l'ordine si indica per nome di file.
+
+Istruzioni complete: [`strumenti/README.md`](strumenti/README.md).
 
 ## Riservatezza
 

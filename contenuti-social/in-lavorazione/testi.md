@@ -50,16 +50,15 @@
 le facce, la luce, le persone davanti alle opere. Un testo sopra le indebolisce
 e le fa sembrare una locandina.
 
-L'unica eccezione è **l'ultima immagine del carosello**, dove serve chiudere
-con l'informazione pratica:
+L'unica eccezione è **l'ultima immagine del carosello**, che chiude con
+l'informazione pratica:
 
 > **E.B.Art**
 > fino al 6 settembre
 > Via San Pietro 24, Pistoia
 > su appuntamento — 377 573 5187
 
-Falla in Canva, formato 1080x1350, brand kit BE Art Gallery, su una foto della
-galleria vuota o su fondo scuro.
+Non devi farla: la produce il comando, su fondo scuro, come ultima pagina.
 
 ---
 
@@ -75,7 +74,8 @@ Da 5 a 7, in quest'ordine:
 4. **Elena che parla con qualcuno.** L'artista al lavoro, non in posa
 5. **Un dettaglio**: le mani, un bicchiere, la scala, la luce sulle travi
 6. *(facoltativa)* **Il ballatoio o la sala voltata**, per far capire i tre livelli
-7. **La schermata finale** con date e indirizzo
+
+La schermata finale con date e indirizzo si aggiunge da sola, in coda.
 
 Da evitare: foto mosse o troppo scure, persone col bicchiere davanti alla
 faccia, e due inquadrature quasi identiche di seguito.
@@ -103,3 +103,21 @@ Su Facebook servono a poco, tienine due o tre al massimo.
   diretto, non il sito
 - Parla la galleria: Elena Brilli è nominata in terza persona, come qualunque
   altro artista in mostra
+
+---
+
+## Come produrlo
+
+Metti le foto in `contenuti-social\in-lavorazione\foto\`, rinominate
+`01.jpg`, `02.jpg`, `03.jpg`… nell'ordine in cui vuoi che appaiano. Poi:
+
+```
+py strumenti\crea.py
+```
+
+Escono in `in-lavorazione\pronti\`:
+
+- `carosello_01.png` … e in coda la schermata con date e indirizzo
+- `storia.png`, per rilanciare il carosello fra le storie
+
+Il numero di foto non è fissato: il comando usa quelle che trova.

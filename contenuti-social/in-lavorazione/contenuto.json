@@ -1,0 +1,28 @@
+{
+  "nome": "inaugurazione-ebart",
+  "carosello": {
+    "finale": {
+      "righe": [
+        "E.B.Art",
+        "fino al 6 settembre",
+        "Via San Pietro 24, Pistoia",
+        "su appuntamento — 377 573 5187"
+      ],
+      "posizione": "centro",
+      "enfasi": true
+    }
+  },
+  "storia": {
+    "foto": "01.jpg",
+    "testi": [
+      {
+        "righe": [
+          "Ultimi giorni",
+          "E.B.Art fino al 6 settembre"
+        ],
+        "posizione": "basso",
+        "enfasi": true
+      }
+    ]
+  }
+}

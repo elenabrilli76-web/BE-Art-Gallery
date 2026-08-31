@@ -27,7 +27,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from grafica import impostazioni, raccogli_foto, ritaglia, strato_testo
 
 # ----------------------------------------------------------------------------
 # Impostazioni di base — modificabili da progetto.json
@@ -41,10 +41,6 @@ DEFAULT = {
     "durata_transizione": 0.6,  # dissolvenza incrociata fra due foto
     "zoom": 0.14,               # 0.14 = zoom del 14% nell'arco della scena
     "sovracampionamento": 2,    # la foto viene preparata a 2x prima dello zoom
-    "colore_testo": "#FFFFFF",
-    "colore_accento": "#C9A227",
-    "font_titolo": "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
-    "font_testo": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
     "crf": 20,
     "preset": "medium",         # codifica finale
     "preset_intermedio": "veryfast",
@@ -82,141 +78,9 @@ def esegui(comando: list[str], descrizione: str) -> None:
 # Testi in sovrimpressione
 # ----------------------------------------------------------------------------
 
-def _carica_font(percorso: str, dimensione: int) -> ImageFont.FreeTypeFont:
-    try:
-        return ImageFont.truetype(percorso, dimensione)
-    except OSError:
-        return ImageFont.load_default(dimensione)
-
-
-def _manda_a_capo(testo: str, font: ImageFont.FreeTypeFont,
-                  larghezza_utile: float) -> list[str]:
-    """Va a capo fra le parole, misurando ogni riga con il font vero."""
-    parole = testo.split()
-    if not parole:
-        return [""]
-    righe, corrente = [], parole[0]
-    for parola in parole[1:]:
-        tentativo = f"{corrente} {parola}"
-        if font.getlength(tentativo) <= larghezza_utile:
-            corrente = tentativo
-        else:
-            righe.append(corrente)
-            corrente = parola
-    righe.append(corrente)
-    return righe
-
-
-def _adatta_font(testo: str, font: ImageFont.FreeTypeFont, larghezza_utile: float,
-                 percorso: str) -> ImageFont.FreeTypeFont:
-    """Rimpicciolisce il font finche' la parola piu' lunga ci sta in larghezza."""
-    parole = testo.split() or [testo]
-    dimensione = font.size
-    while dimensione > 24:
-        candidato = _carica_font(percorso, dimensione)
-        if max(candidato.getlength(p) for p in parole) <= larghezza_utile:
-            return candidato
-        dimensione -= 4
-    return _carica_font(percorso, dimensione)
-
-
-def disegna_testo(righe: list[str], destinazione: Path, cfg: dict,
-                  posizione: str = "basso", enfasi: bool = False) -> None:
-    """Crea un PNG trasparente con il testo e una velatura che lo rende leggibile."""
-    larghezza, altezza = cfg["larghezza"], cfg["altezza"]
-    tela = Image.new("RGBA", (larghezza, altezza), (0, 0, 0, 0))
-
-    corpo = 64 if not enfasi else 82
-    font_principale = _carica_font(cfg["font_titolo"], corpo)
-    font_secondario = _carica_font(cfg["font_testo"], int(corpo * 0.62))
-
-    # Manda a capo misurando il testo davvero, non stimando la larghezza media
-    # di un carattere: con un serif in grassetto la stima sbaglia di molto e
-    # spezza i titoli a meta' senza motivo.
-    margine = int(larghezza * 0.09)
-    utile = larghezza - 2 * margine
-    spezzate: list[tuple[str, ImageFont.FreeTypeFont, int]] = []
-    for indice, riga in enumerate(righe):
-        font = font_principale if indice == 0 else font_secondario
-        font = _adatta_font(riga, font, utile,
-                            cfg["font_titolo"] if indice == 0 else cfg["font_testo"])
-        for pezzo in _manda_a_capo(riga, font, utile):
-            spezzate.append((pezzo, font, indice))
-
-    interlinea = 1.28
-    altezze = [int(font.size * interlinea) for _, font, _ in spezzate]
-    blocco = sum(altezze)
-
-    if posizione == "basso":
-        partenza = altezza - int(altezza * 0.16) - blocco
-    elif posizione == "alto":
-        partenza = int(altezza * 0.14)
-    else:
-        partenza = (altezza - blocco) // 2
-
-    # Velatura sfumata dietro al testo: senza, il bianco sparisce sulle foto chiare
-    velatura = Image.new("RGBA", (larghezza, altezza), (0, 0, 0, 0))
-    pennello = ImageDraw.Draw(velatura)
-    alto_velatura = max(partenza - int(altezza * 0.10), 0)
-    basso_velatura = min(partenza + blocco + int(altezza * 0.10), altezza)
-    estensione = max(basso_velatura - alto_velatura, 1)
-    for y in range(alto_velatura, basso_velatura):
-        avanzamento = (y - alto_velatura) / estensione
-        if posizione == "basso":
-            opacita = int(165 * min(avanzamento * 1.8, 1.0))
-        elif posizione == "alto":
-            opacita = int(165 * min((1 - avanzamento) * 1.8, 1.0))
-        else:
-            opacita = int(150 * (1 - abs(avanzamento - 0.5) * 2) ** 0.5)
-        pennello.line([(0, y), (larghezza, y)], fill=(0, 0, 0, opacita))
-    tela = Image.alpha_composite(tela, velatura)
-
-    penna = ImageDraw.Draw(tela)
-    y = partenza
-    for testo, font, riga_originale in spezzate:
-        colore = cfg["colore_accento"] if (enfasi and riga_originale == 0) else cfg["colore_testo"]
-        x = (larghezza - font.getlength(testo)) / 2
-        penna.text((x + 2, y + 3), testo, font=font, fill=(0, 0, 0, 130))  # ombra
-        penna.text((x, y), testo, font=font, fill=colore)
-        y += int(font.size * interlinea)
-
-    tela.save(destinazione)
-
-
 # ----------------------------------------------------------------------------
 # Costruzione del video
 # ----------------------------------------------------------------------------
-
-def prepara_immagine(foto: Path, destinazione: Path, cfg: dict) -> None:
-    """
-    Ritaglia e ridimensiona la foto una volta sola, con Pillow.
-
-    Serve perche' zoompan, per muoversi in modo fluido, ha bisogno di un
-    fotogramma piu' grande dell'uscita finale. Farlo fare a ffmpeg con il
-    filtro scale significherebbe rifare il ridimensionamento a ogni singolo
-    fotogramma della scena: qui invece si fa una volta e basta.
-    """
-    fattore = cfg["sovracampionamento"]
-    obiettivo_w = cfg["larghezza"] * fattore
-    obiettivo_h = cfg["altezza"] * fattore
-
-    with Image.open(foto) as immagine:
-        immagine = ImageOps.exif_transpose(immagine).convert("RGB")
-
-        # Riempie il formato verticale senza deformare: ritaglia l'eccedenza
-        scala = max(obiettivo_w / immagine.width, obiettivo_h / immagine.height)
-        intermedia = immagine.resize(
-            (max(int(immagine.width * scala + 0.5), obiettivo_w),
-             max(int(immagine.height * scala + 0.5), obiettivo_h)),
-            Image.LANCZOS,
-        )
-        sinistra = (intermedia.width - obiettivo_w) // 2
-        alto = (intermedia.height - obiettivo_h) // 2
-        ritagliata = intermedia.crop(
-            (sinistra, alto, sinistra + obiettivo_w, alto + obiettivo_h)
-        )
-        ritagliata.save(destinazione, quality=95, subsampling=0)
-
 
 def filtro_ken_burns(cfg: dict, durata: float, stile: int) -> str:
     """Movimento lento sull'immagine gia' preparata da prepara_immagine()."""
@@ -246,8 +110,12 @@ def filtro_ken_burns(cfg: dict, durata: float, stile: int) -> str:
 
 def crea_scena(ffmpeg: str, foto: Path, destinazione: Path, cfg: dict,
                durata: float, stile: int, lavoro: Path) -> None:
+    # zoompan si muove in modo fluido solo se il fotogramma in ingresso e'
+    # piu' grande dell'uscita: la foto viene portata a 2x una volta sola.
+    fattore = cfg["sovracampionamento"]
     pronta = lavoro / f"pronta_{destinazione.stem}.jpg"
-    prepara_immagine(foto, pronta, cfg)
+    ritaglia(foto, cfg["larghezza"] * fattore, cfg["altezza"] * fattore).save(
+        pronta, quality=95, subsampling=0)
     # Un solo fotogramma in ingresso: e' zoompan, con d=<fotogrammi>, a generare
     # tutta la scena. Passandogli un flusso in loop produrrebbe invece
     # <fotogrammi> uscite per ogni ingresso, cioe' una scena lunghissima e ferma.
@@ -311,11 +179,11 @@ def applica_testi(ffmpeg: str, video: Path, testi: list[dict], destinazione: Pat
 
     for indice, testo in enumerate(testi, start=1):
         png = cartella / f"testo_{indice}.png"
-        disegna_testo(
-            testo["righe"], png, cfg,
+        strato_testo(
+            testo["righe"], cfg["larghezza"], cfg["altezza"], cfg,
             posizione=testo.get("posizione", "basso"),
             enfasi=testo.get("enfasi", False),
-        )
+        ).save(png)
         inizio, fine = float(testo["inizio"]), float(testo["fine"])
         durata = max(fine - inizio, dissolvenza * 2 + 0.1)
         ingressi += ["-loop", "1", "-t", f"{durata:.3f}", "-i", str(png)]
@@ -364,20 +232,6 @@ def applica_musica(ffmpeg: str, video: Path, musica: Path, destinazione: Path,
 
 # ----------------------------------------------------------------------------
 
-def raccogli_foto(cartella: Path, ordine: list[str] | None) -> list[Path]:
-    if ordine:
-        foto = [cartella / nome for nome in ordine]
-        mancanti = [str(f) for f in foto if not f.exists()]
-        if mancanti:
-            sys.exit("Foto non trovate:\n  " + "\n  ".join(mancanti))
-        return foto
-
-    foto = sorted(f for f in cartella.iterdir() if f.suffix.lower() in ESTENSIONI)
-    if not foto:
-        sys.exit(f"Nessuna immagine trovata in {cartella}")
-    return foto
-
-
 def testi_automatici(titolo: str | None, sottotitolo: str | None,
                      finale: str | None, durata: float) -> list[dict]:
     """Apertura sulla prima scena, chiamata all'azione sull'ultima."""
@@ -406,7 +260,7 @@ def main() -> None:
     p.add_argument("--progetto", type=Path, help="file JSON con la configurazione completa")
     args = p.parse_args()
 
-    cfg = dict(DEFAULT)
+    cfg = impostazioni(DEFAULT)
     progetto: dict = {}
     if args.progetto:
         progetto = json.loads(args.progetto.read_text(encoding="utf-8"))

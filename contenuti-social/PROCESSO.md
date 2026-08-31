@@ -1,222 +1,145 @@
 # Processo di creazione contenuti — BE Art Gallery
 
-Questo è il processo definitivo. Vale per tutti e quattro i formati:
-**reel, post, carosello, storia**.
-
-I primi tre passi sono identici per tutti. Cambia solo il passo 4, la
-produzione. Il passo 5, la pubblicazione, cambia solo nei dettagli.
-
----
-
-## I 5 passi, sempre gli stessi
-
-### Passo 1 — Decidi cosa pubblicare
-
-Guarda il piano editoriale e scegli **un solo** contenuto.
-
-Rispondi a tre domande, e sono le uniche tre che contano:
-
-1. **Di quale evento parla?** (E.B.Art / ArtiAMO / I Luoghi dell'Anima / la galleria in generale)
-2. **Cosa deve fare chi lo vede?** — una sola azione. Visitare, iscriversi, salvare la data.
-3. **Dove va?** Instagram, Facebook, o entrambi.
-
-> ⚠️ Se ti accorgi di volere due azioni diverse, sono **due contenuti**, non uno.
-
-### Passo 2 — Prepara la cartella di lavoro
-
-Sul computer, dentro il repository. **È sempre questa, per tutti e quattro
-i formati** — reel, post, carosello o storia non cambia niente:
+Vale per tutti e quattro i formati: **reel, post, carosello, storia.**
+Il giro è sempre lo stesso, cambia solo cosa chiedi.
 
 ```
-contenuti-social/in-lavorazione/
-├── foto/          ← le foto scelte, rinominate 01.jpg, 02.jpg, 03.jpg…
-├── brief.md       ← copia di BRIEF.md, compilato: cosa vuoi
-├── testi.md       ← quello che scrive Claude: caption, hashtag, sovrimpressioni
-└── pronti/        ← il contenuto finito, da passare sul telefono
+1. metti le foto nella cartella
+2. dici a Claude cosa vuoi
+3. lanci un comando
+4. scarichi e pubblichi
 ```
 
-`foto/` e `brief.md` li riempi tu. `testi.md` arriva al passo 3. `pronti/` si
-riempie al passo 4.
-
-**Le foto:**
-
-- Prendile dal Drive e copiale in `foto/`
-- **Rinominale in ordine numerico**: `01.jpg`, `02.jpg`, `03.jpg`… L'ordine dei
-  nomi è l'ordine in cui appariranno
-- Quante: reel 6–10 · carosello 3–8 · post 1 · storia 1
-
-**Il brief:** copia `BRIEF.md`, rinominalo `brief.md`, compilalo. Ci mettiamo
-due minuti e risparmia tre giri di correzioni.
-
-### Passo 3 — Chiedi i testi a Claude
-
-Apri la sessione **Creazione contenuti social** su [claude.ai/code](https://claude.ai/code)
-e scrivi:
-
-> Leggi `contenuti-social/in-lavorazione/brief.md` e scrivimi i testi.
-
-Claude conosce già gli eventi, le date e le regole di tono: sono in `CLAUDE.md`.
-
-Ti restituisce, salvato in `contenuti-social/in-lavorazione/testi.md`:
-
-- La **caption** completa, nella lunghezza giusta per il canale
-- Gli **hashtag**
-- I **testi in sovrimpressione** (per reel, carosello e storia): cosa scrivere e in quale schermata
-- La **prima riga**, che è quella che decide se il contenuto viene letto o saltato
-
-Rileggi. Correggi. È più veloce correggere che spiegare da capo.
-
-### Passo 4 — Produci
-
-👉 **Qui le strade si dividono. Vai alla sezione del tuo formato, più sotto.**
-
-### Passo 5 — Pubblica e archivia
-
-1. Pubblica dal telefono (vedi la sezione del formato)
-2. Sposta la cartella: da `in-lavorazione/` a `pubblicati/2026-09-15-nome-contenuto/`
-3. Svuota `in-lavorazione/` per il contenuto successivo
-
-L'archivio serve: fra due mesi vorrai sapere cosa avevi già scritto.
-
 ---
 
-## Passo 4 per formato
+## Passo 1 — Le foto nella cartella
 
-### 🎬 REEL — video verticale
-
-**Dove:** sul tuo computer, con lo script. Non serve Canva.
-
-1. Scegli una musica, se la vuoi mettere tu. Altrimenti salta: è **meglio**
-   aggiungerla dall'app Instagram al momento di pubblicare, perché i brani
-   della libreria interna vengono distribuiti meglio
-2. Apri il terminale nella cartella del repository
-3. Lancia:
-
-```bash
-python3 reel/reel.py \
-  --foto contenuti-social/in-lavorazione/foto \
-  --out contenuti-social/in-lavorazione/pronti/reel.mp4 \
-  --titolo "BE Art Gallery" \
-  --sottotitolo "Pistoia · Creative Lab" \
-  --finale "I Luoghi dell'Anima|Iscrizioni entro il 30 settembre"
+```
+contenuti-social\in-lavorazione\foto\
 ```
 
-4. Aspetta: circa 5 secondi di calcolo per ogni foto
-5. Guarda il risultato. Non va bene? Cambia le foto o i testi e rilancia:
-   costa mezzo minuto
+Prendile dal tuo archivio e copiale lì, **rinominate `01.jpg`, `02.jpg`,
+`03.jpg`…** L'ordine dei nomi è l'ordine in cui appariranno.
 
-**Se vuoi decidere i testi al secondo esatto** invece di titolo e finale
-soltanto, usa un file di progetto: vedi `reel/progetto.esempio.json` e lancia
-`python3 reel/reel.py --progetto progetto.json`.
+Quante: reel 6–10 · carosello 4–8 · post 1 · storia 1. Se ne metti di più non
+è un problema: si sceglie dopo quali usare.
 
-**Cosa esce:** MP4 1080x1920, 9:16, H.264. Otto foto ≈ 21 secondi.
+> È sempre questa cartella, per qualunque formato. Non ce ne sono altre.
 
-> Sotto i 30 secondi il reel viene guardato fino in fondo molto più spesso.
+## Passo 2 — Dici a Claude cosa vuoi
 
-**Pubblicazione:** manda l'MP4 sul telefono (Drive, AirDrop o Telegram a te
-stessa) → Instagram → **+** → Reel → scegli il video → aggiungi la musica
-dalla libreria interna → incolla la caption → copertina: scegli un fotogramma
-in cui **non** ci sia testo in sovrimpressione → Condividi.
+Nella sessione **Creazione contenuti social**, scrivi in parole tue. Non serve
+un modulo: serve che si capiscano tre cose.
 
----
+1. **Che formato** — reel, post, carosello, storia. Anche più di uno insieme
+2. **Di quale evento parla** e **cosa deve fare chi lo vede** — una sola azione
+3. **Cosa deve venir fuori**, due righe con parole tue: l'idea, il tono
 
-### 🖼️ POST — foto singola
+Esempio, ed è già abbastanza:
 
-**Dove:** Canva. Cinque minuti.
+> «Un carosello con le foto dell'inaugurazione, per invitare a visitare la
+> mostra prima che chiuda il 6 settembre. Ho messo 7 foto nella cartella.»
 
-1. Apri Canva → **Crea un design** → **Post Instagram**
-2. Sulla sinistra, **Brand** → brand kit **BE Art Gallery**: colori e font
-   sono già quelli giusti
-3. Trascina dentro la foto, presa da `in-lavorazione/foto/`
-4. Imposta il formato **1080 x 1350** (verticale 4:5): occupa più spazio nel
-   feed rispetto al quadrato, quindi si nota di più
-5. Aggiungi il testo dal file `testi.md`
-6. Scarica in **PNG**, e salvalo in `in-lavorazione/pronti/`
+Se vuoi qualcosa di più strutturato c'è [`BRIEF.md`](BRIEF.md) da compilare,
+ma è facoltativo.
 
-**Pubblicazione:** Instagram → **+** → Post → caption da `testi.md` → Condividi.
-Su Facebook lo stesso contenuto, ma con il **link diretto** dentro al testo.
+### Cosa ricevi
 
----
+Due file, che trovi in `in-lavorazione\` dopo un **Pull origin**:
 
-### 📚 CAROSELLO — più immagini da sfogliare
-
-**Dove:** Canva.
-
-1. Canva → **Post Instagram**, formato **1080 x 1350**
-2. Brand kit **BE Art Gallery**
-3. Crea una pagina per ogni schermata. La struttura che funziona:
-
-   | Pagina | Cosa ci va |
-   |---|---|
-   | 1 | **Il gancio.** Una frase che fa fermare il dito. È l'unica che quasi tutti vedono |
-   | 2–7 | Una foto e un'idea per pagina. Mai due concetti nella stessa |
-   | ultima | **La CTA.** Una sola azione, scritta grande |
-
-4. Scarica in **PNG** dentro `in-lavorazione/pronti/`: Canva produce un
-   file numerato per pagina
-5. Controlla che l'ordine dei file sia giusto **prima** di caricarli
-
-**Quante pagine:** 4–8. Meno di 3 non è un carosello, più di 8 non arriva
-in fondo quasi nessuno.
-
-**Pubblicazione:** Instagram → **+** → Post → **seleziona più elementi** →
-scegli le immagini **nell'ordine giusto** (l'ordine di selezione è l'ordine
-finale) → caption → Condividi.
-
----
-
-### 📱 STORIA — verticale, sparisce in 24 ore
-
-**Dove:** Canva, oppure direttamente dal telefono se è una cosa veloce.
-
-1. Canva → **Crea un design** → **La tua storia** (1080 x 1920)
-2. Brand kit **BE Art Gallery**
-3. Foto a tutto schermo, testo grande e poco
-4. **Lascia liberi i bordi**: circa il 15% in alto e il 15% in basso, altrimenti
-   il testo finisce sotto il nome del profilo o sotto la barra delle risposte
-5. Scarica in **PNG** (o **MP4** se hai messo animazioni) in `in-lavorazione/pronti/`
-
-**Pubblicazione:** Instagram → la tua foto profilo → carica → **aggiungi lo
-sticker del link** se serve mandare al sito → Condividi.
-
-> Le Stories sono l'unico posto, oltre alla bio, dove su Instagram puoi mettere
-> un link cliccabile. Per la spinta iscrizioni servono a questo.
-
----
-
-## Riepilogo: cosa fai e dove
-
-| | Reel | Post | Carosello | Storia |
-|---|---|---|---|---|
-| **Misura** | 1080x1920 | 1080x1350 | 1080x1350 | 1080x1920 |
-| **Quante foto** | 6–10 | 1 | 3–8 | 1 |
-| **Si produce con** | lo script | Canva | Canva | Canva |
-| **Serve il computer?** | sì | no | no | no |
-| **Tempo** | ~10 min | ~5 min | ~15 min | ~5 min |
-| **Link cliccabile** | no | no | no | **sì** |
-
-## Riepilogo: gli strumenti
-
-| Strumento | A cosa serve |
+| File | Cosa contiene |
 |---|---|
-| **Google Drive** | archivio delle foto e dei materiali |
-| **Claude Code** | testi, caption, hashtag, generazione del reel |
-| **Canva** (brand kit BE Art Gallery) | post, caroselli, storie |
-| **Instagram / Facebook** | pubblicazione, a mano dal telefono |
+| `testi.md` | caption per Instagram e Facebook, hashtag, note |
+| `contenuto.json` | le istruzioni per il comando del passo 3 |
+
+`testi.md` lo leggi tu. `contenuto.json` non devi aprirlo né capirlo: serve al
+comando.
+
+## Passo 3 — Un comando
+
+Da GitHub Desktop: menu **Repository** → **Open in Command Prompt**. Poi:
+
+```
+py strumenti\crea.py
+```
+
+Basta questo, per qualunque formato. Il comando legge `contenuto.json`, guarda
+cosa è stato chiesto e produce tutto.
+
+Vedrai scorrere i formati, e alla fine l'elenco dei file prodotti.
+
+**Quanto ci mette:** le immagini sono immediate, il reel circa 5 secondi per
+foto. Un contenuto completo sta sotto il minuto.
+
+## Passo 4 — Scarichi e pubblichi
+
+Tutto quello che è stato prodotto è qui:
+
+```
+contenuti-social\in-lavorazione\pronti\
+```
+
+| File | Cos'è | Dove va |
+|---|---|---|
+| `post.png` | 1080×1350 | Instagram → **+** → Post |
+| `carosello_01.png`, `02`, `03`… | 1080×1350, in ordine | Instagram → **+** → Post → *seleziona più elementi* |
+| `storia.png` | 1080×1920 | Instagram → la tua foto profilo |
+| `reel.mp4` | 1080×1920, H.264 | Instagram → **+** → Reel |
+
+Passa i file sul telefono — Drive, oppure mandateli su WhatsApp da sola, che è
+più rapido. Poi pubblica, con la caption che trovi in `testi.md`.
+
+**Tre cose da ricordare al momento di pubblicare:**
+
+- **Carosello:** l'ordine in cui tocchi le immagini è l'ordine finale. Toccale
+  seguendo la numerazione dei file
+- **Hashtag:** su Instagram vanno nel **primo commento**, non nella caption
+- **Reel:** la musica aggiungila dall'app. I brani della libreria interna di
+  Instagram vengono distribuiti meglio di un audio già montato nel video
+
+Su **Facebook** ripubblichi lo stesso contenuto nella stessa settimana, con il
+testo più lungo che trovi in `testi.md`: lì il link e il numero di telefono si
+possono mettere direttamente, su Instagram no.
+
+## Passo 5 — Archivi
+
+Sposta il contenuto di `in-lavorazione\` in:
+
+```
+contenuti-social\pubblicati\2026-09-15-nome-contenuto\
+```
+
+Poi svuota `in-lavorazione\` e sei pronta per il prossimo.
+
+Serve davvero: fra due mesi vorrai sapere cosa avevi già scritto e quali foto
+avevi già usato.
 
 ---
 
-## Domande frequenti
+## Le misure, per riferimento
 
-**Posso saltare il brief?** Sì, ma poi i testi arrivano generici e ci metti
-più tempo a correggerli che a compilarlo.
+| | Misura | Quante immagini |
+|---|---|---|
+| **Post** | 1080 × 1350 (verticale 4:5) | 1 |
+| **Carosello** | 1080 × 1350 | 4–8 |
+| **Storia** | 1080 × 1920 | 1 |
+| **Reel** | 1080 × 1920 | 6–10 foto → ~20 secondi |
 
-**Le foto devono essere ritoccate prima?** No. Lo script ritaglia in verticale
-da solo, Canva pure. Serve solo che siano a fuoco e ben esposte.
+Il verticale 4:5 occupa più spazio nel feed del quadrato, quindi si nota di più.
+Un reel sotto i 30 secondi viene guardato fino in fondo molto più spesso.
 
-**Il reel viene male, cosa cambio?** In ordine: le foto (è quasi sempre quello),
-poi la durata delle scene (`--durata-scena 2.6` per un ritmo più veloce), poi i testi.
+## Domande che tornano
 
-**Posso pubblicare lo stesso contenuto su Instagram e Facebook?** Sì, ed è
-previsto dal piano. Ma su Facebook il testo va allungato e ci va il **link
-diretto**, che su Instagram non sarebbe cliccabile.
+**Le foto vanno ritoccate prima?** No. Vengono ritagliate in verticale in
+automatico, senza deformarle. Serve solo che siano a fuoco e ben esposte.
+
+**Posso chiedere più formati insieme?** Sì, ed è il modo normale di lavorare:
+un carosello per il feed e una storia con lo stesso contenuto si producono in
+un colpo solo.
+
+**Il risultato non mi convince, cosa cambio?** In quest'ordine: le foto — è
+quasi sempre quello. Poi i testi. Poi, per il reel, il ritmo. Dillo a Claude e
+rifai il comando: costa meno di un minuto.
+
+**Devo aprire `contenuto.json`?** No. Se qualcosa non va, dillo a Claude e te
+lo riscrive.
