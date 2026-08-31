@@ -1,5 +1,5 @@
 # Materiali di lavoro: stanno sul Drive, non nel repository
-foto/
+/foto/
 *.mp4
 *.mov
 *.mp3
@@ -17,7 +17,8 @@ Thumbs.db
 desktop.ini
 
 # Foto e video in lavorazione: restano in locale, gli originali sono sul Drive
-contenuti-social/in-lavorazione/foto/
+contenuti-social/in-lavorazione/foto/*
+!contenuti-social/in-lavorazione/foto/.gitkeep
 contenuti-social/**/*.png
 contenuti-social/**/*.jpg
 contenuti-social/**/*.jpeg
