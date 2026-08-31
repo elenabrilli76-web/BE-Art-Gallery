@@ -7,12 +7,12 @@ Il file è diviso in **tre sezioni**, che si completano via via:
 
 | Sezione | Cosa contiene | Stato |
 |---|---|---|
-| **1 · Contesto** | dove stanno le cose, il calendario, come si lavora | completa |
+| **1 · Contesto** | dove stanno le cose, come funzionano gli eventi, come si lavora | completa |
 | **2 · Chi siamo** | identità, spazio, storia, visione, servizi | prima stesura, dal sito |
 | **3 · Voce** | tono, lessico, regole per canale | prima stesura, dal sito |
 
 > Le sezioni 2 e 3 nascono dai testi già approvati del sito `beartgallery.eu`
-> e dal documento di progetto. Vanno arricchite con quello che il sito non dice:
+> e dalle note di progetto. Vanno arricchite con quello che il sito non dice:
 > il modo di parlare vero, gli esempi che funzionano, quelli che non funzionano.
 
 ---
@@ -38,16 +38,57 @@ Le sottocartelle del Drive che servono più spesso: `Galleria-foto allestita 1`,
 > I materiali **non** stanno su GitHub: sono file pesanti e si sfogliano
 > meglio dal Drive.
 
-## Il calendario
+## Gli eventi
 
-| Evento | Date | CTA |
+Il calendario cambia in continuazione. Quello che **non** cambia è che la CTA
+di un contenuto discende dal **tipo** di evento, non dal suo nome.
+
+| Tipo | Chi partecipa | CTA |
 |---|---|---|
-| **E.B.Art** — personale di Elena Brilli | 29 ago – 6 set 2026 · inaugurazione sab 29/8 h 17 | vieni a visitare |
-| **ArtiAMO** — collettiva AMO.Art, **su invito** | 12 – 27 set 2026 · inaugurazione sab 12/9 h 17 | vieni a visitare — **mai** "iscriviti" |
-| **I Luoghi dell'Anima** — collettiva **aperta a tutti** | 10 – 25 ott 2026 · iscrizioni entro il **30 settembre** · consegna opere 7-8/10 | iscriviti / partecipa come artista |
+| **Personale** | un artista, scelto dalla galleria | vieni a visitare |
+| **Collettiva su invito** | artisti invitati, chiusa | vieni a visitare — **mai** "iscriviti" |
+| **Collettiva aperta** | qualsiasi artista, con iscrizione e scadenza | **iscriviti** fino alla scadenza, poi vieni a visitare |
+| **Presentazione, convegno, incontro** | pubblico | vieni · prenota il posto |
+| **Performance, evento culturale** | pubblico | vieni a visitare |
+| **Evento esclusivo o privato** | su invito | non si comunica prima; semmai un racconto dopo |
 
-Fino al 30 settembre **I Luoghi dell'Anima è la priorità di comunicazione**:
-è l'unico evento con una CTA di iscrizione e ha una scadenza vera.
+### La regola che si sbaglia più spesso
+
+Su una **collettiva aperta**, quando le iscrizioni si chiudono **la CTA cambia**:
+da "iscriviti" a "vieni a vedere". È il passaggio che sfugge più facilmente,
+perché il contenuto sembra ancora attuale ma sta chiedendo una cosa impossibile.
+
+Finché una collettiva aperta ha le iscrizioni ancora aperte, **è la priorità di
+comunicazione**: è l'unico tipo di evento con una scadenza vera, e ogni settimana
+persa sono iscrizioni perse.
+
+### Le fasi di ogni mostra
+
+Tutte le mostre attraversano le stesse fasi. Vale per quelle di oggi e per quelle
+che verranno:
+
+1. **Annuncio** — cos'è, quando, di chi
+2. **Iscrizioni** *(solo collettive aperte)* — dettagli pratici, poi urgenza verso la scadenza
+3. **Countdown** — verso l'inaugurazione, sempre più fitto
+4. **Inaugurazione** — storie durante, post il giorno dopo
+5. **Mostra in corso** — a rotazione: una singola opera, un artista, l'atmosfera
+6. **Ultimi giorni** — «prima che chiuda»
+7. **Chiusura** — ringraziamento e accenno alla prossima
+
+Le fasi di due mostre diverse **si sovrappongono**: mentre una è in corso, quella
+dopo è già in countdown o in raccolta iscrizioni. È normale, e va gestito
+alternando i contenuti — non affastellandoli nello stesso post.
+
+### Calendario in corso
+
+> ⚠️ Questa tabella invecchia. Va aggiornata quando un evento finisce o se ne
+> aggiunge uno. Le regole qui sopra invece restano valide sempre.
+
+| Evento | Tipo | Date |
+|---|---|---|
+| **E.B.Art** — Elena Brilli | personale | 29 ago – 6 set 2026 · inaugurazione sab 29/8 h 17 |
+| **ArtiAMO** — gruppo AMO.Art | collettiva su invito | 12 – 27 set 2026 · inaugurazione sab 12/9 h 17 |
+| **I Luoghi dell'Anima** | collettiva aperta | 10 – 25 ott 2026 · iscrizioni entro il **30 settembre** · consegna opere 7-8/10 |
 
 ## Come si lavora
 
@@ -146,6 +187,21 @@ L'obiettivo dichiarato è uno solo: **esporre, essere visti, vendere.**
 
 # 3 · VOCE DI BE ART GALLERY
 
+## Chi parla
+
+Parla **la galleria**. Sempre "noi", mai "io".
+
+> «Abbiamo scelto di rispettare l'anima di un palazzo storico.»
+> «Selezioniamo lavori capaci di dialogare con lo spazio.»
+
+Questo vale **anche quando la mostra è di Elena Brilli**: in quel caso la galleria
+parla dell'artista in terza persona, come farebbe con qualunque altro. È la stessa
+distanza curatoriale che rende credibile la selezione — una galleria che si
+autocelebra in prima persona vale meno di una galleria che presenta.
+
+Non significa essere impersonali: "noi" è un noi che ha gusti, sceglie e prende
+posizione.
+
 ## L'essenza
 
 Tre aggettivi: **materico, colto, accogliente.**
@@ -153,7 +209,7 @@ Tre aggettivi: **materico, colto, accogliente.**
 Elegante ma diretto, mai pomposo. **Parla d'arte con concretezza toscana.**
 
 Se una frase suona come il comunicato stampa di un ente, è sbagliata. Se suona
-come una persona che conosce l'arte e ti sta spiegando una cosa a cui tiene,
+come qualcuno che conosce l'arte e ti sta spiegando una cosa a cui tiene,
 è giusta.
 
 ## Come parliamo
@@ -166,7 +222,7 @@ come una persona che conosce l'arte e ti sta spiegando una cosa a cui tiene,
 - **Mai superlativi vuoti.** Niente "straordinario", "imperdibile", "unico nel
   suo genere".
 - **Mai CTA generiche.** «Raccontaci il tuo progetto», non «Scopri di più».
-- **Il "voi" non esiste.** Diamo del tu, con rispetto.
+- **A chi legge diamo del tu**, con rispetto.
 
 ## Il lessico
 
@@ -200,12 +256,12 @@ con in più il link diretto.
 
 - **Una sola CTA per contenuto.** Mai due link o due azioni diverse. Se ne
   servono due, sono due contenuti.
-- **ArtiAMO è su invito**: il messaggio è sempre "vieni a visitare", **mai**
-  "iscriviti". È chiusa alla partecipazione degli artisti.
-- **I Luoghi dell'Anima** è l'unico evento con CTA di iscrizione, ed è la
-  priorità fino al 30 settembre.
-- **San Pier Maggiore si cita con misura.** È un dettaglio prezioso, non il
-  argomento principale: la protagonista è l'arte.
+- **La CTA discende dal tipo di evento**, non dal suo nome: vedi la tabella
+  nella sezione Contesto. Un evento su invito non chiede mai un'iscrizione.
+- **Quando le iscrizioni chiudono, la CTA cambia.** Da "iscriviti" a "vieni a
+  vedere", lo stesso giorno.
+- **San Pier Maggiore si cita con misura.** È un dettaglio prezioso, non
+  l'argomento principale: la protagonista è l'arte.
 - **Niente prezzi o quote nei post** finché non sono confermati.
 
 ## Da completare
@@ -213,7 +269,5 @@ con in più il link diretto.
 - Esempi di caption **davvero pubblicate** che hanno funzionato, e di caption
   che non hanno funzionato: sono la guida migliore
 - Il set di hashtag di riferimento, una volta trovato quello giusto
-- Come firmiamo: si parla come galleria ("noi") o come Elena? Al momento il sito
-  usa "noi", ma sui social la voce personale spesso funziona meglio
 - Il tono per il Creative Lab, quando partirà: rivolgersi a famiglie e bambini
-  richiede un registro diverso da quello per i collezionisti
+  richiede un registro diverso da quello per collezionisti e artisti
