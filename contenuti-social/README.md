@@ -4,7 +4,12 @@ Lo spazio di lavoro per reel, post, caroselli e storie di BE Art Gallery.
 
 - **[`PROCESSO.md`](PROCESSO.md)** — il processo completo, passo per passo. Parti da qui.
 - **[`BRIEF.md`](BRIEF.md)** — il modello da compilare per ogni contenuto
-- **`in-lavorazione/`** — il contenuto su cui stai lavorando adesso (uno per volta)
+- **`in-lavorazione/`** — il contenuto su cui stai lavorando adesso, uno per volta.
+  **Sempre questa cartella, per tutti e quattro i formati:**
+  - `foto/` le foto scelte, rinominate `01.jpg`, `02.jpg`, `03.jpg`…
+  - `brief.md` cosa vuoi ottenere
+  - `testi.md` caption, hashtag e testi in sovrimpressione
+  - `pronti/` il contenuto finito, da passare sul telefono
 - **`pubblicati/`** — archivio: una cartella per contenuto, con testi e brief
 
 ## Il giro, in breve

@@ -19,6 +19,8 @@ desktop.ini
 # Foto e video in lavorazione: restano in locale, gli originali sono sul Drive
 contenuti-social/in-lavorazione/foto/*
 !contenuti-social/in-lavorazione/foto/.gitkeep
+contenuti-social/in-lavorazione/pronti/*
+!contenuti-social/in-lavorazione/pronti/.gitkeep
 contenuti-social/**/*.png
 contenuti-social/**/*.jpg
 contenuti-social/**/*.jpeg

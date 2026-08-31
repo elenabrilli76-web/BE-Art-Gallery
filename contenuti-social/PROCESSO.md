@@ -24,13 +24,19 @@ Rispondi a tre domande, e sono le uniche tre che contano:
 
 ### Passo 2 — Prepara la cartella di lavoro
 
-Sul computer, dentro il repository:
+Sul computer, dentro il repository. **È sempre questa, per tutti e quattro
+i formati** — reel, post, carosello o storia non cambia niente:
 
 ```
 contenuti-social/in-lavorazione/
-├── foto/          ← metti qui le foto scelte, rinominate 01.jpg, 02.jpg, 03.jpg…
-└── brief.md       ← copia di BRIEF.md, compilato
+├── foto/          ← le foto scelte, rinominate 01.jpg, 02.jpg, 03.jpg…
+├── brief.md       ← copia di BRIEF.md, compilato: cosa vuoi
+├── testi.md       ← quello che scrive Claude: caption, hashtag, sovrimpressioni
+└── pronti/        ← il contenuto finito, da passare sul telefono
 ```
+
+`foto/` e `brief.md` li riempi tu. `testi.md` arriva al passo 3. `pronti/` si
+riempie al passo 4.
 
 **Le foto:**
 
@@ -89,7 +95,7 @@ L'archivio serve: fra due mesi vorrai sapere cosa avevi già scritto.
 ```bash
 python3 reel/reel.py \
   --foto contenuti-social/in-lavorazione/foto \
-  --out contenuti-social/in-lavorazione/reel.mp4 \
+  --out contenuti-social/in-lavorazione/pronti/reel.mp4 \
   --titolo "BE Art Gallery" \
   --sottotitolo "Pistoia · Creative Lab" \
   --finale "I Luoghi dell'Anima|Iscrizioni entro il 30 settembre"
@@ -121,11 +127,11 @@ in cui **non** ci sia testo in sovrimpressione → Condividi.
 1. Apri Canva → **Crea un design** → **Post Instagram**
 2. Sulla sinistra, **Brand** → brand kit **BE Art Gallery**: colori e font
    sono già quelli giusti
-3. Trascina dentro la foto
+3. Trascina dentro la foto, presa da `in-lavorazione/foto/`
 4. Imposta il formato **1080 x 1350** (verticale 4:5): occupa più spazio nel
    feed rispetto al quadrato, quindi si nota di più
 5. Aggiungi il testo dal file `testi.md`
-6. Scarica in **PNG**
+6. Scarica in **PNG**, e salvalo in `in-lavorazione/pronti/`
 
 **Pubblicazione:** Instagram → **+** → Post → caption da `testi.md` → Condividi.
 Su Facebook lo stesso contenuto, ma con il **link diretto** dentro al testo.
@@ -146,7 +152,8 @@ Su Facebook lo stesso contenuto, ma con il **link diretto** dentro al testo.
    | 2–7 | Una foto e un'idea per pagina. Mai due concetti nella stessa |
    | ultima | **La CTA.** Una sola azione, scritta grande |
 
-4. Scarica in **PNG**: Canva produce un file numerato per pagina
+4. Scarica in **PNG** dentro `in-lavorazione/pronti/`: Canva produce un
+   file numerato per pagina
 5. Controlla che l'ordine dei file sia giusto **prima** di caricarli
 
 **Quante pagine:** 4–8. Meno di 3 non è un carosello, più di 8 non arriva
@@ -167,7 +174,7 @@ finale) → caption → Condividi.
 3. Foto a tutto schermo, testo grande e poco
 4. **Lascia liberi i bordi**: circa il 15% in alto e il 15% in basso, altrimenti
    il testo finisce sotto il nome del profilo o sotto la barra delle risposte
-5. Scarica in **PNG** (o **MP4** se hai messo animazioni)
+5. Scarica in **PNG** (o **MP4** se hai messo animazioni) in `in-lavorazione/pronti/`
 
 **Pubblicazione:** Instagram → la tua foto profilo → carica → **aggiungi lo
 sticker del link** se serve mandare al sito → Condividi.
