@@ -240,7 +240,7 @@ Ne discendono quattro costanti, in **ogni** contenuto:
 | | |
 |---|---|
 | **Nome** | BE Art Gallery compare nel testo, non solo nell'account |
-| **Logo** | in alto a sinistra su ogni immagine e su tutta la durata dei video — lo mette il comando da solo |
+| **Logo** | in alto a sinistra su ogni immagine e su tutta la durata dei video — lo mette il comando da solo, scegliendo fra la versione trasparente e quella su fondo nero secondo il fondo |
 | **Sito** | `beartgallery.eu` in chiusura |
 | **Hashtag di casa** | i primi sono sempre quelli della galleria, poi quelli del contenuto |
 

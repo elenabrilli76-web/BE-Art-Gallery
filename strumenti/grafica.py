@@ -11,7 +11,9 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
-LOGO = Path(__file__).resolve().parent / "marchio" / "logo.png"
+MARCHIO_CARTELLA = Path(__file__).resolve().parent / "marchio"
+LOGO = MARCHIO_CARTELLA / "logo.png"            # trasparente
+LOGO_NERO = MARCHIO_CARTELLA / "logo-nero.png"  # con il proprio fondo nero
 
 # ----------------------------------------------------------------------------
 # Impostazioni di marca — valgono per ogni formato
@@ -20,6 +22,7 @@ LOGO = Path(__file__).resolve().parent / "marchio" / "logo.png"
 MARCHIO = {
     "logo": True,               # il marchio sta su ogni contenuto
     "logo_larghezza": 0.24,     # quota della larghezza dell'immagine
+    "logo_variante": "trasparente",   # o "nero", per i fondi chiari
     "logo_opacita": 0.92,
     "blocco_massimo": 0.28,     # quota massima di altezza occupata dal testo
     "colore_testo": "#FFFFFF",
@@ -311,7 +314,17 @@ def strato_logo(larghezza: int, altezza: int, cfg: dict) -> Image.Image | None:
     sfumatura in alto lo tiene leggibile su qualunque immagine e non ruba
     spazio ai testi, che stanno in basso.
     """
-    if not cfg.get("logo", True) or not LOGO.exists():
+    # Due versioni del marchio, e non sono intercambiabili.
+    #
+    # Quella trasparente ha un'aureola scura attorno al monogramma: sta bene
+    # sulle foto (con una velatura sotto) e sui fondi scuri, dove sparisce nel
+    # nero. Sull'avorio invece la sua riga minore si perde.
+    #
+    # Quella su fondo nero si porta dietro il proprio fondo: sull'avorio
+    # diventa una piccola targa, sempre leggibile. Su un fondo scuro invece si
+    # vedrebbe il bordo, perché il nero della targa non è quello della pagina.
+    file_logo = LOGO_NERO if cfg.get("logo_variante") == "nero" else LOGO
+    if not cfg.get("logo", True) or not file_logo.exists():
         return None
 
     strato = Image.new("RGBA", (larghezza, altezza), (0, 0, 0, 0))
@@ -327,13 +340,13 @@ def strato_logo(larghezza: int, altezza: int, cfg: dict) -> Image.Image | None:
             pennello.line([(0, partenza + y), (larghezza, partenza + y)],
                           fill=(0, 0, 0, int(185 * (1 - y / fascia) ** 1.25)))
 
-    with Image.open(LOGO) as marchio:
+    with Image.open(file_logo) as marchio:
         marchio = marchio.convert("RGBA")
         largo = int(larghezza * cfg.get("logo_larghezza", 0.30))
         marchio = marchio.resize(
             (largo, max(int(largo * marchio.height / marchio.width), 1)), Image.LANCZOS)
 
-    opacita = cfg.get("logo_opacita", 0.92)
+    opacita = 1.0 if cfg.get("logo_variante") == "nero" else cfg.get("logo_opacita", 0.92)
     if opacita < 1:
         marchio.putalpha(marchio.getchannel("A").point(lambda v: int(v * opacita)))
 

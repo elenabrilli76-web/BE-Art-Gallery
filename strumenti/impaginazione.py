@@ -161,8 +161,11 @@ def arco(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Image.I
     riga = cima + alto + int(altezza * 0.042)
     filetto(pagina, riga, 0.14, ORO_SCURO)
 
-    # Il marchio sta sull'avorio, non dentro l'arco: la curva lo taglierebbe
+    # Il marchio sta sull'avorio, non dentro l'arco: la curva lo taglierebbe.
+    # Sul chiaro serve la versione con il proprio fondo nero, che sull'avorio
+    # diventa una piccola targa invece di una scritta che si perde
     pagina = applica_logo(pagina, {**cfg, "logo_larghezza": 0.20,
+                                   "logo_variante": "nero",
                                    "logo_velatura": False})
     _numero(pagina, numero, cfg, ORO_SCURO)
     _striscia_testo(pagina, riga + int(altezza * 0.03), testi,

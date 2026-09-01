@@ -87,10 +87,24 @@ immagine e per tutta la durata dei video, con sotto una velatura sfumata che lo
 tiene leggibile anche sulle foto chiare — il logo ha un'aureola scura attorno
 al monogramma e senza fondo si sporca.
 
-Il file è `marchio/logo.png`. Si può regolarne la misura con
-`"logo_larghezza"` (quota della larghezza dell'immagine, predefinito `0.24`)
-oppure toglierlo con `"logo": false`, ma toglierlo non è previsto dalle regole
-di comunicazione: la galleria è il soggetto di ogni contenuto.
+### Le due versioni
+
+In `marchio/` ce ne sono due, e non sono intercambiabili: la scelta la fa
+l'impaginazione, in base al fondo su cui il marchio va a cadere.
+
+| File | Com'è | Dove va |
+|---|---|---|
+| `logo.png` | trasparente, con un'aureola scura attorno al monogramma | sulle **foto** (con la velatura sotto) e sui **fondi scuri**, dove l'aureola sparisce nel nero |
+| `logo-nero.png` | si porta dietro il proprio fondo nero | sui **fondi chiari**, dove diventa una piccola targa sempre leggibile |
+
+Sull'avorio la versione trasparente perde la riga minore; sul fondo scuro la
+targa mostrerebbe il bordo, perché il suo nero non è quello della pagina. Si
+forza con `"logo_variante": "nero"` o `"trasparente"`.
+
+Si può regolare la misura con `"logo_larghezza"` (quota della larghezza,
+predefinito `0.24`) o toglierlo con `"logo": false` — ma toglierlo non è
+previsto dalle regole di comunicazione: la galleria è il soggetto di ogni
+contenuto.
 
 ## Il formato di `contenuto.json`
 
