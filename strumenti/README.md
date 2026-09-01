@@ -86,7 +86,8 @@ Serve solo se qualcosa va storto e vuoi capire cosa.
   "storia": {
     "foto": "01.jpg",
     "testi": [
-      { "righe": ["Ultimi giorni"], "posizione": "basso", "enfasi": true }
+      { "righe": ["Ultimi giorni"], "en": "Last days",
+        "posizione": "basso", "enfasi": true }
     ]
   },
   "reel": {
@@ -103,6 +104,11 @@ Serve solo se qualcosa va storto e vuoi capire cosa.
 - I formati presenti nel file sono quelli che vengono prodotti: se manca
   `post`, il post non si fa
 - `posizione` può essere `alto`, `centro` o `basso`
+- `en` è la traduzione inglese della riga, e viene aggiunta **solo se ci sta**:
+  deve stare su una riga sola e il blocco non deve superare il 28% dell'altezza
+  (`blocco_massimo`). Altrimenti resta il solo italiano e il comando lo dice.
+  Sulle caption invece l'inglese è sempre obbligatorio — quelle le scrive Claude
+  in `testi.md`, non passano da qui
 - `enfasi` usa il corpo grande e l'oro sulla prima riga
 - Le foto si indicano per nome, e stanno tutte in `in-lavorazione/foto/`
 - Senza `ordine` vengono presi in ordine alfabetico

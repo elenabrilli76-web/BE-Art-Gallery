@@ -21,6 +21,7 @@ MARCHIO = {
     "logo": True,               # il marchio sta su ogni contenuto
     "logo_larghezza": 0.24,     # quota della larghezza dell'immagine
     "logo_opacita": 0.92,
+    "blocco_massimo": 0.28,     # quota massima di altezza occupata dal testo
     "colore_testo": "#FFFFFF",
     "colore_accento": "#C9A227",   # l'oro antico del logo
     "font_titolo": "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
@@ -150,6 +151,49 @@ def _adatta_font(testo: str, dimensione: int, percorso: str, ruolo: str,
     return _carica_font(percorso, dimensione, ruolo)
 
 
+def _componi_righe(righe: list[str], cfg: dict, base: int, utile: float):
+    """Spezza le righe alla larghezza utile, tenendo traccia della riga d'origine."""
+    spezzate: list[tuple[str, object, int]] = []
+    for indice, riga in enumerate(righe):
+        principale = indice == 0
+        ruolo = "font_titolo" if principale else "font_testo"
+        font = _adatta_font(riga, base if principale else int(base * 0.62),
+                            cfg[ruolo], ruolo, utile)
+        for pezzo in _manda_a_capo(riga, font, utile):
+            spezzate.append((pezzo, font, indice))
+    return spezzate
+
+
+def inglese_ammesso(righe_it: list[str], riga_en: str, larghezza: int, altezza: int,
+                    cfg: dict, enfasi: bool = False) -> bool:
+    """
+    Dice se la traduzione può stare sull'immagine senza soffocarla.
+
+    Sulle caption l'inglese è obbligatorio, ma su una foto o su un video lo
+    spazio è quello che è: due condizioni, e devono valere entrambe.
+
+    1. la riga inglese deve stare **su una sola riga**, senza andare a capo
+    2. il blocco intero non deve superare la quota di altezza consentita
+
+    Nella prova sul materiale della galleria, una chiusura breve del tipo
+    «Fino al 6 settembre / Until 6 September» rispetta entrambe; una frase
+    lunga tradotta arriva a quattro righe e l'immagine diventa una locandina.
+    """
+    base = int(larghezza * (0.076 if enfasi else 0.059))
+    margine = int(larghezza * 0.09)
+    utile = larghezza - 2 * margine
+    interlinea = 1.3
+
+    font_en = _adatta_font(riga_en, int(base * 0.62), cfg["font_testo"],
+                           "font_testo", utile)
+    if len(_manda_a_capo(riga_en, font_en, utile)) > 1:
+        return False
+
+    spezzate = _componi_righe([*righe_it, riga_en], cfg, base, utile)
+    blocco = sum(int(f.size * interlinea) for _, f, _ in spezzate)
+    return blocco <= altezza * cfg.get("blocco_massimo", 0.28)
+
+
 def strato_testo(righe: list[str], larghezza: int, altezza: int, cfg: dict,
                  posizione: str = "basso", enfasi: bool = False,
                  corpo: int | None = None) -> Image.Image:
@@ -166,14 +210,7 @@ def strato_testo(righe: list[str], larghezza: int, altezza: int, cfg: dict,
     margine = int(larghezza * 0.09)
     utile = larghezza - 2 * margine
 
-    spezzate: list[tuple[str, object, int]] = []
-    for indice, riga in enumerate(righe):
-        principale = indice == 0
-        ruolo = "font_titolo" if principale else "font_testo"
-        font = _adatta_font(riga, base if principale else int(base * 0.62),
-                            cfg[ruolo], ruolo, utile)
-        for pezzo in _manda_a_capo(riga, font, utile):
-            spezzate.append((pezzo, font, indice))
+    spezzate = _componi_righe(righe, cfg, base, utile)
 
     interlinea = 1.3
     blocco = sum(int(f.size * interlinea) for _, f, _ in spezzate)
@@ -215,12 +252,33 @@ def strato_testo(righe: list[str], larghezza: int, altezza: int, cfg: dict,
     return tela
 
 
+def righe_con_inglese(testo: dict, larghezza: int, altezza: int,
+                      cfg: dict) -> tuple[list[str], bool]:
+    """
+    Le righe da disegnare, con la traduzione se ci sta.
+
+    Restituisce anche se l'inglese è stato scartato, così chi chiama può dirlo.
+    """
+    righe = list(testo["righe"])
+    inglese = testo.get("en")
+    if not inglese:
+        return righe, False
+    if inglese_ammesso(righe, inglese, larghezza, altezza, cfg,
+                       testo.get("enfasi", False)):
+        return [*righe, inglese], False
+    return righe, True
+
+
 def componi(sfondo: Image.Image, testi: list[dict], cfg: dict) -> Image.Image:
     """Sovrappone i blocchi di testo allo sfondo e restituisce l'immagine finita."""
     risultato = sfondo.convert("RGBA")
     for testo in testi:
+        righe, scartato = righe_con_inglese(
+            testo, risultato.width, risultato.height, cfg)
+        if scartato:
+            print(f"    inglese omesso, non ci sta: «{testo['en']}»", flush=True)
         strato = strato_testo(
-            testo["righe"], risultato.width, risultato.height, cfg,
+            righe, risultato.width, risultato.height, cfg,
             posizione=testo.get("posizione", "basso"),
             enfasi=testo.get("enfasi", False),
             corpo=testo.get("corpo"),

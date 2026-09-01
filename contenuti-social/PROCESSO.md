@@ -109,6 +109,10 @@ reggere su entrambi.
 **Il logo della galleria c'è già** su ogni immagine e su tutta la durata dei
 video: non devi aggiungerlo.
 
+**Le caption sono sempre in italiano e inglese.** Sulle immagini e nei video
+invece l'inglese compare solo dove è breve abbastanza da non soffocare la foto:
+se ne occupa il comando, non è una scelta da fare ogni volta.
+
 ## Passo 5 — Archivi
 
 Sposta il contenuto di `in-lavorazione\` in:
