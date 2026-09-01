@@ -107,6 +107,9 @@ post, caroselli e storie in `in-lavorazione/pronti/`, pronti da pubblicare.
 con le istruzioni per il comando. Le foto restano sul computer di Elena: Claude
 non le vede, quindi l'ordine si indica per nome di file.
 
+Nei reel la scaletta può contenere anche spezzoni video, con la durata e il
+secondo da cui partire: vedi [`strumenti/README.md`](strumenti/README.md).
+
 Istruzioni complete: [`strumenti/README.md`](strumenti/README.md).
 
 ## Riservatezza

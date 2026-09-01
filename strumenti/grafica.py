@@ -38,6 +38,11 @@ FORMATI = {
 }
 
 ESTENSIONI = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
+ESTENSIONI_VIDEO = {".mp4", ".mov", ".m4v", ".avi", ".mkv", ".webm"}
+
+
+def e_video(percorso: Path) -> bool:
+    return percorso.suffix.lower() in ESTENSIONI_VIDEO
 
 
 def impostazioni(extra: dict | None = None) -> dict:
@@ -47,21 +52,28 @@ def impostazioni(extra: dict | None = None) -> dict:
     return cfg
 
 
-def raccogli_foto(cartella: Path, ordine: list[str] | None = None) -> list[Path]:
-    """Le foto della cartella, nell'ordine indicato o in ordine alfabetico."""
+def raccogli_foto(cartella: Path, ordine: list[str] | None = None,
+                  includi_video: bool = False) -> list[Path]:
+    """
+    I file della cartella, nell'ordine indicato o in ordine alfabetico.
+
+    I video entrano solo dove servono, cioè nei reel: un post o un carosello
+    li ignora anche se stanno nella stessa cartella.
+    """
     if ordine:
-        foto = [cartella / nome for nome in ordine]
-        mancanti = [f.name for f in foto if not f.exists()]
+        media = [cartella / nome for nome in ordine]
+        mancanti = [f.name for f in media if not f.exists()]
         if mancanti:
             raise FileNotFoundError(
-                "Queste foto non sono in " + str(cartella) + ":\n  " + "\n  ".join(mancanti)
+                "Questi file non sono in " + str(cartella) + ":\n  " + "\n  ".join(mancanti)
             )
-        return foto
+        return media
 
-    foto = sorted(f for f in cartella.iterdir() if f.suffix.lower() in ESTENSIONI)
-    if not foto:
-        raise FileNotFoundError(f"Nessuna immagine in {cartella}")
-    return foto
+    ammesse = ESTENSIONI | (ESTENSIONI_VIDEO if includi_video else set())
+    media = sorted(f for f in cartella.iterdir() if f.suffix.lower() in ammesse)
+    if not media:
+        raise FileNotFoundError(f"Nessun file utilizzabile in {cartella}")
+    return media
 
 
 # ----------------------------------------------------------------------------

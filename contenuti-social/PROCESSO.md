@@ -24,6 +24,10 @@ Prendile dal tuo archivio e copiale lì, **rinominate `01.jpg`, `02.jpg`,
 Quante: reel 6–10 · carosello 4–8 · post 1 · storia 1. Se ne metti di più non
 è un problema: si sceglie dopo quali usare.
 
+**Nella stessa cartella puoi mettere anche i video.** Entrano nei reel, dove
+il movimento racconta più di una foto ferma; post, caroselli e storie li
+ignorano.
+
 > È sempre questa cartella, per qualunque formato. Non ce ne sono altre.
 
 ## Passo 2 — Dici a Claude cosa vuoi
@@ -123,7 +127,7 @@ avevi già usato.
 | **Post** | 1080 × 1350 (verticale 4:5) | 1 |
 | **Carosello** | 1080 × 1350 | 4–8 |
 | **Storia** | 1080 × 1920 | 1 |
-| **Reel** | 1080 × 1920 | 6–10 foto → ~20 secondi |
+| **Reel** | 1080 × 1920 | 6–10 fra foto e spezzoni video → ~20 secondi |
 
 Il verticale 4:5 occupa più spazio nel feed del quadrato, quindi si nota di più.
 Un reel sotto i 30 secondi viene guardato fino in fondo molto più spesso.

@@ -1,7 +1,7 @@
 # Strumenti
 
 Producono i contenuti social di BE Art Gallery a partire da una cartella di
-foto: reel, post, caroselli e storie, tutti con la stessa faccia.
+foto e video: reel, post, caroselli e storie, tutti con la stessa faccia.
 
 ## Installazione, una volta sola
 
@@ -75,7 +75,31 @@ Serve solo se qualcosa va storto e vuoi capire cosa.
 - `posizione` può essere `alto`, `centro` o `basso`
 - `enfasi` usa il corpo grande e l'oro sulla prima riga
 - Le foto si indicano per nome, e stanno tutte in `in-lavorazione/foto/`
-- Senza `ordine` vengono prese in ordine alfabetico
+- Senza `ordine` vengono presi in ordine alfabetico
+
+### Video nei reel
+
+Nella scaletta di un reel possono entrare anche gli spezzoni video: in un
+contenuto d'evento il movimento racconta più di una foto ferma. Una voce di
+`ordine` può quindi essere un oggetto invece di un nome:
+
+```json
+"ordine": [
+  "01.jpg",
+  { "file": "VID_20260829.mp4", "durata": 4.0, "da": 12.5 },
+  "02.jpg"
+]
+```
+
+- `durata` quanti secondi dura la scena
+- `da` da che secondo del video parte — serve a prendere il momento buono
+  invece dell'inizio
+
+Sugli spezzoni video non viene applicato nessun movimento: l'inquadratura si
+muove già, e uno zoom sopra renderebbe la scena confusa. L'audio viene
+scartato, perché la musica si mette dall'app al momento di pubblicare.
+
+Post, caroselli e storie ignorano i video anche se stanno nella stessa cartella.
 
 ## Il reel da solo
 

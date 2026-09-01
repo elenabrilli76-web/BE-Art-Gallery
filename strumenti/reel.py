@@ -27,7 +27,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-from grafica import impostazioni, raccogli_foto, ritaglia, strato_testo
+from grafica import e_video, impostazioni, raccogli_foto, ritaglia, strato_testo
 
 # ----------------------------------------------------------------------------
 # Impostazioni di base — modificabili da progetto.json
@@ -38,6 +38,7 @@ DEFAULT = {
     "altezza": 1920,
     "fps": 30,
     "durata_scena": 3.2,        # secondi per foto
+    "durata_video": 4.0,        # secondi per spezzone video
     "durata_transizione": 0.6,  # dissolvenza incrociata fra due foto
     "zoom": 0.14,               # 0.14 = zoom del 14% nell'arco della scena
     "sovracampionamento": 2,    # la foto viene preparata a 2x prima dello zoom
@@ -108,6 +109,27 @@ def filtro_ken_burns(cfg: dict, durata: float, stile: int) -> str:
     )
 
 
+def crea_scena_video(ffmpeg: str, video: Path, destinazione: Path, cfg: dict,
+                     durata: float, da: float = 0.0) -> None:
+    """
+    Uno spezzone di video portato in verticale.
+
+    Niente Ken Burns qui: l'inquadratura si muove già da sola, e aggiungere uno
+    zoom sopra il movimento della mano rende la scena confusa. L'audio si
+    scarta: la musica si mette dall'app al momento di pubblicare.
+    """
+    larghezza, altezza = cfg["larghezza"], cfg["altezza"]
+    esegui([
+        ffmpeg, "-y", "-loglevel", "error",
+        "-ss", f"{da:.3f}", "-t", f"{durata:.3f}", "-i", str(video),
+        "-vf", (f"scale={larghezza}:{altezza}:force_original_aspect_ratio=increase,"
+                f"crop={larghezza}:{altezza},fps={cfg['fps']},setsar=1,format=yuv420p"),
+        "-an",
+        "-c:v", "libx264", "-preset", cfg["preset_intermedio"], "-crf", str(cfg["crf"]),
+        "-pix_fmt", "yuv420p", str(destinazione),
+    ], f"creazione scena da {video.name}")
+
+
 def crea_scena(ffmpeg: str, foto: Path, destinazione: Path, cfg: dict,
                durata: float, stile: int, lavoro: Path) -> None:
     # zoompan si muove in modo fluido solo se il fotogramma in ingresso e'
@@ -129,13 +151,18 @@ def crea_scena(ffmpeg: str, foto: Path, destinazione: Path, cfg: dict,
 
 
 def unisci_scene(ffmpeg: str, scene: list[Path], destinazione: Path,
-                 cfg: dict, durata_scena: float) -> float:
-    """Concatena le scene con dissolvenza incrociata. Restituisce la durata finale."""
+                 cfg: dict, durate: list[float]) -> float:
+    """
+    Concatena le scene con dissolvenza incrociata. Restituisce la durata finale.
+
+    Le durate arrivano una per scena: foto e spezzoni video stanno sulla stessa
+    linea del tempo ma non durano lo stesso.
+    """
     transizione = cfg["durata_transizione"]
 
     if len(scene) == 1:
         shutil.copy(scene[0], destinazione)
-        return durata_scena
+        return durate[0]
 
     ingressi: list[str] = []
     for scena in scene:
@@ -144,7 +171,7 @@ def unisci_scene(ffmpeg: str, scene: list[Path], destinazione: Path,
     catena: list[str] = []
     corrente = "[0:v]"
     # Ogni xfade accorcia il risultato di 'transizione' secondi
-    accumulata = durata_scena
+    accumulata = durate[0]
     for indice in range(1, len(scene)):
         offset = accumulata - transizione
         etichetta = f"[v{indice}]"
@@ -153,7 +180,7 @@ def unisci_scene(ffmpeg: str, scene: list[Path], destinazione: Path,
             f"duration={transizione}:offset={offset:.3f}{etichetta}"
         )
         corrente = etichetta
-        accumulata = offset + durata_scena
+        accumulata = offset + durate[indice]
 
     esegui([
         ffmpeg, "-y", "-loglevel", "error", *ingressi,
@@ -247,6 +274,38 @@ def testi_automatici(titolo: str | None, sottotitolo: str | None,
     return testi
 
 
+def leggi_scaletta(cartella: Path, ordine, cfg: dict) -> list[dict]:
+    """
+    Normalizza l'ordine delle scene in un elenco di voci uniformi.
+
+    Ogni voce di `ordine` può essere il nome di un file, oppure un oggetto che
+    ne precisa anche la durata e da che secondo partire — quest'ultimo serve
+    solo ai video, per prendere il momento buono invece dell'inizio.
+    """
+    if not ordine:
+        media = raccogli_foto(cartella, includi_video=True)
+        return [{"file": f,
+                 "durata": cfg["durata_video"] if e_video(f) else cfg["durata_scena"]}
+                for f in media]
+
+    voci: list[dict] = []
+    for elemento in ordine:
+        if isinstance(elemento, str):
+            elemento = {"file": elemento}
+        percorso = cartella / elemento["file"]
+        if not percorso.exists():
+            raise SystemExit(f"Non trovo {percorso}")
+        voci.append({
+            "file": percorso,
+            "durata": float(elemento.get(
+                "durata",
+                cfg["durata_video"] if e_video(percorso) else cfg["durata_scena"],
+            )),
+            "da": float(elemento.get("da", 0.0)),
+        })
+    return voci
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description="Genera un reel verticale dalle foto della galleria.")
     p.add_argument("--foto", type=Path, help="cartella con le foto")
@@ -274,27 +333,35 @@ def main() -> None:
         cfg["durata_scena"] = args.durata_scena
     durata_scena = cfg["durata_scena"]
 
-    foto = raccogli_foto(cartella_foto, progetto.get("ordine"))[: args.max_foto]
+    media = leggi_scaletta(cartella_foto, progetto.get("ordine"), cfg)[: args.max_foto]
     musica = Path(progetto["musica"]) if progetto.get("musica") else args.musica
     destinazione = Path(progetto.get("out", args.out))
 
+    quanti_video = sum(1 for m in media if e_video(m["file"]))
     ffmpeg = trova_ffmpeg()
     print(f"ffmpeg: {ffmpeg}", flush=True)
-    print(f"Foto:   {len(foto)}", flush=True)
+    print(f"Scene:  {len(media)}"
+          + (f" ({quanti_video} da video)" if quanti_video else ""), flush=True)
 
     with tempfile.TemporaryDirectory() as tmp:
         lavoro = Path(tmp)
 
-        scene = []
-        for indice, immagine in enumerate(foto):
+        scene, durate = [], []
+        for indice, voce in enumerate(media):
+            origine = voce["file"]
             scena = lavoro / f"scena_{indice:03d}.mp4"
-            print(f"  [{indice + 1}/{len(foto)}] {immagine.name}", flush=True)
-            crea_scena(ffmpeg, immagine, scena, cfg, durata_scena, indice, lavoro)
+            print(f"  [{indice + 1}/{len(media)}] {origine.name}", flush=True)
+            if e_video(origine):
+                crea_scena_video(ffmpeg, origine, scena, cfg,
+                                 voce["durata"], voce.get("da", 0.0))
+            else:
+                crea_scena(ffmpeg, origine, scena, cfg, voce["durata"], indice, lavoro)
             scene.append(scena)
+            durate.append(voce["durata"])
 
         print("Unione delle scene...", flush=True)
         montato = lavoro / "montato.mp4"
-        durata = unisci_scene(ffmpeg, scene, montato, cfg, durata_scena)
+        durata = unisci_scene(ffmpeg, scene, montato, cfg, durate)
 
         testi = progetto.get("testi") or testi_automatici(
             args.titolo, args.sottotitolo, args.finale, durata
