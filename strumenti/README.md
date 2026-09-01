@@ -40,6 +40,29 @@ py strumenti\crea.py percorso\del\file.json
 I colori e i font stanno in un posto solo, `grafica.py`, così un contenuto
 prodotto oggi e uno prodotto fra un mese hanno lo stesso aspetto.
 
+## Le impaginazioni di post, caroselli e storie
+
+Come per i reel, servono a non pubblicare sempre la stessa pagina. Non sono
+decorazioni intercambiabili: nascono dal linguaggio grafico già definito per la
+galleria — il filetto oro che accompagna i titoli come la cornice di un quadro,
+il cartellino da mostra, il ritaglio ad arco che richiama gli archi in mattoni.
+Si indicano con `"impaginazione"`.
+
+| Impaginazione | Com'è fatta | Quando |
+|---|---|---|
+| **pieno** | foto a tutto campo, testo sulla velatura | la più diretta: eventi, persone, atmosfera |
+| **cartellino** | foto sopra, fascia avorio sotto con filetto e testo in inchiostro | quando la parola conta quanto l'immagine: annunci, titoli di mostra |
+| **cornice** | fondo nero, immagine rientrata, filetto e testo sotto | una singola opera, che vuole aria attorno |
+| **arco** | ritaglio ad arco su fondo avorio | lo spazio, l'architettura, il richiamo al palazzo |
+
+**Un'impaginazione per contenuto, non per pagina.** Dentro un carosello la
+coerenza tiene insieme il racconto: la varietà sta fra un contenuto e il
+successivo. Le pagine senza testo tornano automaticamente a `pieno`, perché una
+fascia vuota sembra un errore di stampa.
+
+Con `"numerazione": true` le pagine di un carosello portano il numero romano in
+alto a destra, come il cartellino di sala.
+
 ## Gli stili di montaggio
 
 Non sono effetti diversi per il gusto di variare: ogni stile corrisponde a un

@@ -109,6 +109,10 @@ reggere su entrambi.
 **Il logo della galleria c'è già** su ogni immagine e su tutta la durata dei
 video: non devi aggiungerlo.
 
+**Ogni contenuto esce diverso dal precedente.** I reel hanno cinque stili di
+montaggio, post e caroselli quattro impaginazioni: le sceglie Claude in base a
+cosa racconti, tu non devi indicarle.
+
 **Le caption sono sempre in italiano e inglese.** Sulle immagini e nei video
 invece l'inglese compare solo dove è breve abbastanza da non soffocare la foto:
 se ne occupa il comando, non è una scelta da fare ogni volta.

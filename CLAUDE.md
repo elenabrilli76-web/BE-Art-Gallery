@@ -107,11 +107,20 @@ post, caroselli e storie in `in-lavorazione/pronti/`, pronti da pubblicare.
 con le istruzioni per il comando. Le foto restano sul computer di Elena: Claude
 non le vede, quindi l'ordine si indica per nome di file.
 
-Nei reel la scaletta può contenere anche spezzoni video, con la durata e il
-secondo da cui partire. Il montaggio ha cinque **stili** — `serata`,
-`camminata`, `opera`, `urgenza`, `rassegna` — che cambiano ritmo, transizioni e
-ampiezza del movimento: se ne sceglie uno in base a cosa si racconta, non per
-variare. Vedi [`strumenti/README.md`](strumenti/README.md).
+Perché i contenuti non escano tutti uguali, ci sono due registri da scegliere
+in base a cosa si racconta — mai per il gusto di variare:
+
+- **i reel** hanno cinque **stili** di montaggio: `serata`, `camminata`,
+  `opera`, `urgenza`, `rassegna`, che cambiano insieme ritmo, transizioni e
+  ampiezza del movimento. La scaletta può contenere anche spezzoni video, con
+  la durata e il secondo da cui partire
+- **post, caroselli e storie** hanno quattro **impaginazioni**: `pieno`,
+  `cartellino`, `cornice`, `arco`, costruite sul linguaggio grafico della
+  galleria — filetto oro, cartellino da mostra, ritaglio ad arco, numeri romani
+
+Un'impaginazione per contenuto, non per pagina: dentro un carosello la coerenza
+tiene, la varietà sta fra un contenuto e il successivo.
+Vedi [`strumenti/README.md`](strumenti/README.md).
 
 Istruzioni complete: [`strumenti/README.md`](strumenti/README.md).
 

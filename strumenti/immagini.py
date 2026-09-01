@@ -3,46 +3,48 @@
 Post, caroselli e storie per BE Art Gallery.
 
 Da una cartella di foto produce i PNG pronti da caricare, alla misura giusta
-per ogni formato, con i testi in sovrimpressione dove servono.
+per ogni formato, nell'impaginazione scelta per quel contenuto.
 """
 
 from pathlib import Path
 
-from grafica import (FORMATI, applica_logo, componi, fondo_pieno, impostazioni,
-                     raccogli_foto, ritaglia)
+import impaginazione
+from grafica import FORMATI, impostazioni, raccogli_foto
+
+PREDEFINITE = {"post": "pieno", "carosello": "pieno", "storia": "pieno"}
 
 
-def _sfondo(cartella: Path, indicazione, larghezza: int, altezza: int):
-    """Una foto della cartella, oppure un fondo pieno se non ne è indicata una."""
+def _foto(cartella: Path, indicazione):
+    """Il percorso di una foto della cartella, o niente per un fondo pieno."""
     if not indicazione:
-        return fondo_pieno(larghezza, altezza)
-    percorso = cartella / indicazione if not Path(indicazione).is_absolute() else Path(indicazione)
-    return ritaglia(percorso, larghezza, altezza)
+        return None
+    percorso = Path(indicazione)
+    return percorso if percorso.is_absolute() else cartella / indicazione
 
 
 def crea_post(cartella_foto: Path, destinazione: Path, spec: dict,
               cfg: dict) -> list[Path]:
-    larghezza, altezza = FORMATI["post"]
+    misura = FORMATI["post"]
     foto = spec.get("foto") or raccogli_foto(cartella_foto)[0].name
-    immagine = componi(
-        applica_logo(ritaglia(cartella_foto / foto, larghezza, altezza), cfg),
-        spec.get("testi", []), cfg,
+    pagina = impaginazione.pagina(
+        spec.get("impaginazione", PREDEFINITE["post"]),
+        _foto(cartella_foto, foto), spec.get("testi", []), cfg, misura,
     )
     uscita = destinazione / "post.png"
-    immagine.save(uscita)
+    pagina.save(uscita)
     return [uscita]
 
 
 def crea_storia(cartella_foto: Path, destinazione: Path, spec: dict,
                 cfg: dict) -> list[Path]:
-    larghezza, altezza = FORMATI["storia"]
+    misura = FORMATI["storia"]
     foto = spec.get("foto") or raccogli_foto(cartella_foto)[0].name
-    immagine = componi(
-        applica_logo(ritaglia(cartella_foto / foto, larghezza, altezza), cfg),
-        spec.get("testi", []), cfg,
+    pagina = impaginazione.pagina(
+        spec.get("impaginazione", PREDEFINITE["storia"]),
+        _foto(cartella_foto, foto), spec.get("testi", []), cfg, misura,
     )
     uscita = destinazione / "storia.png"
-    immagine.save(uscita)
+    pagina.save(uscita)
     return [uscita]
 
 
@@ -51,18 +53,23 @@ def crea_carosello(cartella_foto: Path, destinazione: Path, spec: dict,
     """
     Una pagina per foto, più l'eventuale schermata finale.
 
-    Sulle foto non va testo se non richiesto: le immagini di un evento
-    funzionano da sole, e una scritta sopra le fa somigliare a una locandina.
+    L'impaginazione è la stessa per tutte le pagine: dentro un carosello la
+    coerenza tiene insieme il racconto, e la varietà sta fra un contenuto e il
+    successivo. Sulle foto non va testo se non richiesto — le immagini di un
+    evento funzionano da sole, e una scritta sopra le fa somigliare a una
+    locandina.
     """
-    larghezza, altezza = FORMATI["carosello"]
+    misura = FORMATI["carosello"]
+    nome = spec.get("impaginazione", PREDEFINITE["carosello"])
     foto = raccogli_foto(cartella_foto, spec.get("ordine"))
     testi_per_pagina = {int(k): v for k, v in (spec.get("testi") or {}).items()}
+    numerata = spec.get("numerazione", False)
 
     prodotte: list[Path] = []
     for numero, immagine in enumerate(foto, start=1):
-        pagina = componi(
-            applica_logo(ritaglia(immagine, larghezza, altezza), cfg),
-            testi_per_pagina.get(numero, []), cfg,
+        pagina = impaginazione.pagina(
+            nome, immagine, testi_per_pagina.get(numero, []), cfg, misura,
+            numero=numero if numerata else 0,
         )
         uscita = destinazione / f"carosello_{numero:02d}.png"
         pagina.save(uscita)
@@ -70,15 +77,18 @@ def crea_carosello(cartella_foto: Path, destinazione: Path, spec: dict,
 
     finale = spec.get("finale")
     if finale:
-        pagina = componi(
-            applica_logo(_sfondo(cartella_foto, finale.get("sfondo"),
-                                 larghezza, altezza), cfg),
-            [{
-                "righe": finale["righe"],
-                "posizione": finale.get("posizione", "centro"),
-                "enfasi": finale.get("enfasi", True),
-            }],
-            cfg,
+        # La chiusura ha la sua impaginazione: le informazioni pratiche vogliono
+        # un fondo pulito. Senza una foto indicata è un fondo scuro pieno con il
+        # testo al centro; con una foto sotto conviene la cornice
+        predefinita = "cornice" if finale.get("sfondo") else "pieno"
+        pagina = impaginazione.pagina(
+            finale.get("impaginazione", predefinita),
+            _foto(cartella_foto, finale.get("sfondo")),
+            [{"righe": finale["righe"],
+              "en": finale.get("en"),
+              "posizione": finale.get("posizione", "centro"),
+              "enfasi": finale.get("enfasi", True)}],
+            cfg, misura,
         )
         uscita = destinazione / f"carosello_{len(foto) + 1:02d}.png"
         pagina.save(uscita)

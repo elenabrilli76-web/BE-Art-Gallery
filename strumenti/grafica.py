@@ -224,6 +224,10 @@ def strato_testo(righe: list[str], larghezza: int, altezza: int, cfg: dict,
     else:
         partenza = (altezza - blocco) // 2
 
+    if not cfg.get("velatura", True):
+        return _scrivi(tela, spezzate, partenza, interlinea, cfg, enfasi,
+                       larghezza, ombra=False)
+
     velatura = Image.new("RGBA", (larghezza, altezza), (0, 0, 0, 0))
     pennello = ImageDraw.Draw(velatura)
     cima = max(partenza - int(altezza * 0.11), 0)
@@ -240,15 +244,22 @@ def strato_testo(righe: list[str], larghezza: int, altezza: int, cfg: dict,
         pennello.line([(0, y), (larghezza, y)], fill=(0, 0, 0, opacita))
     tela = Image.alpha_composite(tela, velatura)
 
+    return _scrivi(tela, spezzate, partenza, interlinea, cfg, enfasi, larghezza)
+
+
+def _scrivi(tela, spezzate, partenza: int, interlinea: float, cfg: dict,
+            enfasi: bool, larghezza: int, ombra: bool = True):
+    """Disegna le righe centrate. L'ombra serve sulle foto, non sui fondi pieni."""
     penna = ImageDraw.Draw(tela)
     y = partenza
     for testo, font, riga_originale in spezzate:
-        colore = cfg["colore_accento"] if (enfasi and riga_originale == 0) else cfg["colore_testo"]
+        colore = (cfg["colore_accento"] if (enfasi and riga_originale == 0)
+                  else cfg["colore_testo"])
         x = (larghezza - font.getlength(testo)) / 2
-        penna.text((x + 2, y + 3), testo, font=font, fill=(0, 0, 0, 130))
+        if ombra:
+            penna.text((x + 2, y + 3), testo, font=font, fill=(0, 0, 0, 130))
         penna.text((x, y), testo, font=font, fill=colore)
         y += int(font.size * interlinea)
-
     return tela
 
 
@@ -305,10 +316,16 @@ def strato_logo(larghezza: int, altezza: int, cfg: dict) -> Image.Image | None:
 
     strato = Image.new("RGBA", (larghezza, altezza), (0, 0, 0, 0))
     pennello = ImageDraw.Draw(strato)
-    fascia = int(altezza * 0.17)
-    for y in range(fascia):
-        pennello.line([(0, y), (larghezza, y)],
-                      fill=(0, 0, 0, int(185 * (1 - y / fascia) ** 1.25)))
+    # Nelle impaginazioni ad arco la cima dell'immagine è curva: il marchio
+    # va spostato più in basso, dove la forma è piena, o verrebbe tagliato
+    partenza = int(altezza * cfg.get("logo_da_alto", 0.0))
+    # Su un fondo pieno chiaro la velatura sarebbe una macchia, e non serve:
+    # la scritta minore del marchio è scura e sull'avorio si legge da sola
+    if cfg.get("logo_velatura", True):
+        fascia = int(altezza * 0.17)
+        for y in range(fascia):
+            pennello.line([(0, partenza + y), (larghezza, partenza + y)],
+                          fill=(0, 0, 0, int(185 * (1 - y / fascia) ** 1.25)))
 
     with Image.open(LOGO) as marchio:
         marchio = marchio.convert("RGBA")
@@ -321,7 +338,7 @@ def strato_logo(larghezza: int, altezza: int, cfg: dict) -> Image.Image | None:
         marchio.putalpha(marchio.getchannel("A").point(lambda v: int(v * opacita)))
 
     margine = int(larghezza * 0.05)
-    strato.paste(marchio, (margine, margine), marchio)
+    strato.paste(marchio, (margine, partenza + margine), marchio)
     return strato
 
 

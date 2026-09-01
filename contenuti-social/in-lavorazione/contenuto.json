@@ -1,36 +1,49 @@
 {
-  "nome": "prova-regime",
+  "nome": "prova-impaginazioni",
   "carosello": {
+    "impaginazione": "cartellino",
+    "numerazione": true,
+    "testi": {
+      "1": [
+        {
+          "righe": [
+            "Le porte sono aperte"
+          ],
+          "en": "The doors are open",
+          "enfasi": true
+        }
+      ]
+    },
     "finale": {
       "righe": [
         "Fino al 6 settembre",
-        "Until 6 September",
         "Via San Pietro 24, Pistoia"
-      ]
+      ],
+      "en": "Until 6 September"
     }
   },
-  "storia": {
+  "post": {
+    "impaginazione": "arco",
     "foto": "01.jpg",
-    "testi": [
-      {
-        "righe": [
-          "Ultimi giorni",
-          "Last days"
-        ],
-        "posizione": "basso",
-        "enfasi": true
-      }
-    ]
-  },
-  "reel": {
-    "stile": "rassegna",
     "testi": [
       {
         "righe": [
           "BE Art Gallery"
         ],
-        "inizio": 0.4,
-        "fine": 3.0,
+        "en": "Pistoia",
+        "enfasi": true
+      }
+    ]
+  },
+  "storia": {
+    "impaginazione": "pieno",
+    "foto": "02.jpg",
+    "testi": [
+      {
+        "righe": [
+          "Ultimi giorni"
+        ],
+        "en": "Last days",
         "posizione": "basso",
         "enfasi": true
       }
