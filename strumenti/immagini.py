@@ -8,7 +8,8 @@ per ogni formato, con i testi in sovrimpressione dove servono.
 
 from pathlib import Path
 
-from grafica import FORMATI, componi, fondo_pieno, impostazioni, raccogli_foto, ritaglia
+from grafica import (FORMATI, applica_logo, componi, fondo_pieno, impostazioni,
+                     raccogli_foto, ritaglia)
 
 
 def _sfondo(cartella: Path, indicazione, larghezza: int, altezza: int):
@@ -24,7 +25,7 @@ def crea_post(cartella_foto: Path, destinazione: Path, spec: dict,
     larghezza, altezza = FORMATI["post"]
     foto = spec.get("foto") or raccogli_foto(cartella_foto)[0].name
     immagine = componi(
-        ritaglia(cartella_foto / foto, larghezza, altezza),
+        applica_logo(ritaglia(cartella_foto / foto, larghezza, altezza), cfg),
         spec.get("testi", []), cfg,
     )
     uscita = destinazione / "post.png"
@@ -37,7 +38,7 @@ def crea_storia(cartella_foto: Path, destinazione: Path, spec: dict,
     larghezza, altezza = FORMATI["storia"]
     foto = spec.get("foto") or raccogli_foto(cartella_foto)[0].name
     immagine = componi(
-        ritaglia(cartella_foto / foto, larghezza, altezza),
+        applica_logo(ritaglia(cartella_foto / foto, larghezza, altezza), cfg),
         spec.get("testi", []), cfg,
     )
     uscita = destinazione / "storia.png"
@@ -60,7 +61,7 @@ def crea_carosello(cartella_foto: Path, destinazione: Path, spec: dict,
     prodotte: list[Path] = []
     for numero, immagine in enumerate(foto, start=1):
         pagina = componi(
-            ritaglia(immagine, larghezza, altezza),
+            applica_logo(ritaglia(immagine, larghezza, altezza), cfg),
             testi_per_pagina.get(numero, []), cfg,
         )
         uscita = destinazione / f"carosello_{numero:02d}.png"
@@ -70,7 +71,8 @@ def crea_carosello(cartella_foto: Path, destinazione: Path, spec: dict,
     finale = spec.get("finale")
     if finale:
         pagina = componi(
-            _sfondo(cartella_foto, finale.get("sfondo"), larghezza, altezza),
+            applica_logo(_sfondo(cartella_foto, finale.get("sfondo"),
+                                 larghezza, altezza), cfg),
             [{
                 "righe": finale["righe"],
                 "posizione": finale.get("posizione", "centro"),

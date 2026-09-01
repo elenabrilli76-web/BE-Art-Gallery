@@ -41,7 +41,7 @@ def genera_reel(spec: dict, cartella_foto: Path, destinazione: Path) -> list[Pat
         "out": str(uscita),
         "impostazioni": spec.get("impostazioni", {}),
     }
-    for chiave in ("ordine", "testi", "musica"):
+    for chiave in ("ordine", "testi", "musica", "stile"):
         if spec.get(chiave):
             progetto[chiave] = spec[chiave]
 

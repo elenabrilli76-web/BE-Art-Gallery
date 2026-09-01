@@ -108,7 +108,10 @@ con le istruzioni per il comando. Le foto restano sul computer di Elena: Claude
 non le vede, quindi l'ordine si indica per nome di file.
 
 Nei reel la scaletta può contenere anche spezzoni video, con la durata e il
-secondo da cui partire: vedi [`strumenti/README.md`](strumenti/README.md).
+secondo da cui partire. Il montaggio ha cinque **stili** — `serata`,
+`camminata`, `opera`, `urgenza`, `rassegna` — che cambiano ritmo, transizioni e
+ampiezza del movimento: se ne sceglie uno in base a cosa si racconta, non per
+variare. Vedi [`strumenti/README.md`](strumenti/README.md).
 
 Istruzioni complete: [`strumenti/README.md`](strumenti/README.md).
 
@@ -216,6 +219,25 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 
 # 3 · VOCE DI BE ART GALLERY
 
+## Di cosa si parla
+
+**Il soggetto della comunicazione è sempre la galleria.** Le mostre sono il
+mezzo con cui si porta pubblico in via San Pietro, non il fine: un contenuto
+che promuove bene una mostra ma non lascia il nome della galleria in testa a
+chi guarda ha fallito il suo scopo.
+
+Ne discendono quattro costanti, in **ogni** contenuto:
+
+| | |
+|---|---|
+| **Nome** | BE Art Gallery compare nel testo, non solo nell'account |
+| **Logo** | in alto a sinistra su ogni immagine e su tutta la durata dei video — lo mette il comando da solo |
+| **Sito** | `beartgallery.eu` in chiusura |
+| **Hashtag di casa** | i primi sono sempre quelli della galleria, poi quelli del contenuto |
+
+Gli artisti in mostra si nominano e si valorizzano, ma restano **ospiti dello
+spazio**: è la galleria che seleziona, accoglie ed espone.
+
 ## Chi parla
 
 Parla **la galleria**. Sempre "noi", mai "io".
@@ -270,19 +292,43 @@ come qualcuno che conosce l'arte e ti sta spiegando una cosa a cui tiene,
 > «Ogni appuntamento cambia il volto dello spazio.»
 > «Dove la storia esalta il contemporaneo.»
 
-## Regole per canale
+## Un testo solo, in due lingue
 
-|  | Instagram | Facebook |
-|---|---|---|
-| **Ruolo** | richiamo, atmosfera, riconoscibilità | dettagli pratici e link |
-| **Testo** | breve, gancio forte in apertura | più disteso: date, orari, come iscriversi |
-| **Link** | solo in bio o negli sticker delle Stories | direttamente nel post |
+**Si scrive per Instagram.** Facebook è una ripubblicazione automatica dello
+stesso contenuto: non serve una seconda versione, e scriverne due significa
+solo doverle mantenere allineate.
 
-Ogni contenuto Instagram viene ripubblicato su Facebook nella stessa settimana,
-con in più il link diretto.
+Ne consegue che il testo deve reggere su entrambi: gancio forte in apertura
+come vuole Instagram, ma con dentro le informazioni pratiche — date, indirizzo,
+come si visita — che su Facebook servono davvero.
+
+**Ogni testo è in italiano e in inglese.** Prima l'italiano, poi l'inglese
+separato da una riga vuota: la galleria riceve visitatori stranieri, e il sito
+è già bilingue.
+
+Sulle immagini e nei video l'inglese entra **solo dove è breve**: una data, una
+riga di chiusura. Tradurre ogni sovrimpressione riempirebbe lo schermo.
+
+**I link su Instagram non sono cliccabili** fuori dalla bio e dagli sticker
+delle Stories: per questo la chiamata all'azione è un messaggio diretto o
+l'indirizzo, non "vai al sito".
+
+## Gli hashtag
+
+I primi sono sempre quelli della galleria, poi quelli del singolo contenuto:
+
+```
+#beartgallery #beartgallerypistoia #artecontemporanea #galleriadarte
+#pistoia #toscana
+```
+
+Vanno nel **primo commento**, non nella caption, così il testo resta pulito.
 
 ## Regole non negoziabili
 
+- **Il soggetto è la galleria**, in ogni contenuto: nome, logo, sito, hashtag
+  di casa. La mostra è il mezzo.
+- **Ogni testo è bilingue**, italiano e inglese.
 - **Una sola CTA per contenuto.** Mai due link o due azioni diverse. Se ne
   servono due, sono due contenuti.
 - **La CTA discende dal tipo di evento**, non dal suo nome: vedi la tabella
@@ -297,6 +343,7 @@ con in più il link diretto.
 
 - Esempi di caption **davvero pubblicate** che hanno funzionato, e di caption
   che non hanno funzionato: sono la guida migliore
-- Il set di hashtag di riferimento, una volta trovato quello giusto
+- Gli hashtag di contenuto che funzionano davvero: quelli di casa sono fissati,
+  gli altri vanno affinati guardando da dove arrivano le visite
 - Il tono per il Creative Lab, quando partirà: rivolgersi a famiglie e bambini
   richiede un registro diverso da quello per collezionisti e artisti

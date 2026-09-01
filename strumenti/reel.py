@@ -27,7 +27,8 @@ import sys
 import tempfile
 from pathlib import Path
 
-from grafica import e_video, impostazioni, raccogli_foto, ritaglia, strato_testo
+from grafica import (e_video, impostazioni, raccogli_foto, ritaglia,
+                     strato_logo, strato_testo)
 
 # ----------------------------------------------------------------------------
 # Impostazioni di base — modificabili da progetto.json
@@ -39,7 +40,8 @@ DEFAULT = {
     "fps": 30,
     "durata_scena": 3.2,        # secondi per foto
     "durata_video": 4.0,        # secondi per spezzone video
-    "durata_transizione": 0.6,  # dissolvenza incrociata fra due foto
+    "durata_transizione": 0.6,  # dissolvenza incrociata fra due scene
+    "transizione": "fade",      # o "taglio" per lo stacco netto
     "zoom": 0.14,               # 0.14 = zoom del 14% nell'arco della scena
     "sovracampionamento": 2,    # la foto viene preparata a 2x prima dello zoom
     "crf": 20,
@@ -50,6 +52,54 @@ DEFAULT = {
 }
 
 ESTENSIONI = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
+
+
+# ----------------------------------------------------------------------------
+# Stili di montaggio
+# ----------------------------------------------------------------------------
+#
+# Non sono effetti diversi per il gusto di variare: ogni stile corrisponde a un
+# modo di raccontare, e cambia insieme ritmo, transizione e ampiezza del
+# movimento. Si sceglie con "stile" nel file di progetto.
+
+STILI = {
+    # Un evento, con le persone dentro: alterna fermo e movimento, ritmo medio
+    "serata": {
+        "durata_scena": 2.6, "durata_video": 3.5,
+        "transizione": "fade", "durata_transizione": 0.6, "zoom": 0.14,
+    },
+    # Lo spazio: poche scene lunghe, movimento ampio, dissolvenze lente
+    "camminata": {
+        "durata_scena": 4.2, "durata_video": 5.0,
+        "transizione": "fade", "durata_transizione": 1.0, "zoom": 0.09,
+    },
+    # Una sola opera guardata da vicino: zoom deciso, passaggi morbidi
+    "opera": {
+        "durata_scena": 3.4, "durata_video": 4.0,
+        "transizione": "dissolve", "durata_transizione": 0.9, "zoom": 0.24,
+    },
+    # Ultimi giorni, scadenze: stacco netto, niente dissolvenze, ritmo serrato
+    "urgenza": {
+        "durata_scena": 1.5, "durata_video": 2.2,
+        "transizione": "taglio", "durata_transizione": 0.0, "zoom": 0.18,
+    },
+    # Le opere una dopo l'altra, come sfogliando: scorrimento laterale
+    "rassegna": {
+        "durata_scena": 2.2, "durata_video": 3.0,
+        "transizione": "slideleft", "durata_transizione": 0.5, "zoom": 0.08,
+    },
+}
+
+
+def applica_stile(cfg: dict, nome: str | None) -> dict:
+    if not nome:
+        return cfg
+    if nome not in STILI:
+        raise SystemExit(
+            f"Stile '{nome}' sconosciuto. Disponibili: {', '.join(STILI)}"
+        )
+    cfg.update(STILI[nome])
+    return cfg
 
 
 def trova_ffmpeg() -> str:
@@ -164,6 +214,19 @@ def unisci_scene(ffmpeg: str, scene: list[Path], destinazione: Path,
         shutil.copy(scene[0], destinazione)
         return durate[0]
 
+    if transizione <= 0 or cfg.get("transizione") == "taglio":
+        # Stacco netto: le scene sono già codificate uguali, quindi si
+        # accodano senza ricodificare. Istantaneo.
+        elenco = destinazione.parent / "elenco_scene.txt"
+        elenco.write_text(
+            "".join(f"file '{s.as_posix()}'\n" for s in scene), encoding="utf-8")
+        esegui([
+            ffmpeg, "-y", "-loglevel", "error",
+            "-f", "concat", "-safe", "0", "-i", str(elenco),
+            "-c", "copy", str(destinazione),
+        ], "unione delle scene a stacco netto")
+        return sum(durate)
+
     ingressi: list[str] = []
     for scena in scene:
         ingressi += ["-i", str(scena)]
@@ -176,7 +239,7 @@ def unisci_scene(ffmpeg: str, scene: list[Path], destinazione: Path,
         offset = accumulata - transizione
         etichetta = f"[v{indice}]"
         catena.append(
-            f"{corrente}[{indice}:v]xfade=transition=fade:"
+            f"{corrente}[{indice}:v]xfade=transition={cfg['transizione']}:"
             f"duration={transizione}:offset={offset:.3f}{etichetta}"
         )
         corrente = etichetta
@@ -195,7 +258,10 @@ def unisci_scene(ffmpeg: str, scene: list[Path], destinazione: Path,
 
 def applica_testi(ffmpeg: str, video: Path, testi: list[dict], destinazione: Path,
                   cfg: dict, cartella: Path) -> None:
-    if not testi:
+    """Sovrappone il marchio, sempre, e i testi, dove richiesti."""
+    marchio = strato_logo(cfg["larghezza"], cfg["altezza"], cfg)
+
+    if not testi and marchio is None:
         shutil.copy(video, destinazione)
         return
 
@@ -203,8 +269,17 @@ def applica_testi(ffmpeg: str, video: Path, testi: list[dict], destinazione: Pat
     catena: list[str] = []
     corrente = "[0:v]"
     dissolvenza = 0.5
+    prossimo = 1
 
-    for indice, testo in enumerate(testi, start=1):
+    if marchio is not None:
+        png = cartella / "marchio.png"
+        marchio.save(png)
+        ingressi += ["-i", str(png)]
+        catena.append(f"{corrente}[{prossimo}:v]overlay=0:0[marchio]")
+        corrente = "[marchio]"
+        prossimo += 1
+
+    for indice, testo in enumerate(testi, start=prossimo):
         png = cartella / f"testo_{indice}.png"
         strato_testo(
             testo["righe"], cfg["larghezza"], cfg["altezza"], cfg,
@@ -323,6 +398,8 @@ def main() -> None:
     progetto: dict = {}
     if args.progetto:
         progetto = json.loads(args.progetto.read_text(encoding="utf-8"))
+        # Prima lo stile, poi le eventuali regolazioni puntuali che lo correggono
+        applica_stile(cfg, progetto.get("stile"))
         cfg.update(progetto.get("impostazioni", {}))
 
     cartella_foto = Path(progetto.get("foto", args.foto or ""))

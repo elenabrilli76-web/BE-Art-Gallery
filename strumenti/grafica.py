@@ -11,11 +11,16 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
+LOGO = Path(__file__).resolve().parent / "marchio" / "logo.png"
+
 # ----------------------------------------------------------------------------
 # Impostazioni di marca — valgono per ogni formato
 # ----------------------------------------------------------------------------
 
 MARCHIO = {
+    "logo": True,               # il marchio sta su ogni contenuto
+    "logo_larghezza": 0.24,     # quota della larghezza dell'immagine
+    "logo_opacita": 0.92,
     "colore_testo": "#FFFFFF",
     "colore_accento": "#C9A227",   # l'oro antico del logo
     "font_titolo": "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
@@ -190,11 +195,11 @@ def strato_testo(righe: list[str], larghezza: int, altezza: int, cfg: dict,
     for y in range(cima, fondo):
         avanzamento = (y - cima) / estensione
         if posizione == "basso":
-            opacita = int(175 * min(avanzamento * 1.8, 1.0))
+            opacita = int(205 * min(avanzamento * 1.7, 1.0))
         elif posizione == "alto":
-            opacita = int(175 * min((1 - avanzamento) * 1.8, 1.0))
+            opacita = int(205 * min((1 - avanzamento) * 1.7, 1.0))
         else:
-            opacita = int(160 * (1 - abs(avanzamento - 0.5) * 2) ** 0.5)
+            opacita = int(190 * (1 - abs(avanzamento - 0.5) * 2) ** 0.5)
         pennello.line([(0, y), (larghezza, y)], fill=(0, 0, 0, opacita))
     tela = Image.alpha_composite(tela, velatura)
 
@@ -222,3 +227,48 @@ def componi(sfondo: Image.Image, testi: list[dict], cfg: dict) -> Image.Image:
         )
         risultato = Image.alpha_composite(risultato, strato)
     return risultato.convert("RGB")
+
+
+# ----------------------------------------------------------------------------
+# Marchio
+# ----------------------------------------------------------------------------
+
+def strato_logo(larghezza: int, altezza: int, cfg: dict) -> Image.Image | None:
+    """
+    Il marchio in alto a sinistra, su una velatura appena accennata.
+
+    Il logo è pensato per fondi scuri — ha un'aureola nera attorno al
+    monogramma — quindi sulle foto chiare, senza velatura, si sporca. La
+    sfumatura in alto lo tiene leggibile su qualunque immagine e non ruba
+    spazio ai testi, che stanno in basso.
+    """
+    if not cfg.get("logo", True) or not LOGO.exists():
+        return None
+
+    strato = Image.new("RGBA", (larghezza, altezza), (0, 0, 0, 0))
+    pennello = ImageDraw.Draw(strato)
+    fascia = int(altezza * 0.17)
+    for y in range(fascia):
+        pennello.line([(0, y), (larghezza, y)],
+                      fill=(0, 0, 0, int(185 * (1 - y / fascia) ** 1.25)))
+
+    with Image.open(LOGO) as marchio:
+        marchio = marchio.convert("RGBA")
+        largo = int(larghezza * cfg.get("logo_larghezza", 0.30))
+        marchio = marchio.resize(
+            (largo, max(int(largo * marchio.height / marchio.width), 1)), Image.LANCZOS)
+
+    opacita = cfg.get("logo_opacita", 0.92)
+    if opacita < 1:
+        marchio.putalpha(marchio.getchannel("A").point(lambda v: int(v * opacita)))
+
+    margine = int(larghezza * 0.05)
+    strato.paste(marchio, (margine, margine), marchio)
+    return strato
+
+
+def applica_logo(immagine: Image.Image, cfg: dict) -> Image.Image:
+    strato = strato_logo(immagine.width, immagine.height, cfg)
+    if strato is None:
+        return immagine
+    return Image.alpha_composite(immagine.convert("RGBA"), strato).convert("RGB")

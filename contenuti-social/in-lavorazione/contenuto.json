@@ -1,69 +1,39 @@
 {
-  "nome": "reel-ebart-ultimi-giorni",
-  "reel": {
-    "ordine": [
-      {
-        "file": "lv_0_20260830035132.mp4",
-        "durata": 3.5,
-        "da": 42.5
-      },
-      "IMG-20260829-WA0021.jpg",
-      "IMG-20260830-WA0011.jpg",
-      {
-        "file": "lv_0_20260830035132.mp4",
-        "durata": 3.5,
-        "da": 50.0
-      },
-      "IMG-20260829-WA0017.jpg",
-      "IMG-20260829-WA0014.jpg",
-      {
-        "file": "lv_0_20260830035132.mp4",
-        "durata": 3.5,
-        "da": 63.0
-      },
-      {
-        "file": "IMG_20260831_201604.jpg",
-        "durata": 3.0
-      },
-      {
-        "file": "IMG-20260829-WA0009.jpg",
-        "durata": 3.2
-      }
-    ],
+  "nome": "prova-regime",
+  "carosello": {
+    "finale": {
+      "righe": [
+        "Fino al 6 settembre",
+        "Until 6 September",
+        "Via San Pietro 24, Pistoia"
+      ]
+    }
+  },
+  "storia": {
+    "foto": "01.jpg",
     "testi": [
       {
         "righe": [
-          "Le porte sono aperte"
+          "Ultimi giorni",
+          "Last days"
         ],
-        "inizio": 0.5,
-        "fine": 3.6,
-        "posizione": "centro",
-        "enfasi": true
-      },
-      {
-        "righe": [
-          "E.B.Art",
-          "Il colore come linguaggio"
-        ],
-        "inizio": 8.8,
-        "fine": 12.2,
-        "posizione": "basso",
-        "enfasi": true
-      },
-      {
-        "righe": [
-          "Fino al 6 settembre",
-          "Via San Pietro 24, Pistoia — su appuntamento"
-        ],
-        "inizio": 17.8,
-        "fine": 21.8,
         "posizione": "basso",
         "enfasi": true
       }
-    ],
-    "impostazioni": {
-      "durata_scena": 2.6,
-      "durata_transizione": 0.6
-    }
+    ]
+  },
+  "reel": {
+    "stile": "rassegna",
+    "testi": [
+      {
+        "righe": [
+          "BE Art Gallery"
+        ],
+        "inizio": 0.4,
+        "fine": 3.0,
+        "posizione": "basso",
+        "enfasi": true
+      }
+    ]
   }
 }

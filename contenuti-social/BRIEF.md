@@ -1,41 +1,34 @@
 # Brief contenuto
 
-> Copia questo file in `in-lavorazione/brief.md` e compilalo.
-> Poi chiedi a Claude: «Leggi il brief e scrivimi i testi».
+> Facoltativo: puoi anche dirlo a voce nella sessione.
+> Serve a far capire tre cose, il resto lo decide Claude.
 
 ## Formato
 
-<!-- Cancella quelli che non servono -->
-reel / post / carosello / storia
+<!-- reel / post / carosello / storia — anche più d'uno insieme -->
+
 
 ## Evento
 
-<!-- E.B.Art · ArtiAMO · I Luoghi dell'Anima · la galleria in generale -->
+<!-- Di quale mostra o appuntamento parla. Oppure "la galleria in generale" -->
 
 
 ## Cosa deve fare chi lo vede
 
-<!-- UNA sola azione. Visitare la mostra / iscriversi entro il 30 settembre /
-     salvare la data / scrivere in privato -->
-
-
-## Dove va
-
-<!-- Instagram · Facebook · entrambi -->
-
-
-## Le foto
-
-<!-- Quali hai messo in in-lavorazione/foto/ e, se conta, cosa si vede.
-     Esempio: 01 sala al piano terra · 02 dettaglio opera · 03 scala -->
+<!-- UNA sola azione: visitare / iscriversi entro il … / salvare la data /
+     scrivere in privato -->
 
 
 ## Cosa deve venir fuori
 
-<!-- Due righe con parole tue. È la parte più importante del brief:
-     scrivi l'idea, l'atmosfera, la cosa che vuoi far passare.
-     Esempio: "voglio far capire che lo spazio è antico ma le opere sono
-     contemporanee, e che si può venire a vedere anche senza appuntamento" -->
+<!-- Due righe con parole tue. È la parte che conta di più: l'idea,
+     l'atmosfera, la cosa che vuoi far passare. -->
+
+
+## Le foto
+
+<!-- Cosa hai messo in in-lavorazione/foto/ e, se conta, cosa si vede.
+     I video entrano solo nei reel. -->
 
 
 ## Quando esce
@@ -45,5 +38,11 @@ reel / post / carosello / storia
 
 ## Note
 
-<!-- Vincoli, cose da non dire, nomi da citare, un artista da taggare -->
+<!-- Vincoli, cose da non dire, artisti da citare o taggare -->
 
+
+---
+
+Non serve indicare: il canale (si scrive per Instagram, Facebook è una
+ripubblicazione), la lingua (i testi sono sempre in italiano e inglese), il
+logo (viene messo da solo).

@@ -40,6 +40,35 @@ py strumenti\crea.py percorso\del\file.json
 I colori e i font stanno in un posto solo, `grafica.py`, così un contenuto
 prodotto oggi e uno prodotto fra un mese hanno lo stesso aspetto.
 
+## Gli stili di montaggio
+
+Non sono effetti diversi per il gusto di variare: ogni stile corrisponde a un
+modo di raccontare, e cambia insieme ritmo, transizione e ampiezza del
+movimento. Si indica con `"stile"` dentro `reel`.
+
+| Stile | Per cosa | Come si comporta |
+|---|---|---|
+| **serata** | un evento, con le persone dentro | ritmo medio, dissolvenza, alterna fermo e movimento |
+| **camminata** | lo spazio, i tre livelli | scene lunghe, movimento ampio e lento, dissolvenze morbide |
+| **opera** | una sola opera guardata da vicino | zoom deciso, passaggi molto morbidi |
+| **urgenza** | ultimi giorni, scadenze | **stacco netto**, nessuna dissolvenza, ritmo serrato |
+| **rassegna** | più opere una dopo l'altra | scorrimento laterale, come sfogliando |
+
+Le singole voci di `impostazioni` sovrascrivono lo stile, se serve una
+correzione puntuale.
+
+## Il marchio
+
+Il logo della galleria viene messo **da solo** in alto a sinistra, su ogni
+immagine e per tutta la durata dei video, con sotto una velatura sfumata che lo
+tiene leggibile anche sulle foto chiare — il logo ha un'aureola scura attorno
+al monogramma e senza fondo si sporca.
+
+Il file è `marchio/logo.png`. Si può regolarne la misura con
+`"logo_larghezza"` (quota della larghezza dell'immagine, predefinito `0.24`)
+oppure toglierlo con `"logo": false`, ma toglierlo non è previsto dalle regole
+di comunicazione: la galleria è il soggetto di ogni contenuto.
+
 ## Il formato di `contenuto.json`
 
 Serve solo se qualcosa va storto e vuoi capire cosa.
@@ -61,6 +90,7 @@ Serve solo se qualcosa va storto e vuoi capire cosa.
     ]
   },
   "reel": {
+    "stile": "serata",
     "testi": [
       { "righe": ["BE Art Gallery", "Pistoia"],
         "inizio": 0.4, "fine": 3.4, "posizione": "centro", "enfasi": true }

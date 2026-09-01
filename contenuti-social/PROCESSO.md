@@ -53,7 +53,7 @@ Due file, che trovi in `in-lavorazione\` dopo un **Pull origin**:
 
 | File | Cosa contiene |
 |---|---|
-| `testi.md` | caption per Instagram e Facebook, hashtag, note |
+| `testi.md` | la caption, in italiano e inglese, più gli hashtag |
 | `contenuto.json` | le istruzioni per il comando del passo 3 |
 
 `testi.md` lo leggi tu. `contenuto.json` non devi aprirlo né capirlo: serve al
@@ -97,13 +97,17 @@ più rapido. Poi pubblica, con la caption che trovi in `testi.md`.
 
 - **Carosello:** l'ordine in cui tocchi le immagini è l'ordine finale. Toccale
   seguendo la numerazione dei file
-- **Hashtag:** su Instagram vanno nel **primo commento**, non nella caption
+- **Hashtag:** nel **primo commento**, non nella caption. I primi sono sempre
+  quelli della galleria
 - **Reel:** la musica aggiungila dall'app. I brani della libreria interna di
   Instagram vengono distribuiti meglio di un audio già montato nel video
 
-Su **Facebook** ripubblichi lo stesso contenuto nella stessa settimana, con il
-testo più lungo che trovi in `testi.md`: lì il link e il numero di telefono si
-possono mettere direttamente, su Instagram no.
+Su **Facebook** non si riscrive niente: è una ripubblicazione dello stesso
+contenuto, con lo stesso testo. Per questo la caption è una sola, pensata per
+reggere su entrambi.
+
+**Il logo della galleria c'è già** su ogni immagine e su tutta la durata dei
+video: non devi aggiungerlo.
 
 ## Passo 5 — Archivi
 
