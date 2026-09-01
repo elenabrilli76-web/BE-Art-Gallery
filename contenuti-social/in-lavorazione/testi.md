@@ -1,39 +1,40 @@
-# Testi — Inaugurazione E.B.Art, invito a visitare
+# Testi — Reel E.B.Art, ultimi giorni
 
-**Formato:** carosello · **Canali:** Instagram + Facebook
+**Formato:** reel · **Canali:** Instagram + Facebook
 **CTA unica:** vieni a visitare, entro il 6 settembre
+**Durata:** 22 secondi
 
 ---
 
 ## Instagram — caption
 
-> Sabato sera abbiamo aperto le porte per la prima volta.
+> Sabato le porte si sono aperte per la prima volta.
 >
-> Le opere di Elena Brilli sono appese alle pareti in sasso di un palazzo del
-> centro storico, distribuite su tre livelli comunicanti. Il colore contro la
-> pietra: è esattamente il contrasto per cui abbiamo scelto questo spazio.
+> Le opere di Elena Brilli abitano tre livelli comunicanti di un palazzo
+> storico: il colore contro il sasso, la tela contro il mattone. È il
+> contrasto per cui abbiamo scelto questo spazio.
 >
-> Chi non c'era fa ancora in tempo. La personale di E.B.Art resta visitabile
-> fino a domenica 6 settembre, su appuntamento: scrivici un messaggio e ti
-> apriamo.
+> Restano cinque giorni. «Il colore come linguaggio» è visitabile fino a
+> domenica 6 settembre, su appuntamento: scrivici un messaggio e ti apriamo.
 >
 > Via San Pietro 24, Pistoia — di fronte a San Pier Maggiore.
 
-**Prima riga alternativa**, se vuoi un attacco più asciutto:
+**Prima riga alternativa**, più asciutta:
 
-> Restano sei giorni per vedere le opere di Elena Brilli sulle nostre pareti in sasso.
+> Restano cinque giorni per vedere queste opere sulle nostre pareti in sasso.
 
 ---
 
-## Facebook — stesso contenuto, con i dettagli pratici
+## Facebook — con i dettagli pratici
 
-> Sabato sera abbiamo aperto le porte per la prima volta, e la galleria si è
-> riempita. Grazie a tutti quelli che sono passati.
+> Sabato le porte si sono aperte per la prima volta, e la galleria si è
+> riempita. Grazie a chi è passato.
 >
-> Le opere di Elena Brilli — E.B.Art — sono appese alle pareti in sasso di un
-> palazzo storico nel centro di Pistoia, su tre livelli comunicanti: il piano
-> d'ingresso a doppio volume, il ballatoio in ferro e cotto, e la sala voltata.
-> Il colore contro la pietra è il contrasto per cui abbiamo scelto questo spazio.
+> «Il colore come linguaggio», la personale di Elena Brilli — E.B.Art —
+> occupa i tre livelli comunicanti della galleria: il piano d'ingresso a
+> doppio volume, il ballatoio in ferro e cotto, e la sala voltata. Il colore
+> contro il sasso e il mattone è il contrasto per cui abbiamo scelto questo
+> palazzo.
 >
 > **La mostra resta visitabile fino a domenica 6 settembre**, su appuntamento.
 > Per venire basta un messaggio: 377 573 5187, anche su WhatsApp.
@@ -44,80 +45,79 @@
 
 ---
 
-## Testi in sovrimpressione
+## Testi nel video
 
-**Nessuno sulle foto della serata.** Le immagini di un evento funzionano da sole:
-le facce, la luce, le persone davanti alle opere. Un testo sopra le indebolisce
-e le fa sembrare una locandina.
+Sono già nel montaggio, non c'è niente da aggiungere:
 
-L'unica eccezione è **l'ultima immagine del carosello**, che chiude con
-l'informazione pratica:
+| Quando | Cosa |
+|---|---|
+| 0,5 – 3,6 s | **Le porte sono aperte** |
+| 8,8 – 12,2 s | **E.B.Art** · Il colore come linguaggio |
+| 17,8 – 21,8 s | **Fino al 6 settembre** · Via San Pietro 24, Pistoia — su appuntamento |
 
-> **E.B.Art**
-> fino al 6 settembre
-> Via San Pietro 24, Pistoia
-> su appuntamento — 377 573 5187
-
-Non devi farla: la produce il comando, su fondo scuro, come ultima pagina.
+«Le porte sono aperte» è la frase che avevate già usato sulla locandina della
+serata: riprenderla tiene insieme i contenuti.
 
 ---
 
-## Quali foto scegliere
+## La scaletta, e perché
 
-Da 5 a 7, in quest'ordine:
+| | Cosa si vede | Perché |
+|---|---|---|
+| 1 | **video** — persone che parlano nello spazio | Apre con il movimento: in due secondi si capisce che c'era gente |
+| 2 | la sala piena | Conferma: è successo qualcosa |
+| 3 | la ballerina d'oro su fondo nero | Un'opera forte, che si stacca dalla pietra |
+| 4 | **video** — l'ingresso, la gente che entra | Il flusso, la porta aperta sulla strada |
+| 5 | la sala voltata | Lo spazio che nessuno si aspetta |
+| 6 | Elena con i fiori | La persona, dopo il luogo |
+| 7 | **video** — due che parlano davanti alle opere | Il tempo lento di chi guarda |
+| 8 | una visitatrice davanti a una parete | «Questa potresti essere tu» |
+| 9 | chiusura ravvicinata su un'opera | Su cui cade la data |
 
-1. **La sala piena.** Una veduta larga con le persone dentro. È l'immagine che
-   dice "è successo qualcosa" — la sola che quasi tutti vedranno
-2. **Persone davanti a un'opera**, di spalle o di tre quarti: si guarda dove
-   guardano loro
-3. **Un'opera intera**, ben illuminata, sulla parete in sasso
-4. **Elena che parla con qualcuno.** L'artista al lavoro, non in posa
-5. **Un dettaglio**: le mani, un bicchiere, la scala, la luce sulle travi
-6. *(facoltativa)* **Il ballatoio o la sala voltata**, per far capire i tre livelli
-
-La schermata finale con date e indirizzo si aggiunge da sola, in coda.
-
-Da evitare: foto mosse o troppo scure, persone col bicchiere davanti alla
-faccia, e due inquadrature quasi identiche di seguito.
+Alternanza fissa fra movimento e fermo: il video non sta tutto all'inizio, è
+distribuito, così l'attenzione non cala a metà.
 
 ---
 
 ## Hashtag
 
-Da provare — questo set va affinato guardando cosa porta visite davvero:
+Da mettere nel **primo commento**, non nella caption:
 
 `#beartgallery #pistoia #artecontemporanea #galleriadarte #ebart #elenabrilli`
-`#arteastratta #toscana #mostradarte #pistoiacittà #vernissage #artegiovane`
-
-Su Instagram vanno nel primo commento, non nella caption: il testo resta pulito.
-Su Facebook servono a poco, tienine due o tre al massimo.
-
----
-
-## Note
-
-- **Una sola CTA:** venire a visitare. Non nominare "I Luoghi dell'Anima" né le
-  iscrizioni di ottobre: sono un altro contenuto, e due richieste nello stesso
-  post se ne annullano una
-- Su Instagram i link non sono cliccabili: per questo la CTA è il messaggio
-  diretto, non il sito
-- Parla la galleria: Elena Brilli è nominata in terza persona, come qualunque
-  altro artista in mostra
+`#ilcolorecomelinguaggio #arteastratta #toscana #mostradarte #pistoiacittà`
 
 ---
 
 ## Come produrlo
 
-Metti le foto in `contenuti-social\in-lavorazione\foto\`, rinominate
-`01.jpg`, `02.jpg`, `03.jpg`… nell'ordine in cui vuoi che appaiano. Poi:
+1. Scarica dal Drive **le foto e il video** della serata in
+   `contenuti-social\in-lavorazione\foto\`, **senza rinominarli**: la
+   scaletta li cerca con i nomi originali
+2. `py strumenti\crea.py`
+3. Trovi `reel.mp4` in `in-lavorazione\pronti\`
+
+La musica **non** è nel video: aggiungila da Instagram al momento di
+pubblicare, così il brano viene distribuito meglio.
+
+I file che servono, esattamente questi nove:
 
 ```
-py strumenti\crea.py
+lv_0_20260830035132.mp4      (usato in tre punti diversi)
+IMG-20260829-WA0021.jpg
+IMG-20260830-WA0011.jpg
+IMG-20260829-WA0017.jpg
+IMG-20260829-WA0014.jpg
+IMG-20260829-WA0009.jpg
+IMG_20260831_201604.jpg
 ```
 
-Escono in `in-lavorazione\pronti\`:
+---
 
-- `carosello_01.png` … e in coda la schermata con date e indirizzo
-- `storia.png`, per rilanciare il carosello fra le storie
+## Note
 
-Il numero di foto non è fissato: il comando usa quelle che trova.
+- **Una sola CTA:** venire a visitare. Niente accenni alle iscrizioni di
+  ottobre: sono un altro contenuto
+- Parla la galleria: Elena Brilli è nominata in terza persona
+- Gli altri due video sono stati scartati: uno è a bassa risoluzione
+  (480x864, si vedrebbe sgranato a schermo pieno), l'altro è la registrazione
+  di uno schermo
