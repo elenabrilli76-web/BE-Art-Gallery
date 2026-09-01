@@ -185,10 +185,31 @@ L'obiettivo dichiarato è uno solo: **esporre, essere visti, vendere.**
 - **Sito** — beartgallery.eu
 - **Orari** — su appuntamento e in occasione di mostre ed eventi
 
+## Elena Brilli — E.B.Art
+
+L'artista che dirige la galleria. Quando la galleria parla di lei, ne parla
+**in terza persona**, come di qualunque altro artista in mostra: è la distanza
+curatoriale che rende credibile la selezione.
+
+- **Ricerca**: quasi dieci anni di lavoro, attraverso momenti e stili diversi
+- **Tema focale**: l'universo femminile in tutte le sue infinite sfaccettature
+- **Come si chiama la ricerca**: **metamorfismo emotivo**
+
+Il nome spiega la varietà degli stili: se il soggetto è l'emozione che cambia
+forma, la diversità dei linguaggi non è dispersione ma coerenza. È la risposta
+da dare a chi chiede perché le opere sembrino di mani diverse.
+
+> *Metamorfismo* è anche il termine con cui la geologia indica ciò che la
+> pietra fa sotto pressione e calore: cambia forma senza fondersi. In una
+> galleria di sasso e mattoni il rimando funziona da solo — va lasciato
+> lavorare, non spiegato.
+
+**Mostre**: *Il colore come linguaggio*, personale, 29 agosto – 6 settembre 2026.
+
 ## Da completare
 
 - I nomi degli artisti in curatela, quando la selezione è chiusa
-- La storia di Elena Brilli / E.B.Art come artista, per i contenuti che la riguardano
+- La biografia di Elena Brilli: formazione, mostre precedenti, riconoscimenti
 - Cosa diventerà il Creative Lab in concreto: quali laboratori, per chi, quando
 
 ---
