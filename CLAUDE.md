@@ -114,9 +114,15 @@ in base a cosa si racconta — mai per il gusto di variare:
   `opera`, `urgenza`, `rassegna`, che cambiano insieme ritmo, transizioni e
   ampiezza del movimento. La scaletta può contenere anche spezzoni video, con
   la durata e il secondo da cui partire
-- **post, caroselli e storie** hanno quattro **impaginazioni**: `pieno`,
-  `cartellino`, `cornice`, `arco`, costruite sul linguaggio grafico della
-  galleria — filetto oro, cartellino da mostra, ritaglio ad arco, numeri romani
+- **post, caroselli e storie** hanno cinque **impaginazioni**: `pieno`,
+  `cartellino`, `cornice`, `arco`, `manifesto`, costruite sul linguaggio
+  grafico della galleria — filetto oro, cartellino da mostra, ritaglio ad arco,
+  numeri romani, e per gli annunci senza foto il fondo a strati della locandina
+
+Il **carattere è uno solo**, lo stesso delle locandine e del sito: il Cormorant
+Garamond, che cambia peso e taglio invece di cambiare famiglia. Così una pagina
+generata dal comando e una locandina disegnata a mano stanno nello stesso
+carosello senza che si veda la cucitura.
 
 Un'impaginazione per contenuto, non per pagina: dentro un carosello la coerenza
 tiene, la varietà sta fra un contenuto e il successivo.

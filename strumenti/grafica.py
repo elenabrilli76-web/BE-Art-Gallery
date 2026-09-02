@@ -26,7 +26,11 @@ MARCHIO = {
     "logo_opacita": 0.92,
     "colore_testo": "#FFFFFF",
     "colore_accento": "#C9A227",   # l'oro antico del logo
-    "font_titolo": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Bold.ttf"),
+    # Il carattere della galleria è uno solo, lo stesso delle locandine:
+    # Cormorant Garamond, nei suoi pesi. Il bastone resta per il testo
+    # piccolo in sovraimpressione sulle fotografie, dove il grazia si perde.
+    "font_titolo": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Regular.ttf"),
+    "font_forte": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-SemiBold.ttf"),
     "font_testo": str(MARCHIO_CARTELLA / "font" / "Archivo-Regular.ttf"),
     "font_corsivo": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Italic.ttf"),
     "font_serif": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Regular.ttf"),
@@ -34,8 +38,10 @@ MARCHIO = {
 
 # Su Windows i font di sistema stanno altrove: si cercano lì se i primi mancano
 FONT_ALTERNATIVI = {
-    "font_titolo": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
-                    "C:/Windows/Fonts/georgiab.ttf"],
+    "font_titolo": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+                    "C:/Windows/Fonts/georgia.ttf"],
+    "font_forte": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+                   "C:/Windows/Fonts/georgiab.ttf"],
     "font_serif": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
                    "C:/Windows/Fonts/georgia.ttf"],
     "font_corsivo": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf",
@@ -130,11 +136,8 @@ def _carica_font(percorso: str, dimensione: int, ruolo: str = "font_testo"):
     return ImageFont.load_default(dimensione)
 
 
-def _manda_a_capo(testo: str, font, larghezza_utile: float) -> list[str]:
-    """Va a capo fra le parole, misurando ogni riga con il font vero."""
-    parole = testo.split()
-    if not parole:
-        return [""]
+def _spezza(parole: list[str], font, larghezza_utile: float) -> list[str]:
+    """L'a capo avido: riempie ogni riga finché ci sta."""
     righe, corrente = [], parole[0]
     for parola in parole[1:]:
         tentativo = f"{corrente} {parola}"
@@ -145,6 +148,36 @@ def _manda_a_capo(testo: str, font, larghezza_utile: float) -> list[str]:
             corrente = parola
     righe.append(corrente)
     return righe
+
+
+def _manda_a_capo(testo: str, font, larghezza_utile: float) -> list[str]:
+    """
+    Va a capo fra le parole, misurando ogni riga con il font vero, e poi
+    pareggia le righe.
+
+    L'a capo avido lascia orfani: un titolo su tre righe con l'ultima di una
+    parola sola sembra un errore. Si cerca allora la larghezza più stretta che
+    dia ancora lo stesso numero di righe: il testo resta quello, ma la
+    spezzatura cade dove il blocco è più quadrato.
+    """
+    parole = testo.split()
+    if not parole:
+        return [""]
+    righe = _spezza(parole, font, larghezza_utile)
+    if len(righe) < 2:
+        return righe
+
+    minimo = max(font.getlength(p) for p in parole)
+    basso, alto = minimo, larghezza_utile
+    migliore = righe
+    for _ in range(12):
+        meta = (basso + alto) / 2
+        tentativo = _spezza(parole, font, meta)
+        if len(tentativo) <= len(righe):
+            migliore, alto = tentativo, meta
+        else:
+            basso = meta
+    return migliore
 
 
 def _adatta_font(testo: str, dimensione: int, percorso: str, ruolo: str,
@@ -164,7 +197,9 @@ def _componi_righe(righe: list[str], cfg: dict, base: int, utile: float):
     spezzate: list[tuple[str, object, int]] = []
     for indice, riga in enumerate(righe):
         principale = indice == 0
-        ruolo = "font_titolo" if principale else "font_testo"
+        # Sulle fotografie il titolo prende il peso intermedio: il Regular
+        # della locandina, su carta, qui si perderebbe contro l'immagine.
+        ruolo = "font_forte" if principale else "font_testo"
         font = _adatta_font(riga, base if principale else int(base * 0.62),
                             cfg[ruolo], ruolo, utile)
         for pezzo in _manda_a_capo(riga, font, utile):

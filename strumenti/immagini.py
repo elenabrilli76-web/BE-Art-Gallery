@@ -9,7 +9,7 @@ per ogni formato, nell'impaginazione scelta per quel contenuto.
 from pathlib import Path
 
 import impaginazione
-from grafica import FORMATI, impostazioni, raccogli_foto
+from grafica import FORMATI, impostazioni, raccogli_foto, ritaglia
 
 PREDEFINITE = {"post": "pieno", "carosello": "pieno", "storia": "pieno"}
 
@@ -61,6 +61,11 @@ def crea_carosello(cartella_foto: Path, destinazione: Path, spec: dict,
     """
     misura = FORMATI["carosello"]
     nome = spec.get("impaginazione", PREDEFINITE["carosello"])
+
+    if spec.get("pagine"):
+        return _carosello_a_pagine(cartella_foto, destinazione, spec, cfg,
+                                   misura, nome)
+
     foto = raccogli_foto(cartella_foto, spec.get("ordine"))
     testi_per_pagina = {int(k): v for k, v in (spec.get("testi") or {}).items()}
     numerata = spec.get("numerazione", False)
@@ -93,6 +98,39 @@ def crea_carosello(cartella_foto: Path, destinazione: Path, spec: dict,
         pagina.save(uscita)
         prodotte.append(uscita)
 
+    return prodotte
+
+
+def _carosello_a_pagine(cartella_foto: Path, destinazione: Path, spec: dict,
+                        cfg: dict, misura, predefinita: str) -> list[Path]:
+    """
+    Il carosello scritto pagina per pagina, quando il racconto non è "una foto
+    dopo l'altra" ma un'alternanza fra locandina e fotografia — è la forma che
+    serve agli annunci: si apre con il manifesto, si entra nello spazio con due
+    scatti, si chiude con la chiamata.
+
+    Ogni pagina dichiara la sua impaginazione, la sua foto (o nessuna) e i suoi
+    testi: `righe` con i ruoli tipografici per le pagine di sola carta,
+    `testi` per quelle costruite sopra una fotografia.
+    """
+    numerata = spec.get("numerazione", False)
+    prodotte: list[Path] = []
+    for numero, voce in enumerate(spec["pagine"], start=1):
+        immagine = _foto(cartella_foto, voce.get("foto"))
+        if voce.get("pronta"):
+            # Una pagina già impaginata altrove — una locandina, per esempio:
+            # si porta dentro com'è, riportata alla misura del carosello
+            pagina = ritaglia(_foto(cartella_foto, voce["pronta"]), *misura)
+        else:
+            testi = voce.get("righe") or voce.get("testi") or []
+            pagina = impaginazione.pagina(
+                voce.get("impaginazione", predefinita), immagine, testi, cfg,
+                misura, numero=numero if numerata else 0,
+                orizzonte=voce.get("orizzonte", 0.46), seme=voce.get("seme", 0),
+            )
+        uscita = destinazione / f"carosello_{numero:02d}.png"
+        pagina.save(uscita)
+        prodotte.append(uscita)
     return prodotte
 
 

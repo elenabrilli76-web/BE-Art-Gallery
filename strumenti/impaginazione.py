@@ -33,7 +33,10 @@ def _su_fondo_chiaro(cfg: dict) -> dict:
     """Gli stessi testi, con i colori che reggono sull'avorio."""
     chiaro = dict(cfg)
     chiaro.update({"colore_testo": INCHIOSTRO, "colore_accento": ORO_SCURO,
-                   "velatura": False})
+                   "velatura": False,
+                   # Sulla carta si torna al carattere della locandina: il
+                   # bastone serve sopra le fotografie, non qui
+                   "font_testo": cfg["font_forte"]})
     return chiaro
 
 
@@ -103,15 +106,25 @@ def cartellino(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> I
     alta = altezza - fascia
 
     pagina = Image.new("RGB", (larghezza, altezza), AVORIO)
-    pagina.paste(applica_logo(_immagine(foto, larghezza, alta), cfg), (0, 0))
+    # Sulla fotografia il marchio prende il proprio fondo nero: sopra una
+    # parete di sasso la versione trasparente si confonde con il muro
+    foto_con_marchio = applica_logo(_immagine(foto, larghezza, alta),
+                                    {**cfg, "logo_variante": "nero",
+                                     "logo_velatura": False})
+    pagina.paste(foto_con_marchio, (0, 0))
 
-    banda = Image.new("RGB", (larghezza, fascia), AVORIO)
-    filetto(banda, int(fascia * 0.16), 0.14, ORO_SCURO)
-    # La fascia è tutta a disposizione del testo: qui il tetto del 28%, pensato
-    # per non coprire una foto, non ha senso
+    # In fondo alla fascia sta il nome della galleria: il testo si compone
+    # sopra quella riga, non sull'intera fascia, o le due cose si toccano
+    riga = int(fascia * 0.16)
+    scritta = fascia - riga - int(altezza * 0.078)
+    banda = Image.new("RGB", (larghezza, scritta), AVORIO)
+    # Il tetto del 28%, pensato per non coprire una foto, qui non ha senso:
+    # questa fascia esiste apposta per il testo
     banda = componi(banda, [dict(t, posizione="centro") for t in testi],
-                    {**_su_fondo_chiaro(cfg), "blocco_massimo": 0.75})
-    pagina.paste(banda, (0, alta))
+                    {**_su_fondo_chiaro(cfg), "blocco_massimo": 0.86})
+    filetto(pagina, alta + riga, 0.14, ORO_SCURO)
+    pagina.paste(banda, (0, alta + riga + int(altezza * 0.014)))
+    marchio_scritto(pagina, cfg, corpo=0.026, colore=ORO_SCURO)
     _numero(pagina, numero, cfg, cfg["colore_accento"])
     return pagina
 
@@ -135,8 +148,10 @@ def cornice(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Imag
     pagina = applica_logo(pagina, {**cfg, "logo_larghezza": 0.20,
                                    "logo_velatura": False})
     _numero(pagina, numero, cfg, cfg["colore_accento"])
+    # Anche sul nero il testo è quello della locandina: il bastone resta per
+    # le scritte sopra le fotografie
     _striscia_testo(pagina, riga + int(altezza * 0.03), testi,
-                    {**cfg, "velatura": False})
+                    {**cfg, "velatura": False, "font_testo": cfg["font_forte"]})
     return pagina
 
 
@@ -193,27 +208,53 @@ def _immagine(foto, larghezza: int, altezza: int) -> Image.Image:
 
 
 def pagina(nome: str, foto, testi: list[dict], cfg: dict, misura,
-           numero: int = 0) -> Image.Image:
+           numero: int = 0, **opzioni) -> Image.Image:
     if nome not in IMPAGINAZIONI:
         raise SystemExit(
             f"Impaginazione '{nome}' sconosciuta. Disponibili: {', '.join(IMPAGINAZIONI)}"
         )
-    return IMPAGINAZIONI[nome](foto, testi, cfg, misura, numero)
+    disegna = IMPAGINAZIONI[nome]
+    accettate = disegna.__code__.co_varnames[:disegna.__code__.co_argcount]
+    ammesse = {k: v for k, v in opzioni.items() if k in accettate}
+    return disegna(foto, testi, cfg, misura, numero, **ammesse)
 
 
 # ----------------------------------------------------------------------------
 # Il manifesto: fondo a strati, per i contenuti senza foto
 # ----------------------------------------------------------------------------
 
+# Il sistema tipografico è quello delle locandine: un solo carattere, il
+# Cormorant Garamond, che cambia peso e taglio invece di cambiare famiglia.
+# Sulla copertina de "I Luoghi dell'Anima" non compare un solo bastone: titolo
+# tondo, sottotitolo corsivo oro, data tonda, firma tonda spaziata. Qui si
+# ripete la stessa scala, così una pagina generata e una locandina stanno
+# nello stesso carosello senza che si veda la cucitura.
 RUOLI = {
-    # ruolo:        (font,          corpo,  colore,        interlinea, spazio dopo)
-    "etichetta":    ("font_testo",  0.030, onde.ORO,        1.5,  0.034),
-    "titolo":       ("font_titolo", 0.115, onde.INCHIOSTRO, 0.98, 0.020),
-    "sottotitolo":  ("font_corsivo", 0.046, onde.ORO,       1.25, 0.018),
-    "data":         ("font_serif",  0.055, onde.INCHIOSTRO, 1.2,  0.026),
-    "corpo":        ("font_testo",  0.035, "#3A322C",       1.55, 0.020),
-    "evidenza":     ("font_titolo", 0.070, onde.INCHIOSTRO, 1.1,  0.020),
+    # ruolo:        (font,          corpo,  colore,        interlinea, spazio dopo, spaziatura)
+    "etichetta":    ("font_serif",   0.034, onde.ORO,        1.5,  0.034, 0.16),
+    "titolo":       ("font_titolo",  0.118, onde.INCHIOSTRO, 1.02, 0.020, 0.0),
+    "sottotitolo":  ("font_corsivo", 0.048, onde.ORO,        1.25, 0.018, 0.0),
+    "data":         ("font_serif",   0.058, onde.INCHIOSTRO, 1.2,  0.026, 0.03),
+    "corpo":        ("font_forte",   0.042, "#3A322C",       1.42, 0.020, 0.0),
+    "evidenza":     ("font_forte",   0.072, onde.INCHIOSTRO, 1.12, 0.020, 0.0),
 }
+
+
+def _scrivi_spaziato(penna, x: float, y: float, testo: str, font,
+                     colore, spaziatura: float) -> None:
+    """Scrive lettera per lettera quando serve allargare la spaziatura."""
+    if not spaziatura:
+        penna.text((x, y), testo, font=font, fill=colore)
+        return
+    for carattere in testo:
+        penna.text((x, y), carattere, font=font, fill=colore)
+        x += font.getlength(carattere) + spaziatura
+
+
+def _larghezza_spaziata(testo: str, font, spaziatura: float) -> float:
+    if not spaziatura:
+        return font.getlength(testo)
+    return sum(font.getlength(c) + spaziatura for c in testo) - spaziatura
 
 
 def _riga_oro(tela: Image.Image, y: int, larghezza_riga: float) -> None:
@@ -241,10 +282,13 @@ def _misura_blocco(righe: list[dict], larghezza: int, cfg: dict) -> list[dict]:
             preparate.append({"filetto": True, "altezza": int(larghezza * 0.075)})
             continue
         ruolo = voce.get("ruolo", "corpo")
-        nome, quota, colore, interlinea, dopo = RUOLI[ruolo]
+        nome, quota, colore, interlinea, dopo, traccia = RUOLI[ruolo]
         font = _carica_font(cfg[nome], int(larghezza * quota), nome)
-        for pezzo in _manda_a_capo(voce["testo"], font, utile):
+        spaziatura = font.size * traccia
+        testo = voce["testo"].upper() if ruolo == "etichetta" else voce["testo"]
+        for pezzo in _manda_a_capo(testo, font, utile - spaziatura * len(testo)):
             preparate.append({"testo": pezzo, "font": font, "colore": colore,
+                              "spaziatura": spaziatura,
                               "altezza": int(font.size * interlinea)})
         preparate[-1]["altezza"] += int(larghezza * dopo)
     return preparate
@@ -258,38 +302,61 @@ def manifesto(foto, testi: list[dict], cfg: dict, misura, numero: int = 0,
     dove non c'è ancora niente da fotografare.
     """
     larghezza, altezza = misura
-    pagina = onde.fondo(larghezza, altezza, orizzonte=orizzonte, seme=seme)
 
     preparate = _misura_blocco(testi, larghezza, cfg)
     blocco = sum(v["altezza"] for v in preparate)
-    y = int(altezza * orizzonte * 0.5 - blocco / 2) + int(altezza * 0.03)
-    y = max(y, int(altezza * 0.09))
+
+    # La carta libera deve bastare al testo: se il blocco è più alto della
+    # fascia chiara, l'orizzonte scende invece di lasciare che le ultime righe
+    # finiscano sopra gli strati di colore, dove non si leggono più
+    cima = int(altezza * 0.115)
+    # Gli strati non cominciano netti sull'orizzonte: le creste salgono
+    # sopra di esso, e il respiro tiene il testo fuori dalle onde
+    respiro = int(altezza * 0.095)
+    servono = (cima + blocco + respiro) / altezza
+    orizzonte = min(max(orizzonte, servono), 0.80)
+
+    pagina = onde.fondo(larghezza, altezza, orizzonte=orizzonte, seme=seme)
+
+    zona = altezza * orizzonte - respiro
+    y = max(int((cima + zona) / 2 - blocco / 2), cima)
 
     penna = ImageDraw.Draw(pagina)
     for voce in preparate:
         if voce.get("filetto"):
             _riga_oro(pagina, y + voce["altezza"] // 2, 0.30)
         else:
-            x = (larghezza - voce["font"].getlength(voce["testo"])) / 2
-            penna.text((x, y), voce["testo"], font=voce["font"], fill=voce["colore"])
+            spaziatura = voce.get("spaziatura", 0)
+            larga = _larghezza_spaziata(voce["testo"], voce["font"], spaziatura)
+            x = (larghezza - larga) / 2
+            _scrivi_spaziato(penna, x, y, voce["testo"], voce["font"],
+                             voce["colore"], spaziatura)
         y += voce["altezza"]
 
     return _firma(pagina, cfg)
 
 
-def _firma(pagina: Image.Image, cfg: dict) -> Image.Image:
-    """Il nome della galleria in fondo, e il marchio in alto a sinistra."""
+def marchio_scritto(pagina: Image.Image, cfg: dict, y: int | None = None,
+                    corpo: float = 0.032, colore: str = onde.ORO) -> None:
+    """
+    Il nome della galleria come sta in fondo alle locandine: tondo, spaziato,
+    oro. È la costante che tiene insieme una pagina generata e una stampata.
+    """
     from grafica import _carica_font
     penna = ImageDraw.Draw(pagina)
-    font = _carica_font(cfg["font_serif"], int(pagina.width * 0.032), "font_serif")
-    testo = "BE ART GALLERY  ·  PISTOIA"
-    spaziatura = pagina.width * 0.004
-    larghezza_testo = sum(font.getlength(c) + spaziatura for c in testo) - spaziatura
+    font = _carica_font(cfg["font_serif"], int(pagina.width * corpo), "font_serif")
+    testo = "BE Art Gallery  ·  Pistoia"
+    spaziatura = pagina.width * 0.006
+    larghezza_testo = _larghezza_spaziata(testo, font, spaziatura)
     x = (pagina.width - larghezza_testo) / 2
-    y = pagina.height - int(pagina.height * 0.058)
-    for carattere in testo:
-        penna.text((x, y), carattere, font=font, fill=onde.ORO)
-        x += font.getlength(carattere) + spaziatura
+    if y is None:
+        y = pagina.height - int(pagina.height * 0.058)
+    _scrivi_spaziato(penna, x, y, testo, font, colore, spaziatura)
+
+
+def _firma(pagina: Image.Image, cfg: dict) -> Image.Image:
+    """Il nome della galleria in fondo, e il marchio in alto a sinistra."""
+    marchio_scritto(pagina, cfg)
     return applica_logo(pagina, {**cfg, "logo_larghezza": 0.155,
                                  "logo_variante": "nero",
                                  "logo_velatura": False})

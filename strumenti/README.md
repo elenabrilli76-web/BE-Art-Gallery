@@ -40,6 +40,27 @@ py strumenti\crea.py percorso\del\file.json
 I colori e i font stanno in un posto solo, `grafica.py`, così un contenuto
 prodotto oggi e uno prodotto fra un mese hanno lo stesso aspetto.
 
+## Il carattere
+
+Uno solo: il **Cormorant Garamond**, lo stesso delle locandine e del sito.
+Non cambia famiglia, cambia peso e taglio — così una pagina generata dal
+comando e una locandina disegnata a mano stanno nello stesso carosello senza
+che si veda la cucitura.
+
+| Uso | Peso |
+|---|---|
+| titoli su carta | tondo, **Regular** — è il peso della locandina |
+| titoli sopra una fotografia | **SemiBold**: il Regular si perderebbe contro l'immagine |
+| sottotitoli | **corsivo**, in oro |
+| etichette e firma | tondo, **maiuscoletto spaziato**, in oro |
+| testo corrente | **SemiBold**, che al corpo piccolo regge |
+
+Il bastone (`Archivo`) resta solo per il testo piccolo in sovraimpressione
+sulle foto, dove le grazie si perdono.
+
+Il nome della galleria compare in fondo a ogni pagina — *BE Art Gallery ·
+Pistoia*, tondo spaziato in oro — come in fondo alla locandina.
+
 ## Le impaginazioni di post, caroselli e storie
 
 Come per i reel, servono a non pubblicare sempre la stessa pagina. Non sono
@@ -54,6 +75,7 @@ Si indicano con `"impaginazione"`.
 | **cartellino** | foto sopra, fascia avorio sotto con filetto e testo in inchiostro | quando la parola conta quanto l'immagine: annunci, titoli di mostra |
 | **cornice** | fondo nero, immagine rientrata, filetto e testo sotto | una singola opera, che vuole aria attorno |
 | **arco** | ritaglio ad arco su fondo avorio | lo spazio, l'architettura, il richiamo al palazzo |
+| **manifesto** | niente foto: gli strati di colore sotto, la carta libera sopra | annunci e chiamate, quando non c'è ancora niente da fotografare |
 
 **Un'impaginazione per contenuto, non per pagina.** Dentro un carosello la
 coerenza tiene insieme il racconto: la varietà sta fra un contenuto e il
@@ -62,6 +84,46 @@ fascia vuota sembra un errore di stampa.
 
 Con `"numerazione": true` le pagine di un carosello portano il numero romano in
 alto a destra, come il cartellino di sala.
+
+## Il carosello scritto pagina per pagina
+
+Un carosello di solito è «una foto dopo l'altra»: si dà l'`ordine` e basta.
+Quando invece il racconto alterna locandina e fotografia — è la forma degli
+annunci: si apre con il manifesto, si entra nello spazio con due scatti, si
+chiude con la chiamata — si scrive `pagine`, una voce per pagina.
+
+```json
+"carosello": {
+  "impaginazione": "manifesto",
+  "pagine": [
+    { "pronta": "copertina.png" },
+    { "orizzonte": 0.56, "seme": 17, "righe": [
+        { "testo": "Mostra collettiva", "ruolo": "etichetta" },
+        { "testo": "Iscrizioni aperte", "ruolo": "titolo" },
+        { "ruolo": "filetto" },
+        { "testo": "Aperta a tutti gli artisti", "ruolo": "sottotitolo" }
+    ] },
+    { "impaginazione": "cartellino", "foto": "hero.jpg",
+      "testi": [ { "righe": ["Le tue opere su queste pareti"] } ] }
+  ]
+}
+```
+
+| Voce | Cosa fa |
+|---|---|
+| `pronta` | una pagina già impaginata altrove — una locandina — portata dentro com'è, riportata alla misura del carosello |
+| `impaginazione` | l'impaginazione di quella pagina, se diversa da quella del carosello |
+| `foto` | il nome del file nella cartella `foto/` |
+| `righe` | i testi delle pagine di sola carta, ognuno con il suo `ruolo` |
+| `testi` | i testi delle pagine costruite sopra una fotografia |
+| `orizzonte` | dove cominciano gli strati di colore, da 0 a 1 |
+| `seme` | cambia il disegno delle onde a parità di tutto il resto |
+
+I **ruoli** sono la scala tipografica della locandina: `etichetta` (maiuscoletto
+oro spaziato), `titolo`, `filetto` (la riga d'oro col rombo), `sottotitolo`
+(corsivo oro), `data`, `evidenza`, `corpo`. Se il blocco di testo è più alto
+della carta libera, l'orizzonte scende da solo: le parole non finiscono mai
+sopra le onde.
 
 ## Gli stili di montaggio
 

@@ -1,36 +1,18 @@
 {
   "nome": "luoghi-dellanima-iscrizioni",
-  "nota": "Le pagine sono generate dallo script della campagna: vedi testi.md",
+  "nota": "Carosello per la promozione a pagamento. La prima pagina è la locandina così com'è; le altre ne ripetono il carattere. Le foto della galleria e la locandina vanno in contenuti-social/in-lavorazione/foto/.",
   "carosello": {
     "impaginazione": "manifesto",
     "pagine": [
       {
-        "orizzonte": 0.5,
-        "seme": 3,
-        "righe": [
-          {
-            "testo": "I Luoghi dell’Anima",
-            "ruolo": "titolo"
-          },
-          {
-            "ruolo": "filetto"
-          },
-          {
-            "testo": "Dove prende forma il tuo luogo dell’anima?",
-            "ruolo": "sottotitolo"
-          },
-          {
-            "testo": "10 — 25 ottobre 2026",
-            "ruolo": "data"
-          }
-        ]
+        "pronta": "copertina.png"
       },
       {
         "orizzonte": 0.56,
         "seme": 17,
         "righe": [
           {
-            "testo": "MOSTRA COLLETTIVA",
+            "testo": "Mostra collettiva",
             "ruolo": "etichetta"
           },
           {
@@ -41,11 +23,11 @@
             "ruolo": "filetto"
           },
           {
-            "testo": "fino al 30 settembre",
+            "testo": "Aperta a tutti gli artisti",
             "ruolo": "sottotitolo"
           },
           {
-            "testo": "Open call until 30 September",
+            "testo": "Pittura, scultura, fotografia, grafica, tecniche miste.",
             "ruolo": "corpo"
           }
         ]
@@ -57,9 +39,7 @@
           {
             "righe": [
               "Le tue opere su queste pareti"
-            ],
-            "en": "Your works on these walls",
-            "enfasi": true
+            ]
           }
         ]
       },
@@ -70,70 +50,49 @@
           {
             "righe": [
               "Tre livelli in un palazzo storico, nel cuore di Pistoia"
-            ],
-            "enfasi": true
+            ]
           }
         ]
       },
       {
-        "orizzonte": 0.64,
-        "seme": 29,
+        "orizzonte": 0.46,
+        "seme": 5,
         "righe": [
           {
-            "testo": "COME PARTECIPARE",
-            "ruolo": "etichetta"
-          },
-          {
-            "testo": "Aperta a tutti gli stili",
-            "ruolo": "evidenza"
-          },
-          {
-            "ruolo": "filetto"
-          },
-          {
-            "testo": "Pittura, scultura, tecnica mista, fotografia, stampa d’arte",
-            "ruolo": "corpo"
-          },
-          {
-            "testo": "Massimo 100 cm per lato",
-            "ruolo": "corpo"
-          },
-          {
-            "testo": "Opere pronte all’esposizione, già incorniciate",
-            "ruolo": "corpo"
-          },
-          {
-            "testo": "Consegna 7 — 8 ottobre",
-            "ruolo": "corpo"
-          }
-        ]
-      },
-      {
-        "orizzonte": 0.6,
-        "seme": 41,
-        "righe": [
-          {
-            "testo": "QUOTA DI PARTECIPAZIONE",
-            "ruolo": "etichetta"
-          },
-          {
-            "testo": "€ 40",
+            "testo": "Il tuo lavoro merita uno spazio degno",
             "ruolo": "titolo"
           },
           {
-            "testo": "due opere incluse — poi € 20 per ogni opera aggiuntiva",
-            "ruolo": "corpo"
+            "ruolo": "filetto"
+          },
+          {
+            "testo": "Ogni tecnica. Ogni stile.",
+            "ruolo": "sottotitolo"
+          }
+        ]
+      },
+      {
+        "orizzonte": 0.62,
+        "seme": 11,
+        "righe": [
+          {
+            "testo": "I Luoghi dell’Anima",
+            "ruolo": "etichetta"
+          },
+          {
+            "testo": "Candida le tue opere",
+            "ruolo": "titolo"
           },
           {
             "ruolo": "filetto"
           },
           {
-            "testo": "Iscriviti entro il 30 settembre",
-            "ruolo": "sottotitolo"
+            "testo": "Link nella nostra bio",
+            "ruolo": "evidenza"
           },
           {
-            "testo": "beartgallery.eu",
-            "ruolo": "data"
+            "testo": "beartgallery.eu · sezione Eventi",
+            "ruolo": "corpo"
           }
         ]
       }
