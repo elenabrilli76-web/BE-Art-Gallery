@@ -27,8 +27,8 @@ import sys
 import tempfile
 from pathlib import Path
 
-from grafica import (e_video, impostazioni, raccogli_foto, righe_con_inglese,
-                     ritaglia, strato_logo, strato_testo)
+from grafica import (e_video, impostazioni, raccogli_foto, ritaglia,
+                     strato_logo, strato_testo)
 
 # ----------------------------------------------------------------------------
 # Impostazioni di base — modificabili da progetto.json
@@ -281,12 +281,8 @@ def applica_testi(ffmpeg: str, video: Path, testi: list[dict], destinazione: Pat
 
     for indice, testo in enumerate(testi, start=prossimo):
         png = cartella / f"testo_{indice}.png"
-        righe, scartato = righe_con_inglese(
-            testo, cfg["larghezza"], cfg["altezza"], cfg)
-        if scartato:
-            print(f"    inglese omesso, non ci sta: «{testo['en']}»", flush=True)
         strato_testo(
-            righe, cfg["larghezza"], cfg["altezza"], cfg,
+            testo["righe"], cfg["larghezza"], cfg["altezza"], cfg,
             posizione=testo.get("posizione", "basso"),
             enfasi=testo.get("enfasi", False),
         ).save(png)

@@ -315,17 +315,9 @@ come si visita — che su Facebook servono davvero.
 separato da una riga vuota: la galleria riceve visitatori stranieri, e il sito
 è già bilingue.
 
-**Sulle caption l'inglese è obbligatorio, sempre.**
-
-**Sulle immagini e nei video no: entra solo se ci sta.** Lo spazio di una foto
-è quello che è, e una frase lunga tradotta arriva a quattro righe e trasforma
-l'immagine in una locandina. La regola è verificata dal comando, non lasciata
-al giudizio: la traduzione compare solo se sta **su una riga sola** e se il
-blocco di testo resta sotto il 28% dell'altezza. Altrimenti resta il solo
-italiano, e il comando lo segnala mentre lavora.
-
-In pratica funziona per le chiusure brevi — «Fino al 6 settembre / Until 6
-September» — e viene scartata da sola sulle frasi lunghe.
+**L'inglese sta solo nelle caption e negli hashtag.** Sulle immagini e nei
+video si scrive **soltanto in italiano**: la traduzione raddoppia il blocco di
+testo, toglie spazio alla fotografia e trasforma il contenuto in una locandina.
 
 **I link su Instagram non sono cliccabili** fuori dalla bio e dagli sticker
 delle Stories: per questo la chiamata all'azione è un messaggio diretto o

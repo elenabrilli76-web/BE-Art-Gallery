@@ -290,8 +290,8 @@ def _firma(pagina: Image.Image, cfg: dict) -> Image.Image:
     for carattere in testo:
         penna.text((x, y), carattere, font=font, fill=onde.ORO)
         x += font.getlength(carattere) + spaziatura
-    return applica_logo(pagina, {**cfg, "logo_larghezza": 0.135,
-                                 "logo_variante": "trasparente",
+    return applica_logo(pagina, {**cfg, "logo_larghezza": 0.155,
+                                 "logo_variante": "nero",
                                  "logo_velatura": False})
 
 
