@@ -93,6 +93,27 @@ contenuti-social\in-lavorazione\pronti\
 Se dopo un Pull la cartella ti sembra ancora vuota, chiudila e riaprila:
 Esplora risorse a volte non si accorge dei file nuovi.
 
+### Se pubblichi dal telefono
+
+Instagram si pubblica dal telefono, non dal PC, e i file mandati in chat non
+sempre si scaricano — dipende dall'app che stai usando per aprire la chat.
+**La via che funziona sempre è GitHub.** Ogni file di `pronti\` ha un indirizzo
+fisso, fatto così:
+
+```
+https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/NOME-DEL-FILE
+```
+
+Ti mando sempre questi link già pronti, uno per immagine, quando finisco un
+contenuto. Tu:
+
+1. apri il link **nel browser del telefono** (Safari o Chrome — non dentro
+   un'altra app, altrimenti il tenere premuto spesso non funziona)
+2. tieni il dito premuto sull'immagine a schermo intero → **Salva immagine**
+3. ripeti per ogni file, nell'ordine numerato
+
+Salvate così finiscono nel Rullino, pronte per essere caricate su Instagram.
+
 | File | Cos'è | Dove va |
 |---|---|---|
 | `post.png` | 1080×1350 | Instagram → **+** → Post |
@@ -169,3 +190,18 @@ rifai il comando: costa meno di un minuto.
 
 **Devo aprire `contenuto.json`?** No. Se qualcosa non va, dillo a Claude e te
 lo riscrive.
+
+## Il carosello attuale — I Luoghi dell'Anima
+
+I sei link pronti da aprire dal telefono, nell'ordine di pubblicazione:
+
+1. https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/carosello_01.png
+2. https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/carosello_02.png
+3. https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/carosello_03.png
+4. https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/carosello_04.png
+5. https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/carosello_05.png
+6. https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/be-art-gallery-creazione-contenuti/contenuti-social/in-lavorazione/pronti/carosello_06.png
+
+Questi link cambiano contenuto ogni volta che il file viene rifatto: restano
+validi finché non chiedi un nuovo carosello, poi questa sezione si aggiorna
+con i link del prossimo.
