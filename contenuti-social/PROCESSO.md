@@ -83,6 +83,16 @@ Tutto quello che è stato prodotto è qui:
 contenuti-social\in-lavorazione\pronti\
 ```
 
+**Due modi di trovarceli, ed è bene sapere quale sta succedendo.**
+
+| Se le foto sono | I file finiti arrivano |
+|---|---|
+| sul tuo computer, nella cartella `foto\` | dal comando del passo 3 |
+| solo da me — perché li ho composti io | con un **Pull origin**: la cartella `pronti` viaggia su GitHub |
+
+Se dopo un Pull la cartella ti sembra ancora vuota, chiudila e riaprila:
+Esplora risorse a volte non si accorge dei file nuovi.
+
 | File | Cos'è | Dove va |
 |---|---|---|
 | `post.png` | 1080×1350 | Instagram → **+** → Post |

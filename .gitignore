@@ -16,11 +16,8 @@ __pycache__/
 Thumbs.db
 desktop.ini
 
-# Foto e video in lavorazione: restano in locale, gli originali sono sul Drive
+# Le foto di partenza restano in locale: sono pesanti e gli originali stanno
+# sul Drive. I file finiti invece viaggiano, perché sono quelli da scaricare e
+# pubblicare: senza, un `pull` porterebbe la cartella `pronti` sempre vuota
 contenuti-social/in-lavorazione/foto/*
 !contenuti-social/in-lavorazione/foto/.gitkeep
-contenuti-social/in-lavorazione/pronti/*
-!contenuti-social/in-lavorazione/pronti/.gitkeep
-contenuti-social/**/*.png
-contenuti-social/**/*.jpg
-contenuti-social/**/*.jpeg
