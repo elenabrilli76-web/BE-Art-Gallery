@@ -27,16 +27,22 @@ MARCHIO = {
     "blocco_massimo": 0.28,     # quota massima di altezza occupata dal testo
     "colore_testo": "#FFFFFF",
     "colore_accento": "#C9A227",   # l'oro antico del logo
-    "font_titolo": "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
-    "font_testo": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "font_titolo": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Bold.ttf"),
+    "font_testo": str(MARCHIO_CARTELLA / "font" / "Archivo-Regular.ttf"),
+    "font_corsivo": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Italic.ttf"),
+    "font_serif": str(MARCHIO_CARTELLA / "font" / "CormorantGaramond-Regular.ttf"),
 }
 
 # Su Windows i font di sistema stanno altrove: si cercano lì se i primi mancano
 FONT_ALTERNATIVI = {
-    "font_titolo": ["C:/Windows/Fonts/georgiab.ttf", "C:/Windows/Fonts/timesbd.ttf",
-                    "/System/Library/Fonts/Supplemental/Georgia Bold.ttf"],
-    "font_testo": ["C:/Windows/Fonts/segoeui.ttf", "C:/Windows/Fonts/arial.ttf",
-                   "/System/Library/Fonts/Supplemental/Arial.ttf"],
+    "font_titolo": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+                    "C:/Windows/Fonts/georgiab.ttf"],
+    "font_serif": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+                   "C:/Windows/Fonts/georgia.ttf"],
+    "font_corsivo": ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf",
+                     "C:/Windows/Fonts/georgiai.ttf"],
+    "font_testo": ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+                   "C:/Windows/Fonts/segoeui.ttf"],
 }
 
 FORMATI = {

@@ -15,13 +15,15 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
+import onde
+
 from grafica import applica_logo, componi, fondo_pieno, ritaglia
 
 # Fondi e inchiostri delle impaginazioni su fondo pieno
-AVORIO = "#EFE9DC"      # la calce delle pareti
+AVORIO = "#F2EAD9"      # la carta: la stessa del fondo a strati
 NERO_CALDO = "#14110F"
-INCHIOSTRO = "#221E1A"
-ORO_SCURO = "#8A6A1F"   # l'oro leggibile su fondo chiaro
+INCHIOSTRO = "#241F1C"
+ORO_SCURO = "#9A7620"   # l'oro leggibile su fondo chiaro
 
 ROMANI = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
           "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX"]
@@ -197,3 +199,100 @@ def pagina(nome: str, foto, testi: list[dict], cfg: dict, misura,
             f"Impaginazione '{nome}' sconosciuta. Disponibili: {', '.join(IMPAGINAZIONI)}"
         )
     return IMPAGINAZIONI[nome](foto, testi, cfg, misura, numero)
+
+
+# ----------------------------------------------------------------------------
+# Il manifesto: fondo a strati, per i contenuti senza foto
+# ----------------------------------------------------------------------------
+
+RUOLI = {
+    # ruolo:        (font,          corpo,  colore,        interlinea, spazio dopo)
+    "etichetta":    ("font_testo",  0.030, onde.ORO,        1.5,  0.034),
+    "titolo":       ("font_titolo", 0.115, onde.INCHIOSTRO, 0.98, 0.020),
+    "sottotitolo":  ("font_corsivo", 0.046, onde.ORO,       1.25, 0.018),
+    "data":         ("font_serif",  0.055, onde.INCHIOSTRO, 1.2,  0.026),
+    "corpo":        ("font_testo",  0.035, "#3A322C",       1.55, 0.020),
+    "evidenza":     ("font_titolo", 0.070, onde.INCHIOSTRO, 1.1,  0.020),
+}
+
+
+def _riga_oro(tela: Image.Image, y: int, larghezza_riga: float) -> None:
+    """Il filetto con il piccolo rombo al centro, come sulla locandina."""
+    penna = ImageDraw.Draw(tela)
+    meta = int(tela.width * larghezza_riga / 2)
+    centro = tela.width // 2
+    spessore = max(int(tela.width * 0.0015), 1)
+    penna.rectangle([centro - meta, y, centro - 18, y + spessore], fill=onde.ORO)
+    penna.rectangle([centro + 18, y, centro + meta, y + spessore], fill=onde.ORO)
+    lato = max(int(tela.width * 0.007), 4)
+    penna.polygon([(centro, y - lato + spessore // 2), (centro + lato, y + spessore // 2),
+                   (centro, y + lato + spessore // 2), (centro - lato, y + spessore // 2)],
+                  fill=onde.ORO)
+
+
+def _misura_blocco(righe: list[dict], larghezza: int, cfg: dict) -> list[dict]:
+    """Prepara ogni riga con il suo font e la sua altezza, andando a capo."""
+    from grafica import _carica_font, _manda_a_capo
+    margine = int(larghezza * 0.10)
+    utile = larghezza - 2 * margine
+    preparate = []
+    for voce in righe:
+        if voce.get("ruolo") == "filetto":
+            preparate.append({"filetto": True, "altezza": int(larghezza * 0.075)})
+            continue
+        ruolo = voce.get("ruolo", "corpo")
+        nome, quota, colore, interlinea, dopo = RUOLI[ruolo]
+        font = _carica_font(cfg[nome], int(larghezza * quota), nome)
+        for pezzo in _manda_a_capo(voce["testo"], font, utile):
+            preparate.append({"testo": pezzo, "font": font, "colore": colore,
+                              "altezza": int(font.size * interlinea)})
+        preparate[-1]["altezza"] += int(larghezza * dopo)
+    return preparate
+
+
+def manifesto(foto, testi: list[dict], cfg: dict, misura, numero: int = 0,
+              orizzonte: float = 0.46, seme: int = 0) -> Image.Image:
+    """
+    Una pagina senza fotografia: gli strati di colore sotto, la carta libera
+    sopra per il testo. È il linguaggio della locandina, e serve agli annunci
+    dove non c'è ancora niente da fotografare.
+    """
+    larghezza, altezza = misura
+    pagina = onde.fondo(larghezza, altezza, orizzonte=orizzonte, seme=seme)
+
+    preparate = _misura_blocco(testi, larghezza, cfg)
+    blocco = sum(v["altezza"] for v in preparate)
+    y = int(altezza * orizzonte * 0.5 - blocco / 2) + int(altezza * 0.03)
+    y = max(y, int(altezza * 0.09))
+
+    penna = ImageDraw.Draw(pagina)
+    for voce in preparate:
+        if voce.get("filetto"):
+            _riga_oro(pagina, y + voce["altezza"] // 2, 0.30)
+        else:
+            x = (larghezza - voce["font"].getlength(voce["testo"])) / 2
+            penna.text((x, y), voce["testo"], font=voce["font"], fill=voce["colore"])
+        y += voce["altezza"]
+
+    return _firma(pagina, cfg)
+
+
+def _firma(pagina: Image.Image, cfg: dict) -> Image.Image:
+    """Il nome della galleria in fondo, e il marchio in alto a sinistra."""
+    from grafica import _carica_font
+    penna = ImageDraw.Draw(pagina)
+    font = _carica_font(cfg["font_serif"], int(pagina.width * 0.032), "font_serif")
+    testo = "BE ART GALLERY  ·  PISTOIA"
+    spaziatura = pagina.width * 0.004
+    larghezza_testo = sum(font.getlength(c) + spaziatura for c in testo) - spaziatura
+    x = (pagina.width - larghezza_testo) / 2
+    y = pagina.height - int(pagina.height * 0.058)
+    for carattere in testo:
+        penna.text((x, y), carattere, font=font, fill=onde.ORO)
+        x += font.getlength(carattere) + spaziatura
+    return applica_logo(pagina, {**cfg, "logo_larghezza": 0.135,
+                                 "logo_variante": "trasparente",
+                                 "logo_velatura": False})
+
+
+IMPAGINAZIONI["manifesto"] = manifesto

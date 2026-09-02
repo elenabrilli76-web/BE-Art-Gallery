@@ -1,0 +1,142 @@
+{
+  "nome": "luoghi-dellanima-iscrizioni",
+  "nota": "Le pagine sono generate dallo script della campagna: vedi testi.md",
+  "carosello": {
+    "impaginazione": "manifesto",
+    "pagine": [
+      {
+        "orizzonte": 0.5,
+        "seme": 3,
+        "righe": [
+          {
+            "testo": "I Luoghi dell’Anima",
+            "ruolo": "titolo"
+          },
+          {
+            "ruolo": "filetto"
+          },
+          {
+            "testo": "Dove prende forma il tuo luogo dell’anima?",
+            "ruolo": "sottotitolo"
+          },
+          {
+            "testo": "10 — 25 ottobre 2026",
+            "ruolo": "data"
+          }
+        ]
+      },
+      {
+        "orizzonte": 0.56,
+        "seme": 17,
+        "righe": [
+          {
+            "testo": "MOSTRA COLLETTIVA",
+            "ruolo": "etichetta"
+          },
+          {
+            "testo": "Iscrizioni aperte",
+            "ruolo": "titolo"
+          },
+          {
+            "ruolo": "filetto"
+          },
+          {
+            "testo": "fino al 30 settembre",
+            "ruolo": "sottotitolo"
+          },
+          {
+            "testo": "Open call until 30 September",
+            "ruolo": "corpo"
+          }
+        ]
+      },
+      {
+        "impaginazione": "cartellino",
+        "foto": "hero.jpg",
+        "testi": [
+          {
+            "righe": [
+              "Le tue opere su queste pareti"
+            ],
+            "en": "Your works on these walls",
+            "enfasi": true
+          }
+        ]
+      },
+      {
+        "impaginazione": "cartellino",
+        "foto": "sala_volta.jpg",
+        "testi": [
+          {
+            "righe": [
+              "Tre livelli in un palazzo storico, nel cuore di Pistoia"
+            ],
+            "enfasi": true
+          }
+        ]
+      },
+      {
+        "orizzonte": 0.64,
+        "seme": 29,
+        "righe": [
+          {
+            "testo": "COME PARTECIPARE",
+            "ruolo": "etichetta"
+          },
+          {
+            "testo": "Aperta a tutti gli stili",
+            "ruolo": "evidenza"
+          },
+          {
+            "ruolo": "filetto"
+          },
+          {
+            "testo": "Pittura, scultura, tecnica mista, fotografia, stampa d’arte",
+            "ruolo": "corpo"
+          },
+          {
+            "testo": "Massimo 100 cm per lato",
+            "ruolo": "corpo"
+          },
+          {
+            "testo": "Opere pronte all’esposizione, già incorniciate",
+            "ruolo": "corpo"
+          },
+          {
+            "testo": "Consegna 7 — 8 ottobre",
+            "ruolo": "corpo"
+          }
+        ]
+      },
+      {
+        "orizzonte": 0.6,
+        "seme": 41,
+        "righe": [
+          {
+            "testo": "QUOTA DI PARTECIPAZIONE",
+            "ruolo": "etichetta"
+          },
+          {
+            "testo": "€ 40",
+            "ruolo": "titolo"
+          },
+          {
+            "testo": "due opere incluse — poi € 20 per ogni opera aggiuntiva",
+            "ruolo": "corpo"
+          },
+          {
+            "ruolo": "filetto"
+          },
+          {
+            "testo": "Iscriviti entro il 30 settembre",
+            "ruolo": "sottotitolo"
+          },
+          {
+            "testo": "beartgallery.eu",
+            "ruolo": "data"
+          }
+        ]
+      }
+    ]
+  }
+}
