@@ -90,6 +90,11 @@ alternando i contenuti — non affastellandoli nello stesso post.
 | **I Luoghi dell'Anima** | collettiva aperta | 10 – 25 ott 2026 · iscrizioni entro il **30 settembre** · consegna opere 7-8/10 |
 | **Siamo Donne, oltre la violenza c'è di più** | collettiva aperta | 7 – 29 nov 2026 · iscrizioni entro **17 ottobre** · consegna opere 30-31/10 · inaugurazione sab 7/11 · chiude dom 29/11 con il reading teatrale **Violenze Anonime** |
 
+> **Il bando è a tema "il femminile"**, non un confronto diretto con la
+> violenza: le opere possono esplorare forza, identità, corpo, resilienza —
+> lo stesso "oltre la violenza c'è di più" del titolo. Il confronto diretto
+> con la violenza resta nel reading, non è richiesto agli artisti in mostra.
+>
 > **"Siamo Donne" ha due CTA in sequenza, non una.** Fino al 17 ottobre è una
 > collettiva aperta: si segue la regola generale, "iscriviti" poi "vieni a
 > visitare". Il 29 novembre, giorno di chiusura, l'evento della serata è il
@@ -248,9 +253,6 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 - Cosa diventerà il Creative Lab in concreto: quali laboratori, per chi, quando
 - **Violenze Anonime** (reading del 29/11): chi legge il testo — Elena Brilli
   o attori/collaboratori esterni — ancora da decidere
-- Il tema esatto del bando "Siamo Donne": se le opere devono confrontarsi
-  direttamente con la violenza sulle donne o con un tema più ampio (il
-  femminile, la resilienza) legato al titolo
 - Cosa fare per il 25 novembre, Giornata internazionale contro la violenza
   sulle donne: contenuto separato dalla mostra, ancora da pensare
 
