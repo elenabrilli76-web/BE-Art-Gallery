@@ -130,6 +130,17 @@ Vedi [`strumenti/README.md`](strumenti/README.md).
 
 Istruzioni complete: [`strumenti/README.md`](strumenti/README.md).
 
+## Testi critici d'artista
+
+Oltre ai social, Claude scrive i **testi critici** di presentazione dei singoli
+artisti, per personali e collettive: 500–600 caratteri, riutilizzabili, senza
+riferimenti a mostre o date. La poetica non si chiede all'artista: si deduce
+dalle opere.
+
+Procedura completa: [`testi-critici/PROCEDURA.md`](testi-critici/PROCEDURA.md).
+Un file per artista in `testi-critici/artisti/`. Le immagini delle opere non
+si caricano qui.
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta
