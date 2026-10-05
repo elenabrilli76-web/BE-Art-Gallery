@@ -1,7 +1,8 @@
-# Nome Cognome
+# Nome Cognome — analisi
 
-> Modello per i testi critici. Si copia come `nome-cognome.md` e si compila.
-> Procedura: [`../PROCEDURA.md`](../PROCEDURA.md)
+> Il file di lavoro della galleria: le note da cui nascono i testi, e i testi
+> stessi con il loro conteggio. Non si consegna all'artista: all'artista va il
+> PDF in `pdf/`. Procedura: [`../../PROCEDURA.md`](../../PROCEDURA.md)
 
 | | |
 |---|---|
@@ -11,25 +12,35 @@
 
 ---
 
-## Testo critico
+## Presentazione dell'artista
 
 **Italiano** — _N caratteri spazi inclusi_
 
 > Apertura. Corpo. Chiusura.
 
-**English** — _N characters including spaces_
+**English** — _N characters_
 
-> Opening. Body. Closing.
+> …
 
-### Variante breve
+**Variante breve per i pannelli di collettiva** — _circa 250 caratteri_
+
+> …
+
+---
+
+## Didascalie delle singole opere
+
+### *Titolo* — anno, tecnica, misure
 
 **Italiano** — _N caratteri_
 
 > …
 
-**English** — _N characters_
+**English**
 
 > …
+
+**Cosa ho visto** — gli elementi dell'opera su cui si regge la didascalia
 
 ---
 

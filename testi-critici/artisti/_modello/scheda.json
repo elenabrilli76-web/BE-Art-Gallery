@@ -1,0 +1,20 @@
+{
+  "nome": "Nome Cognome",
+  "vive_e_lavora": "Città",
+  "presentazione": {
+    "it": "Testo critico in italiano, 500–600 caratteri spazi inclusi.",
+    "en": "English translation."
+  },
+  "opere": [
+    {
+      "titolo": "Titolo dell'opera",
+      "anno": 2026,
+      "tecnica": "olio su tela",
+      "misure": "70 × 100 cm",
+      "didascalia": {
+        "it": "Didascalia critica in italiano, 150–300 caratteri.",
+        "en": "English translation."
+      }
+    }
+  ]
+}

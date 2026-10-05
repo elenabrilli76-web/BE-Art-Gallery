@@ -130,17 +130,37 @@ La sua pratica [CONCLUSIONE SULLA RICONOSCIBILITÀ].
 
 ---
 
+## La didascalia della singola opera
+
+Quando si chiede l'analisi di **una sola opera**, il risultato è una didascalia
+da cartellino: **150–300 caratteri**, accanto a titolo, anno, tecnica e misure.
+
+- stesso metodo, applicato a un'opera sola: si parte da ciò che si vede
+  (materia, composizione, colore, luce) e si arriva a ciò che significa
+- **una sola idea**, detta bene: la didascalia non riassume la ricerca
+  dell'artista, accompagna lo sguardo davanti a quel quadro
+- niente riferimenti ad altri artisti: in così poco spazio diventano etichette
+- se l'artista ha già una presentazione, la didascalia ne è coerente ma non la
+  ripete
+
+---
+
 ## Cosa consegna Claude
 
-Un file per artista in [`artisti/`](artisti/), sul modello di
-[`artisti/MODELLO.md`](artisti/MODELLO.md), con dentro:
+Una cartella per artista, `artisti/nome-cognome/`, sul modello di
+[`artisti/_modello/`](artisti/_modello/):
 
-1. **le note di analisi**, opera per opera e poi per sintesi — servono a
-   verificare il testo e a riscriverlo in futuro senza ricominciare da zero
-2. **il testo critico in italiano**, con il conteggio dei caratteri
-3. **la traduzione inglese**, con il suo conteggio — la galleria riceve
-   visitatori stranieri; l'inglese può sforare di poco, l'italiano no
-4. **una variante breve** (circa 250 caratteri) per didascalie e pannelli
-   di collettiva, dove lo spazio per ogni artista è minore
+| File | Per chi | Cosa contiene |
+|---|---|---|
+| `analisi.md` | la galleria | le note di analisi opera per opera, i testi con i conteggi, la variante breve per i pannelli di collettiva |
+| `scheda.json` | il comando | i testi definitivi, da cui nascono i PDF |
+| `pdf/presentazione.pdf` | l'artista e la sala | la sintesi critica in A5, italiano e inglese |
+| `pdf/opera-….pdf` | la sala | una didascalia A6 per ogni opera analizzata |
 
-Il nome del file è `nome-cognome.md`, minuscolo, con i trattini.
+I PDF li produce Claude nella stessa sessione, con `py strumenti\critica.py`,
+e li carica insieme ai testi: basta un **Pull origin** per averli.
+
+L'inglese accompagna sempre l'italiano: la galleria riceve visitatori
+stranieri. Può sforare di poco il limite, l'italiano no.
+
+Il nome della cartella è `nome-cognome`, minuscolo, con i trattini.
