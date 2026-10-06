@@ -1,0 +1,30 @@
+{
+  "nome": "Stefano Mugnaioni",
+  "vive_e_lavora": "Prato",
+  "presentazione": {
+    "it": "Nella pittura di Stefano Mugnaioni la natura non si descrive: riaffiora. Sotto velature bianche e grigie emergono una luna, una foglia, un fascio d'erba, come immagini che risalgono dalla memoria. Acrilico, carta stampata, impronte e graffi si sovrappongono in strati che conservano ogni passaggio, mentre un segno nero, rapido e nervoso, attraversa la materia. Nel solco dell'informale, il paesaggio si fa stagione e tempo interiore. Ne nasce una pittura di sedimenti, da leggere da vicino, strato dopo strato.",
+    "en": "In Stefano Mugnaioni's painting nature is not described: it resurfaces. Beneath white and grey veils a moon, a leaf, a tuft of grass emerge, like images rising from memory. Acrylic, printed paper, imprints and scratches overlap in layers that keep every stage visible, while a quick, nervous black line runs through the matter. In the wake of Informel, landscape becomes season and inner time. The result is a painting of sediments, to be read up close, layer after layer."
+  },
+  "opere": [
+    {
+      "titolo": "La luna del cervo",
+      "anno": 2023,
+      "tecnica": "tecnica mista e acrilico su tela",
+      "misure": "50 × 70 cm",
+      "didascalia": {
+        "it": "Un disco arancio, impresso più che dipinto, sorge su un intreccio di veli bianchi, foglie e campiture scure. Il titolo evoca la luna piena di luglio: la natura entra nel quadro come tempo che ritorna, e un filo nero scende verticale a legare il cielo alla terra.",
+        "en": "An orange disc, imprinted rather than painted, rises over a weave of white veils, leaves and dark fields. The title recalls July's full moon: nature enters the painting as returning time, while a black thread drops vertically, tying sky to earth."
+      }
+    },
+    {
+      "titolo": "Visioni d'autunno",
+      "anno": 2025,
+      "tecnica": "tecnica mista e acrilico su tela",
+      "misure": "50 × 70 cm",
+      "didascalia": {
+        "it": "Segni neri, tesi come steli piegati dal vento, attraversano frammenti di giornale, trame impresse e foglie arancio. L'autunno non è descritto ma sedimentato: la stagione si deposita sulla tela per strati, fra la carta stampata e il colore che la ricopre.",
+        "en": "Black marks, taut as stems bent by the wind, cross fragments of newspaper, imprinted textures and orange leaves. Autumn is not described but sedimented: the season settles on the canvas in layers, between printed paper and the colour that covers it."
+      }
+    }
+  ]
+}
