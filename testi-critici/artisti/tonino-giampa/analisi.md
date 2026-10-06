@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Vive e lavora** | *da confermare* — i paesaggi sono della sua Calabria |
+| **Vive e lavora** | Prato — i paesaggi sono della sua Calabria |
 | **Opere analizzate** | *Paesaggio*, 2026, olio su tela, 30 × 25 cm · *Imbrunire d'estate*, olio su tavola, 18 × 24 cm · *Paesaggio*, 2026, olio su tavola, 26 × 32 cm · *Nebbie*, 2026, olio su tela, 40 × 25 cm |
 | **Stesura** | 6 ottobre 2026 · v1 |
 
@@ -47,7 +47,7 @@
 
 **Cosa ho visto** — cielo grigio azzurro graffiato a spatola; a destra nuvole verdastre; all'orizzonte una fascia gialla intensa, unica luce calda; sotto la terra verde scura che sfuma in ocra verso il basso, densa e scavata.
 
-### *Imbrunire d'estate* — anno da confermare, olio su tavola, 18 × 24 cm
+### *Imbrunire d'estate* — senza data, olio su tavola, 18 × 24 cm
 
 **Italiano** — _236 caratteri_
 
@@ -109,5 +109,4 @@ costitutiva della ricerca, come indica Elena.
   pesare sull'artista invece di orientare
 
 ### Cosa resta aperto
-- **dove vive e lavora**
-- **l'anno di *Imbrunire d'estate***: la data accanto alla firma non si legge
+- niente. *Imbrunire d'estate* non è datata, nemmeno sul retro: il cartellino esce senza anno
