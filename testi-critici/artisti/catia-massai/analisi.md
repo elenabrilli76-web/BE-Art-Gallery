@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Vive e lavora** | *da confermare* |
+| **Vive e lavora** | Prato |
 | **Opere analizzate** | *Il giardino dei sogni*, 2026, olio su tela, 70 × 70 cm · *Spensieratezza*, 2019, acrilico su tela, 50 × 40 cm |
 | **Stesura** | 6 ottobre 2026 · v1 — presentazione e didascalie pronte |
 | **Testo precedente** | volantino «a cura di Elena Brilli»: natura e ornamento, acquerello e mosaico, rossi e verdi, «giardini immaginari» |
@@ -91,7 +91,6 @@ dell'arco, dipinti come tessere.
   segreto — che qui torna in chiave quotidiana
 
 ### Cosa resta aperto
-- **dove vive e lavora**
 - il volantino precedente parla anche di acquerello e mosaico: se in mostra
   arrivano lavori di quel tipo, la presentazione va allargata
 - in rete non ho trovato niente di attendibile su di lei: la ricerca restituisce
