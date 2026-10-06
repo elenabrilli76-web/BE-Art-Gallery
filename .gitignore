@@ -12,6 +12,8 @@ __pycache__/
 .venv/
 
 # Sistema
+# Word crea ~$nome.docx mentre un documento è aperto: è un file di blocco, non un testo
+~$*
 .DS_Store
 Thumbs.db
 desktop.ini
