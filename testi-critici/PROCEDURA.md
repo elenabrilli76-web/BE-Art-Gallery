@@ -137,10 +137,12 @@ da cartellino: **150–300 caratteri**, accanto a titolo, anno, tecnica e misure
 
 - stesso metodo, applicato a un'opera sola: si parte da ciò che si vede
   (materia, composizione, colore, luce) e si arriva a ciò che significa
-- **l'emozione prima della descrizione**: chi legge ha il quadro davanti e
-  vede da sé cosa c'è dipinto. La didascalia dice cosa si prova, cosa
-  custodisce l'opera; i dati visivi restano nelle note di analisi, a
-  sostenere la lettura, non nel testo
+- **una via di mezzo fra emozione e descrizione**: un appiglio concreto
+  — un colore, un gesto, un dettaglio — che porti lo sguardo dentro il
+  quadro, e da lì cosa l'opera fa provare. Né inventario di quello che si
+  vede (chi legge ha il quadro davanti), né lirica staccata dall'opera.
+  Riferimenti: *Visioni d'autunno* di Mugnaioni e *Arturo* di Vangelisti,
+  entrambe approvate da Elena
 - **una sola idea**, detta bene: la didascalia non riassume la ricerca
   dell'artista, accompagna lo sguardo davanti a quel quadro
 - niente riferimenti ad altri artisti: in così poco spazio diventano etichette
