@@ -1,0 +1,20 @@
+{
+  "nome": "Patrizia Vangelisti",
+  "vive_e_lavora": "Lucca",
+  "presentazione": {
+    "it": "Patrizia Vangelisti dipinge i luoghi della memoria con lo sguardo di chi sa costruirli. Lo spazio domestico si ordina in geometrie nette – un angolo di stanza, un pavimento a esagoni, un cerchio d'acqua – visto dall'alto come in una pianta. Acrilico, pastelli a olio e grafite si impastano con la segatura, che dà al colore la grana delle cose vissute. Dentro questa struttura un piccolo dettaglio vivo diventa il punto in cui ricordo e immaginazione si toccano. Ne nasce una pittura raccolta, che fa di un luogo intimo un rifugio.",
+    "en": "Patrizia Vangelisti paints the places of memory with the eye of someone who knows how to build them. Domestic space is ordered into clear geometries – a corner of a room, a hexagon-tiled floor, a circle of water – seen from above as in a floor plan. Acrylic, oil pastels and graphite blend with sawdust, which gives colour the grain of lived-in things. Within this structure a small living detail becomes the point where memory and imagination meet. The result is a gathered, quiet painting that turns an intimate place into a refuge."
+  },
+  "opere": [
+    {
+      "titolo": "Arturo",
+      "anno": 2025,
+      "tecnica": "acrilico, segatura, pastelli a olio e grafite su tela",
+      "misure": "50 × 50 cm",
+      "didascalia": {
+        "it": "Vista dall'alto, un'ampolla d'acqua posa su uno sgabello di vimini, nell'angolo di una stanza dal pavimento a esagoni. Al centro dei cerchi azzurri Arturo, il pesce rosso, è l'unico punto acceso: un ricordo di casa custodito come in uno scrigno.",
+        "en": "Seen from above, a glass bowl of water rests on a wicker stool in the corner of a room with a hexagon-tiled floor. At the centre of the blue circles Arturo, the goldfish, is the only spark of colour: a memory of home kept as in a casket."
+      }
+    }
+  ]
+}
