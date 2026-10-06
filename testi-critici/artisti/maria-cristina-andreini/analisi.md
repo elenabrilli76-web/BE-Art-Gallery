@@ -6,8 +6,8 @@
 
 | | |
 |---|---|
-| **Vive e lavora** | *da confermare* |
-| **Opere analizzate** | *Passeggiando con i piedi nell'acqua*, olio su tela, 60 × 70 cm · *La ragazza sul muretto*, olio su tela, 50 × 70 cm — anni non indicati |
+| **Vive e lavora** | Prato |
+| **Opere analizzate** | *Passeggiando con i piedi nell'acqua*, olio su tela, 60 × 70 cm · *La ragazza sul muretto*, olio su tela, 50 × 70 cm — non datate: i cartellini escono senza anno |
 | **Stesura** | 6 ottobre 2026 · v1 |
 | **Nome** | firma «MC Andreini»; il profilo pubblico (artemisia.art) usa *Maria Cristina Andreini* |
 
@@ -82,7 +82,5 @@ dopo: coincide con la luminosità e il piacere fisico delle scene.
   nelle note: orientano chi scrive, ma nel testo diventerebbero etichette
 
 ### Cosa resta aperto
-- **dove vive e lavora**
-- **l'anno** delle due opere
 - **il nome** con cui vuole comparire: *Maria Cristina Andreini* o *Cristina Andreini*
 - i dati di contatto della mail **non** entrano nel repository
