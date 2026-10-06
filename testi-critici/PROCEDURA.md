@@ -158,7 +158,9 @@ Una cartella per artista, `artisti/nome-cognome/`, sul modello di
 | `pdf/opera-….pdf` | la sala | una didascalia A6 per ogni opera analizzata |
 
 I PDF li produce Claude nella stessa sessione, con `py strumenti\critica.py`,
-e li carica insieme ai testi: basta un **Pull origin** per averli.
+e li carica insieme ai testi **direttamente sul ramo principale**,
+`be-art-gallery-creazione-contenuti`, senza richiesta di unione: così ha
+deciso Elena. Basta un **Pull origin** per averli.
 
 L'inglese accompagna sempre l'italiano: la galleria riceve visitatori
 stranieri. Può sforare di poco il limite, l'italiano no.
