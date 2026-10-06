@@ -10,7 +10,7 @@
 | Artista | Opera in mostra | Come abita il tema |
 |---|---|---|
 | [Patrizia Vangelisti](../artisti/patrizia-vangelisti/analisi.md) | *Arturo*, 2025 | il luogo dell'anima come stanza della memoria: un angolo di casa visto dall'alto, un pesce rosso che lo custodisce |
-| [Catia Massai](../artisti/catia-massai/analisi.md) | due dipinti, titoli da confermare | il luogo dell'anima come natura in cui entrare: una soglia di pietra sul giardino, un albero da abbracciare |
+| [Catia Massai](../artisti/catia-massai/analisi.md) | *Il giardino dei sogni*, 2026 · *Spensieratezza*, 2019 | il luogo dell'anima come natura in cui entrare: una soglia di pietra sul giardino, un albero da abbracciare |
 | [Stefano Mugnaioni](../artisti/stefano-mugnaioni/analisi.md) | da confermare | la natura che riaffiora per strati: il luogo come stagione e tempo interiore |
 
 ## Fili comuni, finora

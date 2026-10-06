@@ -7,8 +7,8 @@
 | | |
 |---|---|
 | **Vive e lavora** | *da confermare* |
-| **Opere analizzate** | due dipinti, **titoli, anni, tecnica e misure da confermare**: il girotondo attorno all'albero (tela rettangolare orizzontale) · l'arco sul giardino (tela ovale verticale) |
-| **Stesura** | 6 ottobre 2026 · v1 — presentazione pronta; didascalie scritte, i PDF aspettano i titoli |
+| **Opere analizzate** | *Il giardino dei sogni*, 2026, olio su tela, 70 × 70 cm · *Spensieratezza*, 2019, acrilico su tela, 50 × 40 cm |
+| **Stesura** | 6 ottobre 2026 · v1 — presentazione e didascalie pronte |
 | **Testo precedente** | volantino «a cura di Elena Brilli»: natura e ornamento, acquerello e mosaico, rossi e verdi, «giardini immaginari» |
 
 ---
@@ -33,22 +33,21 @@
 
 ## Didascalie delle singole opere
 
-> I PDF delle didascalie si producono quando arrivano titolo, anno, tecnica e
-> misure: senza, il cartellino uscirebbe sbagliato.
+### *Spensieratezza* — 2019, acrilico su tela, 50 × 40 cm
 
-### Il girotondo attorno all'albero — *titolo da confermare*
+**Italiano** — _258 caratteri_ · v2
 
-**Italiano** — _263 caratteri_
-
-> Cinque bambine si tengono per mano attorno a un tronco troppo grande per un solo abbraccio. Nella corteccia affiora un volto antico, quasi a ricambiare il gesto: l'albero diventa un anziano da onorare, e il girotondo un patto fra chi comincia e chi c'è da sempre.
+> Cinque bambine si tengono per mano attorno a un tronco troppo grande per un solo abbraccio. Le magliette arancio accendono l'ombra del vecchio albero: è la gioia senza pensieri del gioco, e insieme il gesto istintivo di stringersi attorno a ciò che protegge.
 
 **English**
 
-> Five little girls hold hands around a trunk too wide for a single embrace. An ancient face surfaces in the bark, as if returning the gesture: the tree becomes an elder to honour, and the ring a pact between those just beginning and those who have always been there.
+> Five little girls hold hands around a trunk too wide for a single embrace. Their orange shirts light up the shade of the old tree: the carefree joy of play, and at the same time the instinctive gesture of gathering around what protects us.
 
-**Cosa ho visto** — le bambine di spalle, magliette arancio e sacche gialle, unite per mano in un arco attorno al tronco scuro; nella parte alta della corteccia chiari e scuri che disegnano due occhi e un naso, un volto; l'ombra di una bambina proiettata sul tronco; il fogliame a piccoli tocchi, il campo di grano chiaro sul fondo.
+**Cosa ho visto** — le bambine di spalle, magliette arancio e sacche gialle, unite per mano in un arco attorno al tronco scuro; l'ombra di una bambina proiettata sul tronco; il fogliame a piccoli tocchi, il campo di grano chiaro sul fondo.
 
-### L'arco sul giardino — *titolo da confermare*
+**v1, scartata** — parlava di un volto nella corteccia: Elena conferma che non c'è. Era una lettura dei chiaroscuri della corteccia, non dell'opera.
+
+### *Il giardino dei sogni* — 2026, olio su tela, 70 × 70 cm
 
 **Italiano** — _249 caratteri_
 
@@ -68,8 +67,8 @@
 
 | Opera | Tecnica e materia | Composizione | Colore e luce | Spazio |
 |---|---|---|---|---|
-| girotondo | acrilico (da confermare), stesura piana; fogliame a piccoli tocchi | frontale, il tronco al centro divide e unisce; le bambine fanno un arco che lo abbraccia | complementari netti: arancio e giallo contro il nero-grigio del tronco, verdi e azzurro sul fondo | luce di giorno pieno, ombre nette; profondità per piani successivi |
-| arco | acrilico o olio (da confermare) su tela ovale | cornice nella cornice: l'arco dipinto chiude la vista e la apre; il sentiero in diagonale porta dentro | verdi di ogni tono, punti di arancio, rosa, viola, bianco | prospettiva lineare dal primo piano lastricato al fondo luminoso |
+| *Spensieratezza* | acrilico, stesura piana; fogliame a piccoli tocchi | frontale, il tronco al centro divide e unisce; le bambine fanno un arco che lo abbraccia | complementari netti: arancio e giallo contro il nero-grigio del tronco, verdi e azzurro sul fondo | luce di giorno pieno, ombre nette; profondità per piani successivi |
+| *Il giardino dei sogni* | olio su tela, con l'arco dipinto in forma ovale | cornice nella cornice: l'arco dipinto chiude la vista e la apre; il sentiero in diagonale porta dentro | verdi di ogni tono, punti di arancio, rosa, viola, bianco | prospettiva lineare dal primo piano lastricato al fondo luminoso |
 
 ### Ciò che ritorna
 - **la soglia e l'abbraccio**: due modi di dire lo stesso desiderio, entrare nella natura e tenerla stretta
@@ -92,10 +91,7 @@ dell'arco, dipinti come tessere.
   segreto — che qui torna in chiave quotidiana
 
 ### Cosa resta aperto
-- **titoli, anni, tecnica, misure** delle due opere
 - **dove vive e lavora**
-- il **volto nella corteccia**: va confermato che sia voluto. Se non lo è, la
-  didascalia del girotondo va riscritta
 - il volantino precedente parla anche di acquerello e mosaico: se in mostra
   arrivano lavori di quel tipo, la presentazione va allargata
 - in rete non ho trovato niente di attendibile su di lei: la ricerca restituisce

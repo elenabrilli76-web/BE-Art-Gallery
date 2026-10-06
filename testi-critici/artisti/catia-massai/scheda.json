@@ -4,5 +4,26 @@
     "it": "Catia Massai dipinge la natura come un luogo in cui entrare. Un arco di pietra che si apre su un sentiero fiorito, un tronco secolare abbracciato da un girotondo di bambine: le sue tele costruiscono soglie e abbracci, spazi da attraversare e da custodire. La pittura procede per piccoli tocchi, foglia dopo foglia, fiore dopo fiore, con la pazienza di chi posa le tessere di un mosaico. Fra racconto e ornamento, il paesaggio si fa promessa di quiete. Ne nasce una pittura generosa, che chiede allo sguardo di fermarsi e rallentare.",
     "en": "Catia Massai paints nature as a place to step into. A stone arch opening onto a flowering path, an ancient trunk embraced by a ring of little girls: her canvases build thresholds and embraces, spaces to cross and to protect. The painting proceeds in small touches, leaf after leaf, flower after flower, with the patience of someone setting the tesserae of a mosaic. Between storytelling and ornament, landscape becomes a promise of calm. The result is a generous painting that asks the eye to pause and slow down."
   },
-  "opere": []
+  "opere": [
+    {
+      "titolo": "Il giardino dei sogni",
+      "anno": 2026,
+      "tecnica": "olio su tela",
+      "misure": "70 × 70 cm",
+      "didascalia": {
+        "it": "Un arco di pietra apre il quadro come una porta lasciata socchiusa. Oltre la soglia il sentiero si perde fra macchie di fiori dipinti uno a uno: un giardino che non si guarda soltanto, ma in cui si desidera entrare, per ritrovare un passo più lento.",
+        "en": "A stone arch opens the painting like a door left ajar. Beyond the threshold the path disappears among clusters of flowers painted one by one: a garden not only to be looked at, but one you long to enter, to find a slower pace again."
+      }
+    },
+    {
+      "titolo": "Spensieratezza",
+      "anno": 2019,
+      "tecnica": "acrilico su tela",
+      "misure": "50 × 40 cm",
+      "didascalia": {
+        "it": "Cinque bambine si tengono per mano attorno a un tronco troppo grande per un solo abbraccio. Le magliette arancio accendono l'ombra del vecchio albero: è la gioia senza pensieri del gioco, e insieme il gesto istintivo di stringersi attorno a ciò che protegge.",
+        "en": "Five little girls hold hands around a trunk too wide for a single embrace. Their orange shirts light up the shade of the old tree: the carefree joy of play, and at the same time the instinctive gesture of gathering around what protects us."
+      }
+    }
+  ]
 }
