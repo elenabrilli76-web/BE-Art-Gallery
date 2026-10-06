@@ -35,13 +35,17 @@
 
 ### *Arturo* — 2025, acrilico, segatura, pastelli a olio e grafite su tela, 50 × 50 cm
 
-**Italiano** — _245 caratteri_
+**Italiano** — _250 caratteri_ · v2, più sulle emozioni che sulla descrizione
 
-> Vista dall'alto, un'ampolla d'acqua posa su uno sgabello di vimini, nell'angolo di una stanza dal pavimento a esagoni. Al centro dei cerchi azzurri Arturo, il pesce rosso, è l'unico punto acceso: un ricordo di casa custodito come in uno scrigno.
+> C'è un angolo di casa che la memoria non lascia andare. Arturo vi nuota in silenzio, piccola fiamma rossa in un cerchio d'acqua e di luce: custode di pensieri, compagno di giorni quieti, è il punto fermo a cui lo sguardo torna per sentirsi al riparo.
 
 **English**
 
-> Seen from above, a glass bowl of water rests on a wicker stool in the corner of a room with a hexagon-tiled floor. At the centre of the blue circles Arturo, the goldfish, is the only spark of colour: a memory of home kept as in a casket.
+> There is a corner of home that memory will not let go. Arturo swims there in silence, a small red flame in a circle of water and light: keeper of thoughts, companion of quiet days, the still point the gaze returns to in order to feel sheltered.
+
+**v1, scartata da Elena perché troppo descrittiva**
+
+> Vista dall'alto, un'ampolla d'acqua posa su uno sgabello di vimini, nell'angolo di una stanza dal pavimento a esagoni. Al centro dei cerchi azzurri Arturo, il pesce rosso, è l'unico punto acceso: un ricordo di casa custodito come in uno scrigno.
 
 **Cosa ho visto** — veduta zenitale; l'anello dorato dello sgabello con le legature in rattan; l'acqua a cerchi concentrici azzurri e bianchi, con la trama a puntini del fondo che traspare; il pesce rosso, piccolo e fuori centro, unico colore saturo; le due pareti che convergono nell'angolo, sfumate a grafite; il pavimento a esagoni rosso mattone e avorio, granuloso per la segatura.
 

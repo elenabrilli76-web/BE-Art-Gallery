@@ -137,6 +137,10 @@ da cartellino: **150–300 caratteri**, accanto a titolo, anno, tecnica e misure
 
 - stesso metodo, applicato a un'opera sola: si parte da ciò che si vede
   (materia, composizione, colore, luce) e si arriva a ciò che significa
+- **l'emozione prima della descrizione**: chi legge ha il quadro davanti e
+  vede da sé cosa c'è dipinto. La didascalia dice cosa si prova, cosa
+  custodisce l'opera; i dati visivi restano nelle note di analisi, a
+  sostenere la lettura, non nel testo
 - **una sola idea**, detta bene: la didascalia non riassume la ricerca
   dell'artista, accompagna lo sguardo davanti a quel quadro
 - niente riferimenti ad altri artisti: in così poco spazio diventano etichette
