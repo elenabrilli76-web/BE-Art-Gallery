@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-I PDF dei testi critici d'artista.
+I testi critici d'artista, pronti da stampare e da condividere.
 
 Legge la scheda di un artista, testi-critici/artisti/<nome-cognome>/scheda.json,
-e produce nella sua cartella pdf/:
+e produce nella sua cartella:
 
-- presentazione.pdf — la sintesi critica in A5, da consegnare all'artista e da
+- presentazione — la sintesi critica in A5, da consegnare all'artista e da
   stampare per la sala
 - una didascalia in A6 per ogni opera analizzata, da mettere accanto al quadro
+
+ognuna in tre forme: pdf/ per la stampa, png/ per mandarla in chat o sui
+social, word/ per ritoccarla a mano prima di stampare.
 
     py strumenti\\critica.py nome-cognome      un artista
     py strumenti\\critica.py                   tutti
@@ -30,6 +33,13 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import Paragraph
 
+import pypdfium2
+from docx import Document
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+from docx.shared import Mm, Pt, RGBColor
+
 CARTELLA = Path(__file__).resolve().parent
 RADICE = CARTELLA.parent
 ARTISTI = RADICE / "testi-critici" / "artisti"
@@ -43,6 +53,13 @@ CARTA = HexColor("#FAF7F0")
 INCHIOSTRO = HexColor("#1E1B18")
 GRIGIO = HexColor("#6B645B")
 ORO = HexColor("#C9A227")   # l'oro antico del logo, lo stesso dei social
+
+# Il PNG ha la risoluzione della stampa: regge anche se lo si porta in tipografia
+PNG_DPI = 300
+
+# Word usa i caratteri installati sul computer: se il Cormorant manca, ripiega
+# sul Garamond di sistema invece che sul Calibri
+FONT_WORD = "Cormorant Garamond"
 
 # Le soglie della procedura: oltre, il testo non sta più nel suo formato
 LIMITI = {"presentazione": (500, 600), "didascalia": (150, 300)}
@@ -193,17 +210,124 @@ def didascalia(scheda: dict, opera: dict, uscita: Path) -> Path:
     return file
 
 
+def png(pdf: Path, uscita: Path) -> Path:
+    """La stessa pagina del PDF, in immagine: niente da impaginare due volte."""
+    file = uscita / f"{pdf.stem}.png"
+    documento = pypdfium2.PdfDocument(str(pdf))
+    documento[0].render(scale=PNG_DPI / 72).to_pil().save(file, dpi=(PNG_DPI, PNG_DPI))
+    documento.close()
+    return file
+
+
+# ----------------------------------------------------------------------------
+# Word: la stessa pagina in forma modificabile
+# ----------------------------------------------------------------------------
+
+def _rgb(colore) -> RGBColor:
+    return RGBColor.from_string(colore.hexval()[2:].upper())
+
+
+def _paragrafo(doc, testo="", corpo=11.5, colore=INCHIOSTRO, grassetto=False,
+               corsivo=False, giustificato=False, centrato=False, dopo=0, interlinea=None):
+    p = doc.add_paragraph()
+    if giustificato:
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+    if centrato:
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.space_before = Pt(0)
+    p.paragraph_format.space_after = Pt(dopo)
+    if interlinea:
+        p.paragraph_format.line_spacing = Pt(interlinea)
+    if testo:
+        r = p.add_run(testo.replace("'", "\u2019"))
+        r.font.name = FONT_WORD
+        r._element.rPr.rFonts.set(qn("w:eastAsia"), FONT_WORD)
+        r.font.size = Pt(corpo)
+        r.font.color.rgb = _rgb(colore)
+        r.bold = grassetto
+        r.italic = corsivo
+    return p
+
+
+def _filetto(paragrafo, colore=ORO, spessore=6) -> None:
+    """Il filetto oro come bordo inferiore del paragrafo (spessore in ottavi di punto)."""
+    bordi = OxmlElement("w:pBdr")
+    sotto = OxmlElement("w:bottom")
+    for chiave, valore in {"w:val": "single", "w:sz": str(spessore),
+                           "w:space": "4", "w:color": colore.hexval()[2:].upper()}.items():
+        sotto.set(qn(chiave), valore)
+    bordi.append(sotto)
+    paragrafo._p.get_or_add_pPr().append(bordi)
+
+
+def _documento(formato, margine, titolo):
+    doc = Document()
+    doc.core_properties.title = titolo
+    doc.core_properties.author = "BE Art Gallery & Creative Lab"
+    sezione = doc.sections[0]
+    sezione.page_width, sezione.page_height = Mm(formato[0] / mm), Mm(formato[1] / mm)
+    for lato in ("left_margin", "right_margin", "top_margin", "bottom_margin"):
+        setattr(sezione, lato, Mm(margine))
+    sezione.footer_distance = Mm(margine * 0.6)
+    piede = sezione.footer.paragraphs[0]
+    piede.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = piede.add_run(PIEDE)
+    r.font.name, r.font.size, r.font.color.rgb = FONT_WORD, Pt(7.5), _rgb(GRIGIO)
+    return doc
+
+
+def word_presentazione(scheda: dict, uscita: Path) -> Path:
+    testi = scheda["presentazione"]
+    doc = _documento(A5, 16, f"{scheda['nome']} — testo critico")
+    doc.add_paragraph().add_run().add_picture(str(LOGO), width=Mm(24))
+    _paragrafo(doc, dopo=18)
+    _paragrafo(doc, scheda["nome"], corpo=25, grassetto=True)
+    luogo = _paragrafo(doc, f"vive e lavora a {scheda['vive_e_lavora']}" if scheda.get("vive_e_lavora") else "",
+                       corpo=11, colore=GRIGIO, corsivo=True, dopo=14)
+    _filetto(luogo)
+    _paragrafo(doc, testi["it"], corpo=12, giustificato=True, interlinea=16.5, dopo=18)
+    if testi.get("en"):
+        _paragrafo(doc, testi["en"], corpo=10.5, colore=GRIGIO, corsivo=True,
+                   giustificato=True, interlinea=14)
+    file = uscita / "presentazione.docx"
+    doc.save(file)
+    return file
+
+
+def word_didascalia(scheda: dict, opera: dict, uscita: Path) -> Path:
+    testi = opera["didascalia"]
+    doc = _documento(A6_ORIZZONTALE, 11, f"{scheda['nome']} — {opera['titolo']}")
+    _paragrafo(doc, scheda["nome"], corpo=11, grassetto=True)
+    _paragrafo(doc, opera["titolo"], corpo=16, corsivo=True)
+    dati = "  ·  ".join(str(opera[k]) for k in ("anno", "tecnica", "misure") if opera.get(k))
+    _filetto(_paragrafo(doc, dati, corpo=9, colore=GRIGIO, dopo=8))
+    _paragrafo(doc, testi["it"], corpo=10.5, giustificato=True, interlinea=13.5, dopo=6)
+    if testi.get("en"):
+        _paragrafo(doc, testi["en"], corpo=9, colore=GRIGIO, corsivo=True,
+                   giustificato=True, interlinea=11.5)
+    file = uscita / f"opera-{nome_file(opera['titolo'])}.docx"
+    doc.save(file)
+    return file
+
+
 def artista(cartella: Path) -> list[Path]:
     scheda = json.loads((cartella / "scheda.json").read_text(encoding="utf-8"))
-    uscita = cartella / "pdf"
-    uscita.mkdir(exist_ok=True)
+    cartelle = {formato: cartella / formato for formato in ("pdf", "png", "word")}
+    for c in cartelle.values():
+        c.mkdir(exist_ok=True)
     print(f"\n{scheda['nome']}")
-    prodotti = []
+
+    lavori = []
     if scheda.get("presentazione", {}).get("it"):
-        prodotti.append(presentazione(scheda, uscita))
+        lavori.append((presentazione, word_presentazione, (scheda,)))
     for opera in scheda.get("opere", []):
         if opera.get("didascalia", {}).get("it"):
-            prodotti.append(didascalia(scheda, opera, uscita))
+            lavori.append((didascalia, word_didascalia, (scheda, opera)))
+
+    prodotti = []
+    for fai_pdf, fai_word, argomenti in lavori:
+        pdf = fai_pdf(*argomenti, cartelle["pdf"])
+        prodotti += [pdf, png(pdf, cartelle["png"]), fai_word(*argomenti, cartelle["word"])]
     for file in prodotti:
         print(f"   {file.relative_to(RADICE)}")
     return prodotti

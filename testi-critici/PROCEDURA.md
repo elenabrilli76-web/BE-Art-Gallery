@@ -156,6 +156,7 @@ Una cartella per artista, `artisti/nome-cognome/`, sul modello di
 | `scheda.json` | il comando | i testi definitivi, da cui nascono i PDF |
 | `pdf/presentazione.pdf` | l'artista e la sala | la sintesi critica in A5, italiano e inglese |
 | `pdf/opera-….pdf` | la sala | una didascalia A6 per ogni opera analizzata |
+| `png/` · `word/` | chi deve condividere o ritoccare | le stesse pagine in immagine a 300 dpi e in Word |
 
 I PDF li produce Claude nella stessa sessione, con `py strumenti\critica.py`,
 e li carica insieme ai testi **direttamente sul ramo principale**,
