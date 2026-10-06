@@ -1,0 +1,59 @@
+{
+  "nome": "Enzo Mazzanti",
+  "vive_e_lavora": "Montemurlo",
+  "presentazione": {
+    "it": "Nella pittura di Enzo Mazzanti c'è sempre qualcuno che cammina. Un viandante dal cappello rosso, curvo sul bastone, attraversa boschi innevati, vicoli stretti fra palazzi scuri, sentieri accesi di rosa: è la stessa figura, piccola e di spalle, e ogni volta il mondo intorno si fa più grande. Il gesto è espressionista, a spatola e a colpi rapidi, e arriva fino al ferro ossidato. In quel punto rosso si raccoglie lo sguardo: la solitudine non come abbandono, ma come cammino. Una pittura di viaggio interiore, che parla di chi va e di chi resta.",
+    "en": "In Enzo Mazzanti's painting there is always someone walking. A wanderer in a red hat, bent over his staff, crosses snowy woods, narrow alleys between dark buildings, paths glowing pink: the same figure, small and seen from behind, while each time the world around him grows larger. The gesture is expressionist, laid with the knife in quick strokes, and reaches as far as oxidised iron. The eye gathers on that red point: solitude not as abandonment but as a journey. A painting of inner travel, about those who leave and those who stay."
+  },
+  "opere": [
+    {
+      "titolo": "Solitudine I",
+      "file": "solitudine-1",
+      "tecnica": "tecnica mista, olio e acrilico su tela",
+      "misure": "50 × 70 cm",
+      "didascalia": {
+        "it": "Un sentiero bianco fra gli abeti, la neve che cancella i passi, e lui che va. Il cappello rosso è l'unico calore nel freddo: la solitudine qui ha il silenzio della montagna, e la fermezza di chi conosce la strada anche quando non la vede.",
+        "en": "A white path between the firs, snow erasing the footprints, and him walking on. The red hat is the only warmth in the cold: here solitude has the silence of the mountain, and the resolve of someone who knows the way even when he cannot see it."
+      }
+    },
+    {
+      "titolo": "Solitudine II",
+      "file": "solitudine-2",
+      "tecnica": "tecnica mista, olio e acrilico su tela",
+      "misure": "50 × 70 cm",
+      "didascalia": {
+        "it": "I palazzi si stringono, scuri e altissimi, e la luce resta in fondo alla via. Il viandante cammina col suo fagotto in mezzo alla città, eppure è più solo che nel bosco: la solitudine più dura è quella che si attraversa in mezzo agli altri.",
+        "en": "The buildings close in, dark and towering, and the light stays at the end of the street. The wanderer walks with his bundle through the city, yet he is lonelier than in the woods: the hardest solitude is the one crossed among other people."
+      }
+    },
+    {
+      "titolo": "Solitudine III",
+      "file": "solitudine-3",
+      "tecnica": "lastra di metallo ossidata su finestrella in legno",
+      "misure": "40 × 40 cm circa",
+      "didascalia": {
+        "it": "Una vecchia finestra di legno, e dentro una lastra di ferro che la ruggine ha trasformato in cielo e nuvole. Il viandante è ritagliato nel metallo stesso: la solitudine diventa materia che il tempo consuma, e che proprio per questo dura.",
+        "en": "An old wooden window, and inside it an iron sheet that rust has turned into sky and clouds. The wanderer is cut from the metal itself: solitude becomes matter that time wears away, and for that very reason endures."
+      }
+    },
+    {
+      "titolo": "Solitudine IV",
+      "file": "solitudine-4",
+      "tecnica": "tecnica mista, olio e acrilico su tela",
+      "misure": "60 × 40 cm",
+      "didascalia": {
+        "it": "Il bosco si accende di rosa e di viola, come al tramonto di un ricordo. Il viandante lo attraversa piccolo e curvo, ma il colore intorno è caldo, quasi festoso: qui la solitudine non pesa, accompagna.",
+        "en": "The wood glows pink and violet, as at the sunset of a memory. The wanderer crosses it, small and bent, but the colour around him is warm, almost festive: here solitude does not weigh, it keeps company."
+      }
+    },
+    {
+      "titolo": "Terra promessa",
+      "tecnica": "tecnica mista, olio e acrilico su tela",
+      "misure": "60 × 40 cm",
+      "didascalia": {
+        "it": "Una folla immensa, fatta di colori accesi, si allunga fino all'orizzonte verso una luce che non arriva. In disparte, il viandante dal cappello rosso guarda passare un popolo in cammino: un omaggio alla Palestina e a tutti i popoli scacciati dalla propria terra.",
+        "en": "An immense crowd of bright colours stretches to the horizon towards a light that never comes. Apart from it, the wanderer in the red hat watches a people on the move: a tribute to Palestine and to all peoples driven from their own land."
+      }
+    }
+  ]
+}

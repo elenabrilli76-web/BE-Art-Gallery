@@ -9,6 +9,7 @@
 
 | Artista | Opera in mostra | Come abita il tema |
 |---|---|---|
+| [Enzo Mazzanti](../artisti/enzo-mazzanti/analisi.md) | ciclo *Solitudine* (4 opere) · *Terra promessa* | il luogo dell'anima come cammino: un viandante solo in paesaggi che cambiano; e la terra perduta di un popolo in esilio |
 | [Maria Cristina Andreini](../artisti/maria-cristina-andreini/analisi.md) | *Passeggiando con i piedi nell'acqua* · *La ragazza sul muretto* | il luogo dell'anima come momento per sé: il mare, la soglia fra il quotidiano e la libertà |
 | [Patrizia Vangelisti](../artisti/patrizia-vangelisti/analisi.md) | *Arturo*, 2025 | il luogo dell'anima come stanza della memoria: un angolo di casa visto dall'alto, un pesce rosso che lo custodisce |
 | [Catia Massai](../artisti/catia-massai/analisi.md) | *Il giardino dei sogni*, 2026 · *Spensieratezza*, 2019 | il luogo dell'anima come natura in cui entrare: una soglia di pietra sul giardino, un albero da abbracciare |
@@ -19,6 +20,7 @@
 - la **memoria** come luogo: non vedute, ma spazi ricordati e ricostruiti
 - la **materia** che trattiene il tempo: segatura, carta stampata, strati
 - la **terra d'origine** ricordata come luce e orizzonte
+- il **cammino**: il viandante di Mazzanti, i sentieri di Massai, la donna che entra nel mare di Andreini
 - l'**acqua** come soglia: il mare, l'ampolla, la nebbia
 - la **soglia** e il **riparo**: l'angolo di casa, l'arco sul giardino, l'abbraccio all'albero
 
