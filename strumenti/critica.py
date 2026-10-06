@@ -90,6 +90,12 @@ def nome_file(testo: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", piano.lower()).strip("-") or "opera"
 
 
+def nome_opera(opera: dict) -> str:
+    """Il nome dei file di un'opera. Due opere con lo stesso titolo — «Paesaggio»,
+    «Senza titolo» — si distinguono con "file" nella scheda, o si sovrascrivono."""
+    return opera.get("file") or nome_file(opera["titolo"])
+
+
 def controlla(etichetta: str, testo: str, tipo: str) -> None:
     minimo, massimo = LIMITI[tipo]
     n = len(testo)
@@ -179,7 +185,7 @@ def didascalia(scheda: dict, opera: dict, uscita: Path) -> Path:
     larghezza, altezza = A6_ORIZZONTALE
     m = 11 * mm
     utile = larghezza - 2 * m
-    file = uscita / f"opera-{nome_file(opera['titolo'])}.pdf"
+    file = uscita / f"opera-{nome_opera(opera)}.pdf"
     c = Canvas(str(file), pagesize=A6_ORIZZONTALE)
     c.setTitle(f"{scheda['nome']} — {opera['titolo']}")
     c.setAuthor("BE Art Gallery & Creative Lab")
@@ -307,7 +313,7 @@ def word_didascalia(scheda: dict, opera: dict, uscita: Path) -> Path:
     if testi.get("en"):
         _paragrafo(doc, testi["en"], corpo=9, colore=GRIGIO, corsivo=True,
                    giustificato=True, interlinea=11.5)
-    file = uscita / f"opera-{nome_file(opera['titolo'])}.docx"
+    file = uscita / f"opera-{nome_opera(opera)}.docx"
     doc.save(file)
     return file
 
@@ -325,6 +331,13 @@ def artista(cartella: Path) -> list[Path]:
     for opera in scheda.get("opere", []):
         if opera.get("didascalia", {}).get("it"):
             lavori.append((didascalia, word_didascalia, (scheda, opera)))
+
+    nomi = [nome_opera(o) for o in scheda.get("opere", [])]
+    doppi = {n for n in nomi if nomi.count(n) > 1}
+    if doppi:
+        print(f"   ⚠ più opere finirebbero nello stesso file: {', '.join(sorted(doppi))}"
+              " — aggiungi \"file\" nella scheda per distinguerle")
+        raise SystemExit(1)
 
     prodotti = []
     for fai_pdf, fai_word, argomenti in lavori:
