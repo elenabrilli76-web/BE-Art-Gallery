@@ -57,9 +57,11 @@ ORO = HexColor("#C9A227")   # l'oro antico del logo, lo stesso dei social
 # Il PNG ha la risoluzione della stampa: regge anche se lo si porta in tipografia
 PNG_DPI = 300
 
-# Word usa i caratteri installati sul computer: se il Cormorant manca, ripiega
-# sul Garamond di sistema invece che sul Calibri
-FONT_WORD = "Cormorant Garamond"
+# Word usa i caratteri installati sul computer, non quelli del repository: il
+# Garamond arriva insieme a Office, è il parente più stretto del Cormorant e
+# così il documento si apre uguale su qualunque PC, senza installare niente.
+# PDF e PNG restano in Cormorant: lì il carattere viaggia dentro il file
+FONT_WORD = "Garamond"
 
 # Le soglie della procedura: oltre, il testo non sta più nel suo formato
 LIMITI = {"presentazione": (500, 600), "didascalia": (150, 300)}

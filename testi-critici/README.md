@@ -14,11 +14,9 @@ testi-critici/artisti/nome-cognome/
 └── word/                          le stesse pagine in Word, da ritoccare e stampare
 ```
 
-> **Per i file Word**: perché si vedano con il carattere della galleria, il
-> Cormorant Garamond va installato sul PC, una volta sola. Si apre
-> `strumenti\marchio\font\`, si selezionano i file `CormorantGaramond-…`,
-> tasto destro → **Installa**. Senza, Word usa un carattere sostitutivo: il
-> testo resta giusto, cambia solo l'aspetto.
+> **I file Word sono in Garamond**, che c'è già su ogni PC con Office: si
+> aprono così come sono, senza installare niente. PDF e PNG restano nel
+> Cormorant delle locandine, che sta dentro il file.
 
 ## Le due modalità
 
