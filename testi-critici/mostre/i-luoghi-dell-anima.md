@@ -25,6 +25,7 @@
 - il **cammino**: il viandante di Mazzanti, i sentieri di Massai, la donna che entra nel mare di Andreini
 - l'**acqua** come soglia: il mare, l'ampolla, la nebbia
 - la **soglia** e il **riparo**: l'angolo di casa, l'arco sul giardino, l'abbraccio all'albero
+- l'**arco d'ingresso**: *Il giardino dei sogni* di Massai e *Casolari amalfitani* di Apicella si aprono entrambi con un arco di pietra che fa da porta al quadro — da appendere vicini
 
 ## Da sapere prima di scrivere
 - l'elenco completo degli artisti

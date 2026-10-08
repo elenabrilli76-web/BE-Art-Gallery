@@ -14,13 +14,15 @@
 
 ## Didascalia
 
-**Italiano** — _261 caratteri_
+**Italiano** — _295 caratteri_ · v2, costruita sull'arco d'ingresso come soglia, in dialogo con *Il giardino dei sogni* di Catia Massai
 
-> Un arco di pietra, poi un altro, e in fondo al vicolo il mare. Fra muri fioriti, una lanterna e gradini consumati, lo sguardo viene accompagnato passo dopo passo verso l'azzurro: la Costiera come la si ricorda, un luogo in cui si torna anche solo con gli occhi.
+> Il grande arco di pietra in primo piano è una soglia: si entra nel quadro come in un borgo, e il vicolo fiorito porta, passo dopo passo, a un secondo arco aperto sul mare. Due porte in fila, e in fondo l'azzurro: la Costiera come la si ricorda, un luogo in cui si torna anche solo con gli occhi.
 
 **English**
 
-> A stone arch, then another, and at the end of the alley the sea. Between flowering walls, a lantern and worn steps, the eye is led step by step towards the blue: the Coast as one remembers it, a place to return to, even if only with the eyes.
+> The great stone arch in the foreground is a threshold: one enters the painting as one enters a village, and the flowering alley leads, step by step, to a second arch open onto the sea. Two doorways in a row, and beyond them the blue: the Coast as one remembers it, a place to return to, even if only with the eyes.
+
+**v1** — Un arco di pietra, poi un altro, e in fondo al vicolo il mare. Fra muri fioriti, una lanterna e gradini consumati, lo sguardo viene accompagnato passo dopo passo verso l'azzurro: la Costiera come la si ricorda, un luogo in cui si torna anche solo con gli occhi.
 
 **Cosa ho visto** — formato verticale; un grande arco in conci di pietra in primo piano a destra, un secondo arco al centro che si apre su una terrazza con balaustra e il mare; muri in pietra intonacata, una finestra con tenda a righe rosse, una lanterna, vasi e cespugli fioriti, un selciato in salita con gradini. Pittura a olio corposa, di tocco minuto, tavolozza fredda di grigi e azzurri accesa da rossi e rosa nei fiori.
 
