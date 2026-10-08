@@ -10,19 +10,23 @@
 | **Opere** | quattro nature morte di fiori in vaso, olio su fondo scuro, formati verticali stretti, incorniciate con passe-partout in tela |
 | **Provenienza** | collezione privata; secondo Elena, presumibilmente bacino veneto / rodigino — **non verificato** |
 | **Titolo della serie** | *Fiori dal buio* — proposta, da confermare |
-| **Stesura** | 8 ottobre 2026 · v1 |
+| **Stesura** | 8 ottobre 2026 · v2 |
 
 ---
 
 ## Presentazione della serie
 
-**Italiano** — _515 caratteri spazi inclusi_
+**Italiano** — _710 caratteri spazi inclusi_ · v2, con le due mani e la datazione. Supera i 600 della procedura: è il testo di una serie, non di un artista, e Elena ha chiesto i dettagli della ricerca
+
+> Fiori che sbocciano dal buio: rose, margherite, fiordalisi e papaveri emergono da fondi scuri, eredi lontani della natura morta fiamminga. Le opere, da una collezione privata, sono di due mani diverse, entrambe senza nome. La prima firma graffiando il colore fresco e dipinge con morbidezza: petali a pennellate regolari, toni pastello, un vaso acceso da una luce interna. La seconda firma con pochi tocchi arancio e lavora più veloce, a colpi carichi di rossi e viola su un fondo quasi laccato. È pittura di fiori pensata per la casa, riconducibile per stile e montaggio agli anni Settanta e Ottanta. Qui racconta un luogo dell'anima fatto di memoria domestica: il mazzo che non appassisce, il dono che resta.
+
+**English** — _691 characters_
+
+> Flowers blooming out of the dark: roses, daisies, cornflowers and poppies emerge from deep grounds, distant heirs of Flemish flower painting. The works, from a private collection, are by two different hands, both unnamed. The first signs by scratching into the wet paint and works softly: petals in even strokes, pastel tones, a vase lit from within. The second signs with a few touches of orange and works faster, in loaded strokes of red and violet on an almost lacquered ground. This is flower painting made for the home, datable by style and mounting to the 1970s and 1980s. Here it tells of a place of the soul made of domestic memory: the bouquet that never wilts, the gift that stays.
+
+**v1, più breve, senza dettagli** — 515 caratteri
 
 > Fiori che sbocciano dal buio: rose, margherite, fiordalisi e papaveri emergono da fondi scuri, accesi da una luce che sembra nascere dal vaso stesso. Sono opere di una collezione privata, firmate da mani diverse che oggi non hanno più un nome, eredi lontane della natura morta fiamminga. Nate per abitare le case, sopra una credenza o in un ingresso, sono state compagne silenziose della vita quotidiana. Qui raccontano un luogo dell'anima fatto di memoria domestica: il mazzo che non appassisce, il dono che resta.
-
-**English** — _505 characters_
-
-> Flowers blooming out of the dark: roses, daisies, cornflowers and poppies emerge from deep grounds, lit by a glow that seems to rise from the vase itself. They come from a private collection, signed by different hands that no longer have a name, distant heirs of Flemish flower painting. Made to live in homes, above a sideboard or in a hallway, they were silent companions of everyday life. Here they tell of a place of the soul made of domestic memory: the bouquet that never wilts, the gift that stays.
 
 **Variante breve per il pannello** — _189 caratteri_
 
