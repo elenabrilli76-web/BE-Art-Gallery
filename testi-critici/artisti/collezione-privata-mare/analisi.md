@@ -8,19 +8,21 @@
 |---|---|
 | **Opere** | quattro dipinti a olio di soggetto marino, tre in cornice dorata con passe-partout, uno su tela senza cornice |
 | **Titolo della serie** | *Finestre sul mare* — proposta, da confermare |
-| **Stesura** | 8 ottobre 2026 · v1 |
+| **Stesura** | 8 ottobre 2026 · v2 |
 
 ---
 
 ## Presentazione della serie
 
-**Italiano** — _708 caratteri spazi inclusi_ · come per i *Fiori*, più lungo dei 600 della procedura: è il testo di una serie e porta i dati della ricerca
+**Italiano** — _731 caratteri spazi inclusi_ · v2, con le firme lette. Più lungo dei 600 della procedura: è il testo di una serie e porta i dati della ricerca
 
-> Un golfo nella luce della sera, una baia con le vele, un porticciolo di barche ormeggiate, un veliero in mare aperto: quattro dipinti dalla stessa collezione privata, quattro modi di tenere il mare dentro casa. Le firme, quando si leggono, rimandano a nomi difficili da rintracciare; i certificati sul retro, con i prezzi in lire, raccontano piuttosto un'epoca, quella dei quadri a olio comprati per arredare fra gli anni Settanta e Novanta. Il mestiere è sicuro: spatola per le onde, tocchi bianchi per la schiuma e le vele, la luce chiara del Mediterraneo. Appesi in una stanza, erano finestre su un orizzonte lontano. Qui raccontano il mare come luogo dell'anima: la partenza sognata, il ritorno al porto.
+> Un golfo nella luce della sera, una baia con le vele, un porticciolo di barche ormeggiate, un veliero in mare aperto: quattro dipinti dalla stessa collezione privata, quattro modi di tenere il mare dentro casa. Le firme raccontano un'epoca più che una biografia: Milani sul golfo, Hervall sul veliero, Luigi Strino sul certificato del porto. Sono nomi del mercato d'arredo fra gli anni Settanta e Novanta, a volte nomi d'arte, quando i quadri a olio si compravano con il certificato e il prezzo in lire. Il mestiere è sicuro: spatola per le onde, tocchi bianchi per schiuma e vele. Appesi in una stanza, erano finestre su un orizzonte lontano. Qui raccontano il mare come luogo dell'anima: la partenza sognata, il ritorno al porto.
 
-**English** — _695 characters_
+**English** — _742 characters_
 
-> A gulf in the evening light, a bay with sails, a small harbour of moored boats, a tall ship on the open sea: four paintings from the same private collection, four ways of keeping the sea at home. The signatures, where legible, point to names that are hard to trace; the certificates on the back, priced in lire, tell instead of an era, that of oil paintings bought to furnish a home between the 1970s and the 1990s. The craft is assured: palette knife for the waves, white touches for foam and sails, the clear light of the Mediterranean. Hung in a room, they were windows onto a distant horizon. Here they tell of the sea as a place of the soul: the departure dreamed of, the return to harbour.
+> A gulf in the evening light, a bay with sails, a small harbour of moored boats, a tall ship on the open sea: four paintings from the same private collection, four ways of keeping the sea at home. The signatures tell of an era more than a biography: Milani on the gulf, Hervall on the tall ship, Luigi Strino on the harbour's certificate. These are names from the decorative market of the 1970s to the 1990s, sometimes pseudonyms, when oil paintings were bought with a certificate and a price in lire. The craft is assured: palette knife for the waves, white touches for foam and sails. Hung in a room, they were windows onto a distant horizon. Here they tell of the sea as a place of the soul: the departure dreamed of, the return to harbour.
+
+**v1, senza nomi** — Un golfo nella luce della sera, una baia con le vele, un porticciolo di barche ormeggiate, un veliero in mare aperto: quattro dipinti dalla stessa collezione privata, quattro modi di tenere il mare dentro casa. Le firme, quando si leggono, rimandano a nomi difficili da rintracciare; i certificati sul retro, con i prezzi in lire, raccontano piuttosto un'epoca, quella dei quadri a olio comprati per arredare fra gli anni Settanta e Novanta. Il mestiere è sicuro: spatola per le onde, tocchi bianchi per la schiuma e le vele, la luce chiara del Mediterraneo. Appesi in una stanza, erano finestre su un orizzonte lontano. Qui raccontano il mare come luogo dell'anima: la partenza sognata, il ritorno al porto.
 
 **Variante breve per il pannello** — _209 caratteri_
 
@@ -39,8 +41,28 @@
 | **il porticciolo** — barche ormeggiate al molo, case con tende, montagne innevate | in basso a sinistra, parziale: «L. S…» | «Certificato di garanzia — Dipinto eseguito a mano / Hand painted / Peint à la main», con timbri; alla voce *Pittore* a penna «Luigi S…» o «Lucia S…», non leggibile per intero; misure sbiadite | spatola in rilievo per muri e molo, colori pastello, riflessi a pennellate verticali |
 | **il veliero** — tre alberi a vele spiegate, gabbiani, mare mosso | in basso a destra: «Harvall» o simile | «Liceo art. "Orsoline" di Milano — Accademia di Belle Arti di Brera di Milano — Certificato di garanzia e valutazione — dipinto originale lavorato ad olio su tela». Firma garantita «Harvall»; soggetto «Veliero»; 30 × 40; alla voce del prezzo una sigla, «S.G.A.» | marina di genere, accurata nel sartiame; cielo sfumato, onde a colpi bianchi |
 
-> L'abbinamento del certificato «Luigi/Lucia S…» al porticciolo è una
-> deduzione dalla firma «L. S…»: **da confermare con Elena**.
+### Le letture di Google AI Mode, portate da Elena
+Elena ha interrogato anche la ricerca di Google in modalità AI. Le letture
+coincidono con le mie dove la foto lo permette, e le completano:
+
+| Opera | Lettura | Accordo con l'analisi diretta | Nel testo |
+|---|---|---|---|
+| il golfo | firma **«Milani»** | compatibile: avevo letto una «M» iniziale e un finale in «-ani» | sì, come firma |
+| la baia | nessuna firma, stesura a spatola | coincide | — |
+| il porticciolo | certificato: **«Luigi Strino»** | compatibile: avevo letto «Luigi S…», e la firma sul fronte «L. S…» | sì, come nome sul certificato |
+| il veliero | firma e certificato: **«Hervall»** | avevo letto «Harvall»: la grafia della seconda lettera è incerta | sì, nella forma «Hervall» |
+
+**Le affermazioni non verificate restano fuori dal testo**, anche se
+plausibili:
+- che il nome «Milani» sia associato a una produzione di paesaggi lacustri e
+  marini d'arredo: AI Mode cita un solo annuncio di vendita
+- che «Luigi Strino» sia legato alla famiglia o alla bottega di **Gianni
+  Strino**, pittore napoletano: è un'ipotesi di AI Mode, senza fonte diretta.
+  Se si verificasse, il porticciolo avrebbe un legame con Napoli, come
+  *Casolari amalfitani* di Apicella
+- che «Hervall» fosse uno pseudonimo usato in laboratori lombardi e che il
+  certificato Orsoline/Brera indicasse una vera formazione accademica: non c'è
+  una fonte. Il testo dice solo «a volte nomi d'arte», che vale per il genere
 
 ### Cosa dicono i certificati
 - sono **documenti commerciali**, non perizie: attestano che il dipinto è a

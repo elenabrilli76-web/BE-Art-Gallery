@@ -113,6 +113,12 @@ def controlla(etichetta: str, testo: str, tipo: str) -> None:
         print(f"   ⚠ {etichetta}: {n} caratteri, la procedura ne vuole {minimo}–{massimo}")
 
 
+def misura(testo: str, st: ParagraphStyle, larghezza: float) -> float:
+    """L'altezza che un paragrafo occuperebbe, senza disegnarlo."""
+    p = Paragraph(testo.replace("'", "\u2019").replace("\n", "<br/>"), st)
+    return p.wrap(larghezza, 10_000)[1]
+
+
 def scrivi(c: Canvas, testo: str, st: ParagraphStyle, x: float, y: float, larghezza: float) -> float:
     """Posa un paragrafo con il bordo superiore in y; restituisce dove finisce."""
     # Apostrofi tipografici: quello dritto della tastiera sulla carta si nota
@@ -172,16 +178,26 @@ def presentazione(scheda: dict, uscita: Path) -> Path:
     filetto(c, m, y, 18 * mm, 1)
     y -= 6 * mm
 
-    corpo = stile("it", fontSize=12, leading=16.5, alignment=TA_JUSTIFY)
+    # I testi di una serie possono superare i 600 caratteri: invece di
+    # sbordare sul piede, il corpo scende di misura quanto basta
+    fondo_utile = m + 9 + 5 * mm
+    for k in (1, 0.95, 0.9, 0.85, 0.8, 0.75):
+        corpo = stile("it", fontSize=12 * k, leading=16.5 * k, alignment=TA_JUSTIFY)
+        inglese = stile("en", fontName="Cormorant-Corsivo", fontSize=10.5 * k,
+                        leading=14 * k, textColor=GRIGIO, alignment=TA_JUSTIFY)
+        serve = misura(testi["it"], corpo, utile)
+        if testi.get("en"):
+            serve += 11 * mm * k + misura(testi["en"], inglese, utile)
+        if y - serve >= fondo_utile:
+            break
+
     y = scrivi(c, testi["it"], corpo, m, y, utile)
 
     if testi.get("en"):
-        y -= 6 * mm
+        y -= 6 * mm * k
         filetto(c, m, y, 8 * mm, 0.6)
-        y -= 5 * mm
-        scrivi(c, testi["en"], stile("en", fontName="Cormorant-Corsivo",
-               fontSize=10.5, leading=14, textColor=GRIGIO,
-               alignment=TA_JUSTIFY), m, y, utile)
+        y -= 5 * mm * k
+        scrivi(c, testi["en"], inglese, m, y, utile)
 
     piede(c, larghezza, m, m)
     c.save()
