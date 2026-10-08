@@ -90,6 +90,16 @@ def nome_file(testo: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", piano.lower()).strip("-") or "opera"
 
 
+def sottotitolo(scheda: dict) -> str:
+    """La riga sotto il nome: dove vive l'artista, o — per una serie senza
+    autore, una collezione — il "sottotitolo" scritto nella scheda."""
+    if scheda.get("sottotitolo"):
+        return scheda["sottotitolo"]
+    if scheda.get("vive_e_lavora"):
+        return f"vive e lavora a {scheda['vive_e_lavora']}"
+    return ""
+
+
 def nome_opera(opera: dict) -> str:
     """Il nome dei file di un'opera. Due opere con lo stesso titolo — «Paesaggio»,
     «Senza titolo» — si distinguono con "file" nella scheda, o si sovrascrivono."""
@@ -154,8 +164,8 @@ def presentazione(scheda: dict, uscita: Path) -> Path:
 
     y = scrivi(c, scheda["nome"], stile("nome", fontName="Cormorant-Forte",
                fontSize=25, leading=28), m, y, utile)
-    if scheda.get("vive_e_lavora"):
-        y = scrivi(c, f"vive e lavora a {scheda['vive_e_lavora']}",
+    if sottotitolo(scheda):
+        y = scrivi(c, sottotitolo(scheda),
                    stile("luogo", fontName="Cormorant-Corsivo", fontSize=11,
                          leading=14, textColor=GRIGIO), m, y - 2, utile)
     y -= 5 * mm
@@ -290,7 +300,7 @@ def word_presentazione(scheda: dict, uscita: Path) -> Path:
     doc.add_paragraph().add_run().add_picture(str(LOGO), width=Mm(24))
     _paragrafo(doc, dopo=18)
     _paragrafo(doc, scheda["nome"], corpo=25, grassetto=True)
-    luogo = _paragrafo(doc, f"vive e lavora a {scheda['vive_e_lavora']}" if scheda.get("vive_e_lavora") else "",
+    luogo = _paragrafo(doc, sottotitolo(scheda),
                        corpo=11, colore=GRIGIO, corsivo=True, dopo=14)
     _filetto(luogo)
     _paragrafo(doc, testi["it"], corpo=12, giustificato=True, interlinea=16.5, dopo=18)
