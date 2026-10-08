@@ -42,13 +42,13 @@
 
 ### *J'accuse*
 
-**Italiano** — _261 caratteri_
+**Italiano** — _293 caratteri_ · v3: l'accusa è della donna verso chi guarda e lascia fare, come chiarito da Elena
 
-> Del volto restano soltanto gli occhi, e guardano dritto chi passa. Linee nere stringono la figura come una rete, intorno il blu è notte. Il titolo è quello di Zola: un atto d'accusa, per le donne afghane, a cui i talebani hanno tolto il volto ma non lo sguardo.
+> Del volto restano soltanto gli occhi, e guardano dritto chi passa. Linee nere stringono la figura come una rete, intorno il blu è notte. Il titolo è quello di Zola, ma l'accusa è sua: una donna afghana che il regime fa scomparire punta lo sguardo su di noi, sul mondo che guarda e lascia fare.
 
 **English**
 
-> Only the eyes remain of the face, and they look straight at whoever passes. Black lines tighten around the figure like a net; around it, the blue is night. The title is Zola's: an act of accusation, for the women of Afghanistan, from whom the Taliban have taken the face but not the gaze.
+> Only the eyes remain of the face, and they look straight at whoever passes. Black lines tighten around the figure like a net; around it, the blue is night. The title is Zola's, but the accusation is hers: an Afghan woman whom the regime is making disappear fixes her gaze on us, on the world that watches and lets it happen.
 
 **Cosa ho visto** — figura avvolta in un velo ocra e oro, steso a spatola in cerchi; volto coperto fino agli occhi, che sono l'unica parte dipinta con dettaglio; linee nere colate in rilievo che disegnano le pieghe come una rete o una gabbia; fondo blu scuro graffiato, con bianchi strappati.
 
