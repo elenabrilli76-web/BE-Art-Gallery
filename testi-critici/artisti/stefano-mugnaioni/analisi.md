@@ -8,7 +8,7 @@
 |---|---|
 | **Vive e lavora** | Prato |
 | **Opere analizzate** | *La luna del cervo*, 2023 (luglio), tecnica mista e acrilico su tela, 50 × 70 cm · *Visioni d'autunno*, 2025, tecnica mista e acrilico su tela, 50 × 70 cm |
-| **Stesura** | 6 ottobre 2026 · v1 — **provvisoria**: due opere sole, la procedura ne chiede da 3 a 5 |
+| **Stesura** | 6 ottobre 2026 · v1 — due opere sole, entrambe in mostra a *I Luoghi dell'Anima* (confermato da Elena l'8 ottobre 2026) |
 
 ---
 

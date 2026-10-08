@@ -8,7 +8,7 @@
 |---|---|
 | **Vive e lavora** | Lucca |
 | **Opere analizzate** | *Arturo*, 2025, acrilico con segatura fissata a colla di coniglio, pastelli a olio, grafite, fissativo su tela, 50 × 50 cm (60 × 60 cm con il supporto in legno verniciato) |
-| **Stesura** | 6 ottobre 2026 · v1 — **provvisoria**: un'opera sola, la procedura ne chiede da 3 a 5 |
+| **Stesura** | 6 ottobre 2026 · v1 — un'opera sola: è l'unica in mostra a *I Luoghi dell'Anima* (confermato da Elena l'8 ottobre 2026) |
 | **Contesto** | in mostra a *I Luoghi dell'Anima* con *Arturo* |
 
 ---
