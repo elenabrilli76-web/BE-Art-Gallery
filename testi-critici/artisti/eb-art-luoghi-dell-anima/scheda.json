@@ -1,0 +1,34 @@
+{
+  "nome": "E.B.Art",
+  "sottotitolo": "I luoghi dell'anima",
+  "presentazione": {
+    "it": "Per E.B.Art il luogo dell'anima non si trova: si costruisce, strato su strato. Carta stropicciata, foglia d'argento, paste in rilievo, brillantini e colore si sovrappongono finché la superficie diventa paesaggio interiore. Un albero piegato dal vento che non si spezza, un tramonto sciolto nei pastelli, spirali d'oro che girano su sé stesse, fiori che sbocciano fuori stagione: stati d'animo diversi, una sola emozione che cambia forma. È il metamorfismo emotivo della sua ricerca: come la pietra sotto pressione, la materia si trasforma senza perdere sé stessa.",
+    "en": "For E.B.Art the place of the soul is not found: it is built, layer upon layer. Crumpled paper, silver leaf, relief pastes, glitter and colour overlap until the surface becomes an inner landscape. A tree bent by the wind that does not break, a sunset melting into pastels, golden spirals turning on themselves, flowers blooming out of season: different states of mind, a single emotion changing shape. This is the emotional metamorphism of her research: like stone under pressure, matter is transformed without losing itself."
+  },
+  "opere": [
+    {
+      "titolo": "Resilienza",
+      "tecnica": "tecnica mista multimaterica",
+      "didascalia": {
+        "it": "Il vento ha piegato il tronco fino a terra, ma le radici tengono. Rami neri e nodosi si allungano contro un cielo che sfuma dal viola al turchese, e la carta stropicciata dà alla superficie la ruvidità della corteccia: resistere, qui, è un modo di fiorire.",
+        "en": "The wind has bent the trunk to the ground, but the roots hold. Black, knotted branches reach out against a sky fading from violet to turquoise, and the crumpled paper gives the surface the roughness of bark: here, to resist is a way of blossoming."
+      }
+    },
+    {
+      "titolo": "Tramonto pastello",
+      "tecnica": "tecnica mista multimaterica",
+      "didascalia": {
+        "it": "Il sole scende dietro un orizzonte fatto di strisce sovrapposte, azzurre e rosa come onde. La foglia d'argento accende il mare a tratti, la superficie screpolata trattiene la luce: un tramonto che non brucia, ma si scioglie in silenzio.",
+        "en": "The sun sets behind a horizon made of overlapping strips, blue and pink like waves. Silver leaf lights up the sea here and there, the crackled surface holds the light: a sunset that does not burn, but melts away in silence."
+      }
+    },
+    {
+      "titolo": "Zen",
+      "tecnica": "tecnica mista multimaterica",
+      "didascalia": {
+        "it": "Spirali d'oro si avvolgono su sé stesse e si rincorrono sul fondo scuro, come cerchi tracciati in un solo respiro. Il rosso e il verde si posano sopra senza turbarne il moto: è la quiete che nasce dal tornare, giro dopo giro, al proprio centro.",
+        "en": "Golden spirals coil around themselves and chase one another across the dark ground, like circles drawn in a single breath. Red and green settle on them without disturbing their motion: the calm that comes from returning, turn after turn, to one's own centre."
+      }
+    }
+  ]
+}
