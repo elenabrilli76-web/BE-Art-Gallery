@@ -7,7 +7,7 @@
 
 | | |
 |---|---|
-| **Opere** | *Holy Mother*, dedicata alle madri di Palestina · *J'accuse*, dedicata alle donne iraniane |
+| **Opere** | *Holy Mother*, dedicata alle madri di Palestina · *J'accuse*, dedicata alle donne afghane |
 | **Spunto di Elena** | l'arte come strumento potente di denuncia, per tenere alta l'attenzione; la frase di Dostoevskij, «La bellezza salverà il mondo» (*L'idiota*) |
 | **Da completare** | misure e tecniche esatte: sul cartellino per ora «tecnica mista su tela» |
 | **Stesura** | 8 ottobre 2026 · v1 |
@@ -16,13 +16,13 @@
 
 ## Testo delle due opere
 
-**Italiano** — _595 caratteri_
+**Italiano** — _608 caratteri_
 
-> «La bellezza salverà il mondo», scrive Dostoevskij. Ma solo se non distoglie lo sguardo. In queste due opere E.B.Art usa la bellezza come una lente: l'oro, la porpora, il velo, gli occhi azzurri attirano chi guarda e lo trattengono abbastanza a lungo da fargli vedere il resto. Holy Mother è dedicata alle madri di Palestina, J'accuse alle donne iraniane a cui un regime impone di scomparire sotto il velo. Collocate in due punti chiave della galleria, ricordano che l'arte non è solo rifugio: è anche un modo di tenere gli occhi aperti. Fra i luoghi dell'anima c'è anche quello della coscienza.
+> «La bellezza salverà il mondo», scrive Dostoevskij. Ma solo se non distoglie lo sguardo. In queste due opere E.B.Art usa la bellezza come una lente: l'oro, la porpora, il velo, gli occhi azzurri attirano chi guarda e lo trattengono abbastanza a lungo da fargli vedere il resto. Holy Mother è dedicata alle madri di Palestina, J'accuse alle donne afghane, a cui il regime dei talebani impone di scomparire sotto il velo. Collocate in due punti chiave della galleria, ricordano che l'arte non è solo rifugio: è anche un modo di tenere gli occhi aperti. Fra i luoghi dell'anima c'è anche quello della coscienza.
 
 **English** — _564 characters_
 
-> “Beauty will save the world,” Dostoevsky wrote. But only if it does not look away. In these two works E.B.Art uses beauty as a lens: gold, purple, the veil, the blue eyes draw the viewer in and hold them long enough to see the rest. Holy Mother is dedicated to the mothers of Palestine, J'accuse to the Iranian women whom a regime forces to vanish beneath the veil. Placed at two key points in the gallery, they remind us that art is not only a refuge: it is also a way of keeping our eyes open. Among the places of the soul, there is also the place of conscience.
+> “Beauty will save the world,” Dostoevsky wrote. But only if it does not look away. In these two works E.B.Art uses beauty as a lens: gold, purple, the veil, the blue eyes draw the viewer in and hold them long enough to see the rest. Holy Mother is dedicated to the mothers of Palestine, J'accuse to the women of Afghanistan, whom the Taliban regime forces to vanish beneath the veil. Placed at two key points in the gallery, they remind us that art is not only a refuge: it is also a way of keeping our eyes open. Among the places of the soul, there is also the place of conscience.
 
 ---
 
@@ -42,13 +42,13 @@
 
 ### *J'accuse*
 
-**Italiano** — _248 caratteri_
+**Italiano** — _261 caratteri_
 
-> Del volto restano soltanto gli occhi, e guardano dritto chi passa. Linee nere stringono la figura come una rete, intorno il blu è notte. Il titolo è quello di Zola: un atto d'accusa, per le donne a cui un regime ha tolto il volto ma non lo sguardo.
+> Del volto restano soltanto gli occhi, e guardano dritto chi passa. Linee nere stringono la figura come una rete, intorno il blu è notte. Il titolo è quello di Zola: un atto d'accusa, per le donne afghane, a cui i talebani hanno tolto il volto ma non lo sguardo.
 
 **English**
 
-> Only the eyes remain of the face, and they look straight at whoever passes. Black lines tighten around the figure like a net; around it, the blue is night. The title is Zola's: an act of accusation, for the women from whom a regime has taken the face but not the gaze.
+> Only the eyes remain of the face, and they look straight at whoever passes. Black lines tighten around the figure like a net; around it, the blue is night. The title is Zola's: an act of accusation, for the women of Afghanistan, from whom the Taliban have taken the face but not the gaze.
 
 **Cosa ho visto** — figura avvolta in un velo ocra e oro, steso a spatola in cerchi; volto coperto fino agli occhi, che sono l'unica parte dipinta con dettaglio; linee nere colate in rilievo che disegnano le pieghe come una rete o una gabbia; fondo blu scuro graffiato, con bianchi strappati.
 
@@ -58,13 +58,7 @@
 
 - **«J'accuse»**: il titolo dell'articolo di Émile Zola del 1898 sull'affare
   Dreyfus, diventato sinonimo di denuncia pubblica di un'ingiustizia
-- **attenzione a un dettaglio**: Elena ha scritto «donne iraniane sotto il
-  regime dei talebani». I talebani governano l'**Afghanistan**; l'Iran è una
-  repubblica islamica governata dal clero sciita, dove il velo obbligatorio è
-  al centro delle proteste «Donna, vita, libertà» dal 2022. Il testo dice
-  «donne iraniane» e «un regime», senza nominare i talebani: è corretto in
-  ogni caso. **Da confermare con Elena** se la dedica è alle iraniane o alle
-  afghane
+- **la dedica**: alle donne **afghane**, sotto il regime dei talebani — confermato da Elena l'8 ottobre 2026
 - il legame con il resto della mostra: *Terra promessa* di **Enzo Mazzanti**,
   anch'essa dedicata alla Palestina; e le donne dal volto nascosto di **Maria
   Cristina Andreini**, dove però nascondere il volto è una scelta di libertà,
