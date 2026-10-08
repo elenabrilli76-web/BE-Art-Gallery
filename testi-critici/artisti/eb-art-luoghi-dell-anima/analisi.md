@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | **Opere** | *Resilienza* · *Tramonto pastello* · *Anemoni di mare* · *Zen* · *Primavera d'autunno* — tecniche miste multimateriche |
-| **Da completare** | misure |
+| **Dati delle opere** | «tecnica mista multimaterica», senza misure: definitivo (scelta di Elena, 8 ottobre 2026) |
 | **Stesura** | 8 ottobre 2026 · v1 |
 
 ---

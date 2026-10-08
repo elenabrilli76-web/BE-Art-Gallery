@@ -9,7 +9,7 @@
 |---|---|
 | **Opere** | *Holy Mother*, dedicata alle madri di Palestina · *J'accuse*, dedicata alle donne afghane |
 | **Spunto di Elena** | l'arte come strumento potente di denuncia, per tenere alta l'attenzione; la frase di Dostoevskij, «La bellezza salverà il mondo» (*L'idiota*) |
-| **Da completare** | misure e tecniche esatte: sul cartellino per ora «tecnica mista su tela» |
+| **Dati delle opere** | «tecnica mista su tela», senza misure: definitivo (scelta di Elena, 8 ottobre 2026) |
 | **Stesura** | 8 ottobre 2026 · v1 |
 
 ---
