@@ -46,6 +46,11 @@ def dati_opera(opera: dict) -> str:
 # PDF
 # ----------------------------------------------------------------------------
 
+def carta(cv: Canvas) -> None:
+    """Lo sfondo crema dei documenti singoli, su tutta la pagina."""
+    c.fondo(cv, A4)
+
+
 def piede(cv: Canvas, pagina: int) -> None:
     larghezza = A4[0]
     c.filetto(cv, M, M - 2 * mm, larghezza - 2 * M, 0.4)
@@ -62,6 +67,7 @@ def testo_mostra(cv: Canvas, cfg: dict, pagina: int) -> int:
     larghezza, altezza = A4
     utile = larghezza - 2 * M
     fondo = M + 6 * mm
+    carta(cv)
     c.logo(cv, M, altezza - M, 34 * mm)
     y = altezza - M - 48 * mm
     y = c.scrivi(cv, cfg["titolo"], c.stile("t", fontName="Cormorant-Forte", fontSize=34, leading=38), M, y, utile)
@@ -83,6 +89,7 @@ def testo_mostra(cv: Canvas, cfg: dict, pagina: int) -> int:
             if y - serve < fondo:
                 piede(cv, pagina)
                 cv.showPage()
+                carta(cv)
                 pagina += 1
                 y = altezza - M
             y = c.scrivi(cv, voce["titolo"], titoletto, M, y - 3 * mm, utile) - 3 * mm
@@ -101,6 +108,7 @@ def testo_mostra(cv: Canvas, cfg: dict, pagina: int) -> int:
                 par = pezzi[1]
             piede(cv, pagina)
             cv.showPage()
+            carta(cv)
             pagina += 1
             y = altezza - M
     piede(cv, pagina)
@@ -184,6 +192,7 @@ def pdf(cfg: dict, schede: list[dict], file: Path) -> None:
     n = testo_mostra(cv, cfg, 1)
     for scheda in schede:
         cv.showPage()
+        carta(cv)
         n += 1
         pagina_artista(cv, scheda)
         piede(cv, n)
@@ -213,6 +222,13 @@ def titoletto(doc, testo, livello, corpo, grassetto=False, corsivo=True):
 
 def word(cfg: dict, schede: list[dict], file: Path) -> None:
     doc = c._documento(A4, 20, f"{cfg['titolo']} — catalogo")
+    # Il colore di pagina crema: Word lo mostra e lo stampa se nelle opzioni
+    # di stampa è attivo «Stampa colori e immagini di sfondo»
+    sfondo = c.OxmlElement("w:background")
+    sfondo.set(c.qn("w:color"), c.CARTA.hexval()[2:].upper())
+    doc.element.insert(0, sfondo)
+    mostra = c.OxmlElement("w:displayBackgroundShape")
+    doc.settings.element.insert(0, mostra)
     p = lambda *a, **k: c._paragrafo(doc, *a, **k)  # noqa: E731
 
     doc.add_paragraph().add_run().add_picture(str(c.LOGO), width=Mm(34))
@@ -289,38 +305,42 @@ LOGO_PUBBLICO = ("https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gal
 
 
 def html(cfg: dict, schede: list[dict]) -> str:
+    """Google Docs, importando, rispetta caratteri e corsivi definiti a classi,
+    ma non i colori dei bordi né page-break sui titoli: quelli vanno in linea,
+    e il salto di pagina è un <br> dedicato."""
     from html import escape
 
     def e(t):
         return escape(t.replace("'", "\u2019"))
 
-    stile = """<style>
+    stile = """<style>@page{size:21cm 29.7cm;margin:2cm}
 body,p,h1,h2,td{font-family:Garamond,serif;color:#1E1B18}
 p{font-size:12pt;line-height:1.4;text-align:justify;margin:0 0 8pt 0}
 h1{font-size:24pt;font-weight:bold;margin:0 0 2pt 0}
-h1.m{font-size:32pt;margin:24pt 0 2pt 0}
 h2{font-size:15pt;font-style:italic;font-weight:normal;margin:14pt 0 4pt 0}
 .s{font-size:12pt;font-style:italic;color:#6B645B;margin:0}
-.f{border-bottom:1.5pt solid #C9A227;padding-bottom:6pt;margin-bottom:12pt}
 .l{font-size:11pt;color:#6B645B}
 .pr{font-size:11.5pt;margin-bottom:14pt}
 .t{font-size:13pt;font-style:italic;margin:0;text-align:left}
-.d{font-size:8.5pt;color:#6B645B;border-bottom:1pt solid #C9A227;padding-bottom:4pt;margin:0 0 5pt 0;text-align:left}
+.d{font-size:8.5pt;color:#6B645B;margin:0 0 5pt 0;text-align:left}
 .c{font-size:10pt}
 td{vertical-align:top;padding:0 10pt 12pt 0;border:none}
 table{border-collapse:collapse;width:100%;border:none}
-.n{page-break-before:always}
 </style>"""
-    out = [f'<html><head><meta charset="utf-8">{stile}</head><body>']
+    oro = ' style="border-bottom:1.5pt solid #C9A227;padding-bottom:6pt;margin-bottom:12pt"'
+    oro_d = ' style="border-bottom:1pt solid #C9A227;padding-bottom:4pt"'
+    salto = '<br style="page-break-before:always;clear:both">'
+    out = [f'<html><head><meta charset="utf-8">{stile}</head><body style="background-color:#FAF7F0">']
     out.append(f'<p><img src="{LOGO_PUBBLICO}" width="160"></p>')
-    out.append(f'<h1 class="m">{e(cfg["titolo"])}</h1>')
+    out.append(f'<h1 style="font-size:32pt;margin-top:24pt">{e(cfg["titolo"])}</h1>')
     out.append(f'<p class="s">{e(cfg["sottotitolo"])}</p>')
-    out.append(f'<p class="l f">{e(cfg["luogo"])}</p>')
+    out.append(f'<p class="l"{oro}>{e(cfg["luogo"])}</p>')
     for voce in cfg["testo"]:
         out.append(f'<h2>{e(voce["titolo"])}</h2>' if isinstance(voce, dict) else f'<p>{e(voce)}</p>')
     for s in schede:
-        out.append(f'<h1 class="n">{e(s["nome"])}</h1>')
-        out.append(f'<p class="s f">{e(c.sottotitolo(s)) or "&nbsp;"}</p>')
+        out.append(salto)
+        out.append(f'<h1>{e(s["nome"])}</h1>')
+        out.append(f'<p class="s"{oro}>{e(c.sottotitolo(s)) or "&nbsp;"}</p>')
         if s.get("presentazione", {}).get("it"):
             out.append(f'<p class="pr">{e(s["presentazione"]["it"])}</p>')
         opere = [o for o in s.get("opere", []) if o.get("didascalia", {}).get("it")]
@@ -330,7 +350,7 @@ table{border-collapse:collapse;width:100%;border:none}
         out.append("<table>")
         for i in range(0, len(opere), col):
             celle = "".join(f'<td width="{100 // col}%"><p class="t">{e(o["titolo"])}</p>'
-                            f'<p class="d">{e(dati_opera(o)) or "&nbsp;"}</p>'
+                            f'<p class="d"{oro_d}>{e(dati_opera(o)) or "&nbsp;"}</p>'
                             f'<p class="c">{e(o["didascalia"]["it"])}</p></td>' for o in opere[i:i + col])
             out.append(f"<tr>{celle}</tr>")
         out.append("</table>")
