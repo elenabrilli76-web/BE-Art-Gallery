@@ -9,6 +9,7 @@
 
 | Artista | Opera in mostra | Come abita il tema |
 |---|---|---|
+| [E.B.Art](../artisti/eb-art/analisi.md) | *Holy Mother* · *J'accuse* — in due punti chiave della galleria | il luogo dell'anima come coscienza: la bellezza che non distoglie lo sguardo |
 | [Enzo Mazzanti](../artisti/enzo-mazzanti/analisi.md) | ciclo *Solitudine* (4 opere) · *Terra promessa* | il luogo dell'anima come cammino: un viandante solo in paesaggi che cambiano; e la terra perduta di un popolo in esilio |
 | [Maria Cristina Andreini](../artisti/maria-cristina-andreini/analisi.md) | *Passeggiando con i piedi nell'acqua* · *La ragazza sul muretto* | il luogo dell'anima come momento per sé: il mare, la soglia fra il quotidiano e la libertà |
 | [*Fiori dal buio* — collezione privata](../artisti/collezione-privata-fiori/analisi.md) | quattro nature morte di fiori, autori non identificati | il luogo dell'anima come casa ricordata: i quadri che stavano sopra la credenza |
