@@ -40,8 +40,9 @@
 | **i cacciatori col cane** — due figure di spalle con fucile e cane, sentiero fra gli alberi | in basso a destra: **«V. Nebbia»**, sottolineata — leggibile | — | stessa mano del viottolo: stessa cornice, stessa pittura, stesse figure piccole |
 | **il villaggio sotto le cime** — baite, due figure sul sentiero, montagne innevate | in basso a sinistra, in bianco: **«De Florentis»** — leggibile | a penna: **«Dolomiti»** | pennellate rapide e chiare sulle cime, toni bruni nel prato |
 
-> L'attribuzione del retro «… Nebbia 1981» al viottolo è una deduzione: il
-> viottolo porta una data accanto alla firma. **Da confermare con Elena.**
+> **Confermato da Elena**: il viottolo e i cacciatori sono entrambi di
+> V. Nebbia. Il retro con la data 1981 è di uno dei due — nel testo resta
+> «sul retro di uno», che è esatto in ogni caso.
 
 ### Cosa ho cercato
 - **«V. Nebbia»**: in rete nessun pittore del Novecento con questo nome. Esce
