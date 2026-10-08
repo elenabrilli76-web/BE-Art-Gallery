@@ -8,20 +8,20 @@
 | | |
 |---|---|
 | **Opere** | *Resilienza* · *Tramonto pastello* · *Anemoni di mare* · *Zen* · *Primavera d'autunno* — tecniche miste multimateriche |
-| **Da completare** | misure; **quale foto è *Anemoni di mare* e quale *Primavera d'autunno*** |
+| **Da completare** | misure |
 | **Stesura** | 8 ottobre 2026 · v1 |
 
 ---
 
 ## Presentazione
 
-**Italiano** — _563 caratteri_
+**Italiano** — _580 caratteri_ · v2, con l'abbinamento corretto titoli-foto
 
-> Per E.B.Art il luogo dell'anima non si trova: si costruisce, strato su strato. Carta stropicciata, foglia d'argento, paste in rilievo, brillantini e colore si sovrappongono finché la superficie diventa paesaggio interiore. Un albero piegato dal vento che non si spezza, un tramonto sciolto nei pastelli, spirali d'oro che girano su sé stesse, fiori che sbocciano fuori stagione: stati d'animo diversi, una sola emozione che cambia forma. È il metamorfismo emotivo della sua ricerca: come la pietra sotto pressione, la materia si trasforma senza perdere sé stessa.
+> Per E.B.Art il luogo dell'anima non si trova: si costruisce, strato su strato. Carta stropicciata, foglia d'argento, paste in rilievo, brillantini e colore si sovrappongono finché la superficie diventa paesaggio interiore. Fiori che si piegano senza spezzarsi, un tramonto sciolto nei pastelli, anemoni mossi dalla corrente, un albero contorto che trova la sua quiete, rose d'oro fuori stagione: stati d'animo diversi, una sola emozione che cambia forma. È il metamorfismo emotivo della sua ricerca: come la pietra sotto pressione, la materia si trasforma senza perdere sé stessa.
 
-**English** — _524 characters_
+**English** — _542 characters_
 
-> For E.B.Art the place of the soul is not found: it is built, layer upon layer. Crumpled paper, silver leaf, relief pastes, glitter and colour overlap until the surface becomes an inner landscape. A tree bent by the wind that does not break, a sunset melting into pastels, golden spirals turning on themselves, flowers blooming out of season: different states of mind, a single emotion changing shape. This is the emotional metamorphism of her research: like stone under pressure, matter is transformed without losing itself.
+> For E.B.Art the place of the soul is not found: it is built, layer upon layer. Crumpled paper, silver leaf, relief pastes, glitter and colour overlap until the surface becomes an inner landscape. Flowers that bend without breaking, a sunset melting into pastels, anemones swaying in the current, a twisted tree that finds its calm, golden roses out of season: different states of mind, a single emotion changing shape. This is the emotional metamorphism of her research: like stone under pressure, matter is transformed without losing itself.
 
 Il testo nomina il **metamorfismo emotivo**, il nome che Elena dà alla sua
 ricerca (`CLAUDE.md`, sezione 2), e lascia lavorare da solo il rimando alla
@@ -31,15 +31,21 @@ pietra.
 
 ## Didascalie
 
+> **v1 scartata**: avevo abbinato *Resilienza* all'albero e *Zen* alle
+> spirali. L'ordine giusto, confermato da Elena, è quello delle foto: fiori,
+> tramonto, anemoni, albero, spirali.
+
 ### *Resilienza*
 
-**Italiano** — _256 caratteri_
+**Italiano** — _270 caratteri_
 
-> Il vento ha piegato il tronco fino a terra, ma le radici tengono. Rami neri e nodosi si allungano contro un cielo che sfuma dal viola al turchese, e la carta stropicciata dà alla superficie la ruvidità della corteccia: resistere, qui, è un modo di fiorire.
+> Tre fiori si alzano su steli sottili, contornati da un segno scuro in rilievo che li regge come un'armatura. Uno si piega, gli altri tengono; intorno, cerchi e strisce scure come ferite. Fragili e tenaci insieme: resilienza è restare in fiore anche quando il vento gira.
 
 **English**
 
-> The wind has bent the trunk to the ground, but the roots hold. Black, knotted branches reach out against a sky fading from violet to turquoise, and the crumpled paper gives the surface the roughness of bark: here, to resist is a way of blossoming.
+> Three flowers rise on slender stems, outlined by a dark raised line that holds them up like armour. One bends, the others stand; around them, circles and dark strips like wounds. Fragile and tenacious at once: resilience is staying in bloom even when the wind turns.
+
+**Cosa ho visto** — tre fiori rosa e corallo su steli verde acqua, contorni scuri in rilievo; il fiore di sinistra si piega; cerchi incisi e strisce di foglia scura ai margini; fondo rosa che sfuma nel giallo.
 
 ### *Tramonto pastello*
 
@@ -51,25 +57,43 @@ pietra.
 
 > The sun sets behind a horizon made of overlapping strips, blue and pink like waves. Silver leaf lights up the sea here and there, the crackled surface holds the light: a sunset that does not burn, but melts away in silence.
 
-### *Zen*
+**Cosa ho visto** — orizzonte a strisce di carta sovrapposte, azzurre, verdi e rosa; sole pallido screpolato; foglia d'argento a macchie; cornice dipinta avorio.
 
-**Italiano** — _244 caratteri_
+### *Anemoni di mare*
 
-> Spirali d'oro si avvolgono su sé stesse e si rincorrono sul fondo scuro, come cerchi tracciati in un solo respiro. Il rosso e il verde si posano sopra senza turbarne il moto: è la quiete che nasce dal tornare, giro dopo giro, al proprio centro.
+**Italiano** — _247 caratteri_
+
+> Forme rosse, fucsia e oro ondeggiano come tentacoli mossi dalla corrente, punteggiate di bianco come gocce di luce. Il fondo di carta stropicciata, grigio e argento, è l'acqua profonda: un giardino sommerso dove la vita si muove lenta, senza peso.
 
 **English**
 
-> Golden spirals coil around themselves and chase one another across the dark ground, like circles drawn in a single breath. Red and green settle on them without disturbing their motion: the calm that comes from returning, turn after turn, to one's own centre.
+> Red, fuchsia and gold forms sway like tentacles moved by the current, dotted with white like drops of light. The crumpled-paper ground, grey and silver, is deep water: a submerged garden where life moves slowly, weightless.
 
-### *Anemoni di mare* e *Primavera d'autunno* — in attesa
+**Cosa ho visto** — forme ondulate rosse, fucsia e oro, contornate di bianco a puntini, che salgono da un unico punto in basso come tentacoli; fondo grigio e argento di carta stropicciata.
 
-Due foto restano da abbinare ai titoli:
-- **i tre fiori rosa e corallo**, contornati da un rilievo scuro, con steli
-  verde acqua, cerchi tracciati e strisce di foglia scura ai margini
-- **la forma fiammeggiante rossa, fucsia e oro** su fondo grigio di carta
-  stropicciata, con puntinature bianche lungo i contorni
+### *Zen*
 
-Le didascalie si scrivono quando Elena conferma l'abbinamento.
+**Italiano** — _262 caratteri_
+
+> Un albero nero si torce sull'orizzonte e affonda le radici in una terra accesa di rosa e d'oro. Sopra, il cielo passa dal viola al turchese e i brillantini si posano come polvere di luce: la quiete non è assenza di tensione, ma la calma di chi ha trovato radici.
+
+**English**
+
+> A black tree twists on the horizon and sinks its roots into earth glowing pink and gold. Above, the sky shifts from violet to turquoise and glitter settles like dust of light: calm is not the absence of tension, but the stillness of one who has found roots.
+
+**Cosa ho visto** — albero nero contorto, tronco a spirale, radici su un orizzonte basso; cielo a fasce dal turchese al viola all'arancio; carta stropicciata e brillantini.
+
+### *Primavera d'autunno*
+
+**Italiano** — _232 caratteri_
+
+> Rose d'oro si aprono in spirali, accese di rosso e di verde, su un fondo che scende verso il buio. È una fioritura fuori stagione: la primavera che torna quando non la si aspetta più, il calore dell'oro dentro i colori dell'autunno.
+
+**English**
+
+> Golden roses open in spirals, lit with red and green, against a ground that sinks into darkness. It is a bloom out of season: spring returning when no one expects it any more, the warmth of gold within the colours of autumn.
+
+**Cosa ho visto** — spirali d'oro come rose, intrecciate di rosso a sinistra e di verde a destra; fondo che scende dal bianco al nero; brillantini oro e verdi.
 
 ---
 
@@ -85,8 +109,9 @@ Le didascalie si scrivono quando Elena conferma l'abbinamento.
 - **la natura come stato d'animo**: albero, mare, fiori, spirale
 
 ### Collegamenti con la mostra
-- *Resilienza* e l'albero di **Catia Massai** (*Spensieratezza*): l'albero da
-  abbracciare e l'albero che resiste
+- *Zen* e l'albero di **Catia Massai** (*Spensieratezza*): l'albero da
+  abbracciare e l'albero che trova le sue radici
+- *Anemoni di mare* e il mare della collezione privata e di **Andreini**
 - *Tramonto pastello* e la **luce della sera** di **Tonino Giampà** e del golfo
   delle *Finestre sul mare*
 - la **materia stratificata** di **Stefano Mugnaioni** e la carta stropicciata
