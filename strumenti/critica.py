@@ -208,7 +208,7 @@ def didascalia(scheda: dict, opera: dict, uscita: Path) -> Path:
                fontSize=11, leading=13), m, y, utile - 18 * mm)
     y = scrivi(c, opera["titolo"], stile("titolo", fontName="Cormorant-Corsivo",
                fontSize=16, leading=19), m, y - 1, utile - 18 * mm)
-    dati = "  ·  ".join(str(opera[k]) for k in ("anno", "tecnica", "misure") if opera.get(k))
+    dati = "  ·  ".join(str(opera[k]) for k in ("anno", "tecnica", "misure", "provenienza") if opera.get(k))
     if dati:
         y = scrivi(c, dati, stile("dati", fontSize=9, leading=11.5,
                    textColor=GRIGIO), m, y - 1, utile)
@@ -317,7 +317,7 @@ def word_didascalia(scheda: dict, opera: dict, uscita: Path) -> Path:
     doc = _documento(A6_ORIZZONTALE, 11, f"{scheda['nome']} — {opera['titolo']}")
     _paragrafo(doc, scheda["nome"], corpo=11, grassetto=True)
     _paragrafo(doc, opera["titolo"], corpo=16, corsivo=True)
-    dati = "  ·  ".join(str(opera[k]) for k in ("anno", "tecnica", "misure") if opera.get(k))
+    dati = "  ·  ".join(str(opera[k]) for k in ("anno", "tecnica", "misure", "provenienza") if opera.get(k))
     _filetto(_paragrafo(doc, dati, corpo=9, colore=GRIGIO, dopo=8))
     _paragrafo(doc, testi["it"], corpo=10.5, giustificato=True, interlinea=13.5, dopo=6)
     if testi.get("en"):
