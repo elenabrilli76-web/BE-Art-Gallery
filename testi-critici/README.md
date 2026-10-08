@@ -40,4 +40,22 @@ Se si ritocca un testo a mano dentro `scheda.json`, PDF, PNG e Word si rifanno c
 py strumenti\critica.py nome-cognome
 ```
 
+## Il catalogo della mostra
+
+Tutte le schede di una mostra in un documento solo, A4, stampabile, solo in
+italiano: una pagina con il testo della mostra, poi una pagina per artista
+con presentazione e didascalie.
+
+```
+testi-critici/mostre/catalogo/i-luoghi-dell-anima.pdf
+testi-critici/mostre/catalogo/i-luoghi-dell-anima.docx
+```
+
+Il testo della mostra e l'ordine degli artisti stanno in
+`testi-critici/mostre/i-luoghi-dell-anima.json`. Si rifà con:
+
+```
+py strumenti\catalogo.py i-luoghi-dell-anima
+```
+
 👉 Il metodo di analisi e le regole di scrittura: [`PROCEDURA.md`](PROCEDURA.md)
