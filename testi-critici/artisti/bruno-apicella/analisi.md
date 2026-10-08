@@ -6,8 +6,8 @@
 
 | | |
 |---|---|
-| **Opera** | *Costiera Amalfitana*, olio su tela, 60 × 90 cm |
-| **Fonte dei dati** | scritta a penna sul retro della tela: «"Costiera Amalfitana" / Olio su tela di / Bruno Apicella (Napoli) / f.s. 60×90». La sigla «f.s.» non è sciolta |
+| **Opera** | *Casolari amalfitani*, olio su tela, 60 × 90 cm |
+| **Fonte dei dati** | scritta a penna sul retro della tela: «"Casolari Amalfitani" / Olio su tela di / Bruno Apicella (Napoli) / f.s. 60×90». La sigla «f.s.» non è sciolta |
 | **Stesura** | 8 ottobre 2026 · v1 — solo didascalia |
 
 ---
@@ -26,12 +26,22 @@
 
 ---
 
-## La ricerca sull'autore
+## L'autore
 
-- **in rete non risulta nessun pittore «Bruno Apicella»**, a Napoli o altrove. Escono solo omonimi di altri ambiti (Enzo Apicella, vignettista e designer napoletano a Londra; musicisti)
-- la scritta sul retro è di una mano qualunque — del pittore, di un mercante, del collezionista: **non è una firma** e non basta a un'attribuzione certa
-- «(Napoli)» e il soggetto — la Costiera, il vicolo con arco aperto sul mare — portano verso il **Sud**, non verso il Veneto: probabilmente non è della stessa area dei *Fiori dal buio*, anche se viene dalla stessa collezione
-- il genere — il vicolo mediterraneo fiorito, la veduta di costa per l'arredamento, la cornice dorata con passe-partout in tela — è molto diffuso fra gli anni Settanta e i Novanta. Come per i *Fiori*, è **un'ipotesi** di collocazione, non un dato
+**Da Elena**, 8 ottobre 2026: Bruno Apicella è un pittore professionista di
+matrice vedutista. Le sue opere — paesaggi italiani, scorci di Napoli, della
+Costiera e dei Navigli a Milano — compaiono periodicamente sul mercato
+secondario, in gallerie e case d'asta specializzate in pittura del Novecento.
+Lo stile si distingue per la resa prospettica, l'uso materico del colore e
+l'attenzione alla luce mediterranea.
+
+**La mia ricerca in rete** non aveva trovato riscontri sul nome: le
+informazioni qui sopra vengono da Elena e non le ho verificate su fonti
+pubblicate. Sono coerenti con quello che si vede nell'opera — prospettiva del
+vicolo, colore corposo, luce del Sud — e con «(Napoli)» scritto sul retro.
+
+- probabilmente **non è della stessa area dei *Fiori dal buio***, anche se
+  viene dalla stessa collezione: il nome e il soggetto portano a Napoli
 
 ### Cosa potrebbe confermare
 1. una **firma sul fronte**, di solito in basso: dalla foto non si vede
