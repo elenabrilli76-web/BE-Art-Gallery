@@ -12,6 +12,7 @@
 | [Enzo Mazzanti](../artisti/enzo-mazzanti/analisi.md) | ciclo *Solitudine* (4 opere) · *Terra promessa* | il luogo dell'anima come cammino: un viandante solo in paesaggi che cambiano; e la terra perduta di un popolo in esilio |
 | [Maria Cristina Andreini](../artisti/maria-cristina-andreini/analisi.md) | *Passeggiando con i piedi nell'acqua* · *La ragazza sul muretto* | il luogo dell'anima come momento per sé: il mare, la soglia fra il quotidiano e la libertà |
 | [*Fiori dal buio* — collezione privata](../artisti/collezione-privata-fiori/analisi.md) | quattro nature morte di fiori, autori non identificati | il luogo dell'anima come casa ricordata: i quadri che stavano sopra la credenza |
+| [*Finestre sul mare* — collezione privata](../artisti/collezione-privata-mare/analisi.md) | quattro marine, autori non identificati | il mare come luogo dell'anima: un orizzonte appeso in casa, fra partenza e ritorno |
 | [Bruno Apicella](../artisti/bruno-apicella/analisi.md) — stessa collezione privata | *Casolari amalfitani* | il luogo dell'anima come paesaggio ricordato: il vicolo che si apre sul mare |
 | [Patrizia Vangelisti](../artisti/patrizia-vangelisti/analisi.md) | *Arturo*, 2025 | il luogo dell'anima come stanza della memoria: un angolo di casa visto dall'alto, un pesce rosso che lo custodisce |
 | [Catia Massai](../artisti/catia-massai/analisi.md) | *Il giardino dei sogni*, 2026 · *Spensieratezza*, 2019 | il luogo dell'anima come natura in cui entrare: una soglia di pietra sul giardino, un albero da abbracciare |
@@ -24,6 +25,7 @@
 - la **terra d'origine** ricordata come luce e orizzonte
 - il **cammino**: il viandante di Mazzanti, i sentieri di Massai, la donna che entra nel mare di Andreini
 - l'**acqua** come soglia: il mare, l'ampolla, la nebbia
+- il **mare** visto da casa: le *Finestre sul mare* e i *Casolari amalfitani* della collezione privata, accanto al mare vissuto di Andreini e agli orizzonti di Giampà
 - la **soglia** e il **riparo**: l'angolo di casa, l'arco sul giardino, l'abbraccio all'albero
 - l'**arco d'ingresso**: *Il giardino dei sogni* di Massai e *Casolari amalfitani* di Apicella si aprono entrambi con un arco di pietra che fa da porta al quadro — da appendere vicini
 
