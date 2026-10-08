@@ -1,0 +1,43 @@
+# Bruno Apicella — analisi
+
+> Un'opera della stessa collezione privata dei *Fiori dal buio*. Il nome
+> dell'autore e il titolo vengono da una scritta sul retro della tela: è
+> l'unico dato, e non è una firma. Procedura: [`../../PROCEDURA.md`](../../PROCEDURA.md)
+
+| | |
+|---|---|
+| **Opera** | *Costiera Amalfitana*, olio su tela, 60 × 90 cm |
+| **Fonte dei dati** | scritta a penna sul retro della tela: «"Costiera Amalfitana" / Olio su tela di / Bruno Apicella (Napoli) / f.s. 60×90». La sigla «f.s.» non è sciolta |
+| **Stesura** | 8 ottobre 2026 · v1 — solo didascalia |
+
+---
+
+## Didascalia
+
+**Italiano** — _261 caratteri_
+
+> Un arco di pietra, poi un altro, e in fondo al vicolo il mare. Fra muri fioriti, una lanterna e gradini consumati, lo sguardo viene accompagnato passo dopo passo verso l'azzurro: la Costiera come la si ricorda, un luogo in cui si torna anche solo con gli occhi.
+
+**English**
+
+> A stone arch, then another, and at the end of the alley the sea. Between flowering walls, a lantern and worn steps, the eye is led step by step towards the blue: the Coast as one remembers it, a place to return to, even if only with the eyes.
+
+**Cosa ho visto** — formato verticale; un grande arco in conci di pietra in primo piano a destra, un secondo arco al centro che si apre su una terrazza con balaustra e il mare; muri in pietra intonacata, una finestra con tenda a righe rosse, una lanterna, vasi e cespugli fioriti, un selciato in salita con gradini. Pittura a olio corposa, di tocco minuto, tavolozza fredda di grigi e azzurri accesa da rossi e rosa nei fiori.
+
+---
+
+## La ricerca sull'autore
+
+- **in rete non risulta nessun pittore «Bruno Apicella»**, a Napoli o altrove. Escono solo omonimi di altri ambiti (Enzo Apicella, vignettista e designer napoletano a Londra; musicisti)
+- la scritta sul retro è di una mano qualunque — del pittore, di un mercante, del collezionista: **non è una firma** e non basta a un'attribuzione certa
+- «(Napoli)» e il soggetto — la Costiera, il vicolo con arco aperto sul mare — portano verso il **Sud**, non verso il Veneto: probabilmente non è della stessa area dei *Fiori dal buio*, anche se viene dalla stessa collezione
+- il genere — il vicolo mediterraneo fiorito, la veduta di costa per l'arredamento, la cornice dorata con passe-partout in tela — è molto diffuso fra gli anni Settanta e i Novanta. Come per i *Fiori*, è **un'ipotesi** di collocazione, non un dato
+
+### Cosa potrebbe confermare
+1. una **firma sul fronte**, di solito in basso: dalla foto non si vede
+2. etichette o timbri su telaio e cornice
+3. la memoria del collezionista: dove è stato comprato
+
+Finché manca la firma sul fronte, in sala si può scrivere **«attribuito a
+Bruno Apicella»**: è la formula corretta quando il nome viene da una fonte
+indiretta.

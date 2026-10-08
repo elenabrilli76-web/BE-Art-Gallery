@@ -12,6 +12,7 @@
 | [Enzo Mazzanti](../artisti/enzo-mazzanti/analisi.md) | ciclo *Solitudine* (4 opere) · *Terra promessa* | il luogo dell'anima come cammino: un viandante solo in paesaggi che cambiano; e la terra perduta di un popolo in esilio |
 | [Maria Cristina Andreini](../artisti/maria-cristina-andreini/analisi.md) | *Passeggiando con i piedi nell'acqua* · *La ragazza sul muretto* | il luogo dell'anima come momento per sé: il mare, la soglia fra il quotidiano e la libertà |
 | [*Fiori dal buio* — collezione privata](../artisti/collezione-privata-fiori/analisi.md) | quattro nature morte di fiori, autori non identificati | il luogo dell'anima come casa ricordata: i quadri che stavano sopra la credenza |
+| [Bruno Apicella](../artisti/bruno-apicella/analisi.md) — stessa collezione privata | *Costiera Amalfitana* | il luogo dell'anima come paesaggio ricordato: il vicolo che si apre sul mare |
 | [Patrizia Vangelisti](../artisti/patrizia-vangelisti/analisi.md) | *Arturo*, 2025 | il luogo dell'anima come stanza della memoria: un angolo di casa visto dall'alto, un pesce rosso che lo custodisce |
 | [Catia Massai](../artisti/catia-massai/analisi.md) | *Il giardino dei sogni*, 2026 · *Spensieratezza*, 2019 | il luogo dell'anima come natura in cui entrare: una soglia di pietra sul giardino, un albero da abbracciare |
 | [Tonino Giampà](../artisti/tonino-giampa/analisi.md) | quattro paesaggi, 2026 | il luogo dell'anima come terra d'origine: la Calabria ridotta a orizzonte e luce |
