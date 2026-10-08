@@ -55,9 +55,13 @@ def piede(cv: Canvas, pagina: int) -> None:
     cv.drawRightString(larghezza - M, M - 7 * mm, str(pagina))
 
 
-def pagina_mostra(cv: Canvas, cfg: dict) -> None:
+def testo_mostra(cv: Canvas, cfg: dict, pagina: int) -> int:
+    """La presentazione della mostra: copertina, poi il testo che scorre sulle
+    pagine che servono. Le voci {"titolo": ...} sono i titoletti dei paragrafi.
+    Restituisce il numero dell'ultima pagina usata."""
     larghezza, altezza = A4
     utile = larghezza - 2 * M
+    fondo = M + 6 * mm
     c.logo(cv, M, altezza - M, 34 * mm)
     y = altezza - M - 48 * mm
     y = c.scrivi(cv, cfg["titolo"], c.stile("t", fontName="Cormorant-Forte", fontSize=34, leading=38), M, y, utile)
@@ -67,14 +71,40 @@ def pagina_mostra(cv: Canvas, cfg: dict) -> None:
     y -= 7 * mm
     c.filetto(cv, M, y, 24 * mm, 1.2)
     y -= 9 * mm
-    # Il testo si adatta allo spazio, come nelle presentazioni singole
-    for k in (1, 0.95, 0.9, 0.85, 0.8):
-        st = c.stile("p", fontSize=12.5 * k, leading=17.5 * k, alignment=TA_JUSTIFY)
-        alto = sum(c.misura(p, st, utile) + 4 * mm * k for p in cfg["testo"])
-        if y - alto >= M + 4 * mm:
-            break
-    for p in cfg["testo"]:
-        y = c.scrivi(cv, p, st, M, y, utile) - 4 * mm * k
+
+    corpo = c.stile("p", fontSize=12, leading=17, alignment=TA_JUSTIFY)
+    titoletto = c.stile("h", fontName="Cormorant-Corsivo", fontSize=16, leading=20)
+    voci = cfg["testo"]
+    for i, voce in enumerate(voci):
+        if isinstance(voce, dict):
+            # Un titoletto non resta mai da solo in fondo alla pagina
+            dopo = voci[i + 1] if i + 1 < len(voci) else ""
+            serve = c.misura(voce["titolo"], titoletto, utile) + 6 * mm + 3 * corpo.leading
+            if y - serve < fondo:
+                piede(cv, pagina)
+                cv.showPage()
+                pagina += 1
+                y = altezza - M
+            y = c.scrivi(cv, voce["titolo"], titoletto, M, y - 3 * mm, utile) - 3 * mm
+            continue
+        par = c.Paragraph(voce.replace("'", "\u2019"), corpo)
+        while True:
+            _, alto = par.wrap(utile, 10_000)
+            if y - alto >= fondo:
+                par.drawOn(cv, M, y - alto)
+                y -= alto + 4 * mm
+                break
+            pezzi = par.split(utile, y - fondo)
+            if len(pezzi) == 2:
+                _, h0 = pezzi[0].wrap(utile, 10_000)
+                pezzi[0].drawOn(cv, M, y - h0)
+                par = pezzi[1]
+            piede(cv, pagina)
+            cv.showPage()
+            pagina += 1
+            y = altezza - M
+    piede(cv, pagina)
+    return pagina
 
 
 def pagina_artista(cv: Canvas, scheda: dict) -> None:
@@ -151,10 +181,10 @@ def pdf(cfg: dict, schede: list[dict], file: Path) -> None:
     cv = Canvas(str(file), pagesize=A4)
     cv.setTitle(f"{cfg['titolo']} — catalogo")
     cv.setAuthor("BE Art Gallery & Creative Lab")
-    pagina_mostra(cv, cfg)
-    piede(cv, 1)
-    for n, scheda in enumerate(schede, start=2):
+    n = testo_mostra(cv, cfg, 1)
+    for scheda in schede:
         cv.showPage()
+        n += 1
         pagina_artista(cv, scheda)
         piede(cv, n)
     cv.save()
@@ -163,6 +193,23 @@ def pdf(cfg: dict, schede: list[dict], file: Path) -> None:
 # ----------------------------------------------------------------------------
 # Word
 # ----------------------------------------------------------------------------
+
+def titoletto(doc, testo, livello, corpo, grassetto=False, corsivo=True):
+    """Un titolo con lo stile Titolo di Word: compare nella struttura del
+    documento e in Google Docs resta un titolo, non testo ingrandito."""
+    par = doc.add_paragraph(style=f"Heading {livello}")
+    par.paragraph_format.keep_with_next = True
+    par.paragraph_format.space_before = Pt(12 if livello == 2 else 0)
+    par.paragraph_format.space_after = Pt(4)
+    r = par.add_run(testo.replace("'", "\u2019"))
+    r.font.name = c.FONT_WORD
+    r._element.rPr.rFonts.set(c.qn("w:eastAsia"), c.FONT_WORD)
+    r.font.size = Pt(corpo)
+    r.font.color.rgb = c._rgb(c.INCHIOSTRO)
+    r.bold = grassetto
+    r.italic = corsivo
+    return par
+
 
 def word(cfg: dict, schede: list[dict], file: Path) -> None:
     doc = c._documento(A4, 20, f"{cfg['titolo']} — catalogo")
@@ -173,12 +220,15 @@ def word(cfg: dict, schede: list[dict], file: Path) -> None:
     p(cfg["titolo"], corpo=34, grassetto=True)
     p(cfg["sottotitolo"], corpo=15, colore=c.GRIGIO, corsivo=True)
     c._filetto(p(cfg["luogo"], corpo=11, colore=c.GRIGIO, dopo=18))
-    for testo in cfg["testo"]:
-        p(testo, corpo=12, giustificato=True, interlinea=17, dopo=9)
+    for voce in cfg["testo"]:
+        if isinstance(voce, dict):
+            titoletto(doc, voce["titolo"], livello=2, corpo=15)
+        else:
+            p(voce, corpo=12, giustificato=True, interlinea=17, dopo=9)
 
     for scheda in schede:
         doc.paragraphs[-1].add_run().add_break(WD_BREAK.PAGE)
-        p(scheda["nome"], corpo=24, grassetto=True)
+        titoletto(doc, scheda["nome"], livello=1, corpo=24, grassetto=True, corsivo=False)
         ultimo = p(c.sottotitolo(scheda), corpo=12, colore=c.GRIGIO, corsivo=True, dopo=12)
         c._filetto(ultimo)
         if scheda.get("presentazione", {}).get("it"):
@@ -220,7 +270,7 @@ def main() -> None:
     uscita.mkdir(exist_ok=True)
     pdf(cfg, schede, uscita / f"{mostra}.pdf")
     word(cfg, schede, uscita / f"{mostra}.docx")
-    print(f"\n{cfg['titolo']}: {len(schede) + 1} pagine")
+    print(f"\n{cfg['titolo']}: testo della mostra e {len(schede)} schede")
     for f in (f"{mostra}.pdf", f"{mostra}.docx"):
         print(f"   testi-critici/mostre/catalogo/{f}")
     print()
@@ -228,3 +278,61 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+# ----------------------------------------------------------------------------
+# HTML per Google Docs: Drive lo converte in un documento modificabile
+# ----------------------------------------------------------------------------
+
+LOGO_PUBBLICO = ("https://raw.githubusercontent.com/elenabrilli76-web/BE-Art-Gallery/"
+                 "be-art-gallery-creazione-contenuti/strumenti/marchio/logo-nero.png")
+
+
+def html(cfg: dict, schede: list[dict]) -> str:
+    from html import escape
+
+    def e(t):
+        return escape(t.replace("'", "\u2019"))
+
+    stile = """<style>
+body,p,h1,h2,td{font-family:Garamond,serif;color:#1E1B18}
+p{font-size:12pt;line-height:1.4;text-align:justify;margin:0 0 8pt 0}
+h1{font-size:24pt;font-weight:bold;margin:0 0 2pt 0}
+h1.m{font-size:32pt;margin:24pt 0 2pt 0}
+h2{font-size:15pt;font-style:italic;font-weight:normal;margin:14pt 0 4pt 0}
+.s{font-size:12pt;font-style:italic;color:#6B645B;margin:0}
+.f{border-bottom:1.5pt solid #C9A227;padding-bottom:6pt;margin-bottom:12pt}
+.l{font-size:11pt;color:#6B645B}
+.pr{font-size:11.5pt;margin-bottom:14pt}
+.t{font-size:13pt;font-style:italic;margin:0;text-align:left}
+.d{font-size:8.5pt;color:#6B645B;border-bottom:1pt solid #C9A227;padding-bottom:4pt;margin:0 0 5pt 0;text-align:left}
+.c{font-size:10pt}
+td{vertical-align:top;padding:0 10pt 12pt 0;border:none}
+table{border-collapse:collapse;width:100%;border:none}
+.n{page-break-before:always}
+</style>"""
+    out = [f'<html><head><meta charset="utf-8">{stile}</head><body>']
+    out.append(f'<p><img src="{LOGO_PUBBLICO}" width="160"></p>')
+    out.append(f'<h1 class="m">{e(cfg["titolo"])}</h1>')
+    out.append(f'<p class="s">{e(cfg["sottotitolo"])}</p>')
+    out.append(f'<p class="l f">{e(cfg["luogo"])}</p>')
+    for voce in cfg["testo"]:
+        out.append(f'<h2>{e(voce["titolo"])}</h2>' if isinstance(voce, dict) else f'<p>{e(voce)}</p>')
+    for s in schede:
+        out.append(f'<h1 class="n">{e(s["nome"])}</h1>')
+        out.append(f'<p class="s f">{e(c.sottotitolo(s)) or "&nbsp;"}</p>')
+        if s.get("presentazione", {}).get("it"):
+            out.append(f'<p class="pr">{e(s["presentazione"]["it"])}</p>')
+        opere = [o for o in s.get("opere", []) if o.get("didascalia", {}).get("it")]
+        if not opere:
+            continue
+        col = 1 if len(opere) == 1 else COLONNE
+        out.append("<table>")
+        for i in range(0, len(opere), col):
+            celle = "".join(f'<td width="{100 // col}%"><p class="t">{e(o["titolo"])}</p>'
+                            f'<p class="d">{e(dati_opera(o)) or "&nbsp;"}</p>'
+                            f'<p class="c">{e(o["didascalia"]["it"])}</p></td>' for o in opere[i:i + col])
+            out.append(f"<tr>{celle}</tr>")
+        out.append("</table>")
+    out.append("</body></html>")
+    return "\n".join(out)
