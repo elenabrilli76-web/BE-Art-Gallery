@@ -23,3 +23,6 @@ desktop.ini
 # pubblicare: senza, un `pull` porterebbe la cartella `pronti` sempre vuota
 contenuti-social/in-lavorazione/foto/*
 !contenuti-social/in-lavorazione/foto/.gitkeep
+
+# Le foto delle opere per le miniature del catalogo: restano in locale
+testi-critici/mostre/catalogo/foto/
