@@ -13,7 +13,7 @@ la coerenza tiene, la varietà sta fra un contenuto e il successivo.
 
 from pathlib import Path
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 import onde
 
@@ -192,44 +192,61 @@ def arco(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Image.I
 
 def opera(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Image.Image:
     """
-    Il cartellino critico: la foto dell'opera sopra, sotto il nome
-    dell'artista, il titolo, i dati tecnici e il testo critico — lo stesso
-    che sta sulla scheda stampata, riportato alla misura del carosello.
+    Il cartellino critico, impaginato come l'etichetta accanto a un'opera in
+    sala: il quadro a sinistra, il testo in una colonna a destra — mai sopra
+    o sotto, mai a contendersi lo spazio con la foto riga dopo riga.
 
-    A differenza del cartellino da mostra, qui il blocco di testo non ha
-    un'altezza fissa: si misura prima quanto serve al testo critico (che
-    varia da un'opera all'altra) e la foto prende tutto lo spazio che resta.
+    La colonna di testo può crescere quanto serve (il blocco si misura
+    prima, come nel manifesto) senza mai rubare altezza all'opera: le due
+    zone sono separate fin dall'inizio, non una il resto dell'altra.
+    L'opera sta sempre intera — vedi `grafica.inquadra()` — e qui, in una
+    colonna alta e stretta, un dipinto verticale la riempie quasi tutta;
+    solo uno molto orizzontale lascia carta sopra e sotto, mai ai lati.
     """
     larghezza, altezza = misura
-    margine_laterale = int(larghezza * 0.09)
-
-    preparato = _misura_blocco(testi, larghezza, cfg)
-    blocco = sum(v["altezza"] for v in preparato)
-    respiro_sopra = int(altezza * 0.045)
-    respiro_sotto = int(altezza * 0.05)
-    banda = min(blocco + respiro_sopra + respiro_sotto, int(altezza * 0.46))
-    alta = altezza - banda
+    colonna_testo = int(larghezza * 0.36)
+    colonna_foto = larghezza - colonna_testo
+    margine_foto = int(colonna_foto * 0.10)
+    margine_verticale = int(altezza * 0.065)
+    margine_testo = int(colonna_testo * 0.13)
 
     pagina = Image.new("RGB", (larghezza, altezza), AVORIO)
-    # L'opera sta sempre intera: mai tagliata dai bordi come farebbe
-    # _immagine/ritaglia, pensata per le foto d'ambiente
-    if foto is None:
-        pagina.paste(fondo_pieno(larghezza, alta, NERO_CALDO), (0, 0))
-    elif isinstance(foto, Image.Image):
-        pagina.paste(foto.resize((larghezza, alta), Image.LANCZOS), (0, 0))
-    else:
-        pagina.paste(inquadra(Path(foto), larghezza, alta, AVORIO), (0, 0))
 
+    zona_foto = (colonna_foto - 2 * margine_foto, altezza - 2 * margine_verticale)
+    if foto is None:
+        riquadro = fondo_pieno(*zona_foto, NERO_CALDO)
+    elif isinstance(foto, Image.Image):
+        riquadro = ImageOps.pad(foto, zona_foto, Image.LANCZOS, AVORIO)
+    else:
+        riquadro = inquadra(Path(foto), *zona_foto, AVORIO)
+    pagina.paste(riquadro, (margine_foto, margine_verticale))
+
+    # Il confine fra immagine e parola: una riga d'oro verticale, non
+    # orizzontale come altrove — segue la nuova geometria della pagina
     penna = ImageDraw.Draw(pagina)
-    y = alta + respiro_sopra
+    spessore = max(int(larghezza * 0.0018), 2)
+    penna.rectangle([colonna_foto - spessore // 2, margine_verticale,
+                     colonna_foto + spessore // 2, altezza - margine_verticale],
+                    fill=ORO_SCURO)
+
+    x0_testo = colonna_foto + margine_testo
+    utile_testo = colonna_testo - margine_testo - int(colonna_testo * 0.08)
+    preparato = _misura_blocco(testi, utile_testo, cfg, scala_font=larghezza)
+    blocco = sum(v["altezza"] for v in preparato)
+    y = margine_verticale + max(
+        (altezza - 2 * margine_verticale - blocco) // 2, 0)
+
+    larghezza_filetto = int(utile_testo * 0.32)
     for voce in preparato:
         if voce.get("filetto"):
-            _riga_oro(pagina, y + voce["altezza"] // 2, 0.22)
+            spessore_f = max(int(larghezza * 0.0018), 2)
+            penna.rectangle([x0_testo, y + voce["altezza"] // 2,
+                             x0_testo + larghezza_filetto,
+                             y + voce["altezza"] // 2 + spessore_f],
+                            fill=onde.ORO)
         else:
             spaziatura = voce.get("spaziatura", 0)
-            larga = _larghezza_spaziata(voce["testo"], voce["font"], spaziatura)
-            x = margine_laterale + (larghezza - 2 * margine_laterale - larga) / 2
-            _scrivi_spaziato(penna, x, y, voce["testo"], voce["font"],
+            _scrivi_spaziato(penna, x0_testo, y, voce["testo"], voce["font"],
                              voce["colore"], spaziatura)
         y += voce["altezza"]
 
@@ -331,26 +348,36 @@ def _riga_oro(tela: Image.Image, y: int, larghezza_riga: float) -> None:
                   fill=onde.ORO)
 
 
-def _misura_blocco(righe: list[dict], larghezza: int, cfg: dict) -> list[dict]:
-    """Prepara ogni riga con il suo font e la sua altezza, andando a capo."""
+def _misura_blocco(righe: list[dict], larghezza: int, cfg: dict,
+                   scala_font: int | None = None) -> list[dict]:
+    """
+    Prepara ogni riga con il suo font e la sua altezza, andando a capo.
+
+    `larghezza` governa dove si va a capo; `scala_font` (di norma la stessa
+    larghezza) governa la dimensione dei caratteri. Si separano i due quando
+    il testo scrive in una colonna stretta ma i caratteri devono restare
+    alla scala della pagina intera — altrimenti un cartellino laterale
+    avrebbe titoli minuscoli invece che semplicemente più spezzati.
+    """
     from grafica import _carica_font, _manda_a_capo
+    scala = scala_font or larghezza
     margine = int(larghezza * 0.10)
     utile = larghezza - 2 * margine
     preparate = []
     for voce in righe:
         if voce.get("ruolo") == "filetto":
-            preparate.append({"filetto": True, "altezza": int(larghezza * 0.075)})
+            preparate.append({"filetto": True, "altezza": int(scala * 0.075)})
             continue
         ruolo = voce.get("ruolo", "corpo")
         nome, quota, colore, interlinea, dopo, traccia = RUOLI[ruolo]
-        font = _carica_font(cfg[nome], int(larghezza * quota), nome)
+        font = _carica_font(cfg[nome], int(scala * quota), nome)
         spaziatura = font.size * traccia
         testo = voce["testo"].upper() if ruolo == "etichetta" else voce["testo"]
         for pezzo in _manda_a_capo(testo, font, utile - spaziatura * len(testo)):
             preparate.append({"testo": pezzo, "font": font, "colore": colore,
                               "spaziatura": spaziatura,
                               "altezza": int(font.size * interlinea)})
-        preparate[-1]["altezza"] += int(larghezza * dopo)
+        preparate[-1]["altezza"] += int(scala * dopo)
     return preparate
 
 
