@@ -382,11 +382,19 @@ def _misura_blocco(righe: list[dict], larghezza: int, cfg: dict,
 
 
 def manifesto(foto, testi: list[dict], cfg: dict, misura, numero: int = 0,
-              orizzonte: float = 0.46, seme: int = 0) -> Image.Image:
+              orizzonte: float = 0.46, seme: int = 0,
+              palette: list[str] | None = None,
+              quanti: int | None = None) -> Image.Image:
     """
     Una pagina senza fotografia: gli strati di colore sotto, la carta libera
     sopra per il testo. È il linguaggio della locandina, e serve agli annunci
     dove non c'è ancora niente da fotografare.
+
+    `palette` e `quanti` scelgono i colori e il numero di bande: lasciati a
+    `None` restano quelli di casa, ma un contenuto che racconta più soggetti
+    diversi — gli artisti di una collettiva, per esempio — può dare a ognuno
+    la propria tavolozza, così le pagine non sembrano tutte la stessa con il
+    nome cambiato.
     """
     larghezza, altezza = misura
 
@@ -403,7 +411,8 @@ def manifesto(foto, testi: list[dict], cfg: dict, misura, numero: int = 0,
     servono = (cima + blocco + respiro) / altezza
     orizzonte = min(max(orizzonte, servono), 0.80)
 
-    pagina = onde.fondo(larghezza, altezza, orizzonte=orizzonte, seme=seme)
+    pagina = onde.fondo(larghezza, altezza, orizzonte=orizzonte, seme=seme,
+                        palette=palette, quanti=quanti)
 
     zona = altezza * orizzonte - respiro
     y = max(int((cima + zona) / 2 - blocco / 2), cima)

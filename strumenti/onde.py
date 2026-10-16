@@ -116,12 +116,17 @@ def _grana(immagine: Image.Image) -> Image.Image:
 
 def fondo(larghezza: int, altezza: int, orizzonte: float = 0.46,
           seme: int = 0, quanti: int | None = None,
-          foglia: bool = False) -> Image.Image:
+          foglia: bool = False, palette: list[str] | None = None) -> Image.Image:
     """
     La pagina a strati.
 
     `orizzonte` è dove cominciano le bande, in quota dell'altezza: più è in
     basso, più carta resta libera per il testo.
+
+    `palette` sostituisce i colori di casa (`STRATI`) quando un contenuto
+    chiede una tavolozza propria — gli artisti di una collettiva, per
+    esempio, dove ognuno ha i suoi colori e ripetere sempre gli stessi nove
+    li farebbe sembrare lo stesso contenuto cambiato di poco.
 
     La foglia d'oro resta spenta: generata al computer si legge come una
     barretta invece che come doratura, e un dettaglio che sembra un difetto è
@@ -133,7 +138,8 @@ def fondo(larghezza: int, altezza: int, orizzonte: float = 0.46,
     penna = ImageDraw.Draw(tela)
 
     partenza = altezza * orizzonte
-    colori = STRATI[:quanti] if quanti else STRATI
+    base_colori = palette if palette else STRATI
+    colori = base_colori[:quanti] if quanti else base_colori
     passo = (altezza - partenza) / (len(colori) + 1.2)
 
     # Prima tutte le bande: ognuna riempie fino in fondo ed è la successiva a

@@ -127,6 +127,7 @@ def _carosello_a_pagine(cartella_foto: Path, destinazione: Path, spec: dict,
                 voce.get("impaginazione", predefinita), immagine, testi, cfg,
                 misura, numero=numero if numerata else 0,
                 orizzonte=voce.get("orizzonte", 0.46), seme=voce.get("seme", 0),
+                palette=voce.get("palette"), quanti=voce.get("quanti"),
             )
         uscita = destinazione / f"carosello_{numero:02d}.png"
         pagina.save(uscita)
