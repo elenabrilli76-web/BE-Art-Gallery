@@ -190,11 +190,56 @@ def arco(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Image.I
     return pagina
 
 
+def opera(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Image.Image:
+    """
+    Il cartellino critico: la foto dell'opera sopra, sotto il nome
+    dell'artista, il titolo, i dati tecnici e il testo critico — lo stesso
+    che sta sulla scheda stampata, riportato alla misura del carosello.
+
+    A differenza del cartellino da mostra, qui il blocco di testo non ha
+    un'altezza fissa: si misura prima quanto serve al testo critico (che
+    varia da un'opera all'altra) e la foto prende tutto lo spazio che resta.
+    """
+    larghezza, altezza = misura
+    margine_laterale = int(larghezza * 0.09)
+
+    preparato = _misura_blocco(testi, larghezza, cfg)
+    blocco = sum(v["altezza"] for v in preparato)
+    respiro_sopra = int(altezza * 0.045)
+    respiro_sotto = int(altezza * 0.05)
+    banda = min(blocco + respiro_sopra + respiro_sotto, int(altezza * 0.46))
+    alta = altezza - banda
+
+    pagina = Image.new("RGB", (larghezza, altezza), AVORIO)
+    pagina.paste(_immagine(foto, larghezza, alta), (0, 0))
+
+    penna = ImageDraw.Draw(pagina)
+    y = alta + respiro_sopra
+    for voce in preparato:
+        if voce.get("filetto"):
+            _riga_oro(pagina, y + voce["altezza"] // 2, 0.22)
+        else:
+            spaziatura = voce.get("spaziatura", 0)
+            larga = _larghezza_spaziata(voce["testo"], voce["font"], spaziatura)
+            x = margine_laterale + (larghezza - 2 * margine_laterale - larga) / 2
+            _scrivi_spaziato(penna, x, y, voce["testo"], voce["font"],
+                             voce["colore"], spaziatura)
+        y += voce["altezza"]
+
+    marchio_scritto(pagina, cfg, corpo=0.024, colore=ORO_SCURO)
+    pagina = applica_logo(pagina, {**cfg, "logo_larghezza": 0.17,
+                                   "logo_variante": "nero",
+                                   "logo_velatura": False})
+    _numero(pagina, numero, cfg, cfg["colore_accento"])
+    return pagina
+
+
 IMPAGINAZIONI = {
     "pieno": pieno,
     "cartellino": cartellino,
     "cornice": cornice,
     "arco": arco,
+    "opera": opera,
 }
 
 
@@ -237,6 +282,14 @@ RUOLI = {
     "data":         ("font_serif",   0.058, onde.INCHIOSTRO, 1.2,  0.026, 0.03),
     "corpo":        ("font_forte",   0.042, "#3A322C",       1.42, 0.020, 0.0),
     "evidenza":     ("font_forte",   0.072, onde.INCHIOSTRO, 1.12, 0.020, 0.0),
+    # La scala piccola serve al cartellino critico (impaginazione "opera"),
+    # dove sotto alla foto ci sta anche il nome dell'artista e i dati
+    # tecnici: senza una scala a parte, i ruoli del manifesto — pensati per
+    # una riga sola su tutta la carta — qui deborderebbero sempre.
+    "etichetta_cl": ("font_serif",   0.026, onde.ORO,        1.5,  0.020, 0.14),
+    "titolo_cl":    ("font_titolo",  0.062, onde.INCHIOSTRO, 1.08, 0.016, 0.0),
+    "data_cl":      ("font_serif",   0.030, onde.INCHIOSTRO, 1.25, 0.022, 0.0),
+    "corpo_cl":     ("font_forte",   0.033, "#3A322C",       1.3,  0.020, 0.0),
 }
 
 
