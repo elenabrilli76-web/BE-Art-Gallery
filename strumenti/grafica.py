@@ -119,6 +119,35 @@ def ritaglia(foto: Path, larghezza: int, altezza: int) -> Image.Image:
     return intermedia.crop((sinistra, alto, sinistra + larghezza, alto + altezza))
 
 
+def inquadra(foto: Path, larghezza: int, altezza: int,
+            sfondo: str = "#F2EAD9") -> Image.Image:
+    """
+    Porta la foto alla misura richiesta mostrandola **intera**: ridimensiona
+    quanto basta a stare dentro lo spazio e centra il resto su un fondo.
+
+    Il contrario di `ritaglia()`: lì il taglio dai bordi va bene per una
+    foto d'ambiente, dove perdere qualche centimetro di muro non cambia
+    nulla. Su un'opera d'arte non va mai bene — un quadro mostrato a metà è
+    un errore, non una scelta di inquadratura. Qui l'opera sta sempre
+    intera, con un bordo del colore della carta dove l'immagine non
+    riempie lo spazio, come il passe-partout di una cornice.
+    """
+    with Image.open(foto) as immagine:
+        immagine = ImageOps.exif_transpose(immagine).convert("RGB")
+        scala = min(larghezza / immagine.width, altezza / immagine.height)
+        intermedia = immagine.resize(
+            (max(int(immagine.width * scala + 0.5), 1),
+             max(int(immagine.height * scala + 0.5), 1)),
+            Image.LANCZOS,
+        )
+
+    tela = Image.new("RGB", (larghezza, altezza), sfondo)
+    x = (larghezza - intermedia.width) // 2
+    y = (altezza - intermedia.height) // 2
+    tela.paste(intermedia, (x, y))
+    return tela
+
+
 def fondo_pieno(larghezza: int, altezza: int, colore: str = "#1A1613") -> Image.Image:
     return Image.new("RGB", (larghezza, altezza), colore)
 

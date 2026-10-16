@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw
 
 import onde
 
-from grafica import applica_logo, componi, fondo_pieno, ritaglia
+from grafica import applica_logo, componi, fondo_pieno, inquadra, ritaglia
 
 # Fondi e inchiostri delle impaginazioni su fondo pieno
 AVORIO = "#F2EAD9"      # la carta: la stessa del fondo a strati
@@ -211,7 +211,14 @@ def opera(foto, testi: list[dict], cfg: dict, misura, numero: int = 0) -> Image.
     alta = altezza - banda
 
     pagina = Image.new("RGB", (larghezza, altezza), AVORIO)
-    pagina.paste(_immagine(foto, larghezza, alta), (0, 0))
+    # L'opera sta sempre intera: mai tagliata dai bordi come farebbe
+    # _immagine/ritaglia, pensata per le foto d'ambiente
+    if foto is None:
+        pagina.paste(fondo_pieno(larghezza, alta, NERO_CALDO), (0, 0))
+    elif isinstance(foto, Image.Image):
+        pagina.paste(foto.resize((larghezza, alta), Image.LANCZOS), (0, 0))
+    else:
+        pagina.paste(inquadra(Path(foto), larghezza, alta, AVORIO), (0, 0))
 
     penna = ImageDraw.Draw(pagina)
     y = alta + respiro_sopra
