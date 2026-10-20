@@ -29,6 +29,7 @@ Non i materiali: quelli stanno sul Drive.
 | Foto, logo, depliant, biglietti, video | **Google Drive**, cartella `BE Art Gallery` |
 | Codice del sito | repository `be-art-gallery-site` |
 | Strumenti, processo e testi | **questo repository** |
+| App per gli artisti (progetto parallelo) | [`app-artisti/PROGETTO.md`](app-artisti/PROGETTO.md) — il codice andrà in un repository a parte |
 
 Le sottocartelle del Drive che servono più spesso: `Galleria-foto allestita 1`,
 `Galleria-foto allestita 2`, `Galleria-foto vuota`, `Logo`,
