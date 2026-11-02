@@ -32,4 +32,4 @@ dell'artista, né preventivi o compensi: quelli restano fuori da GitHub.
 
 | Progetto | Artista | Stato |
 |---|---|---|
-| [`sauro-calamai`](progetti/sauro-calamai/) | Sauro Calamai, scultore | in lavorazione |
+| [`sauro-calamai`](progetti/sauro-calamai/) | Sauro Calamai, scultore | brochure, portfolio e foto · consegna entro gennaio 2027 |
