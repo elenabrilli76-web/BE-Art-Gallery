@@ -7,6 +7,9 @@ in particolare la pietra verde, raccolta nella campagna di Montemurlo.
 
 Sul Drive: cartella **`Progetto Sauro Calamai`**, file *Materiale Sauro Calamai* (PDF).
 
+Sul PC: cartella [`materiali/`](materiali/), qui accanto. Quello che ci metti
+dentro resta in locale e non va su GitHub.
+
 ## Testo
 
 La versione di lavoro è in [`testo.md`](testo.md).

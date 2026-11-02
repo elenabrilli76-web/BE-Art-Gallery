@@ -17,9 +17,11 @@ Una cartella per progetto in `progetti/nome-cognome/`, con dentro:
 |---|---|
 | `README.md` | per chi è il progetto, quali servizi comprende, a che punto è |
 | `testo.md` | il testo del progetto, nella versione di lavoro |
+| `materiali/` | foto, PDF, cataloghi dell'artista: **solo sul PC** |
 
-I materiali dell'artista (foto, PDF, cataloghi) restano sul **Google Drive**,
-non qui: il README del progetto indica dove trovarli.
+La cartella `materiali/` arriva sul PC con il pull, ma quello che ci metti
+dentro **non va su GitHub**: resta in locale, e gli originali stanno sul
+Google Drive. Per un progetto nuovo basta copiare la cartella di uno esistente.
 
 ## Riservatezza
 
