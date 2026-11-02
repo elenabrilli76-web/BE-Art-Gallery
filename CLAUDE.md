@@ -145,6 +145,14 @@ caricano qui.
 
 Procedura completa: [`testi-critici/PROCEDURA.md`](testi-critici/PROCEDURA.md).
 
+## Servizi per l'Arte
+
+I progetti dei servizi che la galleria offre agli artisti (portfolio, siti,
+grafica, testi, comunicazione) stanno in `servizi-per-l-arte/`, una cartella
+per progetto in `progetti/nome-cognome/`. I materiali dell'artista restano sul
+Drive; qui solo i testi di lavoro. Vedi
+[`servizi-per-l-arte/README.md`](servizi-per-l-arte/README.md).
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta

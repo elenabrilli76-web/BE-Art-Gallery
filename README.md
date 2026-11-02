@@ -24,6 +24,7 @@ Vale per reel, post, caroselli e storie: cambia solo cosa chiedi al passo 2.
 | [`contenuti-social/`](contenuti-social/) | il processo, lo spazio di lavoro, l'archivio dei contenuti usciti |
 | [`strumenti/`](strumenti/) | i generatori di reel, post, caroselli e storie |
 | [`testi-critici/`](testi-critici/) | la procedura e l'archivio dei testi critici d'artista |
+| [`servizi-per-l-arte/`](servizi-per-l-arte/) | i progetti di servizi per gli artisti: portfolio, siti, grafica, testi |
 
 E [`CLAUDE.md`](CLAUDE.md), che dà il contesto a chi apre una sessione di
 Claude Code su questo repository: chi siamo, come parliamo, come funzionano

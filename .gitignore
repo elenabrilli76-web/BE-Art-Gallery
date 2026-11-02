@@ -27,3 +27,8 @@ contenuti-social/in-lavorazione/foto/*
 # Le foto delle opere per le miniature del catalogo: restano in locale
 testi-critici/mostre/catalogo/foto/
 testi-critici/mostre/catalogo/*-libro*.pdf
+
+# I materiali degli artisti per i Servizi per l'Arte: restano in locale.
+# La cartella arriva vuota con il pull, il contenuto non va mai su GitHub
+servizi-per-l-arte/progetti/*/materiali/*
+!servizi-per-l-arte/progetti/*/materiali/.gitkeep
