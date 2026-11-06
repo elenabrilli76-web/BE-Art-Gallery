@@ -40,6 +40,24 @@ salvia e blu polvere.
 
 ---
 
+## Grafica di sala — approvata da Elena l'11 novembre 2026
+
+Una pagina A4 per artista, prodotta con `py strumenti\sala.py donne-femminile-plurale`
+in `testi-critici/mostre/donne-femminile-plurale/schede.pdf`. Stesso impianto
+delle pagine finali di *I Luoghi dell'Anima*, con i colori della locandina.
+
+- in alto: **DONNE: FEMMINILE PLURALE** in maiuscoletto oro, sotto «Mostra
+  collettiva · 14 novembre – 13 dicembre 2026» in corsivo terracotta
+- il **nome dell'artista**, senza città, e il filetto d'oro
+- il **testo critico solo in italiano**
+- sotto, nella stessa pagina, la **didascalia di ogni opera** (titolo, dati,
+  testo), su due colonne se le opere sono più d'una
+- piede con marchio e indirizzo della galleria; a destra la fascia di veli
+  della locandina (`catalogo/foto/donne-femminile-plurale/fascia.jpg`, in locale)
+- colori: carta `#F2E5D5`, inchiostro `#212B2D`, terracotta `#8C3A1E`,
+  oro `#A8844A`, grigio `#6E6560`; carattere Cormorant Garamond
+- **niente cartellino A6 e niente inglese** per questa mostra
+
 ## Artisti e opere arrivate
 
 Stato al 6 novembre 2026. Nessun testo ancora scritto: si aspetta l'indicazione
