@@ -32,3 +32,4 @@ testi-critici/mostre/catalogo/*-libro*.pdf
 # La cartella arriva vuota con il pull, il contenuto non va mai su GitHub
 servizi-per-l-arte/progetti/*/materiali/*
 !servizi-per-l-arte/progetti/*/materiali/.gitkeep
+testi-critici/mostre/*/*-prova.pdf

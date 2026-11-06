@@ -1,0 +1,27 @@
+{
+  "titolo": "DONNE: Femminile Plurale",
+  "sottotitolo": "Mostra collettiva · 14 novembre – 13 dicembre 2026",
+  "luogo": "BE Art Gallery & Creative Lab · Via San Pietro 24, Pistoia",
+  "claim": "Infinite sfaccettature, un'unica grande forza.",
+  "parole": ["identità", "memoria", "relazioni", "autonomia", "cura"],
+  "orari": "Inaugurazione sabato 14 novembre, ore 17:00",
+  "grafica": {
+    "carta": "#F2E5D5",
+    "inchiostro": "#212B2D",
+    "accento": "#8C3A1E",
+    "oro": "#A8844A",
+    "grigio": "#6E6560",
+    "fascia": "donne-femminile-plurale/fascia.jpg"
+  },
+  "testo": [],
+  "ordine": [
+    "patrizia-vangelisti",
+    "catia-massai",
+    "maria-cristina-andreini",
+    "maria-maselli",
+    "donatella-bucchieri",
+    "gabriella-lo-cascio",
+    "grazia-barbieri",
+    "serena-d-onofrio"
+  ]
+}
