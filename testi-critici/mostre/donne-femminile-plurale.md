@@ -40,7 +40,7 @@ salvia e blu polvere.
 
 ---
 
-## Grafica di sala — approvata da Elena l'11 novembre 2026
+## Grafica di sala — approvata da Elena il 6 novembre 2026
 
 Una pagina A4 per artista, prodotta con `py strumenti\sala.py donne-femminile-plurale`
 in `testi-critici/mostre/donne-femminile-plurale/schede.pdf`. Stesso impianto
