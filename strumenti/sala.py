@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-I materiali di sala di una mostra, tutti con la stessa grafica: il pannello
-A5 con la presentazione di ogni artista e il cartellino A6 di ogni opera.
+Le pagine di sala di una mostra, tutte con la stessa grafica: una pagina A4
+per artista con il titolo e le date della mostra, il nome, il testo critico
+in italiano e, sotto, la didascalia di ogni opera esposta. È lo stesso
+impianto delle pagine di I Luoghi dell'Anima, con i colori della mostra.
 
 La grafica viene dalla scheda della mostra (testi-critici/mostre/<mostra>.json,
 voce "grafica"): i colori della locandina e la fascia di decoro, una striscia
@@ -12,11 +14,7 @@ filetto d'oro. Un carattere solo, il Cormorant Garamond.
 Per ogni artista in "ordine" prende le opere della mostra: quelle con
 "mostra": "<mostra>" nella scheda, o tutte se nessuna opera lo indica.
 
-Produce in testi-critici/mostre/<mostra>/:
-
-- pannelli.pdf     un pannello A5 per artista, in ordine
-- cartellini.pdf   un cartellino A6 per opera, in ordine
-- cartellini-A4.pdf  gli stessi, quattro per foglio A4, da stampare e tagliare
+Produce testi-critici/mostre/<mostra>/schede.pdf, una pagina per artista.
 
     py strumenti\\sala.py donne-femminile-plurale
     py strumenti\\sala.py donne-femminile-plurale --prova    una pagina di esempio
@@ -38,8 +36,7 @@ import critica as c  # noqa: E402
 
 MOSTRE = c.RADICE / "testi-critici" / "mostre"
 FOTO = MOSTRE / "catalogo" / "foto"
-A5 = (148 * mm, 210 * mm)
-A6 = (105 * mm, 148 * mm)
+A4 = (210 * mm, 297 * mm)
 
 
 class Grafica:
@@ -80,7 +77,7 @@ class Grafica:
         else:
             cv.setStrokeColor(self.oro)
             cv.setLineWidth(0.8)
-            cv.line(w - larga, 8 * mm, w - larga, h - 8 * mm)
+            cv.line(w - larga, 10 * mm, w - larga, h - 10 * mm)
 
     def etichetta(self, cv, testo, x, y, corpo, colore=None):
         cv.setFont("Cormorant-Forte", corpo)
@@ -109,103 +106,70 @@ def opere_in_mostra(scheda, mostra):
     return tutte
 
 
-def pannello(cv, g: Grafica, scheda):
-    """A5: intestazione della mostra, nome, presentazione italiana e inglese,
-    piede con il marchio della galleria. Il carattere cala se il testo non ci sta."""
-    w, h = A5
-    fascia = 30 * mm
-    x, largo = 14 * mm, w - fascia - 14 * mm - 9 * mm
+def pagina(cv, g: Grafica, scheda, lista):
+    """A4, una pagina per artista: titolo e date della mostra, nome, testo
+    critico in italiano e, sotto, la didascalia di ogni opera, in due colonne
+    se le opere sono più d'una. Tutto si adatta finché sta in una pagina."""
+    w, h = A4
+    fascia = 38 * mm
+    x = 20 * mm
+    largo = w - fascia - x - 14 * mm
+    giunto = 8 * mm
+    colonne = 1 if len(lista) <= 1 else 2
+    col = largo if colonne == 1 else (largo - giunto) / 2
     it = scheda.get("presentazione", {}).get("it", "")
-    en = scheda.get("presentazione", {}).get("en", "")
-    piede = 30 * mm
-    for k in [1 - 0.03 * i for i in range(12)]:
+    righe = [lista[i:i + colonne] for i in range(0, len(lista), colonne)]
+    alto_utile = h - 20 * mm - 34 * mm - 30 * mm        # sotto l'intestazione, sopra il piede
+
+    def scheda_alta(o, s, k):
+        a = c.misura(o["titolo"], s["titolo"], col)
+        if dati_opera(o):
+            a += c.misura(dati_opera(o), s["dati"], col)
+        return a + 6 * mm * k + c.misura(o["didascalia"]["it"], s["dida"], col)
+
+    for k in [1 - 0.025 * i for i in range(20)]:
         s = dict(
-            nome=g.stile("n", fontName="Cormorant-Forte", fontSize=25 * k, leading=28 * k),
-            sotto=g.stile("s", fontName="Cormorant-Corsivo", fontSize=12 * k, leading=15 * k, textColor=g.accento),
-            it=g.stile("i", fontSize=11 * k, leading=15.4 * k, alignment=TA_JUSTIFY),
-            en=g.stile("e", fontName="Cormorant-Corsivo", fontSize=9 * k, leading=12.2 * k,
-                       alignment=TA_JUSTIFY, textColor=g.grigio),
+            nome=g.stile("n", fontName="Cormorant-Forte", fontSize=30 * k, leading=34 * k),
+            it=g.stile("i", fontSize=12.5 * k, leading=17.5 * k, alignment=TA_JUSTIFY),
+            titolo=g.stile("t", fontName="Cormorant-Corsivo", fontSize=15 * k, leading=18 * k),
+            dati=g.stile("d", fontSize=9 * k, leading=11.5 * k, textColor=g.grigio),
+            dida=g.stile("di", fontSize=11 * k, leading=15 * k, alignment=TA_JUSTIFY),
         )
-        alto = (c.misura(scheda["nome"], s["nome"], largo) + c.misura(c.sottotitolo(scheda) or " ", s["sotto"], largo)
-                + 14 * mm + c.misura(it, s["it"], largo) + (c.misura(en, s["en"], largo) + 6 * mm if en else 0))
-        if alto <= h - 34 * mm - piede:
+        alto = c.misura(scheda["nome"], s["nome"], largo) + 13 * mm * k + c.misura(it, s["it"], largo) + 12 * mm * k
+        alto += sum(max(scheda_alta(o, s, k) for o in r) + 8 * mm * k for r in righe)
+        if alto <= alto_utile:
             break
-    g.fondo(cv, A5, fascia)
-    y = h - 14 * mm
-    y = g.etichetta(cv, g.titolo, x, y, 7.5)
-    y = c.scrivi(cv, g.date, g.stile("d", fontName="Cormorant-Corsivo", fontSize=8.5, leading=11,
-                 textColor=g.accento), x, y - 1, largo) - 12 * mm
+
+    g.fondo(cv, A4, fascia)
+    y = h - 20 * mm
+    y = g.etichetta(cv, g.titolo, x, y, 9)
+    y = c.scrivi(cv, g.date, g.stile("d", fontName="Cormorant-Corsivo", fontSize=11, leading=14,
+                 textColor=g.accento), x, y - 1, largo) - 16 * mm
     y = c.scrivi(cv, scheda["nome"], s["nome"], x, y, largo)
-    if c.sottotitolo(scheda):
-        y = c.scrivi(cv, c.sottotitolo(scheda), s["sotto"], x, y - 1, largo)
-    y -= 5 * mm
-    g.filetto(cv, x, y, 18 * mm, 1)
-    y -= 7 * mm
-    y = c.scrivi(cv, it, s["it"], x, y, largo)
-    if en:
-        y -= 5 * mm
-        c.scrivi(cv, en, s["en"], x, y, largo)
+    y -= 5 * mm * k
+    g.filetto(cv, x, y, 22 * mm, 1)
+    y -= 8 * mm * k
+    if it:
+        y = c.scrivi(cv, it, s["it"], x, y, largo) - 12 * mm * k
+    for r in righe:
+        fondo_riga = y
+        for j, o in enumerate(r):
+            xx = x + j * (col + giunto)
+            yy = c.scrivi(cv, o["titolo"], s["titolo"], xx, y, col)
+            if dati_opera(o):
+                yy = c.scrivi(cv, dati_opera(o), s["dati"], xx, yy, col)
+            yy -= 2.5 * mm * k
+            g.filetto(cv, xx, yy, 10 * mm, 0.7)
+            yy -= 3.5 * mm * k
+            yy = c.scrivi(cv, o["didascalia"]["it"], s["dida"], xx, yy, col)
+            fondo_riga = min(fondo_riga, yy)
+        y = fondo_riga - 8 * mm * k
     # piede: marchio e indirizzo
-    g.filetto(cv, x, 24 * mm, largo, 0.4)
-    c.logo(cv, x, 21 * mm, 15 * mm)
-    st = g.stile("p", fontSize=7, leading=9, textColor=g.grigio)
+    g.filetto(cv, x, 28 * mm, largo, 0.4)
+    c.logo(cv, x, 24 * mm, 17 * mm)
+    st = g.stile("p", fontSize=8, leading=10.5, textColor=g.grigio)
     c.scrivi(cv, "BE Art Gallery & Creative Lab<br/>Via San Pietro 24, Pistoia · beartgallery.eu",
-             st, x + 18 * mm, 19.5 * mm, largo - 18 * mm)
-
-
-def cartellino(cv, g: Grafica, scheda, o):
-    """A6: artista, titolo, dati, didascalia italiana e inglese."""
-    w, h = A6
-    fascia = 17 * mm
-    x, largo = 10 * mm, w - fascia - 10 * mm - 6 * mm
-    it = o["didascalia"]["it"]
-    en = o["didascalia"].get("en", "")
-    for k in [1 - 0.03 * i for i in range(14)]:
-        s = dict(
-            titolo=g.stile("t", fontName="Cormorant-Corsivo", fontSize=17 * k, leading=19.5 * k),
-            dati=g.stile("d", fontSize=7.8 * k, leading=10 * k, textColor=g.grigio),
-            it=g.stile("i", fontSize=9.6 * k, leading=13.2 * k, alignment=TA_JUSTIFY),
-            en=g.stile("e", fontName="Cormorant-Corsivo", fontSize=8 * k, leading=10.6 * k,
-                       alignment=TA_JUSTIFY, textColor=g.grigio),
-        )
-        alto = (c.misura(o["titolo"], s["titolo"], largo) + (c.misura(dati_opera(o), s["dati"], largo) if dati_opera(o) else 0)
-                + 10 * mm + c.misura(it, s["it"], largo) + (c.misura(en, s["en"], largo) + 4 * mm if en else 0))
-        if alto <= h - 30 * mm - 14 * mm:
-            break
-    g.fondo(cv, A6, fascia)
-    y = h - 10 * mm
-    y = g.etichetta(cv, scheda["nome"], x, y, 7, g.accento) - 6 * mm
-    y = c.scrivi(cv, o["titolo"], s["titolo"], x, y, largo)
-    if dati_opera(o):
-        y = c.scrivi(cv, dati_opera(o), s["dati"], x, y - 1, largo)
-    y -= 3.5 * mm
-    g.filetto(cv, x, y, 12 * mm, 0.8)
-    y -= 5 * mm
-    y = c.scrivi(cv, it, s["it"], x, y, largo)
-    if en:
-        y -= 3.5 * mm
-        c.scrivi(cv, en, s["en"], x, y, largo)
-    g.filetto(cv, x, 14 * mm, largo, 0.4)
-    g.etichetta(cv, g.titolo, x, 12.5 * mm, 5.5)
-    c.scrivi(cv, "BE Art Gallery & Creative Lab · Pistoia", g.stile("p", fontSize=6.5, leading=8, textColor=g.grigio),
-             x, 8.5 * mm, largo)
-
-
-def quattro_per_foglio(sorgente: Path, uscita: Path) -> None:
-    """I cartellini A6 quattro per foglio A4, con i segni di taglio al centro."""
-    import pypdfium2 as pdfium
-    doc = pdfium.PdfDocument(str(sorgente))
-    nuovo = pdfium.PdfDocument.new()
-    W, H = 210 * mm, 297 * mm
-    posti = [(0, H / 2), (W / 2, H / 2), (0, 0), (W / 2, 0)]
-    for inizio in range(0, len(doc), 4):
-        foglio = nuovo.new_page(W, H)
-        for (px, py), i in zip(posti, range(inizio, min(inizio + 4, len(doc)))):
-            ogg = doc.page_as_xobject(i, nuovo).as_pageobject()
-            ogg.transform(pdfium.PdfMatrix().translate(px, py))
-            foglio.insert_obj(ogg)
-        foglio.gen_content()
-    nuovo.save(str(uscita))
+             st, x + 21 * mm, 21.5 * mm, largo - 21 * mm)
 
 
 def main() -> None:
@@ -228,38 +192,24 @@ def main() -> None:
         if prova or lista:
             schede.append((s, lista))
     if prova:
-        schede = schede[:1]
-        if schede and not schede[0][1]:
-            schede[0] = (schede[0][0], [o for o in schede[0][0]["opere"] if o.get("didascalia", {}).get("it")][:1])
+        # le schede già in archivio, con le opere che hanno, solo per vedere la grafica
+        schede = [(s, l or [o for o in s["opere"] if o.get("didascalia", {}).get("it")]) for s, l in schede]
     if not schede:
         print("Nessuna scheda pronta: niente da impaginare.")
         return
 
     suffisso = "-prova" if prova else ""
-    p = uscita / f"pannelli{suffisso}.pdf"
-    cv = Canvas(str(p), pagesize=A5)
-    cv.setTitle(f"{cfg['titolo']} — pannelli")
-    for s, _ in schede:
-        pannello(cv, g, s)
-        cv.showPage()
-    cv.save()
-
-    q = uscita / f"cartellini{suffisso}.pdf"
-    cv = Canvas(str(q), pagesize=A6)
-    cv.setTitle(f"{cfg['titolo']} — cartellini")
+    p = uscita / f"schede{suffisso}.pdf"
+    cv = Canvas(str(p), pagesize=A4)
+    cv.setTitle(f"{cfg['titolo']} — artisti e opere")
+    cv.setAuthor("BE Art Gallery & Creative Lab")
     n = 0
     for s, lista in schede:
-        for o in lista:
-            cartellino(cv, g, s, o)
-            cv.showPage()
-            n += 1
+        pagina(cv, g, s, lista)
+        cv.showPage()
+        n += len(lista)
     cv.save()
-    a4 = uscita / f"cartellini-A4{suffisso}.pdf"
-    quattro_per_foglio(q, a4)
-    print(f"\n{cfg['titolo']}: {len(schede)} pannelli, {n} cartellini")
-    for f in (p, q, a4):
-        print(f"   {f.relative_to(c.RADICE)}")
-    print()
+    print(f"\n{cfg['titolo']}: {len(schede)} pagine, {n} opere\n   {p.relative_to(c.RADICE)}\n")
 
 
 if __name__ == "__main__":
