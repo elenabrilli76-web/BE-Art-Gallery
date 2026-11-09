@@ -223,30 +223,39 @@ def fondo_venato(larghezza, altezza, da, a, venature=7, seme=7, dpi=150):
             px[x, y] = tuple(int(c1[i] + (c2[i] - c1[i]) * t) for i in range(3))
     im = g.resize((W, H), Image.BICUBIC)
     rnd = random.Random(seme)
-    linee = Image.new("L", (W, H), 0)
-    d = ImageDraw.Draw(linee)
+    # Le venature del serpentino non sono linee nette: sono fasce chiare e
+    # nuvolose, fitte di puntini verdi e bianchi, con qualche filo più luminoso
+    fasce = Image.new("L", (W, H), 0)
+    fili = Image.new("L", (W, H), 0)
+    df, dl = ImageDraw.Draw(fasce), ImageDraw.Draw(fili)
 
-    def vena(x, y, ang, passi, spessore, intensita):
+    def vena(x, y, ang, passi, largo, ramo=0):
         punti = [(x, y)]
         for _ in range(passi):
-            ang += rnd.uniform(-0.18, 0.18)
-            x += math.cos(ang) * W / 90
-            y += math.sin(ang) * W / 90
+            ang += rnd.uniform(-0.14, 0.14)
+            x += math.cos(ang) * W / 80
+            y += math.sin(ang) * W / 80
             punti.append((x, y))
-            if spessore > 1 and rnd.random() < 0.04:
-                vena(x, y, ang + rnd.choice((-1, 1)) * rnd.uniform(0.4, 0.9),
-                     rnd.randint(10, 40), max(1, spessore - 2), intensita * 0.7)
-        d.line(punti, fill=int(intensita), width=int(spessore), joint="curve")
+            if ramo < 2 and rnd.random() < 0.035:
+                vena(x, y, ang + rnd.choice((-1, 1)) * rnd.uniform(0.3, 0.8),
+                     rnd.randint(15, 50), largo * 0.55, ramo + 1)
+        df.line(punti, fill=int(rnd.uniform(150, 230)), width=max(2, int(largo)), joint="curve")
+        if rnd.random() < 0.7:
+            sfasato = [(px_ + rnd.uniform(-largo, largo) * 0.25, py_) for px_, py_ in punti]
+            dl.line(sfasato, fill=int(rnd.uniform(140, 220)), width=max(1, int(W / 900)), joint="curve")
 
     for _ in range(venature):
-        y0 = rnd.uniform(-0.1, 1.1) * H
-        vena(-W * 0.05, y0, rnd.uniform(-0.5, 0.5), rnd.randint(90, 160),
-             rnd.choice((2, 2, 3)), rnd.uniform(90, 160))
-    alone = linee.filter(ImageFilter.GaussianBlur(W / 300))
-    luce = ImageChops.lighter(linee.filter(ImageFilter.GaussianBlur(0.8)),
-                              alone.point(lambda v: v * 0.6))
-    bianco = Image.new("RGB", (W, H), (246, 243, 236))
-    im = Image.composite(bianco, im, luce.point(lambda v: int(v * 0.5)))
+        vena(-W * 0.05, rnd.uniform(-0.1, 1.1) * H, rnd.uniform(-0.6, 0.6),
+             rnd.randint(80, 140), rnd.uniform(W / 70, W / 28))
+    fasce = fasce.filter(ImageFilter.GaussianBlur(W / 110))
+    # la grana: puntini chiari sparsi, più fitti dentro le fasce
+    grana = Image.effect_noise((W, H), 90).point(lambda v: 255 if v > 205 else 0)
+    grana = grana.filter(ImageFilter.GaussianBlur(W / 1400))
+    nuvola = ImageChops.multiply(fasce, grana.point(lambda v: 90 + v * 0.65))
+    luce = ImageChops.lighter(nuvola, fili.filter(ImageFilter.GaussianBlur(W / 1800)))
+    luce = ImageChops.lighter(luce, grana.point(lambda v: v * 0.10))   # un velo di grana ovunque
+    verde_chiaro = Image.new("RGB", (W, H), (214, 226, 210))
+    im = Image.composite(verde_chiaro, im, luce.point(lambda v: int(v * 0.62)))
     dati = io.BytesIO()
     im.save(dati, "JPEG", quality=88)
     dati.seek(0)
@@ -320,13 +329,13 @@ def fondo(cv, R, colore):
     cv.rect(R.x, R.y, R.w, R.h, stroke=0, fill=1)
 
 
-def piede(cv, R, n, testo):
+def piede(cv, R, n, testo, chiaro=False):
     if n is None:
         return
     y = R.y + R.m * 0.55
     c.filetto(cv, R.x + R.m, y + 9, R.utile, 0.4)
     cv.setFont("Cormorant", 8)
-    cv.setFillColor(c.GRIGIO)
+    cv.setFillColor(HexColor("#CFC8BA") if chiaro else c.GRIGIO)
     if n % 2:
         cv.drawString(R.x + R.m, y, testo)
         cv.drawRightString(R.x + R.w - R.m, y, str(n))
@@ -363,25 +372,30 @@ def p_testo(cv, R, p, F):
     basso = R.y + R.m + 8 * mm * R.k
     foto = p.get("foto", [])
     spazio_foto = (alto - basso) * p.get("quota_foto", 0.45) if foto else 0
-    k = adatta(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, alto - basso - spazio_foto, R.k, chiaro)
+    k = adatta(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, alto - basso - spazio_foto,
+               R.k * p.get("scala", 1), chiaro)
     y = blocchi(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, k, chiaro)
     if foto:
         gruppo(cv, F, foto, R.x + R.m, basso, R.utile, y - basso - 4 * mm * R.k, R.k, in_alto=True, chiaro=chiaro)
 
 
 def p_citazione(cv, R, p, F):
-    fondo(cv, R, c.CARTA)
+    if not p.get("trasparente"):
+        fondo(cv, R, c.CARTA)
     k = R.k
     largo = R.utile * 0.8
     x = R.x + (R.w - largo) / 2
     lista = [{"citazione": p["citazione"], "firma": p.get("firma")}]
-    h = R.y + R.h - blocchi(cv, lista, x, R.y + R.h, largo, k, disegna=False)
-    blocchi(cv, lista, x, R.y + (R.h + h) / 2, largo, k)
+    chiaro = bool(p.get("trasparente"))
+    h = R.y + R.h - blocchi(cv, lista, x, R.y + R.h, largo, k, chiaro, disegna=False)
+    blocchi(cv, lista, x, R.y + (R.h + h) / 2, largo, k, chiaro)
 
 
 def p_foto(cv, R, p, F):
     """Un'opera a pagina: la foto più grande che ci sta, la didascalia sotto."""
-    fondo(cv, R, c.CARTA)
+    chiaro = bool(p.get("trasparente"))
+    if not chiaro:
+        fondo(cv, R, c.CARTA)
     k = R.k
     alto = R.y + R.h - R.m
     basso = R.y + R.m + 8 * mm * k
@@ -390,8 +404,9 @@ def p_foto(cv, R, p, F):
     if nota:
         h = R.y + R.h - par(cv, nota, st(k), 0, R.y + R.h, R.utile * 0.8, False)
         y_nota = basso + h + 6 * mm * k
-        par(cv, nota, st(k), R.x + R.m + R.utile * 0.1, y_nota - 6 * mm * k, R.utile * 0.8)
-    gruppo(cv, F, [p], R.x + R.m, y_nota, R.utile, alto - y_nota, k)
+        par(cv, nota, st(k, textColor=c.CARTA if chiaro else c.INCHIOSTRO),
+            R.x + R.m + R.utile * 0.1, y_nota - 6 * mm * k, R.utile * 0.8)
+    gruppo(cv, F, [p], R.x + R.m, y_nota, R.utile, alto - y_nota, k, chiaro=chiaro)
 
 
 def p_gruppo(cv, R, p, F):
@@ -405,7 +420,8 @@ def p_piena(cv, R, p, F):
 
 def p_sezione(cv, R, p, F):
     """L'apertura di sezione: fondo scuro, un dettaglio in alto, il numero romano."""
-    fondo(cv, R, SCURO)
+    if not p.get("trasparente"):
+        fondo(cv, R, SCURO)
     k = R.k
     meta = R.h * 0.52
     F.posa(cv, p["foto"], R.x, R.y + R.h - meta, R.w, meta, taglia=True)
@@ -437,7 +453,8 @@ def p_retro(cv, R, p, F):
 
 
 def p_bianca(cv, R, p, F):
-    fondo(cv, R, c.CARTA)
+    if not p.get("trasparente"):
+        fondo(cv, R, c.CARTA)
 
 
 TIPI = {"copertina": p_copertina, "testo": p_testo, "citazione": p_citazione, "foto": p_foto,
@@ -461,11 +478,22 @@ def portfolio(cfg, F, uscita: Path):
         print(f"   ⚠ il portfolio ha {len(pag)} pagine: per la rilegatura serve un multiplo di 4")
     cv = Canvas(str(uscita), pagesize=A4)
     cv.setTitle(cfg["portfolio"].get("titolo", "Portfolio"))
+    venato = cfg["portfolio"].get("fondo_venato", {})
+    fondi = {}
     for n, p in enumerate(pag, 1):
         R = Riquadro(0, 0, *A4, 1, 18 * mm)
+        tipi = venato.get("tipi", [])
+        if "tutte" in tipi or p["tipo"] in tipi:
+            # i fondi girano su pochi semi: le venature cambiano da una pagina
+            # all'altra, ma il PDF riusa le stesse immagini e resta leggero
+            seme = venato.get("seme", 7) + n % venato.get("varianti", 6)
+            if seme not in fondi:
+                fondi[seme] = fondo_venato(*A4, venato["da"], venato["a"], venato.get("venature", 5), seme)
+            cv.drawImage(fondi[seme], 0, 0, *A4)
+            p = {**p, "trasparente": True}
         TIPI[p["tipo"]](cv, R, p, F)
         if p["tipo"] not in SENZA_PIEDE:
-            piede(cv, R, n, cfg["portfolio"].get("piede", ""))
+            piede(cv, R, n, cfg["portfolio"].get("piede", ""), bool(p.get("trasparente")))
         if cfg.get("bozza"):
             bozza(cv, R, cfg["bozza"])
         cv.showPage()

@@ -37,12 +37,12 @@ Alternative: 105 *Volto con turbante* al posto di 115, 308 *Volto fra le rose* a
 
 ## Il fondo
 
-L'esterno — copertina, retro e aletta — non ha il nero: è un gradiente continuo dal verde
-scuro del serpentino al bruno del legno, attraversato da venature bianche sottili che
-richiamano quelle della pietra e il bianco del marmo di Carrara. Il gradiente corre su
-tutte e tre le ante, così si legge intero quando la brochure è aperta. L'interno resta
-chiaro, color carta, perché i testi si leggano bene. Colori e numero di venature stanno in
-`impaginazione.json`, alla voce `fondo_venato`.
+Un unico mood tonale, fuori e dentro: un gradiente dal verde scuro del serpentino al bruno
+del legno, attraversato da venature chiare. Le venature imitano quelle del serpentino nelle
+foto: fasce larghe e nuvolose, fitte di puntini verdi e bianchi, con qualche filo più
+luminoso che rimanda al bianco del marmo di Carrara. Testi color carta, etichette in oro.
+Colori, numero di venature e varianti stanno in `impaginazione.json`, alla voce
+`fondo_venato`; lo stesso fondo è usato nel portfolio.
 
 ## I testi
 
