@@ -29,17 +29,6 @@
       }
     },
     {
-      "titolo": "Calipso",
-      "anno": 2026,
-      "tecnica": "tecnica mista su tela: acrilico, pastelli a olio, grafite",
-      "misure": "60 × 60 cm",
-      "mostra": "donne-femminile-plurale",
-      "didascalia": {
-        "it": "Due volti nello stesso ritratto: il profilo sereno di chi vorrebbe trattenere, lo sguardo frontale e teso di chi ha capito. Fra i capelli d'oro mossi dal vento un cigno bianco si piega verso il basso: è il pensiero che accetta, e apre la porta alla partenza.",
-        "en": "Two faces in the same portrait: the serene profile of one who would hold on, the tense frontal gaze of one who has understood. Among golden hair tossed by the wind a white swan bends downward: it is the thought that accepts, and opens the door to departure."
-      }
-    },
-    {
       "titolo": "Geisha",
       "anno": 2026,
       "tecnica": "assemblaggio di oggetti di recupero, cartapesta e acrilico",
@@ -48,6 +37,17 @@
       "didascalia": {
         "it": "Un vaso rotto, una tazza senza manico, i resti di un fermatenda: Patrizia Vangelisti raccoglie i cocci e li ricompone sotto la cartapesta viola. Ne nasce una piccola figura che tiene il ventaglio come un segreto e, fra Circe e Calipso, custodisce l'equilibrio.",
         "en": "A broken vase, a cup without a handle, the remains of a curtain tie-back: Patrizia Vangelisti gathers the shards and reassembles them under purple papier-mâché. The result is a small figure who holds her fan like a secret and, between Circe and Calypso, keeps the balance."
+      }
+    },
+    {
+      "titolo": "Calipso",
+      "anno": 2026,
+      "tecnica": "tecnica mista su tela: acrilico, pastelli a olio, grafite",
+      "misure": "60 × 60 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Due volti nello stesso ritratto: il profilo sereno di chi vorrebbe trattenere, lo sguardo frontale e teso di chi ha capito. Fra i capelli d'oro mossi dal vento un cigno bianco si piega verso il basso: è il pensiero che accetta, e apre la porta alla partenza.",
+        "en": "Two faces in the same portrait: the serene profile of one who would hold on, the tense frontal gaze of one who has understood. Among golden hair tossed by the wind a white swan bends downward: it is the thought that accepts, and opens the door to departure."
       }
     }
   ],

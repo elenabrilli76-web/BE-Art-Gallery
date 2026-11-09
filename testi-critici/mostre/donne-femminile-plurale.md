@@ -67,8 +67,8 @@ di Elena su per chi procedere.
 |---|---|---|---|
 | **Patrizia Vangelisti** — Lucca, già in archivio | trittico «Lasciar andare»: *Circe*, *Calipso* (tecnica mista su tela — acrilico, pastelli a olio, grafite — 60 × 60 cm, 2026); *Geisha* (scultura di oggetti di recupero, cartapesta e acrilico, h 36,5 cm, Ø 16 cm, 2026) | completi | ha mandato una descrizione delle opere: archetipi dell'Odissea, donne che trattengono e lasciano andare; la Geisha fa da legame fra i due dipinti |
 | **Catia Massai** — Prato, già in archivio | *Due sguardi* (grafite su carta, 33 × 48, cornice 40 × 50) · *Marie-Thérèse – omaggio a Picasso* (acrilico su tela, 40 × 50) · *Sensualità* (matite su cartoncino nero, 22 × 33, cornice 30 × 40) · *La ragazza con la pistola* (acrilico su tela, 40 × 60) · un rilievo con la scritta «NO!» | titoli e misure delle prime quattro | il rilievo «NO!» (busto, pizzo bianco, cuore rosso, su tavola) non è nell'elenco: titolo, tecnica e misure da chiedere. *Due sguardi* riporta a mano un brano di Oriana Fallaci («Essere donna è così affascinante…», da *Lettera a un bambino mai nato*) |
-| **Maria Cristina Andreini** — Prato, già in archivio | *Ragazza con velo azzurro* (olio su tela, 21 × 30) · *Ragazza occhi verdi* (20 × 30) · *Ragazza con copricapo viola* (30 × 40) · *Giovane donna occhi grigi* (30 × 40) | misure del dipinto e con cornice | l'abbinamento foto–titolo è dedotto da soggetto e proporzioni: da confermare. Nota sua: «gli occhi delle donne parlano… basta saper leggere» |
-| **Maria Maselli** | quadrittico *Femmes au marché*: *Esmeralda*, *Il flauto magico* (olio su tela, 30 × 40); *Il cesto di fiori*, *Il cesto di pere* (35 × 45) | completi | vendibili insieme o singolarmente; i titoli citano lirica e letteratura (Mozart, Victor Hugo). Città da chiedere. Le opere le porta Cristina Andreini |
+| **Maria Cristina Andreini** — Prato, già in archivio | *Ragazza con velo azzurro* (olio su tela, 21 × 30) · *Ragazza occhi verdi* (30 × 20) · *Ragazza con copricapo viola* (30 × 40) · *Giovane donna occhi grigi* (30 × 40) | misure del dipinto e con cornice | l'abbinamento foto–titolo è dedotto da soggetto e proporzioni: da confermare. Nota sua: «gli occhi delle donne parlano… basta saper leggere» |
+| **Maria Maselli** | quadrittico *Femmes au marché*: *Esmeralda*, *Il flauto magico* (olio su tela, 30 × 40); *Il cesto di fiori*, *Il cesto di pere* (35 × 45) | completi | vendibili insieme o singolarmente; i titoli citano lirica e letteratura (Mozart, Victor Hugo). Città e anni: si lasciano fuori (Elena, 9 novembre). Le opere le porta Cristina Andreini |
 | **Donatella Bucchieri** | *Petali di coraggio* · *Oltre il genere: Noi* · *Ecosistema interiore* | titoli | ha mandato un commento alle opere. Tecnica a colore versato (pouring) per due tele; *Noi* con foglia d'oro e mandala. Misure, anno e città da chiedere |
 | **Gabriella Lo Cascio** | *Sono circondata di Rosso* (olio, 50 × 40) | titolo, tecnica, misure | una sola opera |
 | **Grazia Barbieri** | *Caterina* | solo titolo | una sola opera; tecnica, misure e anno da chiedere |
@@ -100,9 +100,10 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Poetica**: costruisce per incastri — due nature in un volto, cocci in una
   figura — e ne fa il racconto di un passaggio emotivo. Qui il passaggio è il
   distacco: trattenere e lasciar andare.
-- **In mostra**: il trittico «Lasciar andare» — *Circe* (metà leone, metà
-  donna), *Calipso* (profilo sereno e sguardo teso, il cigno che si piega),
-  *Geisha* (scultura di cocci ricomposti sotto la cartapesta, al centro).
+- **In mostra**: il trittico «Lasciar andare», in quest'ordine — *Circe*
+  (metà leone, metà donna), *Geisha* al centro (scultura di cocci ricomposti
+  sotto la cartapesta), *Calipso* (profilo sereno e sguardo teso, il cigno
+  che si piega).
 - **Parole chiave della mostra che tocca**: autonomia, relazioni, cura.
 - **Dialoga con**: Maselli per il mito e la letteratura come specchio (Odissea
   da una parte, Hugo e Mozart dall'altra); con la ferita che si ricompone

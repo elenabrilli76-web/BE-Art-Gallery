@@ -84,7 +84,6 @@ Maselli trasporta la donna del mercato nel linguaggio della pittura antica: luce
 Realismo di tradizione, nel solco della pittura di genere sei-settecentesca e del ritratto accademico; i titoli aprono al teatro musicale. Nel testo: lirica e letteratura, non nomi di pittori.
 
 ### Cosa resta aperto
-- **città** in cui vive e lavora: da chiedere (non serve per la pagina di sala, serve per l'archivio)
-- **anni**: la firma su *Esmeralda* riporta «202…», tagliato nella foto
+- città e anni non indicati: Elena ha deciso di lasciarli fuori
 - la nudità in *Esmeralda* e *Il cesto di fiori*: nei contenuti social scegliere i dettagli con attenzione
 - le opere arrivano in galleria con Maria Cristina Andreini

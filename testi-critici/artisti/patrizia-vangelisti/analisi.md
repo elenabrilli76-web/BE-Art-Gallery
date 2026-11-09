@@ -161,4 +161,4 @@ Figurazione simbolica che usa il mito come lessico emotivo; nella scultura, la l
 
 ### Cosa resta aperto
 - la presentazione v1 (solo *Arturo*) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`: il catalogo di quella mostra non cambia
-- per la sala il trittico si legge da sinistra a destra: Circe, Geisha al centro, Calipso (indicazione dell'artista: la scultura «lega» i due dipinti)
+- in sala e nella pagina il trittico va in quest'ordine: *Circe*, *Geisha* al centro, *Calipso* (confermato da Elena il 9 novembre: la scultura sta in mezzo)

@@ -90,7 +90,7 @@ dopo: coincide con la luminosità e il piacere fisico delle scene.
 # DONNE: Femminile Plurale — 2026
 | | |
 |---|---|
-| **Opere analizzate** | *Ragazza con velo azzurro*, olio su tela, 21 × 30 cm · *Ragazza occhi verdi*, olio su tela, 20 × 30 cm · *Ragazza con copricapo viola*, olio su tela, 30 × 40 cm · *Giovane donna occhi grigi*, olio su tela, 30 × 40 cm |
+| **Opere analizzate** | *Ragazza con velo azzurro*, olio su tela, 21 × 30 cm · *Ragazza occhi verdi*, olio su tela, 30 × 20 cm · *Ragazza con copricapo viola*, olio su tela, 30 × 40 cm · *Giovane donna occhi grigi*, olio su tela, 30 × 40 cm |
 | **Stesura** | 9 novembre 2026 · v1 per la mostra |
 | **Fonti** | foto delle opere dal Drive (cartella della mostra); descrizioni e dati inviati dall'artista, letti dopo l'analisi |
 
@@ -116,7 +116,7 @@ dopo: coincide con la luminosità e il piacere fisico delle scene.
 
 > The blue veil wraps the face up to the eyes and leaves only the gaze uncovered, clear and a little shadowed. The whole painting converges there: in those eyes that do not look down, a question remains open.
 
-### *Ragazza occhi verdi* — olio su tela, 20 × 30 cm
+### *Ragazza occhi verdi* — olio su tela, 30 × 20 cm
 
 **Italiano** — _200 caratteri_
 
@@ -151,7 +151,7 @@ dopo: coincide con la luminosità e il piacere fisico delle scene.
 ### Analisi formale
 Quattro piccoli oli, tutti ritratti ravvicinati di ragazze e giovani donne, in cornici scure:
 - **Ragazza con velo azzurro** (21 × 30): velo azzurro avvolto fino al naso, occhi chiari violacei sotto sopracciglia scure; il blu domina, la pelle è calda
-- **Ragazza occhi verdi** (20 × 30, la foto è orizzontale): velo blu notte sulla bocca, una mano aperta di lato; occhi verde acqua al centro esatto
+- **Ragazza occhi verdi** (30 × 20, orizzontale): velo blu notte sulla bocca, una mano aperta di lato; occhi verde acqua al centro esatto
 - **Ragazza con copricapo viola** (30 × 40): turbante viola, veste a righe e fiori turchese, gialla e rossa, occhi neri bordati di verde, sguardo frontale
 - **Giovane donna occhi grigi** (30 × 40): volto giovanissimo, capelli scuri, labbra a broncio, grandi occhi grigio-azzurri
 Firma «MCA» in basso a destra.
@@ -169,5 +169,5 @@ Figurazione realista e ritratto contemporaneo dal sapore fotografico; nessun rif
 
 ### Cosa resta aperto
 - **abbinamento foto–titolo** dedotto da soggetto e proporzioni: confermare con l'artista, soprattutto *Ragazza con velo azzurro* e *Giovane donna occhi grigi*
-- misure: si indicano quelle del dipinto, senza cornice; *Ragazza occhi verdi* è dichiarata 20 × 30 ma la foto è orizzontale (30 × 20?)
+- misure: si indicano quelle del dipinto, senza cornice; *Ragazza occhi verdi* è 30 × 20, orizzontale (confermato da Elena il 9 novembre)
 - la presentazione v1 (opere al mare) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`
