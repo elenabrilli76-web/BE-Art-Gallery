@@ -32,47 +32,48 @@ risguardi.
 | 4 | Presentazione | — |
 | 5 | Ritratto | 003, a piena pagina |
 | 6 | Biografia | — |
-| 7–8 | *Prima della pietra*, doppia pagina | 504 · 502 biga · 506 croce · 507 arpa |
-| 9 | La pietra verde del Monteferrato | 005 ritratto al lavoro |
-| **10** | **I · Serpentino** — apertura | 115, in dettaglio |
-| 11 | | 104 *Doppia testa* |
-| 12 | | 105 *Volto con turbante* |
-| 13 | | 115 *Volto e mano* |
-| 14 | | 118 *Busto di donna con figura sul capo* |
-| 15 | | 112 *Busto di vecchio* |
-| 16 | | 111 *Figura seduta* |
-| 17 | | 106 *Busto con occhiali* |
-| 18 | | 117 *Busto con berretto* |
-| 19 | | 109 **Lotta tra lucertola e serpente**, 2023 |
-| 20 | | 107 **Edera**, 2024 |
-| 21 | | 102 *Serpente* · 108 **Lumaca**, 2019 |
-| 22 | | 114 *Leone* · 113 *Cane* |
-| 23 | | 110 *Tartaruga* |
-| 24 | | 101 *Pietra dell'alluvione*, con il suo testo |
-| 25 | *Altre pietre*, se l'artista conferma | 103 · 116 · 120 |
-| **26** | **II · Marmo bianco** — apertura | 208, in dettaglio |
-| 27–28 | doppia pagina | 207 spento · 208 acceso |
-| 29 | | 203 *Profilo in controluce* |
-| 30 | | 204 · 205 *Testa al vento*, di profilo e di fronte |
-| 31 | | 209 **Donna al sole**, 2021 |
-| 32 | | 212 *Nudo in piedi* |
-| 33 | | 211 *Nudo in piedi* · 210 *Volto fra i capelli* |
-| 34 | | 213 *Maschera* |
-| 35 | | 202 *Torre* |
-| 36 | | 201 *Colomba sull'edera* |
-| **37** | **III · Legno** — apertura | 304, in dettaglio |
-| 38 | | 310 *Aquila* |
-| 39 | | 311 *Totem con aquila* |
-| 40 | | 304 *Volto nel tronco* |
-| 41 | | 308 *Volto fra le rose* |
-| 42 | | 313 *Volto di donna* |
-| 43 | | 309 *Volto con conchiglia* |
-| 44 | | 303 *Testa con turbante* |
-| 45 | | 301 *Lucertole sul tronco* |
-| 46 | | 305 *Salamandra* · 315 *Lucertole* |
-| 47 | | 314 *Cavallo* |
-| 48 | | 312 *Agave* |
-| 49 | | 302 *Leggio* · 307 *Penna* |
+| 7 | La pietra verde del Monteferrato | 005 ritratto al lavoro |
+| **8** | **I · Serpentino** — apertura | 115, in dettaglio |
+| 9 | | 104 *Doppia testa* |
+| 10 | | 105 *Volto con turbante* |
+| 11 | | 115 *Volto e mano* |
+| 12 | | 118 *Busto di donna con figura sul capo* |
+| 13 | | 112 *Busto di vecchio* |
+| 14 | | 111 *Figura seduta* |
+| 15 | | 106 *Busto con occhiali* |
+| 16 | | 117 *Busto con berretto* |
+| 17 | | 109 **Lotta tra lucertola e serpente**, 2023 |
+| 18 | | 107 **Edera**, 2024 |
+| 19 | | 102 *Serpente* · 108 **Lumaca**, 2019 |
+| 20 | | 114 *Leone* · 113 *Cane* |
+| 21 | | 110 *Tartaruga* |
+| 22 | | 101 *Pietra dell'alluvione*, con il suo testo |
+| 23 | *Altre pietre*, se l'artista conferma | 103 · 116 · 120 |
+| **24** | **II · Marmo bianco** — apertura | 208, in dettaglio |
+| 25–26 | doppia pagina | 207 spento · 208 acceso |
+| 27 | | 203 *Profilo in controluce* |
+| 28 | | 204 · 205 *Testa al vento*, di profilo e di fronte |
+| 29 | | 209 **Donna al sole**, 2021 |
+| 30 | | 212 *Nudo in piedi* |
+| 31 | | 211 *Nudo in piedi* · 210 *Volto fra i capelli* |
+| 32 | | 213 *Maschera* |
+| 33 | | 202 *Torre* |
+| 34 | | 201 *Colomba sull'edera* |
+| **35** | **III · Legno** — apertura | 304, in dettaglio |
+| 36 | | 310 *Aquila* |
+| 37 | | 311 *Totem con aquila* |
+| 38 | | 304 *Volto nel tronco* |
+| 39 | | 308 *Volto fra le rose* |
+| 40 | | 313 *Volto di donna* |
+| 41 | | 309 *Volto con conchiglia* |
+| 42 | | 303 *Testa con turbante* |
+| 43 | | 301 *Lucertole sul tronco* |
+| 44 | | 305 *Salamandra* · 315 *Lucertole* |
+| 45 | | 314 *Cavallo* |
+| 46 | | 312 *Agave* |
+| 47 | | 302 *Leggio* · 307 *Penna* |
+| **48** | **IV · Riciclo** — apertura, con il testo | 504 la biga col cavallo · 502 la biga da vicino |
+| 49 | | 506 *Croce di ferri di cavallo* · 507 *Arpa* |
 | **50** | **Appendice · Donazioni** — apertura | 408 nel tabernacolo |
 | 51 | | 411 *Madonnina del Covid*, con il suo testo |
 | 52 | Chiesa della Rocca | 404 *Madonna con Bambino* · 409 *Croce della Passione* |
@@ -86,7 +87,7 @@ risguardi.
 | 60 | Retro | — |
 
 Esclusi: i doppioni (119, 306, 316, 407, 414, 004, 501, 505, 508) e la caldarrostiera (503).
-Se 103, 116 e 120 non vengono confermati, la pagina 25 salta e si toglie una pagina
+Se 103, 116 e 120 non vengono confermati, la pagina 23 salta e si toglie una pagina
 bianca in fondo, oppure si recupera un ritratto in più.
 
 ---
@@ -111,23 +112,18 @@ bianca in fondo, oppure si recupera un ritratto in più.
 >
 > È una scultura di ascolto più che di progetto, radicata in un territorio e nella sua pietra. Ed è una scultura che si regala: molte opere di Calamai stanno in chiese, tabernacoli e sedi associative, dove la comunità le custodisce.
 
-### Pag. 6–8 · Biografia
+### Pag. 6 · Biografia
 
 > Sauro Calamai nasce a Prato il 27 ottobre 1954 e vive a Montemurlo.
 >
-> Autodidatta, comincia dal legno, dal ferro e dal cuoio. Prima della pietra costruisce con quello che trova: una biga con le ruote di un vecchio aratro e una mangiatoia da stalla sul davanti, una croce di ferri di cavallo con una testa in serpentino incastonata al centro, un'arpa ricavata dal legno di vecchi mobili.
+> Autodidatta, comincia dal legno, dal ferro e dal cuoio, costruendo con materiali di recupero: una biga, una croce di ferri di cavallo, un'arpa.
 >
 > Nel 2010 comincia a scolpire la pietra verde del Monteferrato, che da piccolo andava a vedere a Galceti, e non smette più. La raccoglie dove la terra viene smossa: nei campi, nei cantieri, dopo l'alluvione del novembre 2023. Accanto al serpentino lavora il marmo bianco di Carrara e torna al legno.
 >
 > Espone per la prima volta nel 2018, alla Festa dell'olio della Rocca di Montemurlo. Dal 2023 fa parte del gruppo AmoArt, con cui espone soprattutto nella Sala Banti di Montemurlo. Nel 2024 la personale *Verde Pietra*, nella sala consiliare del Comune di Vaiano, presenta ventisette opere. Nel 2026 espone per la prima volta a Pistoia, alla BE Art Gallery.
 
-**Didascalie delle foto di *Prima della pietra*** — una riga ciascuna:
 
-- 504 · *La biga, con le ruote di un vecchio aratro.*
-- 506 · *Croce di ferri di cavallo, con testa in serpentino.*
-- 507 · *Arpa, dal legno di vecchi mobili.*
-
-### Pag. 9 · La pietra verde del Monteferrato
+### Pag. 7 · La pietra verde del Monteferrato
 
 > Il serpentino del Monteferrato, detto anche marmo verde di Prato, è una pietra verde scura, a volte variegata, con sfumature che vanno verso il grigio, il blu o un verde quasi nero. Usata fin dal Medioevo, anche per la somiglianza con il porfido verde antico, è dura e di lavorazione difficile.
 >
@@ -135,23 +131,37 @@ bianca in fondo, oppure si recupera un ritratto in più.
 >
 > Calamai la raccoglie nelle campagne di Montemurlo, ai piedi di quelle colline. «È una pietra che ci identifica e fa parte della nostra quotidianità.»
 
-### Pag. 10 · I · Serpentino
+### Pag. 8 · I · Serpentino
 
 > Volti e animali, lucidati dove serve la luce e lasciati grezzi dove la pietra deve restare pietra. Nei volti tornano i capelli, lunghi e solcati, che tengono insieme la figura e il blocco da cui esce; negli animali torna la campagna di Montemurlo: lucertole, serpi, una lumaca, una tartaruga.
 
-### Pag. 24 · *Pietra dell'alluvione*
+### Pag. 22 · *Pietra dell'alluvione*
 
 Dal cartellino dell'opera, riscritto. Da confermare con l'artista.
 
 > Pietra raccolta dopo l'alluvione del 2 novembre 2023. Calamai l'ha lavorata per ricordare il sacrificio delle tante persone coinvolte in quei giorni.
 
-### Pag. 26 · II · Marmo bianco
+### Pag. 24 · II · Marmo bianco
 
 > Il marmo di Carrara porta Calamai verso la figura intera e verso la luce. I nudi femminili si distendono nel bassorilievo o si alzano sottili, i capelli si muovono come al vento. In alcune lastre il marmo si assottiglia fino a diventare traslucido: illuminato da dietro, il rilievo cambia, e la stessa opera ha due volti, spenta e accesa.
 
-### Pag. 37 · III · Legno
+### Pag. 35 · III · Legno
 
 > Nel legno è il tronco a decidere. Calamai segue la fibra, i nodi, le spaccature: un ramo diventa il dorso di una lucertola, un ceppo spaccato il profilo di un volto, la sommità di un tronco un'aquila. Il legno prende i toni caldi del miele e del bruno, e lascia leggere ogni passaggio dello scalpello.
+
+### Pag. 48–49 · IV · Riciclo
+
+Una sezione breve, due pagine: serve a mostrare quanto è ampio il lavoro dell'artista,
+non a fare un capitolo a sé. Titolo alternativo, se *Riciclo* suona troppo tecnico:
+*Seconda vita*.
+
+> Prima della pietra, e accanto alla pietra, Calamai costruisce con quello che altri lasciano da parte. Le ruote di un vecchio aratro e una mangiatoia da stalla diventano una biga, attaccata a un cavallo vero; i ferri di cavallo si intrecciano in una croce, con al centro una testa in serpentino; il legno di vecchi mobili diventa un'arpa. È lo stesso gesto della pietra raccolta nei campi: guardare un materiale e vederci già un'altra forma.
+
+**Didascalie**
+
+- 504 · 502 · *Biga*, con le ruote di un vecchio aratro e una mangiatoia da stalla.
+- 506 · *Croce di ferri di cavallo*, con testa in serpentino.
+- 507 · *Arpa*, dal legno di vecchi mobili.
 
 ### Pag. 50 · Appendice · Donazioni
 
@@ -221,7 +231,6 @@ Montemurlo stampano una cartolina distribuita ai cittadini.
    La sessione fotografica di fine novembre deve rifare almeno le opere scelte. Per le
    donazioni, che sono in chiese e tabernacoli, servono foto sul posto oppure le migliori
    esistenti, stampate piccole.
-10. **Il riciclo** non è fra le sezioni del preventivo. Qui entra nella biografia, come
-   *Prima della pietra*, senza aggiungere una quarta sezione e quindi senza cambiare il
-   preventivo.
+10. **Il riciclo** non è fra le sezioni del preventivo. Qui diventa una sezione in più,
+   breve, di due pagine prima delle donazioni: il totale resta 60 pagine.
 11. **Solo italiano?** Il preventivo non prevede l'inglese. Se serve, è un'aggiunta da concordare.
