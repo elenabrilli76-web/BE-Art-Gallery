@@ -29,11 +29,20 @@ un mosaico di foto piccole. Le altre opere stanno nel portfolio.
 | 3 · la pietra | **115** *Volto e mano* |
 | 4 · marmo e legno | **208** *Nudo disteso*, acceso · **310** *Aquila* |
 | 5 · aletta | **107** *Edera* |
-| 6 · retro | nessuna opera: contatti, crediti e logo, su fondo scuro |
+| 6 · retro | nessuna opera: contatti, crediti e logo |
 
 Alternative: 105 *Volto con turbante* al posto di 115, 308 *Volto fra le rose* al posto di 310.
 
 ---
+
+## Il fondo
+
+L'esterno — copertina, retro e aletta — non ha il nero: è un gradiente continuo dal verde
+scuro del serpentino al bruno del legno, attraversato da venature bianche sottili che
+richiamano quelle della pietra e il bianco del marmo di Carrara. Il gradiente corre su
+tutte e tre le ante, così si legge intero quando la brochure è aperta. L'interno resta
+chiaro, color carta, perché i testi si leggano bene. Colori e numero di venature stanno in
+`impaginazione.json`, alla voce `fondo_venato`.
 
 ## I testi
 

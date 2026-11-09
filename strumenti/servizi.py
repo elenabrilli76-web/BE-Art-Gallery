@@ -154,16 +154,17 @@ class Foto:
         return px, py, w, h
 
 
-def didascalia(cv, righe, x, y, largo, k, disegna=True):
+def didascalia(cv, righe, x, y, largo, k, disegna=True, chiaro=False):
     """La prima riga in corsivo, le altre piccole e grigie."""
     for i, r in enumerate(righe):
-        s = (st(k, corpo=10.5, fontName="Cormorant-Corsivo", alignment=TA_CENTER) if i == 0
-             else st(k, corpo=8.5, textColor=c.GRIGIO, alignment=TA_CENTER))
+        s = (st(k, corpo=10.5, fontName="Cormorant-Corsivo", alignment=TA_CENTER,
+                textColor=c.CARTA if chiaro else c.INCHIOSTRO) if i == 0
+             else st(k, corpo=8.5, textColor=HexColor("#D9D3C7") if chiaro else c.GRIGIO, alignment=TA_CENTER))
         y = par(cv, r, s, x, y, largo, disegna)
     return y
 
 
-def gruppo(cv, F, opere, x, y_basso, largo, alto, k, in_alto=False):
+def gruppo(cv, F, opere, x, y_basso, largo, alto, k, in_alto=False, chiaro=False):
     """Da una a quattro foto nel riquadro, ognuna con la sua didascalia. Con
     in_alto le foto stanno subito sotto il testo, invece che centrate nel vuoto."""
     n = len(opere)
@@ -196,7 +197,60 @@ def gruppo(cv, F, opere, x, y_basso, largo, alto, k, in_alto=False):
         hd = alto_dida if o.get("dida") else 0
         _, py, _, ph = F.posa(cv, o["foto"], cx, cy + hd, cw, ch - hd, in_alto=in_alto)
         if o.get("dida"):
-            didascalia(cv, o["dida"], cx, py - 2 * k, cw, k)
+            didascalia(cv, o["dida"], cx, py - 2 * k, cw, k, chiaro=chiaro)
+
+
+# ----------------------------------------------------------------------------
+# Fondo a gradiente con venature
+# ----------------------------------------------------------------------------
+
+def fondo_venato(larghezza, altezza, da, a, venature=7, seme=7, dpi=150):
+    """Un gradiente diagonale fra due colori — il verde del serpentino e il bruno
+    del legno — attraversato da venature bianche, come quelle della pietra e del
+    marmo. Il seme fisso fa uscire sempre lo stesso fondo."""
+    import math
+    import random
+    from PIL import ImageChops, ImageDraw, ImageFilter
+    W, H = int(larghezza / 72 * dpi), int(altezza / 72 * dpi)
+    c1 = [int(da[i:i + 2], 16) for i in (1, 3, 5)]
+    c2 = [int(a[i:i + 2], 16) for i in (1, 3, 5)]
+    # il gradiente, calcolato piccolo e poi ingrandito: è liscio comunque
+    g = Image.new("RGB", (256, 256))
+    px = g.load()
+    for y in range(256):
+        for x in range(256):
+            t = min(1, max(0, (x / 255 * 0.65 + (1 - y / 255) * 0.35)))
+            px[x, y] = tuple(int(c1[i] + (c2[i] - c1[i]) * t) for i in range(3))
+    im = g.resize((W, H), Image.BICUBIC)
+    rnd = random.Random(seme)
+    linee = Image.new("L", (W, H), 0)
+    d = ImageDraw.Draw(linee)
+
+    def vena(x, y, ang, passi, spessore, intensita):
+        punti = [(x, y)]
+        for _ in range(passi):
+            ang += rnd.uniform(-0.18, 0.18)
+            x += math.cos(ang) * W / 90
+            y += math.sin(ang) * W / 90
+            punti.append((x, y))
+            if spessore > 1 and rnd.random() < 0.04:
+                vena(x, y, ang + rnd.choice((-1, 1)) * rnd.uniform(0.4, 0.9),
+                     rnd.randint(10, 40), max(1, spessore - 2), intensita * 0.7)
+        d.line(punti, fill=int(intensita), width=int(spessore), joint="curve")
+
+    for _ in range(venature):
+        y0 = rnd.uniform(-0.1, 1.1) * H
+        vena(-W * 0.05, y0, rnd.uniform(-0.5, 0.5), rnd.randint(90, 160),
+             rnd.choice((2, 2, 3)), rnd.uniform(90, 160))
+    alone = linee.filter(ImageFilter.GaussianBlur(W / 300))
+    luce = ImageChops.lighter(linee.filter(ImageFilter.GaussianBlur(0.8)),
+                              alone.point(lambda v: v * 0.6))
+    bianco = Image.new("RGB", (W, H), (246, 243, 236))
+    im = Image.composite(bianco, im, luce.point(lambda v: int(v * 0.5)))
+    dati = io.BytesIO()
+    im.save(dati, "JPEG", quality=88)
+    dati.seek(0)
+    return ImageReader(dati)
 
 
 # ----------------------------------------------------------------------------
@@ -282,9 +336,13 @@ def piede(cv, R, n, testo):
 
 
 def p_copertina(cv, R, p, F):
-    fondo(cv, R, SCURO)
     banda = R.h * 0.30
-    F.posa(cv, p["foto"], R.x, R.y + banda, R.w, R.h - banda, taglia=True)
+    if p.get("trasparente"):
+        # sul fondo venato: la foto incorniciata dai margini, niente nero
+        F.posa(cv, p["foto"], R.x + R.m, R.y + banda, R.utile, R.h - banda - R.m, taglia=True)
+    else:
+        fondo(cv, R, SCURO)
+        F.posa(cv, p["foto"], R.x, R.y + banda, R.w, R.h - banda, taglia=True)
     k = R.k
     y = R.y + banda - R.m * 0.9
     y = par(cv, p["titolo"], st(k, corpo=40, leading=44 * k, textColor=c.CARTA), R.x + R.m, y, R.utile)
@@ -298,15 +356,17 @@ def p_copertina(cv, R, p, F):
 
 
 def p_testo(cv, R, p, F):
-    fondo(cv, R, c.CARTA)
+    chiaro = bool(p.get("trasparente"))
+    if not chiaro:
+        fondo(cv, R, c.CARTA)
     alto = R.y + R.h - R.m
     basso = R.y + R.m + 8 * mm * R.k
     foto = p.get("foto", [])
     spazio_foto = (alto - basso) * p.get("quota_foto", 0.45) if foto else 0
-    k = adatta(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, alto - basso - spazio_foto, R.k)
-    y = blocchi(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, k)
+    k = adatta(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, alto - basso - spazio_foto, R.k, chiaro)
+    y = blocchi(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, k, chiaro)
     if foto:
-        gruppo(cv, F, foto, R.x + R.m, basso, R.utile, y - basso - 4 * mm * R.k, R.k, in_alto=True)
+        gruppo(cv, F, foto, R.x + R.m, basso, R.utile, y - basso - 4 * mm * R.k, R.k, in_alto=True, chiaro=chiaro)
 
 
 def p_citazione(cv, R, p, F):
@@ -364,7 +424,8 @@ def p_sezione(cv, R, p, F):
 
 
 def p_retro(cv, R, p, F):
-    fondo(cv, R, SCURO)
+    if not p.get("trasparente"):
+        fondo(cv, R, SCURO)
     k = R.k
     y = R.y + R.h - R.m * 2
     lista = p.get("blocchi", [])
@@ -424,9 +485,14 @@ def brochure(cfg, F, uscita: Path):
         ante = b[lato]
         # esterno: aletta (stretta) · retro · copertina — interno: tre ante, l'ultima stretta
         w = [larghe[0] - 2 * mm, larghe[1], larghe[2]] if lato == "esterno" else [larghe[0], larghe[1], larghe[2] - 2 * mm]
+        venato = b.get("fondo_venato", {})
+        if lato in venato.get("lati", []):
+            cv.drawImage(fondo_venato(W, H, venato["da"], venato["a"], venato.get("venature", 7),
+                                      venato.get("seme", 7)), 0, 0, W, H)
         x = 0
         for anta, wi in zip(ante, w):
-            R = Riquadro(x, 0, wi, H, 0.82, 9 * mm)
+            anta = {**anta, "trasparente": lato in venato.get("lati", [])}
+            R = Riquadro(x, 0, wi, H, b.get("scala", 0.82), 9 * mm)
             TIPI[anta["tipo"]](cv, R, anta, F)
             x += wi
         cv.setStrokeColor(HexColor("#D8D2C4"))

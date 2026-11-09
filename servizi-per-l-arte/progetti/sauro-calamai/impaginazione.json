@@ -1047,6 +1047,16 @@
     ],
     "quota_foto": 0.62
    }
-  ]
+  ],
+  "fondo_venato": {
+   "lati": [
+    "esterno"
+   ],
+   "da": "#1F3B2F",
+   "a": "#654126",
+   "venature": 5,
+   "seme": 11
+  },
+  "scala": 1.0
  }
 }
