@@ -182,3 +182,8 @@ opere di quella mostra. Quando un artista torna con opere nuove e la
 presentazione va riscritta, la vecchia si conserva in
 `"presentazioni_per_mostra"` sotto il nome della mostra passata: così i suoi
 cataloghi restano com'erano. Pagine di sala: `py strumenti\sala.py nome-mostra`.
+
+**Le pagine di sala si consegnano sempre separate, un PDF per artista**
+(decisione di Elena, 9 novembre 2026): lo script le salva in
+`testi-critici/mostre/nome-mostra/artisti/`, oltre al file unico
+`schede.pdf`. A Elena si mandano i PDF dei singoli artisti.

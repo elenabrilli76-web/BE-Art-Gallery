@@ -57,6 +57,8 @@ delle pagine finali di *I Luoghi dell'Anima*, con i colori della locandina.
 - colori: carta `#F2E5D5`, inchiostro `#212B2D`, terracotta `#8C3A1E`,
   oro `#A8844A`, grigio `#6E6560`; carattere Cormorant Garamond
 - **niente cartellino A6 e niente inglese** per questa mostra
+- **una scheda separata per ogni artista**: un PDF ciascuno in
+  `donne-femminile-plurale/artisti/` (decisione di Elena, 9 novembre 2026)
 
 ## Artisti e opere arrivate
 
