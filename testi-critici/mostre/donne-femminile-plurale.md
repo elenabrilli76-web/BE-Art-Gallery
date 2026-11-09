@@ -97,7 +97,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Maria Cristina Andreini | analizzata il 9 novembre — presentazione v2 e 4 didascalie |
 | Donatella Bucchieri | analizzata il 9 novembre — presentazione e 3 didascalie |
 | Catia Massai | analizzata il 9 novembre — presentazione v2 e 5 didascalie |
-| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
+| Federica Barletta | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
+| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio · Roberta Grillanda · Manuela Romanelli | in attesa (Grillanda: cartella sul Drive ancora vuota) |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -179,6 +180,23 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   diretta sul tema della violenza.
 - **Frase da tenere**: il NO! scritto a mano — il rifiuto più semplice, quello
   che ogni violenza finge di non sentire.
+
+### Federica Barletta — le madri antiche e il posto vuoto
+
+- **Poetica**: scene oniriche con la forza del rito; figure femminili arcaiche,
+  simili alle Veneri preistoriche, potenti e giudicanti, insieme grembo e
+  minaccia. Interroga l'origine dell'identità femminile: potenza generativa,
+  giudizio, rinascita. (Provvisoria: un'opera sola.)
+- **In mostra**: *Concistoro delle madri* — otto madri gravide attorno a una
+  tavola in una stanza rosso sangue, una porta aperta sulla luce, una sedia
+  vuota per chi guarda.
+- **Parole chiave**: identità, memoria, relazioni, cura.
+- **Dialoga con**: Vangelisti e Maselli (archetipo e mito); Bucchieri
+  (trasformazione, rinascita); Bucchieri ancora, per il «Noi» che chiama chi
+  guarda dentro l'opera — qui la sedia vuota.
+- **Filo nuovo**: il **giudizio fra donne**, quando si fa proprio lo sguardo
+  degli altri; e il suo rovescio, la sorellanza. Delicato: con misura.
+- **Frase da tenere**: una sedia resta vuota, ed è per chi guarda.
 
 ## Il tema trasversale: la violenza contro le donne
 
