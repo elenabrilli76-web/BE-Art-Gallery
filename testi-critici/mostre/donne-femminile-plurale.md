@@ -99,7 +99,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Catia Massai | analizzata il 9 novembre — presentazione v2 e 5 didascalie |
 | Federica Barletta | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Roberta Grillanda | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
-| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio · Manuela Romanelli | in attesa |
+| Manuela Romanelli | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
+| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -213,6 +214,22 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   vicina al claim: il plurale in un solo sguardo.
 - **Frase da tenere**: lo sguardo di una diventa lo sguardo di tutte.
 
+### Manuela Romanelli — la casa che non protegge
+
+- **Poetica**: interni domestici in blu, viola e rosso, dove la donna sta ai
+  margini, in controluce, più spenta degli oggetti che la circondano. Una
+  tensione taciuta. (Provvisoria: due opere, nessun testo dell'artista.)
+- **In mostra**: *Controluce* (la donna in grigi e blu sul bordo di una
+  poltrona rossa, lo sguardo in allarme), *Controluce 2* (divano blu vuoto,
+  porta rossa, oltre la soglia una donna in sottoveste piegata, di spalle).
+- **Parole chiave**: relazioni, cura (mancata), identità.
+- **Dialoga con**: Barletta (la stanza rossa), Andreini e Grillanda (lo
+  sguardo), Lo Cascio (il rosso che avvolge).
+- **Per il tema**: la voce più trattenuta — la casa come luogo dove la
+  violenza accade, senza mostrarla. L'aggancio è nei colori: «i colori di un
+  livido».
+- **Frase da tenere**: la casa, che dovrebbe essere riparo.
+
 ## Il tema trasversale: la violenza contro le donne
 
 Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
@@ -232,6 +249,7 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *Due sguardi* | Massai | le parole di Fallaci: battersi perché un'intelligenza sia ascoltata |
 | *La ragazza con la pistola* | Massai | la difesa, con ironia: i ruoli rovesciati |
 | il trittico «Lasciar andare» | Vangelisti | la relazione senza possesso: Circe non cerca sottomissione, Calipso rinuncia a trattenere |
+| *Controluce*, *Controluce 2* | Romanelli | la casa che non protegge, la donna ai margini; blu, viola e rosso come un livido |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
 Da verificare con Lo Cascio (*Sono circondata di Rosso*: il rosso che

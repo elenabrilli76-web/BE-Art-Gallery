@@ -1,0 +1,25 @@
+{
+  "nome": "Manuela Romanelli",
+  "presentazione": {
+    "it": "Manuela Romanelli dipinge interni domestici in cui qualcosa non torna. La casa, che dovrebbe essere riparo, si accende di rossi e di blu freddi: poltrone, tende, porte, pavimenti lucidi. Le donne vi stanno ai margini, in controluce, quasi spente di colore rispetto agli oggetti che le circondano, sedute sul bordo o voltate di spalle in un'altra stanza. Il pennello insiste sulle superfici, lascia scie e riflessi, e la palette ristretta di blu, viola e rosso, i colori di un livido, crea una tensione silenziosa. Una pittura che guarda l'intimità e ne coglie l'inquietudine.",
+    "en": "Manuela Romanelli paints domestic interiors where something does not add up. The home, which should be a shelter, burns with reds and cold blues: armchairs, curtains, doors, glossy floors. The women stand at the edges, against the light, almost drained of colour beside the objects around them, sitting on the edge of a seat or turned away in another room. The brush insists on surfaces, leaving streaks and reflections, and the narrow palette of blue, violet and red, the colours of a bruise, builds a silent tension. A painting that looks at intimacy and catches its unease."
+  },
+  "opere": [
+    {
+      "titolo": "Controluce",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Seduta sul bordo di una poltrona rossa, la donna è tutta in grigi e blu, come svuotata di colore, e stringe un drappo fra le mani. Alle spalle la finestra abbaglia. Lo sguardo, fisso su chi guarda, sta fra l'allarme e la domanda.",
+        "en": "Perched on the edge of a red armchair, the woman is all greys and blues, as if drained of colour, gripping a cloth in her hands. Behind her the window dazzles. Her gaze, fixed on the viewer, hangs between alarm and question."
+      }
+    },
+    {
+      "titolo": "Controluce 2",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "In primo piano un divano blu vuoto, una porta rossa; in fondo, oltre la soglia, una donna in sottoveste si piega in avanti, di spalle, forse davanti a uno specchio. La casa è piena di colore, lei ne resta ai margini: un'intimità sola, sospesa.",
+        "en": "In the foreground an empty blue sofa, a red door; at the back, beyond the threshold, a woman in a slip bends forward, her back turned, perhaps before a mirror. The house is full of colour, she stays at its edge: a lonely, suspended intimacy."
+      }
+    }
+  ]
+}
