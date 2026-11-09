@@ -54,6 +54,7 @@ class Grafica:
             print(f"   ⚠ manca la fascia di decoro: {f.relative_to(c.RADICE)}")
         self.titolo = cfg["titolo"]
         self.date = cfg.get("sottotitolo", "")
+        self.riga = cfg.get("riga_sala", "")      # una riga uguale in ogni pagina, sopra il piede
 
     def stile(self, nome, **k):
         k.setdefault("textColor", self.inchiostro)
@@ -114,6 +115,8 @@ def pagina(cv, g: Grafica, scheda, lista):
     it = scheda.get("presentazione", {}).get("it", "")
     righe = [lista[i:i + colonne] for i in range(0, len(lista), colonne)]
     alto_utile = h - 20 * mm - 34 * mm - 30 * mm        # sotto l'intestazione, sopra il piede
+    if g.riga:
+        alto_utile -= 12 * mm
 
     def scheda_alta(o, s, k):
         a = c.misura(o["titolo"], s["titolo"], col)
@@ -158,6 +161,10 @@ def pagina(cv, g: Grafica, scheda, lista):
             yy = c.scrivi(cv, o["didascalia"]["it"], s["dida"], xx, yy, col)
             fondo_riga = min(fondo_riga, yy)
         y = fondo_riga - 8 * mm * k
+    # la riga comune a tutte le pagine della mostra
+    if g.riga:
+        c.scrivi(cv, g.riga, g.stile("r", fontName="Cormorant-Corsivo", fontSize=10, leading=13,
+                 textColor=g.accento), x, 39 * mm, largo)
     # piede: marchio e indirizzo
     g.filetto(cv, x, 28 * mm, largo, 0.4)
     c.logo(cv, x, 24 * mm, 17 * mm)

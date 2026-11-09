@@ -3,8 +3,15 @@
   "sottotitolo": "Mostra collettiva · 14 novembre – 13 dicembre 2026",
   "luogo": "BE Art Gallery & Creative Lab · Via San Pietro 24, Pistoia",
   "claim": "Infinite sfaccettature, un'unica grande forza.",
-  "parole": ["identità", "memoria", "relazioni", "autonomia", "cura"],
+  "parole": [
+    "identità",
+    "memoria",
+    "relazioni",
+    "autonomia",
+    "cura"
+  ],
   "orari": "Inaugurazione sabato 14 novembre, ore 17:00",
+  "riga_sala": "Siamo Donne — oltre la violenza c'è di più · 25 novembre, Giornata internazionale per l'eliminazione della violenza contro le donne",
   "grafica": {
     "carta": "#F2E5D5",
     "inchiostro": "#212B2D",

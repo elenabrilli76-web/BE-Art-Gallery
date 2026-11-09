@@ -188,7 +188,7 @@ oltre la violenza c'è di più* e al **25 novembre, Giornata internazionale per
 l'eliminazione della violenza contro le donne**. Nel testo di mostra va
 detto con misura: le opere non illustrano la violenza, rispondono.
 
-Le opere che lo portano, finora:
+Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 
 | Opera | Artista | Come lo porta |
 |---|---|---|
@@ -204,17 +204,21 @@ Le opere che lo portano, finora:
 Da verificare con Lo Cascio (*Sono circondata di Rosso*: il rosso che
 avvolge, rifugio o assedio), D'Onofrio (gli occhi arrossati) e Barbieri.
 
-**Dove sta il tema — decisione del 9 novembre.** Le presentazioni degli
-artisti **non** si toccano: sono testi riutilizzabili, seguono l'artista in
-altre mostre, e per alcune ricerche (Maselli, Vangelisti) la violenza non è
-il centro — forzarla si sentirebbe. Il tema sta:
-- nelle **didascalie** delle opere che lo portano davvero (già scritte così);
-- nel **testo di presentazione della mostra**, che è il suo posto: lì si dice
-  che queste opere, accostate, rispondono alla violenza senza illustrarla, e
-  si lega la mostra al 25 novembre e all'evento *Siamo Donne*.
-Possibile in più, da proporre a Elena: una piccola riga in terracotta nelle
-pagine di sala, solo sotto le opere della tabella qui sopra, per segnare il
-percorso del 25 novembre.
+**Dove sta il tema — decisioni di Elena del 9 novembre.**
+- le **presentazioni degli artisti non si toccano**: sono riutilizzabili e
+  per alcune ricerche la violenza non è il centro
+- **nessuna opera va distinta dalle altre** come «opera sul tema»: sarebbe
+  divisivo. Le didascalie descrivono ciascuna la sua opera e restano come sono;
+  la tabella qui sopra è solo un appunto di lavoro per il testo della mostra,
+  non un elenco da mostrare
+- il tema sta nel **testo di presentazione della mostra**, che dice che queste
+  opere, accostate, rispondono alla violenza senza illustrarla, e lega la
+  mostra al 25 novembre e a *Siamo Donne*
+- e in una **riga comune in ogni pagina di sala**, uguale per tutti gli
+  artisti, in corsivo terracotta sopra il piede: «Siamo Donne — oltre la
+  violenza c'è di più · 25 novembre, Giornata internazionale per
+  l'eliminazione della violenza contro le donne» (voce `riga_sala` nella
+  scheda della mostra)
 
 **L'arco del racconto**: dalla ferita (*NO!*, *Petali di coraggio*) alla
 risposta — lo sguardo che non si abbassa, il corpo che si riprende, la
