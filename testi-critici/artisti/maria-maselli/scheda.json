@@ -1,0 +1,53 @@
+{
+  "nome": "Maria Maselli",
+  "presentazione": {
+    "it": "Maria Maselli dipinge le donne con la lentezza dei maestri antichi. Su fondi scuri, verdi e bruni come le pareti di uno studio, le sue figure siedono accanto a cesti di vimini, pere, rose e melograni, avvolte in veli e panni dai colori caldi. L'olio è steso a velature sottili, che fanno affiorare la luce sulla pelle e sulle stoffe. I titoli chiamano in causa l'opera lirica e la letteratura, da Mozart a Victor Hugo. Fra ritratto e natura morta, la scena quotidiana del mercato si fa teatro, e ogni donna ne è la protagonista.",
+    "en": "Maria Maselli paints women with the slowness of the old masters. Against dark grounds, green and brown like the walls of a studio, her figures sit beside wicker baskets, pears, roses and pomegranates, wrapped in veils and cloths of warm colour. The oil is laid in thin glazes that bring light up to the surface of skin and fabric. Her titles draw on opera and literature, from Mozart to Victor Hugo. Between portrait and still life, the everyday scene of the market becomes theatre, and every woman is its leading figure."
+  },
+  "opere": [
+    {
+      "titolo": "Il cesto di pere",
+      "serie": "dal quadrittico «Femmes au marché»",
+      "tecnica": "olio su tela",
+      "misure": "35 × 45 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Il velo rosso scivola dalla testa, la mano lo trattiene sulla spalla, lo sguardo si abbassa verso il cesto colmo di pere. È un gesto di pudore e insieme di pensiero: la donna del mercato colta in un istante tutto suo.",
+        "en": "The red veil slips from her head, her hand holds it on her shoulder, her gaze drops toward the basket full of pears. It is a gesture of modesty and of thought at once: the market woman caught in a moment all her own."
+      }
+    },
+    {
+      "titolo": "Il cesto di fiori",
+      "serie": "dal quadrittico «Femmes au marché»",
+      "tecnica": "olio su tela",
+      "misure": "35 × 45 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Avvolta in un manto viola, la donna stringe una rosa e guarda dritto davanti a sé, accanto al cesto coronato di fiori. Nella penombra lo sguardo serio, quasi severo, rovescia la posa: non si lascia guardare, interroga.",
+        "en": "Wrapped in a purple cloak, the woman holds a rose and looks straight ahead, beside a basket crowned with flowers. In the half-light her serious, almost stern gaze overturns the pose: she does not let herself be looked at, she questions."
+      }
+    },
+    {
+      "titolo": "Il flauto magico",
+      "serie": "dal quadrittico «Femmes au marché»",
+      "tecnica": "olio su tela",
+      "misure": "30 × 40 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Seduta a terra, il cappello di paglia e la camicia rosa, la ragazza suona a occhi chiusi un flauto di legno. Il titolo è un omaggio a Mozart: la musica qui non serve a incantare gli altri, è il modo di ritrovarsi in sé.",
+        "en": "Sitting on the ground in a straw hat and pink shirt, the girl plays a wooden flute with her eyes closed. The title pays homage to Mozart: here music is not meant to enchant others, it is the way back to herself."
+      }
+    },
+    {
+      "titolo": "Esmeralda",
+      "serie": "dal quadrittico «Femmes au marché»",
+      "tecnica": "olio su tela",
+      "misure": "30 × 40 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "I capelli biondi sotto il fazzoletto, la spalla nuda, il cesto rovesciato di melograni e mele: Esmeralda si volta altrove, come a seguire una voce lontana. La zingara di Victor Hugo diventa una donna libera, che non si concede allo sguardo.",
+        "en": "Blonde hair beneath a headscarf, a bare shoulder, an overturned basket of pomegranates and apples: Esmeralda turns away, as if following a distant voice. Victor Hugo's gypsy becomes a free woman, who does not give herself to the gaze."
+      }
+    }
+  ]
+}

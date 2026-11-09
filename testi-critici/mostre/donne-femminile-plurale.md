@@ -80,6 +80,80 @@ con le opere nuove vanno riviste, non solo completate.
 
 ---
 
+## Poetiche in memoria
+
+Il materiale per il testo di presentazione della mostra, che si scrive alla
+fine, quando tutti gli artisti sono analizzati. Per ciascuno: la poetica in
+una riga, cosa porta in mostra, con chi dialoga. I testi completi sono nelle
+cartelle `testi-critici/artisti/…`; le pagine di sala in
+`testi-critici/mostre/donne-femminile-plurale/schede.pdf`.
+
+| Artista | Stato |
+|---|---|
+| Patrizia Vangelisti | analizzata il 9 novembre — presentazione v2 e 3 didascalie |
+| Maria Maselli | analizzata il 9 novembre — presentazione e 4 didascalie |
+| Maria Cristina Andreini | analizzata il 9 novembre — presentazione v2 e 4 didascalie |
+| Catia Massai · Donatella Bucchieri · Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
+
+### Patrizia Vangelisti — ricomporre, lasciar andare
+
+- **Poetica**: costruisce per incastri — due nature in un volto, cocci in una
+  figura — e ne fa il racconto di un passaggio emotivo. Qui il passaggio è il
+  distacco: trattenere e lasciar andare.
+- **In mostra**: il trittico «Lasciar andare» — *Circe* (metà leone, metà
+  donna), *Calipso* (profilo sereno e sguardo teso, il cigno che si piega),
+  *Geisha* (scultura di cocci ricomposti sotto la cartapesta, al centro).
+- **Parole chiave della mostra che tocca**: autonomia, relazioni, cura.
+- **Dialoga con**: Maselli per il mito e la letteratura come specchio (Odissea
+  da una parte, Hugo e Mozart dall'altra); con la ferita che si ricompone
+  (Bucchieri, i tagli d'oro di *Noi*).
+- **Frase da tenere**: la ricomposizione come gesto di cura.
+
+### Maria Maselli — la donna del mercato come protagonista
+
+- **Poetica**: porta la quotidianità femminile nel linguaggio della pittura
+  antica — fondi scuri, velature, natura morta — e dà a figure popolari la
+  dignità della scena teatrale. Dentro la posa, ognuna si prende un momento
+  interiore.
+- **In mostra**: il quadrittico *Femmes au marché* — *Il cesto di pere*,
+  *Il cesto di fiori*, *Il flauto magico*, *Esmeralda*.
+- **Parole chiave**: identità, memoria (la tradizione pittorica), cura.
+- **Dialoga con**: Barbieri (realismo di tradizione, la posa come potere);
+  Andreini (lo sguardo che si sottrae o che interroga); Vangelisti (figure
+  letterarie e mitiche).
+- **Frase da tenere**: la scena quotidiana si fa teatro, e ogni donna ne è la
+  protagonista; *Il cesto di fiori* «non si lascia guardare, interroga».
+
+### Maria Cristina Andreini — lo sguardo che parla
+
+- **Poetica**: racconta la donna per sottrazione — o nasconde il volto e lascia
+  parlare il corpo, o copre la bocca e lascia parlare gli occhi. Un'emozione da
+  leggere, mai dichiarata.
+- **In mostra**: quattro ritratti ravvicinati di ragazze velate — *Ragazza con
+  velo azzurro*, *Ragazza occhi verdi*, *Ragazza con copricapo viola*,
+  *Giovane donna occhi grigi*.
+- **Parole chiave**: identità, autonomia.
+- **Dialoga con**: è il cuore del tema dello sguardo, che attraversa tutta la
+  mostra (D'Onofrio, Barbieri, il volto di *Noi* di Bucchieri); *Ragazza occhi
+  verdi*, con la mano alzata e la bocca coperta, è l'immagine più vicina al
+  senso dell'evento: un silenzio imposto che lo sguardo rifiuta.
+- **Frase da tenere**: gli occhi delle donne parlano, basta saper leggere
+  (dalla nota dell'artista).
+
+### Primi fili, dopo tre artisti
+
+- **Il velo e lo sguardo**: Andreini (il velo copre la bocca, restano gli
+  occhi), Maselli (il velo scivola, lo sguardo si abbassa o sfida),
+  Vangelisti (il volto doppio). Il vedere e l'essere viste.
+- **Le donne dei racconti**: Circe e Calipso, Esmeralda, il Flauto magico.
+  Figure di mito, romanzo e teatro come specchi per quelle di oggi.
+- **Trattenere e lasciar andare**: il distacco consapevole di Vangelisti, il
+  momento tutto per sé delle donne di Maselli, il rifiuto silenzioso di
+  *Ragazza occhi verdi*. Autonomia dentro le relazioni.
+- **Tre linguaggi, un'attenzione**: simbolico e materico (Vangelisti),
+  tradizione accademica (Maselli), realismo intimo (Andreini). Il «plurale»
+  del titolo è anche nei modi di dipingere.
+
 ## Prime letture per il filo conduttore
 
 Appunti, da verificare quando si scrivono i testi.

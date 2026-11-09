@@ -100,6 +100,19 @@ def sottotitolo(scheda: dict) -> str:
     return ""
 
 
+def per_mostra(scheda: dict, mostra: str) -> dict:
+    """La scheda come la vede una mostra: le sole opere esposte lì (il campo
+    "mostra" di ogni opera; senza campo, l'opera vale per tutte) e la
+    presentazione scritta per quella mostra, se ce n'è una in
+    "presentazioni_per_mostra". Così un artista che torna con opere nuove
+    non cambia i cataloghi delle mostre passate."""
+    s = dict(scheda)
+    s["opere"] = [o for o in scheda.get("opere", []) if o.get("mostra", mostra) == mostra]
+    if mostra in scheda.get("presentazioni_per_mostra", {}):
+        s["presentazione"] = scheda["presentazioni_per_mostra"][mostra]
+    return s
+
+
 def nome_opera(opera: dict) -> str:
     """Il nome dei file di un'opera. Due opere con lo stesso titolo — «Paesaggio»,
     «Senza titolo» — si distinguono con "file" nella scheda, o si sovrascrivono."""

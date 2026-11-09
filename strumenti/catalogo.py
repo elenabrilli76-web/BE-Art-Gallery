@@ -280,7 +280,7 @@ def word(cfg: dict, schede: list[dict], file: Path) -> None:
 def main() -> None:
     mostra = sys.argv[1] if len(sys.argv) > 1 else "i-luoghi-dell-anima"
     cfg = json.loads((MOSTRE / f"{mostra}.json").read_text(encoding="utf-8"))
-    schede = [json.loads((c.ARTISTI / nome / "scheda.json").read_text(encoding="utf-8"))
+    schede = [c.per_mostra(json.loads((c.ARTISTI / nome / "scheda.json").read_text(encoding="utf-8")), mostra)
               for nome in cfg["ordine"]]
     uscita = MOSTRE / "catalogo"
     uscita.mkdir(exist_ok=True)

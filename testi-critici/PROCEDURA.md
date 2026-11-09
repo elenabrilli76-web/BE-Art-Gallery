@@ -173,3 +173,12 @@ L'inglese accompagna sempre l'italiano: la galleria riceve visitatori
 stranieri. Può sforare di poco il limite, l'italiano no.
 
 Il nome della cartella è `nome-cognome`, minuscolo, con i trattini.
+
+### Un artista in più mostre
+
+Ogni opera in `scheda.json` porta il campo `"mostra"` con il nome della mostra
+(es. `"donne-femminile-plurale"`): cataloghi e pagine di sala prendono solo le
+opere di quella mostra. Quando un artista torna con opere nuove e la
+presentazione va riscritta, la vecchia si conserva in
+`"presentazioni_per_mostra"` sotto il nome della mostra passata: così i suoi
+cataloghi restano com'erano. Pagine di sala: `py strumenti\sala.py nome-mostra`.

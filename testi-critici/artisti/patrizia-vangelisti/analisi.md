@@ -88,3 +88,77 @@ e rattan, nell'angolo di una stanza di un'antica dimora; il pesce come
   diverse, la presentazione va verificata e quasi certamente allargata
 - la scheda di partecipazione contiene dati personali: **non** entrano nel
   repository, che è pubblico. Qui c'è solo la città
+
+---
+
+# DONNE: Femminile Plurale — 2026
+| | |
+|---|---|
+| **Opere analizzate** | *Circe*, 2026, tecnica mista su tela: acrilico, pastelli a olio, grafite, 60 × 60 cm · *Calipso*, 2026, tecnica mista su tela: acrilico, pastelli a olio, grafite, 60 × 60 cm · *Geisha*, 2026, assemblaggio di oggetti di recupero, cartapesta e acrilico, h 36,5 cm, Ø 16 cm |
+| **Stesura** | 9 novembre 2026 · v1 per la mostra |
+| **Fonti** | foto delle opere dal Drive (cartella della mostra); descrizioni e dati inviati dall'artista, letti dopo l'analisi |
+
+## Presentazione dell'artista — v2, con le opere nuove
+
+**Italiano** — _568 caratteri spazi inclusi_
+
+> Patrizia Vangelisti costruisce le sue immagini per incastri, come chi ricompone un ricordo. Nelle tele acrilico, pastelli a olio e grafite si stratificano fino a dare al colore una grana viva, e i volti si sdoppiano: metà donna e metà leone, un profilo sereno accanto a uno sguardo teso, due stati dello stesso sentimento. Nella scultura i cocci di un vaso, una tazza e un fermatenda tornano insieme sotto la cartapesta. Dall'angolo di casa al mito, la sua ricerca racconta il momento in cui si trattiene e si lascia andare, e fa della ricomposizione un gesto di cura.
+
+**English** — _575 characters_
+
+> Patrizia Vangelisti builds her images by fitting pieces together, like someone reassembling a memory. On her canvases acrylic, oil pastels and graphite are layered until colour takes on a living grain, and faces split in two: half woman and half lion, a serene profile beside a tense gaze, two states of the same feeling. In her sculpture the shards of a vase, a cup and a curtain tie-back come together again under papier-mâché. From a corner of home to myth, her work tells of the moment one holds on and lets go, and turns putting things back together into an act of care.
+
+## Didascalie delle singole opere
+
+### *Circe* — 2026, tecnica mista su tela: acrilico, pastelli a olio, grafite, 60 × 60 cm
+
+**Italiano** — _235 caratteri_
+
+> Il volto si divide lungo una linea netta: da un lato il muso del leone, fiero e selvatico, dall'altro una donna dallo sguardo calmo e malinconico. Circe è entrambe le cose, forza e tenerezza, e sa già che dovrà lasciar partire chi ama.
+
+**English** — _240 characters_
+
+> The face splits along a clean line: on one side the lion's muzzle, proud and wild, on the other a woman with a calm, melancholy gaze. Circe is both, strength and tenderness, and already knows she will have to let the one she loves set sail.
+
+### *Calipso* — 2026, tecnica mista su tela: acrilico, pastelli a olio, grafite, 60 × 60 cm
+
+**Italiano** — _258 caratteri_
+
+> Due volti nello stesso ritratto: il profilo sereno di chi vorrebbe trattenere, lo sguardo frontale e teso di chi ha capito. Fra i capelli d'oro mossi dal vento un cigno bianco si piega verso il basso: è il pensiero che accetta, e apre la porta alla partenza.
+
+**English** — _257 characters_
+
+> Two faces in the same portrait: the serene profile of one who would hold on, the tense frontal gaze of one who has understood. Among golden hair tossed by the wind a white swan bends downward: it is the thought that accepts, and opens the door to departure.
+
+### *Geisha* — 2026, assemblaggio di oggetti di recupero, cartapesta e acrilico, h 36,5 cm, Ø 16 cm
+
+**Italiano** — _260 caratteri_
+
+> Un vaso rotto, una tazza senza manico, i resti di un fermatenda: Patrizia Vangelisti raccoglie i cocci e li ricompone sotto la cartapesta viola. Ne nasce una piccola figura che tiene il ventaglio come un segreto e, fra Circe e Calipso, custodisce l'equilibrio.
+
+**English** — _272 characters_
+
+> A broken vase, a cup without a handle, the remains of a curtain tie-back: Patrizia Vangelisti gathers the shards and reassembles them under purple papier-mâché. The result is a small figure who holds her fan like a secret and, between Circe and Calypso, keeps the balance.
+
+## Note di analisi
+
+### Analisi formale
+- **Circe**: tela quadrata divisa da una verticale chiara; a sinistra il muso di leone in ocre e verdi a pastello, a destra un volto di donna dal profilo netto, occhio bistrato, labbra rosse, capelli rosa e bianchi in segni lunghi. La superficie è granulosa, il pastello a olio graffia l'acrilico.
+- **Calipso**: fondo blu steso a pennellate larghe; un volto frontale dagli occhi socchiusi e, sovrapposto a sinistra, lo stesso volto di profilo; i capelli d'oro diventano vento e ali; un cigno bianco con il becco arancio piega il collo verso il basso. Scollo viola, collo allungato.
+- **Geisha**: assemblaggio verticale — vaso in terracotta ricomposto, tazza di porcellana senza manico come volto, frammenti d'alabastro, un ventaglio ritagliato da un vaso di plastica — legati da cartapesta di cartoni d'uovo dipinta in viola, magenta e bronzo.
+- **Arturo** (2025): vista dall'alto, geometrie domestiche, segatura nel colore.
+
+### Ciò che ritorna
+- il **doppio**: volto diviso (Circe), volto sdoppiato (Calipso), oggetti diversi che fanno una figura sola (Geisha)
+- la **ricomposizione**: strati di tecniche sulle tele, cocci tenuti insieme nella scultura, l'angolo di casa ricostruito in *Arturo*
+- materia grassa e granulosa: pastello a olio sull'acrilico, segatura, cartapesta
+
+### Poetica dedotta
+Vangelisti lavora per incastro: mette insieme ciò che è diviso — due nature in un volto, cocci in una figura — e ne fa il racconto di un passaggio emotivo. Nel trittico il passaggio è il distacco: trattenere e lasciar andare. La sua dichiarazione («Lasciar andare», gli archetipi dell'Odissea) è arrivata con le opere ed è stata letta dopo: conferma la lettura, non la detta.
+
+### Contesto
+Figurazione simbolica che usa il mito come lessico emotivo; nella scultura, la logica del riuso e dell'assemblaggio. Nessun riferimento esplicito nel testo: il mito basta.
+
+### Cosa resta aperto
+- la presentazione v1 (solo *Arturo*) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`: il catalogo di quella mostra non cambia
+- per la sala il trittico si legge da sinistra a destra: Circe, Geisha al centro, Calipso (indicazione dell'artista: la scultura «lega» i due dipinti)

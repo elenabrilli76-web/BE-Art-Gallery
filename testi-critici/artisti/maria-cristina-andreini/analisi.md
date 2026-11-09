@@ -84,3 +84,90 @@ dopo: coincide con la luminosità e il piacere fisico delle scene.
 ### Cosa resta aperto
 - **il nome** con cui vuole comparire: *Maria Cristina Andreini* o *Cristina Andreini*
 - i dati di contatto della mail **non** entrano nel repository
+
+---
+
+# DONNE: Femminile Plurale — 2026
+| | |
+|---|---|
+| **Opere analizzate** | *Ragazza con velo azzurro*, olio su tela, 21 × 30 cm · *Ragazza occhi verdi*, olio su tela, 20 × 30 cm · *Ragazza con copricapo viola*, olio su tela, 30 × 40 cm · *Giovane donna occhi grigi*, olio su tela, 30 × 40 cm |
+| **Stesura** | 9 novembre 2026 · v1 per la mostra |
+| **Fonti** | foto delle opere dal Drive (cartella della mostra); descrizioni e dati inviati dall'artista, letti dopo l'analisi |
+
+## Presentazione dell'artista — v2, con le opere nuove
+
+**Italiano** — _532 caratteri spazi inclusi_
+
+> Maria Cristina Andreini dipinge donne che parlano senza bisogno di parole. A volte il volto si nasconde, sotto una tesa o fuori dall'inquadratura, e a raccontare è il corpo: un piede che sfiora l'acqua, una gonna mossa dal vento. Altre volte resta soltanto lo sguardo, incorniciato da un velo azzurro o da un turbante viola, occhi verdi o grigi che fissano chi guarda. L'olio, steso con morbidezza, insegue la luce sulla pelle e sui tessuti. Nel solco della figurazione realista, ogni ritratto chiede di essere letto con attenzione.
+
+**English** — _480 characters_
+
+> Maria Cristina Andreini paints women who speak without needing words. Sometimes the face is hidden, beneath a brim or outside the frame, and the body tells the story: a foot grazing the water, a skirt lifted by the wind. At other times only the gaze remains, framed by a blue veil or a purple turban, green or grey eyes fixed on the viewer. The oil, laid on softly, follows the light on skin and fabric. In the vein of realist figuration, every portrait asks to be read with care.
+
+## Didascalie delle singole opere
+
+### *Ragazza con velo azzurro* — olio su tela, 21 × 30 cm
+
+**Italiano** — _201 caratteri_
+
+> Il velo azzurro avvolge il volto fino agli occhi e lascia scoperto solo lo sguardo, chiaro e un poco ombroso. Tutto il quadro converge lì: in quegli occhi che non si abbassano resta aperta una domanda.
+
+**English** — _206 characters_
+
+> The blue veil wraps the face up to the eyes and leaves only the gaze uncovered, clear and a little shadowed. The whole painting converges there: in those eyes that do not look down, a question remains open.
+
+### *Ragazza occhi verdi* — olio su tela, 20 × 30 cm
+
+**Italiano** — _200 caratteri_
+
+> Il velo scuro copre la bocca, una mano aperta si alza accanto al viso come a dire basta. Restano gli occhi verdi, limpidi, fissi su chi guarda: un silenzio imposto che lo sguardo rifiuta di accettare.
+
+**English** — _201 characters_
+
+> A dark veil covers her mouth, an open hand rises beside her face as if to say enough. What remains are the green eyes, clear and fixed on the viewer: an imposed silence that the gaze refuses to accept.
+
+### *Ragazza con copricapo viola* — olio su tela, 30 × 40 cm
+
+**Italiano** — _228 caratteri_
+
+> Il turbante viola, la veste a fiori e a righe accese, gli occhi segnati di verde: la ragazza guarda dritto, con una serietà più grande della sua età. Nei colori della festa abita uno sguardo che chiede di essere preso sul serio.
+
+**English** — _232 characters_
+
+> The purple turban, the dress of flowers and bright stripes, the eyes lined in green: the girl looks straight ahead, with a seriousness beyond her years. Within the colours of celebration lives a gaze that asks to be taken seriously.
+
+### *Giovane donna occhi grigi* — olio su tela, 30 × 40 cm
+
+**Italiano** — _221 caratteri_
+
+> I capelli scuri incorniciano un volto giovanissimo, le labbra strette in un piccolo broncio. Gli occhi grigi, grandi e chiari, tengono insieme timidezza e ostinazione: lo sguardo di chi sta ancora decidendo chi diventare.
+
+**English** — _193 characters_
+
+> Dark hair frames a very young face, the lips pressed into a small pout. The grey eyes, large and clear, hold shyness and stubbornness together: the gaze of someone still deciding who to become.
+
+## Note di analisi
+
+### Analisi formale
+Quattro piccoli oli, tutti ritratti ravvicinati di ragazze e giovani donne, in cornici scure:
+- **Ragazza con velo azzurro** (21 × 30): velo azzurro avvolto fino al naso, occhi chiari violacei sotto sopracciglia scure; il blu domina, la pelle è calda
+- **Ragazza occhi verdi** (20 × 30, la foto è orizzontale): velo blu notte sulla bocca, una mano aperta di lato; occhi verde acqua al centro esatto
+- **Ragazza con copricapo viola** (30 × 40): turbante viola, veste a righe e fiori turchese, gialla e rossa, occhi neri bordati di verde, sguardo frontale
+- **Giovane donna occhi grigi** (30 × 40): volto giovanissimo, capelli scuri, labbra a broncio, grandi occhi grigio-azzurri
+Firma «MCA» in basso a destra.
+
+### Ciò che ritorna
+- lo **sguardo** come centro del quadro: la composizione converge sugli occhi; la bocca spesso è coperta
+- il **velo** e il copricapo, che nascondono e incorniciano insieme
+- il realismo morbido dell'olio, già visto nelle figure al mare di *I Luoghi dell'Anima*
+
+### Poetica dedotta
+Con le opere di *I Luoghi dell'Anima* il quadro è completo: Andreini racconta la donna per sottrazione. O nasconde il volto e lascia parlare il corpo, o copre il corpo e la bocca e lascia parlare gli occhi. Sempre un'emozione da leggere, mai dichiarata. La nota dell'artista («gli occhi delle donne parlano… basta saper leggere») è arrivata dopo e la conferma.
+
+### Contesto
+Figurazione realista e ritratto contemporaneo dal sapore fotografico; nessun riferimento esterno nel testo.
+
+### Cosa resta aperto
+- **abbinamento foto–titolo** dedotto da soggetto e proporzioni: confermare con l'artista, soprattutto *Ragazza con velo azzurro* e *Giovane donna occhi grigi*
+- misure: si indicano quelle del dipinto, senza cornice; *Ragazza occhi verdi* è dichiarata 20 × 30 ma la foto è orizzontale (30 × 20?)
+- la presentazione v1 (opere al mare) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`

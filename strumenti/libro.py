@@ -583,7 +583,7 @@ def main() -> None:
     gal = json.loads(GALLERIA.read_text(encoding="utf-8"))
     schede = []
     for nome in cfg["ordine"]:
-        s = json.loads((c.ARTISTI / nome / "scheda.json").read_text(encoding="utf-8"))
+        s = c.per_mostra(json.loads((c.ARTISTI / nome / "scheda.json").read_text(encoding="utf-8")), mostra)
         s["_cartella"] = nome
         schede.append(s)
     cartella = MOSTRE / "catalogo"

@@ -11,8 +11,8 @@ della locandina stessa che resta in locale in
 testi-critici/mostre/catalogo/foto/. Senza fascia, il decoro si riduce al
 filetto d'oro. Un carattere solo, il Cormorant Garamond.
 
-Per ogni artista in "ordine" prende le opere della mostra: quelle con
-"mostra": "<mostra>" nella scheda, o tutte se nessuna opera lo indica.
+Per ogni artista in "ordine" prende le opere della mostra e la presentazione
+giusta: vedi critica.per_mostra.
 
 Produce testi-critici/mostre/<mostra>/schede.pdf, una pagina per artista.
 
@@ -96,14 +96,7 @@ class Grafica:
 
 
 def dati_opera(o: dict) -> str:
-    return "  ·  ".join(str(o[k]) for k in ("anno", "tecnica", "misure", "provenienza") if o.get(k))
-
-
-def opere_in_mostra(scheda, mostra):
-    tutte = [o for o in scheda.get("opere", []) if o.get("didascalia", {}).get("it")]
-    if any("mostra" in o for o in tutte):
-        return [o for o in tutte if o.get("mostra") == mostra]
-    return tutte
+    return "  ·  ".join(str(o[k]) for k in ("serie", "anno", "tecnica", "misure", "provenienza") if o.get(k))
 
 
 def pagina(cv, g: Grafica, scheda, lista):
@@ -187,8 +180,8 @@ def main() -> None:
         if not f.exists():
             print(f"   · {nome}: scheda non ancora scritta")
             continue
-        s = json.loads(f.read_text(encoding="utf-8"))
-        lista = opere_in_mostra(s, mostra)
+        s = c.per_mostra(json.loads(f.read_text(encoding="utf-8")), mostra)
+        lista = [o for o in s["opere"] if o.get("didascalia", {}).get("it")]
         if prova or lista:
             schede.append((s, lista))
     if prova:
