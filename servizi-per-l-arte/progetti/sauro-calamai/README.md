@@ -52,16 +52,42 @@ I tempi valgono se arrivano i materiali completi.
 dei materiali, il preventivo firmato e le foto. Quello che ci metti dentro
 resta in locale e non va su GitHub.
 
-**Qui**: [`testo.md`](testo.md), i testi estratti dalla scansione: biografia,
-poetica, mostre e donazioni, Madonnina del Covid, brochure di *Verde Pietra*,
-rassegna stampa.
+**Qui**:
+
+| File | Cosa contiene |
+|---|---|
+| [`testo.md`](testo.md) | i testi estratti dalla scansione: biografia, poetica, mostre e donazioni, Madonnina del Covid, brochure di *Verde Pietra*, rassegna stampa |
+| [`opere.md`](opere.md) | tutte le foto del Drive con un codice, cosa ritraggono, dove vanno |
+| [`brochure.md`](brochure.md) | le sei facciate: opere scelte e testi |
+| [`portfolio.md`](portfolio.md) | la scaletta delle 68 pagine, i testi e le domande per l'artista |
+| [`impaginazione.json`](impaginazione.json) | portfolio e brochure pagina per pagina, con i testi e i percorsi delle foto: lo legge il comando qui sotto |
+
+## La bozza impaginata
+
+```
+py strumenti\servizi.py sauro-calamai
+```
+
+Produce `materiali/portfolio.pdf` e `materiali/brochure.pdf`. Le foto le cerca in
+`materiali/foto/`, con le stesse sottocartelle del Drive (`SERPENTINO`, `LEGNO`…): basta
+scaricare lì la cartella del Drive così com'è. Quando arrivano le foto della sessione si
+sostituiscono i file, o si aggiornano i percorsi in `impaginazione.json`, e si rilancia.
+
+Finché le foto sono quelle di WhatsApp, ogni pagina porta la scritta rossa *Bozza*.
+
+Sul Drive le foto sono divise in `SERPENTINO`, `MARMO BIANCO DI CARRARA`, `LEGNO`,
+`DONAZIONI` e `RICICLO`. Nel portfolio il riciclo è una sezione breve, di due pagine,
+prima delle donazioni.
 
 ## Stato
 
 - [x] preventivo finale confermato, acconto ricevuto
 - [x] testi estratti dalla scansione
-- [ ] sessione fotografica
+- [x] foto del Drive catalogate (9 novembre 2026)
+- [x] prima stesura di brochure e portfolio: opere scelte e testi
+- [x] bozza impaginata con le foto di WhatsApp
+- [ ] risposte dell'artista alle domande in `portfolio.md`
 - [ ] schede delle opere (titolo, anno, materiale, misure)
-- [ ] testi di brochure e portfolio, nella voce della galleria
+- [ ] sessione fotografica
 - [ ] prima revisione
 - [ ] consegna finale
