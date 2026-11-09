@@ -100,6 +100,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Federica Barletta | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Roberta Grillanda | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Manuela Romanelli | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
+| Sipontina Paloscia | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
 | Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
@@ -230,6 +231,22 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   livido».
 - **Frase da tenere**: la casa, che dovrebbe essere riparo.
 
+### Sipontina Paloscia — non mi faccio cancellare
+
+- **Poetica**: figure in grigio e colore riservato al segno; l'oggetto
+  quotidiano e la scritta a mano come voce. Identità e autonomia dette in prima
+  persona, senza chiedere permesso. (Provvisoria: due opere.)
+- **In mostra**: *Scarpe rosse* (2014, olio) — la donna in grigi e blu, una
+  rosa e le scarpe rosse; *Nessuno mi può comandare* (2021, tecnica mista) —
+  rotelle di correttore incollate attorno a un volto, e le scritte «io sono
+  viva», «non mi faccio cancellare», «decido da sola».
+- **Parole chiave**: identità, autonomia.
+- **Dialoga con**: Massai (*NO!*, la parola scritta sul corpo), Andreini
+  (*Ragazza occhi verdi*), Romanelli (la figura spenta di colore).
+- **Per il tema**: le scarpe rosse sono il simbolo del 25 novembre; qui
+  ai piedi di una donna viva. È la voce più esplicita, con *NO!*.
+- **Frase da tenere**: l'oggetto che cancella diventa il modo per restare.
+
 ## Il tema trasversale: la violenza contro le donne
 
 Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
@@ -250,6 +267,8 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *La ragazza con la pistola* | Massai | la difesa, con ironia: i ruoli rovesciati |
 | il trittico «Lasciar andare» | Vangelisti | la relazione senza possesso: Circe non cerca sottomissione, Calipso rinuncia a trattenere |
 | *Controluce*, *Controluce 2* | Romanelli | la casa che non protegge, la donna ai margini; blu, viola e rosso come un livido |
+| *Scarpe rosse* | Paloscia | il simbolo delle donne uccise, ai piedi di una donna viva |
+| *Nessuno mi può comandare* | Paloscia | la risposta in prima persona: non mi faccio cancellare |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
 Da verificare con Lo Cascio (*Sono circondata di Rosso*: il rosso che

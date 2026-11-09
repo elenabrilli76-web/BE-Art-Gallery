@@ -1,0 +1,29 @@
+{
+  "nome": "Sipontina Paloscia",
+  "presentazione": {
+    "it": "Sipontina Paloscia dipinge donne che si riprendono la parola. Le sue figure nascono in grigio, quasi in bianco e nero, e il colore arriva solo dove serve a dire qualcosa: un paio di scarpe rosse, una rosa, una bocca rosa. Accanto all'olio usa la tecnica mista e l'oggetto quotidiano: rotelle di correttore a nastro incollate sulla tela, scritte a mano come su un muro. Dal ritratto silenzioso alla frase gridata, la sua ricerca parla di identità e di autonomia, con una franchezza che non chiede permesso: io sono viva, decido da sola, nessuno mi può cancellare.",
+    "en": "Sipontina Paloscia paints women who take back their voice. Her figures are born in grey, almost in black and white, and colour arrives only where it has something to say: a pair of red shoes, a rose, a pink mouth. Beside oil she uses mixed media and everyday objects: correction-tape rollers glued to the canvas, words handwritten as if on a wall. From the silent portrait to the shouted phrase, her work speaks of identity and autonomy, with a frankness that asks no permission: I am alive, I decide for myself, nobody can erase me."
+  },
+  "opere": [
+    {
+      "titolo": "Scarpe rosse",
+      "anno": 2014,
+      "tecnica": "olio su tela",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Seduta su uno sgabello, la donna è dipinta in grigi e blu, quasi sbiadita, come la stanza intorno. Solo due cose hanno colore: la rosa nel bicchiere e le scarpe rosse. Il simbolo che ricorda le donne uccise qui torna ai piedi di una donna viva, che guarda dritto.",
+        "en": "Sitting on a stool, the woman is painted in greys and blues, almost faded, like the room around her. Only two things have colour: the rose in the glass and the red shoes. The symbol that remembers murdered women returns here to the feet of a living woman, who looks straight ahead."
+      }
+    },
+    {
+      "titolo": "Nessuno mi può comandare",
+      "anno": 2021,
+      "tecnica": "tecnica mista e acrilico",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Rotelle di correttore a nastro, quelle che servono a cancellare, sono incollate attorno a un volto coperto dai capelli. Intorno, scritte a mano, le risposte: io sono viva, non mi faccio cancellare, decido da sola. L'oggetto che cancella diventa il modo per restare.",
+        "en": "Correction-tape rollers, the kind used to erase, are glued around a face covered by hair. Around it, handwritten, come the replies: I am alive, I won't let myself be erased, I decide for myself. The object that erases becomes the way to remain."
+      }
+    }
+  ]
+}
