@@ -214,11 +214,11 @@ avvolge, rifugio o assedio), D'Onofrio (gli occhi arrossati) e Barbieri.
 - il tema sta nel **testo di presentazione della mostra**, che dice che queste
   opere, accostate, rispondono alla violenza senza illustrarla, e lega la
   mostra al 25 novembre e a *Siamo Donne*
-- e in una **riga comune in ogni pagina di sala**, uguale per tutti gli
-  artisti, in corsivo terracotta sopra il piede: «Siamo Donne — oltre la
-  violenza c'è di più · 25 novembre, Giornata internazionale per
-  l'eliminazione della violenza contro le donne» (voce `riga_sala` nella
-  scheda della mostra)
+- e nelle **due pagine di presentazione della mostra** che vanno in sala:
+  lì il testo, e lì anche la riga «Siamo Donne — oltre la violenza c'è di
+  più · 25 novembre, Giornata internazionale per l'eliminazione della violenza
+  contro le donne» (voce `riga_presentazione` nella scheda della mostra).
+  **Non** nelle schede dei singoli artisti (Elena, 9 novembre).
 
 **L'arco del racconto**: dalla ferita (*NO!*, *Petali di coraggio*) alla
 risposta — lo sguardo che non si abbassa, il corpo che si riprende, la
