@@ -95,7 +95,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Patrizia Vangelisti | analizzata il 9 novembre — presentazione v2 e 3 didascalie |
 | Maria Maselli | analizzata il 9 novembre — presentazione e 4 didascalie |
 | Maria Cristina Andreini | analizzata il 9 novembre — presentazione v2 e 4 didascalie |
-| Catia Massai · Donatella Bucchieri · Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
+| Donatella Bucchieri | analizzata il 9 novembre — presentazione e 3 didascalie |
+| Catia Massai · Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -143,7 +144,25 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Frase da tenere**: gli occhi delle donne parlano, basta saper leggere
   (dalla nota dell'artista).
 
-### Primi fili, dopo tre artisti
+### Donatella Bucchieri — la ferita che fiorisce
+
+- **Poetica**: lascia che il colore versato trovi da sé la sua forma — cellule,
+  venature, correnti — e accanto dipinge il volto, attraversato da fratture
+  d'oro. Sempre la stessa idea: ciò che è ferito o caotico si trasforma e
+  fiorisce.
+- **In mostra**: *Petali di coraggio* (rosso che esplode dal nero, piccolo
+  formato), *Oltre il genere: Noi* (volto androgino su turchese, oro e
+  mandala, una parte che manca), *Ecosistema interiore* (verdi fluidi, il
+  paesaggio della mente).
+- **Parole chiave**: identità, cura, autonomia.
+- **Dialoga con**: Vangelisti (la ricomposizione: i cocci della *Geisha*, le
+  fratture d'oro di *Noi*); Andreini (lo sguardo frontale che segue chi
+  passa); Lo Cascio (il rosso). È l'unica voce astratta finora: allarga il
+  «plurale» dei linguaggi.
+- **Frase da tenere**: la ferita diventa forza; il «Noi» che completa la parte
+  mancante del volto — chi guarda è chiamato dentro l'opera.
+
+### Primi fili, dopo quattro artisti
 
 - **Il velo e lo sguardo**: Andreini (il velo copre la bocca, restano gli
   occhi), Maselli (il velo scivola, lo sguardo si abbassa o sfida),
@@ -153,9 +172,13 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Trattenere e lasciar andare**: il distacco consapevole di Vangelisti, il
   momento tutto per sé delle donne di Maselli, il rifiuto silenzioso di
   *Ragazza occhi verdi*. Autonomia dentro le relazioni.
-- **Tre linguaggi, un'attenzione**: simbolico e materico (Vangelisti),
-  tradizione accademica (Maselli), realismo intimo (Andreini). Il «plurale»
-  del titolo è anche nei modi di dipingere.
+- **Quattro linguaggi, un'attenzione**: simbolico e materico (Vangelisti),
+  tradizione accademica (Maselli), realismo intimo (Andreini), colore fluido
+  e ritratto (Bucchieri). Il «plurale» del titolo è anche nei modi di
+  dipingere.
+- **La ferita e la ricomposizione**: i cocci della *Geisha*, le fratture d'oro
+  di *Noi*, i *Petali di coraggio* che fioriscono dal nero. È il filo più
+  vicino al senso dell'evento: oltre la violenza c'è di più.
 
 ## Prime letture per il filo conduttore
 

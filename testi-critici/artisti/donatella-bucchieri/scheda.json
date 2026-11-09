@@ -1,0 +1,36 @@
+{
+  "nome": "Donatella Bucchieri",
+  "presentazione": {
+    "it": "Donatella Bucchieri lascia che il colore trovi da sé la propria forma. Nelle sue tele l'acrilico, versato e fatto scorrere, si apre in cellule, venature e correnti: un rosso che esplode dal nero, un verde profondo che sembra una foresta vista dall'alto. Accanto a questa pittura fluida compare il volto, dai tratti né maschili né femminili, attraversato da fratture d'oro che ricordano il kintsugi e da mandala tracciati come ricami. Materia viva e figura si rispondono: la ferita diventa forza, l'interiorità un ecosistema. Una ricerca che fa della trasformazione il proprio tema.",
+    "en": "Donatella Bucchieri lets colour find its own form. On her canvases acrylic, poured and left to flow, opens into cells, veins and currents: a red that bursts out of black, a deep green that looks like a forest seen from above. Beside this fluid painting the face appears, its features neither masculine nor feminine, crossed by golden fractures that recall kintsugi and by mandalas traced like embroidery. Living matter and figure answer each other: the wound becomes strength, the inner life an ecosystem. A body of work that makes transformation its theme."
+  },
+  "opere": [
+    {
+      "titolo": "Petali di coraggio",
+      "tecnica": "acrilico fluido su tela",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Dal nero esplode un rosso vivissimo, aperto in petali e venature come un fiore che si spalanca. Il piccolo formato è voluto: è la misura di chi si è sentita ferita e rimpicciolita, e da lì trova la forza di fiorire di nuovo.",
+        "en": "A vivid red bursts out of the black, opening into petals and veins like a flower thrown wide. The small format is deliberate: it is the measure of someone who has felt wounded and made small, and from there finds the strength to bloom again."
+      }
+    },
+    {
+      "titolo": "Oltre il genere: Noi",
+      "tecnica": "acrilico e foglia d'oro su tela",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Un volto dai tratti né maschili né femminili guarda dritto da un fondo turchese. Le fratture segnate d'oro e i mandala che lo attraversano fanno della ferita un ornamento; la parte che manca resta aperta, come uno spazio che spetta a noi completare.",
+        "en": "A face with features neither masculine nor feminine looks straight out from a turquoise ground. The fractures traced in gold and the mandalas crossing it turn the wound into ornament; the missing part stays open, like a space that is ours to complete."
+      }
+    },
+    {
+      "titolo": "Ecosistema interiore",
+      "tecnica": "acrilico fluido su tela",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Verdi profondi e lampi gialli si rincorrono come correnti, muschi, foreste viste dall'alto. Il colore lasciato scorrere disegna cellule e ramificazioni: un paesaggio della mente, caotico e vivo, in cui ogni emozione trova il suo flusso.",
+        "en": "Deep greens and flashes of yellow chase each other like currents, mosses, forests seen from above. Colour left to flow draws cells and branchings: a landscape of the mind, chaotic and alive, where every emotion finds its current."
+      }
+    }
+  ]
+}
