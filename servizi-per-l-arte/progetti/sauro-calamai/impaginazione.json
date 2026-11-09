@@ -94,9 +94,14 @@
     "riga": "Serpentino del Monteferrato · marmo · legno"
    },
    {
+    "tipo": "bianca",
+    "nota": "seconda di copertina"
+   },
+   {
     "tipo": "citazione",
     "citazione": "Ogni pietra ha un suo fascino: dal suo colore scuro profondo sorge sempre un colore che prevale, ed è mio dovere farlo emergere in una figura, un soggetto che la pietra stessa mi suggerisce mentre prende forma.",
-    "firma": "Sauro Calamai"
+    "firma": "Sauro Calamai",
+    "ingrandisci": 1.7
    },
    {
     "tipo": "testo",
@@ -312,25 +317,20 @@
     "quota_foto": 0.85
    },
    {
-    "tipo": "gruppo",
-    "blocchi": [],
-    "foto": [
-     {
-      "foto": "114",
-      "dida": [
-       "<i>Leone</i>",
-       "serpentino · [anno, misure]"
-      ]
-     },
-     {
-      "foto": "113",
-      "dida": [
-       "<i>Cane</i>",
-       "serpentino · [anno, misure]"
-      ]
-     }
-    ],
-    "quota_foto": 0.85
+    "tipo": "foto",
+    "foto": "114",
+    "dida": [
+     "<i>Leone</i>",
+     "serpentino · [anno, misure]"
+    ]
+   },
+   {
+    "tipo": "foto",
+    "foto": "113",
+    "dida": [
+     "<i>Cane</i>",
+     "serpentino · [anno, misure]"
+    ]
    },
    {
     "tipo": "foto",
@@ -476,25 +476,20 @@
     ]
    },
    {
-    "tipo": "gruppo",
-    "blocchi": [],
-    "foto": [
-     {
-      "foto": "211",
-      "dida": [
-       "<i>Nudo in piedi</i>",
-       "marmo bianco di Carrara · [anno, misure]"
-      ]
-     },
-     {
-      "foto": "210",
-      "dida": [
-       "<i>Volto fra i capelli</i>",
-       "marmo bianco di Carrara · [anno, misure]"
-      ]
-     }
-    ],
-    "quota_foto": 0.85
+    "tipo": "foto",
+    "foto": "211",
+    "dida": [
+     "<i>Nudo in piedi</i>",
+     "marmo bianco di Carrara · [anno, misure]"
+    ]
+   },
+   {
+    "tipo": "foto",
+    "foto": "210",
+    "dida": [
+     "<i>Volto fra i capelli</i>",
+     "marmo bianco di Carrara · [anno, misure]"
+    ]
    },
    {
     "tipo": "foto",
@@ -649,25 +644,20 @@
     ]
    },
    {
-    "tipo": "gruppo",
-    "blocchi": [],
-    "foto": [
-     {
-      "foto": "302",
-      "dida": [
-       "<i>Leggio</i>",
-       "legno · [anno, misure]"
-      ]
-     },
-     {
-      "foto": "307",
-      "dida": [
-       "<i>Penna</i>",
-       "legno · [anno, misure]"
-      ]
-     }
-    ],
-    "quota_foto": 0.85
+    "tipo": "foto",
+    "foto": "302",
+    "dida": [
+     "<i>Leggio</i>",
+     "legno · [anno, misure]"
+    ]
+   },
+   {
+    "tipo": "foto",
+    "foto": "307",
+    "dida": [
+     "<i>Penna</i>",
+     "legno · [anno, misure]"
+    ]
    },
    {
     "tipo": "sezione",

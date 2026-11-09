@@ -1,6 +1,6 @@
 # Sauro Calamai — portfolio
 
-**A4 verticale, 64 pagine.** Prima stesura, 9 novembre 2026.
+**A4 verticale, 68 pagine.** Prima stesura, 9 novembre 2026.
 La bozza impaginata si fa con `py strumenti\servizi.py sauro-calamai`: vedi il README del progetto.
 Le opere sono indicate con il codice di [`opere.md`](opere.md).
 
@@ -18,10 +18,10 @@ mi suggerisce mentre prende forma») e vale anche per il legno e per i ferri di 
 
 ---
 
-## La scaletta — 64 pagine
+## La scaletta — 68 pagine
 
-Un'opera per pagina quando l'opera lo merita; in coppia solo gli animali piccoli e le due
-viste della stessa opera. Ogni sezione si apre con due pagine: l'apertura con un dettaglio
+Un'opera per pagina; in coppia solo le foto orizzontali e le due viste della stessa opera.
+Dopo la copertina, la seconda di copertina col solo fondo; i crediti stanno sulla terza. Ogni sezione si apre con due pagine: l'apertura con un dettaglio
 e una pagina di presentazione con la poetica di quel materiale. Tutte le pagine hanno lo
 stesso fondo della brochure, dal verde del serpentino al bruno del legno, con le venature:
 un unico mood tonale.
@@ -30,70 +30,74 @@ La scaletta qui sotto è ricavata da `impaginazione.json`, che è il file da cui
 
 | Pag. | Contenuto | Opere |
 |---|---|---|
-| 1 | Copertina, fondo venato | 104 |
-| 2 | Citazione dell'artista | — |
-| 3 | Presentazione | — |
-| 4 | Ritratto a piena pagina | 003 |
-| 5 | Biografia | — |
-| 6 | La materia | 005 |
-| 7 | **I · Serpentino** — apertura, fondo venato | 115, in dettaglio |
-| 8 | Presentazione della sezione: *La pietra che decide il colore* | — |
-| 9 |  | 104 *Doppia testa* |
-| 10 |  | 105 *Volto con turbante* |
-| 11 |  | 115 *Volto e mano* |
-| 12 |  | 118 *Busto di donna con figura sul capo* |
-| 13 |  | 112 *Busto di vecchio* |
-| 14 |  | 111 *Figura seduta* |
-| 15 |  | 106 *Busto con occhiali* |
-| 16 |  | 117 *Busto con berretto* |
-| 17 |  | 109 *Lotta tra lucertola e serpente* |
-| 18 |  | 107 *Edera* |
-| 19 |  | 102 *Serpente* · 108 *Lumaca* |
-| 20 |  | 114 *Leone* · 113 *Cane* |
-| 21 |  | 110 *Tartaruga* |
-| 22 |  | 101 *Pietra dell'alluvione* |
-| 23 | Serpentino trattato | 103 *Elefante* · 116 *Due cuori* · 120 *Delfino* |
-| 24 | **II · Marmo bianco** — apertura, fondo venato | 208, in dettaglio |
-| 25 | Presentazione della sezione: *La luce dentro la pietra* | — |
-| 26 |  | 207 *Nudo disteso* |
-| 27 |  | 208 *Nudo disteso* |
-| 28 |  | 203 *Profilo in controluce* |
-| 29 |  | 204 *Testa al vento* · 205 *Testa al vento* |
-| 30 |  | 209 *Donna al sole* |
-| 31 |  | 212 *Nudo in piedi* |
-| 32 |  | 211 *Nudo in piedi* · 210 *Volto fra i capelli* |
-| 33 |  | 213 *Maschera* |
-| 34 |  | 202 *Torre* |
-| 35 |  | 201 *Colomba sull'edera* |
-| 36 | **III · Legno** — apertura, fondo venato | 304, in dettaglio |
-| 37 | Presentazione della sezione: *Seguire la fibra* | — |
-| 38 |  | 310 *Aquila* |
-| 39 |  | 311 *Totem con aquila* |
-| 40 |  | 304 *Volto nel tronco* |
-| 41 |  | 308 *Volto fra le rose* |
-| 42 |  | 313 *Volto di donna* |
-| 43 |  | 309 *Volto con conchiglia* |
-| 44 |  | 303 *Testa con turbante* |
-| 45 |  | 301 *Lucertole sul tronco* |
-| 46 |  | 305 *Salamandra* · 315 *Lucertole* |
-| 47 |  | 314 *Cavallo* |
-| 48 |  | 312 *Agave* |
-| 49 |  | 302 *Leggio* · 307 *Penna* |
-| 50 | **IV · Riciclo** — apertura, fondo venato | 506, in dettaglio |
-| 51 | Presentazione della sezione: *Seconda vita* | — |
-| 52 |  | 504 *Biga* · 502 *Biga* · 506 *Croce di ferri di cavallo* · 507 *Arpa* |
-| 53 | **Appendice · Donazioni** — apertura, fondo venato | 408, in dettaglio |
-| 54 | Presentazione della sezione: *Opere che restano* | — |
-| 55 |  | 411 *Madonnina del Covid* |
-| 56 | Chiesa di San Giovanni Decollato, Rocca di Montemurlo | 404 *Madonna con Bambino* · 409 *Croce con i simboli della Passione* |
-| 57 | Il tabernacolo del Ghiotto | 410 *Madonna delle Nevi* · 406 *Il tabernacolo* |
-| 58 | Gruppo Alpini di Montemurlo | 009 *Penna e testa d'aquila* · 405 *Busto di alpino* |
-| 59 | Chiesina di Coiano, Prato | 413 *Amata Cerretelli* · 403 *La targa* |
-| 60 | Vaiano e Bagnolo di Montemurlo | 401 *Libro con penna* · 402 *Pinocchio* |
-| 61 | Cronologia | 008 |
-| 62 | Rassegna stampa | 001 · 007 |
-| 63 | Crediti | — |
-| 64 | Retro, fondo venato, logo | — |
+| 1 | Copertina | 104 |
+| 2 | Seconda di copertina: solo il fondo venato | — |
+| 3 | Citazione dell'artista, in grande | — |
+| 4 | Presentazione | — |
+| 5 | Ritratto a piena pagina | 003 |
+| 6 | Biografia | — |
+| 7 | La materia | 005 |
+| 8 | **I · Serpentino** — apertura | 115, intera |
+| 9 | Presentazione della sezione: *La pietra che decide il colore* | — |
+| 10 |  | 104 *Doppia testa* |
+| 11 |  | 105 *Volto con turbante* |
+| 12 |  | 115 *Volto e mano* |
+| 13 |  | 118 *Busto di donna con figura sul capo* |
+| 14 |  | 112 *Busto di vecchio* |
+| 15 |  | 111 *Figura seduta* |
+| 16 |  | 106 *Busto con occhiali* |
+| 17 |  | 117 *Busto con berretto* |
+| 18 |  | 109 *Lotta tra lucertola e serpente* |
+| 19 |  | 107 *Edera* |
+| 20 |  | 102 *Serpente* · 108 *Lumaca* |
+| 21 |  | 114 *Leone* |
+| 22 |  | 113 *Cane* |
+| 23 |  | 110 *Tartaruga* |
+| 24 |  | 101 *Pietra dell'alluvione* |
+| 25 | Serpentino trattato | 103 *Elefante* · 116 *Due cuori* · 120 *Delfino* |
+| 26 | **II · Marmo bianco** — apertura | 208, intera |
+| 27 | Presentazione della sezione: *La luce dentro la pietra* | — |
+| 28 |  | 207 *Nudo disteso* |
+| 29 |  | 208 *Nudo disteso* |
+| 30 |  | 203 *Profilo in controluce* |
+| 31 |  | 204 *Testa al vento* · 205 *Testa al vento* |
+| 32 |  | 209 *Donna al sole* |
+| 33 |  | 212 *Nudo in piedi* |
+| 34 |  | 211 *Nudo in piedi* |
+| 35 |  | 210 *Volto fra i capelli* |
+| 36 |  | 213 *Maschera* |
+| 37 |  | 202 *Torre* |
+| 38 |  | 201 *Colomba sull'edera* |
+| 39 | **III · Legno** — apertura | 304, intera |
+| 40 | Presentazione della sezione: *Seguire la fibra* | — |
+| 41 |  | 310 *Aquila* |
+| 42 |  | 311 *Totem con aquila* |
+| 43 |  | 304 *Volto nel tronco* |
+| 44 |  | 308 *Volto fra le rose* |
+| 45 |  | 313 *Volto di donna* |
+| 46 |  | 309 *Volto con conchiglia* |
+| 47 |  | 303 *Testa con turbante* |
+| 48 |  | 301 *Lucertole sul tronco* |
+| 49 |  | 305 *Salamandra* · 315 *Lucertole* |
+| 50 |  | 314 *Cavallo* |
+| 51 |  | 312 *Agave* |
+| 52 |  | 302 *Leggio* |
+| 53 |  | 307 *Penna* |
+| 54 | **IV · Riciclo** — apertura | 506, intera |
+| 55 | Presentazione della sezione: *Seconda vita* | — |
+| 56 |  | 504 *Biga* · 502 *Biga* · 506 *Croce di ferri di cavallo* · 507 *Arpa* |
+| 57 | **Appendice · Donazioni** — apertura | 408, intera |
+| 58 | Presentazione della sezione: *Opere che restano* | — |
+| 59 |  | 411 *Madonnina del Covid* |
+| 60 | Chiesa di San Giovanni Decollato, Rocca di Montemurlo | 404 *Madonna con Bambino* · 409 *Croce con i simboli della Passione* |
+| 61 | Il tabernacolo del Ghiotto | 410 *Madonna delle Nevi* · 406 *Il tabernacolo* |
+| 62 | Gruppo Alpini di Montemurlo | 009 *Penna e testa d'aquila* · 405 *Busto di alpino* |
+| 63 | Chiesina di Coiano, Prato | 413 *Amata Cerretelli* · 403 *La targa* |
+| 64 | Vaiano e Bagnolo di Montemurlo | 401 *Libro con penna* · 402 *Pinocchio* |
+| 65 | Cronologia | 008 |
+| 66 | Rassegna stampa | 001 · 007 |
+| 67 | Terza di copertina: crediti e contatti | — |
+| 68 | Quarta di copertina: nome e logo | — |
 
 Esclusi: i doppioni (119, 306, 316, 407, 414, 004, 501, 505, 508) e la caldarrostiera (503).
 103, 116 e 120 sono serpentino trattato, forse con un acido: la pagina avrà il suo testo
@@ -300,6 +304,6 @@ Pagina di presentazione, dopo l'apertura.
 8. **Le foto**: la bozza si impagina con quelle di WhatsApp, per valutare il risultato.
    La sessione fotografica rifarà le opere scelte; per le donazioni, in chiese e
    tabernacoli, servono foto sul posto oppure le migliori esistenti.
-9. **Pagine e sezione del riciclo** vanno oltre il preventivo (64 pagine contro circa 40, tre
+9. **Pagine e sezione del riciclo** vanno oltre il preventivo (68 pagine contro circa 40, tre
    sezioni più l'appendice): si valuta a lavoro concluso, insieme ai costi di stampa.
 10. **Solo italiano?** Il preventivo non prevede l'inglese. Se serve, è un'aggiunta da concordare.
