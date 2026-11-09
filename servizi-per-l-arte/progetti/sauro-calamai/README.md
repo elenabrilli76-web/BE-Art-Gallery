@@ -62,8 +62,8 @@ resta in locale e non va su GitHub.
 | [`portfolio.md`](portfolio.md) | la scaletta delle 60 pagine, i testi e le domande per l'artista |
 
 Sul Drive le foto sono divise in `SERPENTINO`, `MARMO BIANCO DI CARRARA`, `LEGNO`,
-`DONAZIONI` e `RICICLO`. Il riciclo entra nella biografia del portfolio, come
-*Prima della pietra*.
+`DONAZIONI` e `RICICLO`. Nel portfolio il riciclo è una sezione breve, di due pagine,
+prima delle donazioni.
 
 ## Stato
 
