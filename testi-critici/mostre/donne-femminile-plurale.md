@@ -98,7 +98,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Donatella Bucchieri | analizzata il 9 novembre — presentazione e 3 didascalie |
 | Catia Massai | analizzata il 9 novembre — presentazione v2 e 5 didascalie |
 | Federica Barletta | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
-| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio · Roberta Grillanda · Manuela Romanelli | in attesa (Grillanda: cartella sul Drive ancora vuota) |
+| Roberta Grillanda | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
+| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio · Manuela Romanelli | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -197,6 +198,20 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Filo nuovo**: il **giudizio fra donne**, quando si fa proprio lo sguardo
   degli altri; e il suo rovescio, la sorellanza. Delicato: con misura.
 - **Frase da tenere**: una sedia resta vuota, ed è per chi guarda.
+
+### Roberta Grillanda — un occhio, tutte le donne
+
+- **Poetica**: ingrandisce un dettaglio fino a farlo paesaggio; l'acquerello
+  sciolto in velature e fermato da linee sottili. (Provvisoria: un'opera.)
+- **In mostra**: *Gli occhi delle donne* (2026, acquerello) — un solo occhio
+  che riempie il foglio: sopracciglio come montagne, iride come mare, ombra
+  come campagna. Dal cartoncino dell'artista: «tutte assieme unite
+  combatteremo per la nostra libertà».
+- **Parole chiave**: identità, autonomia, relazioni.
+- **Dialoga con**: Andreini e la nota «gli occhi delle donne parlano» — lo
+  stesso titolo, quasi; Bucchieri (*Noi*), D'Onofrio. È l'immagine più
+  vicina al claim: il plurale in un solo sguardo.
+- **Frase da tenere**: lo sguardo di una diventa lo sguardo di tutte.
 
 ## Il tema trasversale: la violenza contro le donne
 

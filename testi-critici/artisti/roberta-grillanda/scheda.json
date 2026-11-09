@@ -1,0 +1,19 @@
+{
+  "nome": "Roberta Grillanda",
+  "presentazione": {
+    "it": "Roberta Grillanda affida all'acquerello un compito insolito: ingrandire un dettaglio finché diventa paesaggio. Un solo occhio di donna riempie il foglio, e le sue parti si leggono come luoghi: il sopracciglio come una catena di montagne, l'iride come un mare in cui si accendono gialli e arancio, l'ombra sotto la palpebra come una campagna. Il colore è lasciato sciogliersi in velature trasparenti, poi fermato da linee sottili e dorate. Dal particolare nasce un'immagine collettiva: lo sguardo di una diventa lo sguardo di tutte, unite dallo stesso desiderio di libertà.",
+    "en": "Roberta Grillanda gives watercolour an unusual task: enlarging a detail until it becomes a landscape. A single woman's eye fills the sheet, and its parts read like places: the eyebrow like a mountain range, the iris like a sea where yellows and oranges catch fire, the shadow beneath the lid like countryside. Colour is left to dissolve in transparent washes, then held by fine golden lines. From the detail a collective image is born: the gaze of one becomes the gaze of all, united by the same desire for freedom."
+  },
+  "opere": [
+    {
+      "titolo": "Gli occhi delle donne",
+      "anno": 2026,
+      "tecnica": "acquerello su carta",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Un occhio grande quanto il foglio guarda dritto davanti a sé. Il sopracciglio sale come una montagna, l'iride si accende come un mare al tramonto, l'ombra sotto la palpebra si stende come una campagna: le donne di ogni luogo, raccolte in un solo sguardo che chiede libertà.",
+        "en": "An eye as large as the sheet looks straight ahead. The eyebrow rises like a mountain, the iris glows like a sea at sunset, the shadow beneath the lid spreads like countryside: women from every place, gathered into a single gaze that asks for freedom."
+      }
+    }
+  ]
+}
