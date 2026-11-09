@@ -204,6 +204,18 @@ Le opere che lo portano, finora:
 Da verificare con Lo Cascio (*Sono circondata di Rosso*: il rosso che
 avvolge, rifugio o assedio), D'Onofrio (gli occhi arrossati) e Barbieri.
 
+**Dove sta il tema — decisione del 9 novembre.** Le presentazioni degli
+artisti **non** si toccano: sono testi riutilizzabili, seguono l'artista in
+altre mostre, e per alcune ricerche (Maselli, Vangelisti) la violenza non è
+il centro — forzarla si sentirebbe. Il tema sta:
+- nelle **didascalie** delle opere che lo portano davvero (già scritte così);
+- nel **testo di presentazione della mostra**, che è il suo posto: lì si dice
+  che queste opere, accostate, rispondono alla violenza senza illustrarla, e
+  si lega la mostra al 25 novembre e all'evento *Siamo Donne*.
+Possibile in più, da proporre a Elena: una piccola riga in terracotta nelle
+pagine di sala, solo sotto le opere della tabella qui sopra, per segnare il
+percorso del 25 novembre.
+
 **L'arco del racconto**: dalla ferita (*NO!*, *Petali di coraggio*) alla
 risposta — lo sguardo che non si abbassa, il corpo che si riprende, la
 relazione libera — fino alla forza plurale del claim: «Infinite
