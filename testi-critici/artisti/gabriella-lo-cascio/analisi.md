@@ -6,9 +6,9 @@
 
 | | |
 |---|---|
-| **Opere analizzate** | *Sono circondata di rosso*, olio su tela, 50 × 40 cm |
+| **Opere analizzate** | *Sono circondata di rosso*, olio su tela |
 | **Stesura** | 9 novembre 2026 · v1 — **provvisoria**: un'opera sola |
-| **Fonti** | foto dal Drive (misure dal nome del file); titolo e tecnica da Elena |
+| **Fonti** | foto dal Drive; titolo e tecnica da Elena |
 
 ## Presentazione dell'artista
 
@@ -22,7 +22,7 @@
 
 ## Didascalia
 
-### *Sono circondata di rosso* — olio su tela, 50 × 40 cm
+### *Sono circondata di rosso* — olio su tela
 
 **Italiano** — _259 caratteri_
 
@@ -46,5 +46,5 @@ Gesto e colore prima del disegno; la figura ridotta all'essenziale, l'emozione a
 - dialoga con Romanelli (la donna chiusa nello spazio colorato) e con Barletta (la stanza rossa)
 
 ### Cosa resta aperto
-- anno e città: non indicati
+- anno, misure e città: non indicati (il 50 × 40 nel nome del file è sbagliato, Elena 9 novembre)
 - una sola opera: presentazione provvisoria

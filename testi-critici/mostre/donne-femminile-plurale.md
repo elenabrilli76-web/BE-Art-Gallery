@@ -72,7 +72,7 @@ di Elena su per chi procedere.
 | **Maria Cristina Andreini** — Prato, già in archivio | *Ragazza con velo azzurro* (olio su tela, 21 × 30) · *Ragazza occhi verdi* (30 × 20) · *Ragazza con copricapo viola* (30 × 40) · *Giovane donna occhi grigi* (30 × 40) | misure del dipinto e con cornice | l'abbinamento foto–titolo è dedotto da soggetto e proporzioni: da confermare. Nota sua: «gli occhi delle donne parlano… basta saper leggere» |
 | **Maria Maselli** | quadrittico *Femmes au marché*: *Esmeralda*, *Il flauto magico* (olio su tela, 30 × 40); *Il cesto di fiori*, *Il cesto di pere* (35 × 45) | completi | vendibili insieme o singolarmente; i titoli citano lirica e letteratura (Mozart, Victor Hugo). Città e anni: si lasciano fuori (Elena, 9 novembre). Le opere le porta Cristina Andreini |
 | **Donatella Bucchieri** | *Petali di coraggio* · *Oltre il genere: Noi* · *Ecosistema interiore* | titoli | ha mandato un commento alle opere. Tecnica a colore versato (pouring) per due tele; *Noi* con foglia d'oro e mandala. Misure, anno e città da chiedere |
-| **Gabriella Lo Cascio** | *Sono circondata di Rosso* (olio, 50 × 40) | titolo, tecnica, misure | una sola opera |
+| **Gabriella Lo Cascio** | *Sono circondata di Rosso* (olio) | titolo, tecnica, misure | una sola opera |
 | **Grazia Barbieri** | *Caterina* | solo titolo | una sola opera; tecnica, misure e anno da chiedere |
 | **Serena D'Onofrio** | un dipinto senza titolo (firma «SerenArt») | nessuno | una sola opera; titolo, tecnica, misure da chiedere |
 
@@ -252,7 +252,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 
 - **Poetica**: gesto e colore prima del disegno; pennellate d'olio a vortice,
   un rosso quasi unico, il volto in pochi segni. (Provvisoria: un'opera.)
-- **In mostra**: *Sono circondata di rosso* (olio, 50 × 40) — la donna a
+- **In mostra**: *Sono circondata di rosso* (olio) — la donna a
   occhi chiusi, capo chino, avvolta da un vortice rosso.
 - **Parole chiave**: identità, relazioni.
 - **Dialoga con**: Romanelli (la donna chiusa nello spazio colorato),
