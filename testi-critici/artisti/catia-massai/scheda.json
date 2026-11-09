@@ -2,8 +2,14 @@
   "nome": "Catia Massai",
   "vive_e_lavora": "Prato",
   "presentazione": {
-    "it": "Catia Massai dipinge la natura come un luogo in cui entrare. Un arco di pietra che si apre su un sentiero fiorito, un tronco secolare abbracciato da un girotondo di bambine: le sue tele costruiscono soglie e abbracci, spazi da attraversare e da custodire. La pittura procede per piccoli tocchi, foglia dopo foglia, fiore dopo fiore, con la pazienza di chi posa le tessere di un mosaico. Fra racconto e ornamento, il paesaggio si fa promessa di quiete. Ne nasce una pittura generosa, che chiede allo sguardo di fermarsi e rallentare.",
-    "en": "Catia Massai paints nature as a place to step into. A stone arch opening onto a flowering path, an ancient trunk embraced by a ring of little girls: her canvases build thresholds and embraces, spaces to cross and to protect. The painting proceeds in small touches, leaf after leaf, flower after flower, with the patience of someone setting the tesserae of a mosaic. Between storytelling and ornament, landscape becomes a promise of calm. The result is a generous painting that asks the eye to pause and slow down."
+    "it": "Catia Massai cambia linguaggio a seconda di ciò che vuole dire, e al centro mette quasi sempre una donna. Ridipinge il Sogno di Picasso, accosta a un nudo a grafite le parole di Oriana Fallaci, fa emergere dal nero un profilo con poche linee di matita rossa, veste di pop anni Sessanta una ragazza con la pistola; altrove apre giardini oltre archi di pietra. Citazione e ironia sono i suoi strumenti: conosce i modelli e li usa per parlare del presente. Il filo è il corpo femminile, guardato con complicità, e la libertà di scegliere chi essere, fino a un NO! scritto a mano.",
+    "en": "Catia Massai changes language according to what she wants to say, and almost always puts a woman at the centre. She repaints Picasso's Dream, sets the words of Oriana Fallaci beside a graphite nude, draws a profile out of the black with a few lines of red pencil, dresses a girl with a gun in Sixties pop; elsewhere she opens gardens beyond stone arches. Quotation and irony are her tools: she knows her models and uses them to speak about the present. The thread is the female body, looked at with complicity, and the freedom to choose who to be, right up to a handwritten NO!"
+  },
+  "presentazioni_per_mostra": {
+    "i-luoghi-dell-anima": {
+      "it": "Catia Massai dipinge la natura come un luogo in cui entrare. Un arco di pietra che si apre su un sentiero fiorito, un tronco secolare abbracciato da un girotondo di bambine: le sue tele costruiscono soglie e abbracci, spazi da attraversare e da custodire. La pittura procede per piccoli tocchi, foglia dopo foglia, fiore dopo fiore, con la pazienza di chi posa le tessere di un mosaico. Fra racconto e ornamento, il paesaggio si fa promessa di quiete. Ne nasce una pittura generosa, che chiede allo sguardo di fermarsi e rallentare.",
+      "en": "Catia Massai paints nature as a place to step into. A stone arch opening onto a flowering path, an ancient trunk embraced by a ring of little girls: her canvases build thresholds and embraces, spaces to cross and to protect. The painting proceeds in small touches, leaf after leaf, flower after flower, with the patience of someone setting the tesserae of a mosaic. Between storytelling and ornament, landscape becomes a promise of calm. The result is a generous painting that asks the eye to pause and slow down."
+    }
   },
   "opere": [
     {
@@ -26,6 +32,56 @@
       "didascalia": {
         "it": "Cinque bambine si tengono per mano attorno a un tronco troppo grande per un solo abbraccio. Le magliette arancio accendono l'ombra del vecchio albero: è la gioia senza pensieri del gioco, e insieme il gesto istintivo di stringersi attorno a ciò che protegge.",
         "en": "Five little girls hold hands around a trunk too wide for a single embrace. Their orange shirts light up the shade of the old tree: the carefree joy of play, and at the same time the instinctive gesture of gathering around what protects us."
+      }
+    },
+    {
+      "titolo": "Due sguardi",
+      "tecnica": "grafite su carta",
+      "misure": "33 × 48 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Un nudo di donna in piedi e, alle sue spalle, un grande volto di profilo che la osserva; accanto, scritte a mano, le parole di Oriana Fallaci sul coraggio di nascere donna. Due sguardi sulla stessa figura: quello del corpo e quello della coscienza.",
+        "en": "A standing female nude and, behind her, a large face in profile watching her; beside them, handwritten, Oriana Fallaci's words on the courage of being born a woman. Two gazes on the same figure: that of the body and that of awareness."
+      }
+    },
+    {
+      "titolo": "Marie-Thérèse – omaggio a Picasso",
+      "tecnica": "acrilico su tela",
+      "misure": "40 × 50 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Il Sogno di Picasso ridipinto con mano paziente: Marie-Thérèse abbandonata sulla poltrona rossa, il volto diviso, le mani raccolte in grembo. Più che una copia è un dialogo con il maestro, attraverso la donna che lui guardava dormire.",
+        "en": "Picasso's Dream repainted with a patient hand: Marie-Thérèse abandoned in the red armchair, her face divided, her hands gathered in her lap. More than a copy, it is a dialogue with the master, through the woman he watched as she slept."
+      }
+    },
+    {
+      "titolo": "Sensualità",
+      "anno": 2026,
+      "tecnica": "matite colorate su cartoncino nero",
+      "misure": "22 × 33 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Poche linee rosse e una bianca bastano a far emergere dal nero un profilo di donna, la bocca appena dischiusa, il collo teso. È il buio a dare forma alla figura: la sensualità sta tutta in ciò che il segno lascia indovinare.",
+        "en": "A few red lines and a single white one are enough to draw a woman's profile out of the black, lips slightly parted, neck stretched. It is the darkness that shapes the figure: sensuality lies entirely in what the line lets you guess."
+      }
+    },
+    {
+      "titolo": "La ragazza con la pistola",
+      "tecnica": "acrilico su tela",
+      "misure": "40 × 60 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Minigonna optical, stivali bianchi, una pistola tenuta con disinvoltura: la ragazza avanza fra strisce bianche e nere come in un film anni Sessanta. È l'ironia di un'icona pop che rovescia i ruoli e dice, sorridendo, di sapersi difendere.",
+        "en": "Op-art miniskirt, white boots, a pistol held with nonchalance: the girl strides between black and white stripes as if in a Sixties film. It is the irony of a pop icon who reverses the roles and says, smiling, that she can defend herself."
+      }
+    },
+    {
+      "titolo": "NO!",
+      "tecnica": "tecnica mista su tavola",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Un busto di donna su una tavola di legno, la biancheria di pizzo bianco, un cuore rosso sul petto e sul ventre sottili segni rossi. In alto, scritta a mano, una sola parola: NO! Il corpo esposto pronuncia il rifiuto più semplice, quello che ogni violenza finge di non sentire.",
+        "en": "A woman's torso on a wooden board, white lace lingerie, a red heart on the chest and thin red marks on the belly. Above, handwritten, a single word: NO! The exposed body speaks the simplest refusal, the one every act of violence pretends not to hear."
       }
     }
   ]

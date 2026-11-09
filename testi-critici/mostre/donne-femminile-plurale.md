@@ -96,7 +96,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Maria Maselli | analizzata il 9 novembre — presentazione e 4 didascalie |
 | Maria Cristina Andreini | analizzata il 9 novembre — presentazione v2 e 4 didascalie |
 | Donatella Bucchieri | analizzata il 9 novembre — presentazione e 3 didascalie |
-| Catia Massai · Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
+| Catia Massai | analizzata il 9 novembre — presentazione v2 e 5 didascalie |
+| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -162,7 +163,53 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Frase da tenere**: la ferita diventa forza; il «Noi» che completa la parte
   mancante del volto — chi guarda è chiamato dentro l'opera.
 
-### Primi fili, dopo quattro artisti
+### Catia Massai — citare per dire di sé
+
+- **Poetica**: cambia linguaggio a seconda di ciò che deve dire e usa i
+  modelli (Picasso, Oriana Fallaci, il pop) come voci con cui dialogare. Il
+  filo è il corpo femminile e la libertà di decidere di sé.
+- **In mostra**: *Due sguardi* (nudo a grafite con le parole di Fallaci),
+  *Marie-Thérèse – omaggio a Picasso*, *Sensualità* (matite su nero, datata
+  8 marzo 2026), *La ragazza con la pistola* (pop anni Sessanta), *NO!*
+  (busto in rilievo con pizzo, cuore rosso e la scritta a mano).
+- **Parole chiave**: identità, autonomia.
+- **Dialoga con**: Maselli e Vangelisti (le donne dei racconti: qui Picasso e
+  Fallaci); Andreini (il corpo e lo sguardo come linguaggio); è la voce più
+  diretta sul tema della violenza.
+- **Frase da tenere**: il NO! scritto a mano — il rifiuto più semplice, quello
+  che ogni violenza finge di non sentire.
+
+## Il tema trasversale: la violenza contro le donne
+
+Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
+diverse opere ed è il tema che lega la mostra all'evento *Siamo Donne —
+oltre la violenza c'è di più* e al **25 novembre, Giornata internazionale per
+l'eliminazione della violenza contro le donne**. Nel testo di mostra va
+detto con misura: le opere non illustrano la violenza, rispondono.
+
+Le opere che lo portano, finora:
+
+| Opera | Artista | Come lo porta |
+|---|---|---|
+| *NO!* | Massai | il rifiuto scritto sul corpo esposto; i segni rossi sul ventre — l'opera manifesto del tema |
+| *Ragazza occhi verdi* | Andreini | la bocca coperta, la mano alzata: un silenzio imposto che lo sguardo rifiuta |
+| *Petali di coraggio* | Bucchieri | il piccolo formato di chi si è sentita ferita e rimpicciolita, e rifiorisce |
+| *Oltre il genere: Noi* | Bucchieri | le fratture del pregiudizio rese d'oro: la ferita che diventa forza |
+| *Due sguardi* | Massai | le parole di Fallaci: battersi perché un'intelligenza sia ascoltata |
+| *La ragazza con la pistola* | Massai | la difesa, con ironia: i ruoli rovesciati |
+| il trittico «Lasciar andare» | Vangelisti | la relazione senza possesso: Circe non cerca sottomissione, Calipso rinuncia a trattenere |
+| *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
+
+Da verificare con Lo Cascio (*Sono circondata di Rosso*: il rosso che
+avvolge, rifugio o assedio), D'Onofrio (gli occhi arrossati) e Barbieri.
+
+**L'arco del racconto**: dalla ferita (*NO!*, *Petali di coraggio*) alla
+risposta — lo sguardo che non si abbassa, il corpo che si riprende, la
+relazione libera — fino alla forza plurale del claim: «Infinite
+sfaccettature, un'unica grande forza». È anche il senso del titolo
+dell'evento: oltre la violenza c'è di più.
+
+### Primi fili, dopo cinque artisti
 
 - **Il velo e lo sguardo**: Andreini (il velo copre la bocca, restano gli
   occhi), Maselli (il velo scivola, lo sguardo si abbassa o sfida),
@@ -172,9 +219,9 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Trattenere e lasciar andare**: il distacco consapevole di Vangelisti, il
   momento tutto per sé delle donne di Maselli, il rifiuto silenzioso di
   *Ragazza occhi verdi*. Autonomia dentro le relazioni.
-- **Quattro linguaggi, un'attenzione**: simbolico e materico (Vangelisti),
+- **Cinque linguaggi, un'attenzione**: simbolico e materico (Vangelisti),
   tradizione accademica (Maselli), realismo intimo (Andreini), colore fluido
-  e ritratto (Bucchieri). Il «plurale» del titolo è anche nei modi di
+  e ritratto (Bucchieri), citazione e pop (Massai). Il «plurale» del titolo è anche nei modi di
   dipingere.
 - **La ferita e la ricomposizione**: i cocci della *Geisha*, le fratture d'oro
   di *Noi*, i *Petali di coraggio* che fioriscono dal nero. È il filo più

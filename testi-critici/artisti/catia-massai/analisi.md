@@ -95,3 +95,102 @@ dell'arco, dipinti come tessere.
   arrivano lavori di quel tipo, la presentazione va allargata
 - in rete non ho trovato niente di attendibile su di lei: la ricerca restituisce
   un'omonima che vive a Barcellona
+
+---
+
+# DONNE: Femminile Plurale — 2026
+
+| | |
+|---|---|
+| **Opere analizzate** | *Due sguardi*, grafite su carta, 33 × 48 cm · *Marie-Thérèse – omaggio a Picasso*, acrilico su tela, 40 × 50 cm · *Sensualità*, 2026, matite colorate su cartoncino nero, 22 × 33 cm · *La ragazza con la pistola*, acrilico su tela, 40 × 60 cm · *NO!*, tecnica mista su tavola |
+| **Stesura** | 9 novembre 2026 · presentazione v2 e 5 didascalie |
+| **Fonti** | foto delle opere dal Drive; titoli, tecniche e misure dall'artista; titolo «NO!» dato da Elena |
+
+## Presentazione dell'artista — v2, con le opere nuove
+
+**Italiano** — _576 caratteri spazi inclusi_
+
+> Catia Massai cambia linguaggio a seconda di ciò che vuole dire, e al centro mette quasi sempre una donna. Ridipinge il Sogno di Picasso, accosta a un nudo a grafite le parole di Oriana Fallaci, fa emergere dal nero un profilo con poche linee di matita rossa, veste di pop anni Sessanta una ragazza con la pistola; altrove apre giardini oltre archi di pietra. Citazione e ironia sono i suoi strumenti: conosce i modelli e li usa per parlare del presente. Il filo è il corpo femminile, guardato con complicità, e la libertà di scegliere chi essere, fino a un NO! scritto a mano.
+
+**English** — _577 characters_
+
+> Catia Massai changes language according to what she wants to say, and almost always puts a woman at the centre. She repaints Picasso's Dream, sets the words of Oriana Fallaci beside a graphite nude, draws a profile out of the black with a few lines of red pencil, dresses a girl with a gun in Sixties pop; elsewhere she opens gardens beyond stone arches. Quotation and irony are her tools: she knows her models and uses them to speak about the present. The thread is the female body, looked at with complicity, and the freedom to choose who to be, right up to a handwritten NO!
+
+## Didascalie delle singole opere
+
+### *Due sguardi* — grafite su carta, 33 × 48 cm
+
+**Italiano** — _248 caratteri_
+
+> Un nudo di donna in piedi e, alle sue spalle, un grande volto di profilo che la osserva; accanto, scritte a mano, le parole di Oriana Fallaci sul coraggio di nascere donna. Due sguardi sulla stessa figura: quello del corpo e quello della coscienza.
+
+**English** — _234 characters_
+
+> A standing female nude and, behind her, a large face in profile watching her; beside them, handwritten, Oriana Fallaci's words on the courage of being born a woman. Two gazes on the same figure: that of the body and that of awareness.
+
+### *Marie-Thérèse – omaggio a Picasso* — acrilico su tela, 40 × 50 cm
+
+**Italiano** — _234 caratteri_
+
+> Il Sogno di Picasso ridipinto con mano paziente: Marie-Thérèse abbandonata sulla poltrona rossa, il volto diviso, le mani raccolte in grembo. Più che una copia è un dialogo con il maestro, attraverso la donna che lui guardava dormire.
+
+**English** — _235 characters_
+
+> Picasso's Dream repainted with a patient hand: Marie-Thérèse abandoned in the red armchair, her face divided, her hands gathered in her lap. More than a copy, it is a dialogue with the master, through the woman he watched as she slept.
+
+### *Sensualità* — 2026, matite colorate su cartoncino nero, 22 × 33 cm
+
+**Italiano** — _224 caratteri_
+
+> Poche linee rosse e una bianca bastano a far emergere dal nero un profilo di donna, la bocca appena dischiusa, il collo teso. È il buio a dare forma alla figura: la sensualità sta tutta in ciò che il segno lascia indovinare.
+
+**English** — _232 characters_
+
+> A few red lines and a single white one are enough to draw a woman's profile out of the black, lips slightly parted, neck stretched. It is the darkness that shapes the figure: sensuality lies entirely in what the line lets you guess.
+
+### *La ragazza con la pistola* — acrilico su tela, 40 × 60 cm
+
+**Italiano** — _238 caratteri_
+
+> Minigonna optical, stivali bianchi, una pistola tenuta con disinvoltura: la ragazza avanza fra strisce bianche e nere come in un film anni Sessanta. È l'ironia di un'icona pop che rovescia i ruoli e dice, sorridendo, di sapersi difendere.
+
+**English** — _237 characters_
+
+> Op-art miniskirt, white boots, a pistol held with nonchalance: the girl strides between black and white stripes as if in a Sixties film. It is the irony of a pop icon who reverses the roles and says, smiling, that she can defend herself.
+
+### *NO!* — tecnica mista su tavola
+
+**Italiano** — _276 caratteri_
+
+> Un busto di donna su una tavola di legno, la biancheria di pizzo bianco, un cuore rosso sul petto e sul ventre sottili segni rossi. In alto, scritta a mano, una sola parola: NO! Il corpo esposto pronuncia il rifiuto più semplice, quello che ogni violenza finge di non sentire.
+
+**English** — _250 characters_
+
+> A woman's torso on a wooden board, white lace lingerie, a red heart on the chest and thin red marks on the belly. Above, handwritten, a single word: NO! The exposed body speaks the simplest refusal, the one every act of violence pretends not to hear.
+
+## Note di analisi
+
+### Analisi formale
+- **Due sguardi**: grafite su carta, sotto vetro. Nudo femminile in piedi, appoggiato su un braccio, testa reclinata; dietro, un grande volto di profilo appena accennato; ai piedi un cane seduto. A sinistra, in stampatello a mano, il brano di Oriana Fallaci da *Lettera a un bambino mai nato* («Essere donna è così affascinante… un'intelligenza che urla d'essere ascoltata»). Firma con monogramma e «23».
+- **Marie-Thérèse – omaggio a Picasso**: copia dichiarata de *Il sogno* (1932): poltrona rossa, fondo verde a motivi, collana gialla, volto diviso, mani in grembo. Campiture piatte, contorni neri.
+- **Sensualità**: cartoncino nero, matite rossa e bianca: un profilo femminile reclinato, labbra rosse dischiuse, collo teso; firma e data «8.3.26», l'8 marzo.
+- **La ragazza con la pistola**: acrilico; una ragazza in minigonna optical bianca e nera e stivali bianchi, una pistola in mano, su fondo a strisce bianche e nere che crea una prospettiva teatrale. Gusto pop, anni Sessanta.
+- **NO!**: busto femminile in rilievo (terracotta o materiale modellato color carne) montato su tavola di legno; reggiseno di pizzo bianco con un cuore rosso, slip di tulle e pizzo; sul ventre sottili segni rossi; in alto a destra «NO!» scritto a mano in rosso.
+- le opere di *I Luoghi dell'Anima* (giardino oltre l'arco, girotondo attorno all'albero): pittura narrativa a piccoli tocchi.
+
+### Ciò che ritorna
+- la **figura femminile** al centro, in quasi tutte le opere
+- la **citazione** come metodo: Picasso, Fallaci, il cinema pop
+- il **cambio di linguaggio** a seconda del soggetto: grafite, matita su nero, acrilico pop, rilievo, pittura narrativa
+- il **rosso** come segno di vita e di allarme: il cuore e la scritta di *NO!*, le linee di *Sensualità*, la poltrona di Marie-Thérèse
+
+### Poetica dedotta
+Massai è un'interprete più che una stilista: sceglie il linguaggio adatto a ciò che deve dire e usa i modelli (Picasso, Fallaci, il pop) come voci con cui dialogare. Il tema che li tiene insieme è il corpo femminile e la libertà di decidere di sé: dalla sensualità rivendicata alla difesa ironica, fino al rifiuto netto di *NO!*.
+
+### Contesto
+Omaggio e appropriazione (Picasso), illustrazione e pop; nella presentazione i nomi entrano come soggetti delle opere, non come confronti.
+
+### Cosa resta aperto
+- **NO!**: titolo dato da Elena; tecnica e misure da confermare con l'artista (nel testo «tecnica mista su tavola»); la firma in basso a destra sembra riportare una data
+- **anni**: *Sensualità* è datata 8.3.26; *Due sguardi* reca «23» accanto alla firma (2023?), non riportato nella scheda
+- la presentazione v1 (giardini e bambine) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`
