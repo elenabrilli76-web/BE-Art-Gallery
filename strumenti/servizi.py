@@ -97,8 +97,9 @@ def etichetta(cv, testo, x, y, k, colore=c.ORO, centro=None, disegna=True):
 # ----------------------------------------------------------------------------
 
 class Foto:
-    def __init__(self, cartella: Path, mappa: dict):
+    def __init__(self, cartella: Path, mappa: dict, ruota: dict | None = None):
         self.cartella, self.mappa, self.cache = cartella, mappa, {}
+        self.ruota = ruota or {}   # codice → gradi in senso antiorario, per le foto scattate di traverso
         self.mancanti = set()
 
     def file(self, codice):
@@ -112,7 +113,10 @@ class Foto:
                 self.mancanti.add(codice)
                 self.cache[codice] = None
             else:
-                self.cache[codice] = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
+                im = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
+                if self.ruota.get(codice):
+                    im = im.rotate(self.ruota[codice], expand=True)
+                self.cache[codice] = im
         return self.cache[codice]
 
     def proporzione(self, codice):
@@ -204,7 +208,7 @@ def gruppo(cv, F, opere, x, y_basso, largo, alto, k, in_alto=False, chiaro=False
 # Fondo a gradiente con venature
 # ----------------------------------------------------------------------------
 
-def fondo_venato(larghezza, altezza, da, a, venature=7, seme=7, dpi=150):
+def fondo_venato(larghezza, altezza, da, a, venature=7, seme=7, dpi=150, intensita=0.32):
     """Un gradiente diagonale fra due colori — il verde del serpentino e il bruno
     del legno — attraversato da venature bianche, come quelle della pietra e del
     marmo. Il seme fisso fa uscire sempre lo stesso fondo."""
@@ -253,9 +257,9 @@ def fondo_venato(larghezza, altezza, da, a, venature=7, seme=7, dpi=150):
     grana = grana.filter(ImageFilter.GaussianBlur(W / 1400))
     nuvola = ImageChops.multiply(fasce, grana.point(lambda v: 90 + v * 0.65))
     luce = ImageChops.lighter(nuvola, fili.filter(ImageFilter.GaussianBlur(W / 1800)))
-    luce = ImageChops.lighter(luce, grana.point(lambda v: v * 0.10))   # un velo di grana ovunque
+    luce = ImageChops.lighter(luce, grana.point(lambda v: v * 0.05))   # un velo di grana ovunque
     verde_chiaro = Image.new("RGB", (W, H), (214, 226, 210))
-    im = Image.composite(verde_chiaro, im, luce.point(lambda v: int(v * 0.62)))
+    im = Image.composite(verde_chiaro, im, luce.point(lambda v: int(v * intensita)))
     dati = io.BytesIO()
     im.save(dati, "JPEG", quality=88)
     dati.seek(0)
@@ -315,9 +319,11 @@ def adatta(cv, lista, x, y, largo, alto_max, k, chiaro=False):
 # ----------------------------------------------------------------------------
 
 class Riquadro:
-    """Una pagina, o un'anta della brochure: dove disegnare e a che scala."""
-    def __init__(self, x, y, w, h, k, margine):
-        self.x, self.y, self.w, self.h, self.k, self.m = x, y, w, h, k, margine
+    """Una pagina, o un'anta della brochure: dove disegnare e a che scala.
+    Con fisso=True il testo non si rimpicciolisce per entrare: tutto il
+    documento ha un corpo solo, e se una pagina trabocca lo si segnala."""
+    def __init__(self, x, y, w, h, k, margine, fisso=False):
+        self.x, self.y, self.w, self.h, self.k, self.m, self.fisso = x, y, w, h, k, margine, fisso
 
     @property
     def utile(self):
@@ -347,8 +353,8 @@ def piede(cv, R, n, testo, chiaro=False):
 def p_copertina(cv, R, p, F):
     banda = R.h * 0.30
     if p.get("trasparente"):
-        # sul fondo venato: la foto incorniciata dai margini, niente nero
-        F.posa(cv, p["foto"], R.x + R.m, R.y + banda, R.utile, R.h - banda - R.m, taglia=True)
+        # sul fondo venato: la foto intera, dentro i margini, niente nero
+        F.posa(cv, p["foto"], R.x + R.m, R.y + banda, R.utile, R.h - banda - R.m)
     else:
         fondo(cv, R, SCURO)
         F.posa(cv, p["foto"], R.x, R.y + banda, R.w, R.h - banda, taglia=True)
@@ -372,8 +378,12 @@ def p_testo(cv, R, p, F):
     basso = R.y + R.m + 8 * mm * R.k
     foto = p.get("foto", [])
     spazio_foto = (alto - basso) * p.get("quota_foto", 0.45) if foto else 0
-    k = adatta(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, alto - basso - spazio_foto,
-               R.k * p.get("scala", 1), chiaro)
+    if R.fisso:
+        k = R.k
+        if alto - blocchi(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, k, chiaro, False) > alto - basso - spazio_foto:
+            print(f"   ⚠ il testo di «{(p.get('blocchi') or [{}])[0]}» non entra nella pagina")
+    else:
+        k = adatta(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, alto - basso - spazio_foto, R.k, chiaro)
     y = blocchi(cv, p.get("blocchi", []), R.x + R.m, alto, R.utile, k, chiaro)
     if foto:
         gruppo(cv, F, foto, R.x + R.m, basso, R.utile, y - basso - 4 * mm * R.k, R.k, in_alto=True, chiaro=chiaro)
@@ -414,8 +424,10 @@ def p_gruppo(cv, R, p, F):
 
 
 def p_piena(cv, R, p, F):
-    fondo(cv, R, SCURO)
-    F.posa(cv, p["foto"], R.x, R.y, R.w, R.h, taglia=True)
+    """La foto più grande possibile, intera: niente tagli."""
+    if not p.get("trasparente"):
+        fondo(cv, R, SCURO)
+    F.posa(cv, p["foto"], R.x + R.m, R.y + R.m, R.utile, R.h - 2 * R.m)
 
 
 def p_sezione(cv, R, p, F):
@@ -424,7 +436,7 @@ def p_sezione(cv, R, p, F):
         fondo(cv, R, SCURO)
     k = R.k
     meta = R.h * 0.52
-    F.posa(cv, p["foto"], R.x, R.y + R.h - meta, R.w, meta, taglia=True)
+    F.posa(cv, p["foto"], R.x + R.m, R.y + R.h - meta, R.utile, meta - R.m)
     y = R.y + R.h - meta - R.m
     if p.get("numero"):
         y = par(cv, ROMANI.get(p["numero"], str(p["numero"])), st(k, corpo=30, textColor=c.ORO), R.x + R.m, y, R.utile)
@@ -481,15 +493,19 @@ def portfolio(cfg, F, uscita: Path):
     venato = cfg["portfolio"].get("fondo_venato", {})
     fondi = {}
     for n, p in enumerate(pag, 1):
-        R = Riquadro(0, 0, *A4, 1, 18 * mm)
+        R = Riquadro(0, 0, *A4, cfg["portfolio"].get("scala", 1), 18 * mm, fisso=True)
         tipi = venato.get("tipi", [])
         if "tutte" in tipi or p["tipo"] in tipi:
             # i fondi girano su pochi semi: le venature cambiano da una pagina
             # all'altra, ma il PDF riusa le stesse immagini e resta leggero
             seme = venato.get("seme", 7) + n % venato.get("varianti", 6)
-            if seme not in fondi:
-                fondi[seme] = fondo_venato(*A4, venato["da"], venato["a"], venato.get("venature", 5), seme)
-            cv.drawImage(fondi[seme], 0, 0, *A4)
+            # dietro il testo le venature si abbassano, per non disturbare la lettura
+            di_testo = p["tipo"] in ("testo", "citazione") and not p.get("foto")
+            forza = venato.get("intensita_testo", 0.14) if di_testo else venato.get("intensita", 0.32)
+            if (seme, forza) not in fondi:
+                fondi[(seme, forza)] = fondo_venato(*A4, venato["da"], venato["a"], venato.get("venature", 5),
+                                                    seme, intensita=forza)
+            cv.drawImage(fondi[(seme, forza)], 0, 0, *A4)
             p = {**p, "trasparente": True}
         TIPI[p["tipo"]](cv, R, p, F)
         if p["tipo"] not in SENZA_PIEDE:
@@ -516,7 +532,7 @@ def brochure(cfg, F, uscita: Path):
         venato = b.get("fondo_venato", {})
         if lato in venato.get("lati", []):
             cv.drawImage(fondo_venato(W, H, venato["da"], venato["a"], venato.get("venature", 7),
-                                      venato.get("seme", 7)), 0, 0, W, H)
+                                      venato.get("seme", 7), intensita=venato.get("intensita", 0.32)), 0, 0, W, H)
         x = 0
         for anta, wi in zip(ante, w):
             anta = {**anta, "trasparente": lato in venato.get("lati", [])}
@@ -544,7 +560,7 @@ def main():
     cosa = sys.argv[2:] or ["portfolio", "brochure"]
     cfg = json.loads((progetto / "impaginazione.json").read_text(encoding="utf-8"))
     materiali = progetto / "materiali"
-    F = Foto(materiali / "foto", cfg["foto"])
+    F = Foto(materiali / "foto", cfg["foto"], cfg.get("ruota"))
     if "portfolio" in cosa:
         n = portfolio(cfg, F, materiali / "portfolio.pdf")
         print(f"✓ materiali/portfolio.pdf — {n} pagine")
