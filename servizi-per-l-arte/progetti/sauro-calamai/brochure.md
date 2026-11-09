@@ -1,6 +1,7 @@
 # Sauro Calamai — brochure
 
-**Pieghevole a tre ante, sei facciate.** Prima stesura, 9 novembre 2026.
+**Pieghevole a tre ante su A4, sei facciate.** Prima stesura, 9 novembre 2026.
+La bozza impaginata si fa con `py strumenti\servizi.py sauro-calamai`: vedi il README del progetto.
 Le opere sono indicate con il codice di [`opere.md`](opere.md).
 
 > Testi in terza persona: il soggetto è l'artista. BE Art Gallery compare solo nei
@@ -18,19 +19,19 @@ aprendo la prima anta si legge l'aletta, aprendola tutta si leggono le tre facci
 
 ## Le opere scelte
 
-Otto opere più un ritratto. Sono le più riconoscibili delle tre materie, e torneranno
-nel portfolio.
+Cinque opere e un ritratto, una o due per anta: con i testi accanto, di più farebbe
+un mosaico di foto piccole. Le altre opere stanno nel portfolio.
 
 | Facciata | Opere |
 |---|---|
-| 1 · copertina | **104** *Doppia testa*, serpentino, a piena pagina |
+| 1 · copertina | **104** *Doppia testa*, serpentino, a piena anta |
 | 2 · chi è | **005** ritratto al lavoro |
-| 3 · la pietra | **105** *Volto con turbante* · **109** *Lotta tra lucertola e serpente* · **115** *Volto e mano* |
-| 4 · marmo e legno | **208** *Nudo disteso*, acceso · **204** *Testa al vento* · **310** *Aquila* · **308** *Volto fra le rose* |
-| 5 · aletta | **107** *Edera*, in dettaglio |
-| 6 · retro | nessuna opera: contatti e crediti |
+| 3 · la pietra | **115** *Volto e mano* |
+| 4 · marmo e legno | **208** *Nudo disteso*, acceso · **310** *Aquila* |
+| 5 · aletta | **107** *Edera* |
+| 6 · retro | nessuna opera: contatti, crediti e logo, su fondo scuro |
 
-Alternative se una foto non regge la stampa: 114 *Leone* al posto di 109, 313 al posto di 308.
+Alternative: 105 *Volto con turbante* al posto di 115, 308 *Volto fra le rose* al posto di 310.
 
 ---
 
@@ -57,7 +58,7 @@ Alternative se una foto non regge la stampa: 114 *Leone* al posto di 109, 313 al
 
 ### 4 · Marmo e legno
 
-> Nel marmo bianco la ricerca cambia direzione: la pietra si assottiglia fino a lasciar passare la luce, e il bassorilievo si accende da dietro.
+> Nel marmo bianco la ricerca cambia direzione: la pietra si assottiglia fino a lasciar passare la luce, e il bassorilievo si accende da dentro.
 >
 > Nel legno è il tronco a dettare la forma. Un ramo diventa il dorso di una lucertola, una spaccatura il profilo di un volto. Lucertole, aquile, volti tra i capelli tornano da un materiale all'altro: cambia la materia, resta lo sguardo.
 
@@ -86,5 +87,3 @@ Alternative se una foto non regge la stampa: 114 *Leone* al posto di 109, 313 al
 
 - **La citazione della facciata 3** è presa dalla scheda originale dell'artista,
   togliendo solo l'inciso «asserisce Sauro». Va bene come apertura?
-- **La facciata 4** parla del bassorilievo che «si accende da dietro» (208): è
-  un'illuminazione montata nell'opera? Va confermato con l'artista.

@@ -47,7 +47,7 @@ Il file `11-06 10.22.51` della cartella principale è identico a 005.
 |---|---|---|---|
 | 101 | 12.08.01 1 | *Pietra dell'alluvione* — pietra grezza raccolta dopo l'alluvione del 2 novembre 2023, lavorata per ricordare chi ne fu colpito (dal cartellino) | **P** ⭐ |
 | 102 | 12.08.01 | *Serpente* attorcigliato su una pietra | P |
-| 103 | 12.08.00 5 | *Elefante*: figura a patina bronzea su lastra di pietra grigia | ? materiale da chiarire |
+| 103 | 12.08.00 5 | *Elefante*: serpentino trattato, a patina bronzea, su lastra grigia | P |
 | 104 | 12.08.00 4 | *Doppia testa*: due volti, uomo e donna, uniti dai capelli. È l'opera dell'articolo e del ritratto 003 | **C · B · P** ⭐ |
 | 105 | 12.08.00 3 | *Volto con turbante e barba*: volto lucidato, barba lasciata a solchi | **B · P** |
 | 106 | 12.08.00 2 | *Busto d'uomo con occhiali*, su base in marmo e serpentino | P · ? chi ritrae |
@@ -60,11 +60,11 @@ Il file `11-06 10.22.51` della cartella principale è identico a 005.
 | 113 | 12.07.59 2 | *Cane accucciato* | P |
 | 114 | 12.07.59 1 | *Leone accovacciato* | P |
 | 115 | 12.07.59 | *Volto e mano*: un volto dai capelli al vento e una mano che regge una pietra | **B · P** ⭐ |
-| 116 | 12.07.58 | *Due cuori*: due pietre venate, beige e brune | ? non sembra serpentino |
+| 116 | 12.07.58 | *Due cuori*: serpentino trattato, beige e bruno | P |
 | 117 | 12.07.56 | *Busto con berretto e baffi* | P · ? chi ritrae |
 | 118 | 12.07.55 2 | *Busto di donna con figura sul capo* | P |
 | 119 | 12.07.55 1 | Stessa opera di 118, altra angolazione | — doppione |
-| 120 | 12.07.55 | *Delfino* in bassorilievo su pietra rossa | ? non è serpentino |
+| 120 | 12.07.55 | *Delfino* in bassorilievo, serpentino trattato, rosso | P |
 
 Due coppie di foto hanno quasi lo stesso nome sul Drive e si distinguono per uno spazio
 prima di `.jpeg`: 108 e 109 (`12.08.00`), 407 e 410 (`10.22.51`). Si riconoscono dal
@@ -79,7 +79,7 @@ soggetto.
 | 203 | 12.11.15 3 | *Profilo in controluce*: lastra con un volto scavato, illuminata da dietro | **P** ⭐ |
 | 204 | 12.11.15 2 | *Testa al vento*, di profilo | **B · P** |
 | 205 | 12.11.15 1 | Stessa opera di 204, di fronte | P, coppia con 204 |
-| 206 | 12.11.14 5 | *Nudo disteso*, bassorilievo retroilluminato, luce calda | P |
+| 206 | 12.11.14 5 | *Nudo disteso*, bassorilievo con luce interna, acceso | — terza vista |
 | 207 | 12.11.14 4 | Stessa opera di 206, spenta | **P**, coppia con 208 |
 | 208 | 12.11.14 3 | Stessa opera di 206, accesa | **B · P** ⭐ |
 | 209 | 12.11.14 2 | **Donna al sole**, 2021 | P |

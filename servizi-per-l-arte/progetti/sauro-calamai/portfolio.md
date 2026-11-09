@@ -1,6 +1,7 @@
 # Sauro Calamai — portfolio
 
 **A4 verticale, 60 pagine.** Prima stesura, 9 novembre 2026.
+La bozza impaginata si fa con `py strumenti\servizi.py sauro-calamai`: vedi il README del progetto.
 Le opere sono indicate con il codice di [`opere.md`](opere.md).
 
 > Testi in terza persona, con lo sguardo critico delle presentazioni d'artista
@@ -48,7 +49,7 @@ risguardi.
 | 20 | | 114 *Leone* · 113 *Cane* |
 | 21 | | 110 *Tartaruga* |
 | 22 | | 101 *Pietra dell'alluvione*, con il suo testo |
-| 23 | *Altre pietre*, se l'artista conferma | 103 · 116 · 120 |
+| 23 | *Serpentino trattato* | 103 · 116 · 120 |
 | **24** | **II · Marmo bianco** — apertura | 208, in dettaglio |
 | 25–26 | doppia pagina | 207 spento · 208 acceso |
 | 27 | | 203 *Profilo in controluce* |
@@ -87,8 +88,8 @@ risguardi.
 | 60 | Retro | — |
 
 Esclusi: i doppioni (119, 306, 316, 407, 414, 004, 501, 505, 508) e la caldarrostiera (503).
-Se 103, 116 e 120 non vengono confermati, la pagina 23 salta e si toglie una pagina
-bianca in fondo, oppure si recupera un ritratto in più.
+103, 116 e 120 sono serpentino trattato, forse con un acido: la pagina avrà il suo testo
+quando l'artista avrà spiegato il trattamento.
 
 ---
 
@@ -143,7 +144,7 @@ Dal cartellino dell'opera, riscritto. Da confermare con l'artista.
 
 ### Pag. 24 · II · Marmo bianco
 
-> Il marmo di Carrara porta Calamai verso la figura intera e verso la luce. I nudi femminili si distendono nel bassorilievo o si alzano sottili, i capelli si muovono come al vento. In alcune lastre il marmo si assottiglia fino a diventare traslucido: illuminato da dietro, il rilievo cambia, e la stessa opera ha due volti, spenta e accesa.
+> Il marmo di Carrara porta Calamai verso la figura intera e verso la luce. I nudi femminili si distendono nel bassorilievo o si alzano sottili, i capelli si muovono come al vento. In alcune lastre il marmo si assottiglia fino a diventare traslucido: illuminato da dentro, il rilievo si accende, e la stessa opera ha due volti, spenta e accesa.
 
 ### Pag. 35 · III · Legno
 
@@ -212,25 +213,23 @@ Montemurlo stampano una cartolina distribuita ai cittadini.
 
 **Le opere**
 
-1. **Titolo, anno, materiale e misure** di tutte le opere scelte: ci sono solo per le quattro
-   con il cartellino (107, 108, 109, 209) e per la Madonnina del Covid.
-2. **103, 116, 120**: di che pietra sono? Il delfino (120) è su una pietra rossa, i due
-   cuori (116) sono beige e bruni, l'elefante (103) ha una patina bronzea.
+1. **Titolo, anno, materiale e misure** di tutte le opere scelte: arriveranno. Nella bozza
+   restano fra parentesi quadre.
+2. **103, 116, 120**: sono serpentino trattato, forse con un acido. Come lo tratta,
+   e perché?
 3. **201** *Colomba sull'edera*: marmo bianco e serpentino insieme. Va nel marmo o nel serpentino?
 4. **202**: la torre è la Rocca di Montemurlo?
 5. **106** e **117**: i due busti ritraggono persone precise?
-6. **208**: il nudo disteso ha una luce montata dentro, o è stato fotografato in controluce?
-7. **404**: è la *Madonnina con Bambino in serpentino* donata alla chiesa della Rocca?
+6. **404**: è la *Madonnina con Bambino in serpentino* donata alla chiesa della Rocca?
    E la **410**, firmata 2020, è la *Madonna delle Nevi* collocata nel 2021?
-8. **AmoArt** o **AMO.Art**: come si scrive il nome del gruppo? Sui cartellini c'è il
+7. **AmoArt** o **AMO.Art**: come si scrive il nome del gruppo? Sui cartellini c'è il
    primo, nei testi della galleria il secondo.
 
 **Il progetto**
 
-9. **Le foto sono quelle di WhatsApp**: vanno bene per scegliere, non per stampare in A4.
-   La sessione fotografica di fine novembre deve rifare almeno le opere scelte. Per le
-   donazioni, che sono in chiese e tabernacoli, servono foto sul posto oppure le migliori
-   esistenti, stampate piccole.
-10. **Il riciclo** non è fra le sezioni del preventivo. Qui diventa una sezione in più,
-   breve, di due pagine prima delle donazioni: il totale resta 60 pagine.
-11. **Solo italiano?** Il preventivo non prevede l'inglese. Se serve, è un'aggiunta da concordare.
+8. **Le foto**: la bozza si impagina con quelle di WhatsApp, per valutare il risultato.
+   La sessione fotografica rifarà le opere scelte; per le donazioni, in chiese e
+   tabernacoli, servono foto sul posto oppure le migliori esistenti.
+9. **Pagine e sezione del riciclo** vanno oltre il preventivo (circa 40 pagine, tre
+   sezioni più l'appendice): si valuta a lavoro concluso, insieme ai costi di stampa.
+10. **Solo italiano?** Il preventivo non prevede l'inglese. Se serve, è un'aggiunta da concordare.
