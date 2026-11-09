@@ -392,7 +392,7 @@ def p_testo(cv, R, p, F):
 def p_citazione(cv, R, p, F):
     if not p.get("trasparente"):
         fondo(cv, R, c.CARTA)
-    k = R.k
+    k = R.k * p.get("ingrandisci", 1)   # la citazione d'apertura può stare più grande
     largo = R.utile * 0.8
     x = R.x + (R.w - largo) / 2
     lista = [{"citazione": p["citazione"], "firma": p.get("firma")}]
