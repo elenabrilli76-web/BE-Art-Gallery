@@ -14,7 +14,8 @@ filetto d'oro. Un carattere solo, il Cormorant Garamond.
 Per ogni artista in "ordine" prende le opere della mostra e la presentazione
 giusta: vedi critica.per_mostra.
 
-Produce testi-critici/mostre/<mostra>/schede.pdf, una pagina per artista.
+Produce in testi-critici/mostre/<mostra>/: schede.pdf, una pagina per
+artista, e in artisti/ lo stesso diviso in un PDF per artista.
 
     py strumenti\\sala.py donne-femminile-plurale
     py strumenti\\sala.py donne-femminile-plurale --prova    una pagina di esempio
@@ -202,7 +203,19 @@ def main() -> None:
         cv.showPage()
         n += len(lista)
     cv.save()
-    print(f"\n{cfg['titolo']}: {len(schede)} pagine, {n} opere\n   {p.relative_to(c.RADICE)}\n")
+    # e un file per artista, da stampare o mandare uno per uno
+    singole = uscita / f"artisti{suffisso}"
+    singole.mkdir(exist_ok=True)
+    for s, lista in schede:
+        f = singole / f"{c.nome_file(s['nome'])}.pdf"
+        cv = Canvas(str(f), pagesize=A4)
+        cv.setTitle(f"{cfg['titolo']} — {s['nome']}")
+        cv.setAuthor("BE Art Gallery & Creative Lab")
+        pagina(cv, g, s, lista)
+        cv.showPage()
+        cv.save()
+    print(f"\n{cfg['titolo']}: {len(schede)} pagine, {n} opere\n   {p.relative_to(c.RADICE)}")
+    print(f"   {singole.relative_to(c.RADICE)}/  un PDF per artista\n")
 
 
 if __name__ == "__main__":
