@@ -59,7 +59,7 @@ resta in locale e non va su GitHub.
 | [`testo.md`](testo.md) | i testi estratti dalla scansione: biografia, poetica, mostre e donazioni, Madonnina del Covid, brochure di *Verde Pietra*, rassegna stampa |
 | [`opere.md`](opere.md) | tutte le foto del Drive con un codice, cosa ritraggono, dove vanno |
 | [`brochure.md`](brochure.md) | le sei facciate: opere scelte e testi |
-| [`portfolio.md`](portfolio.md) | la scaletta delle 42 pagine, i testi e le domande per l'artista |
+| [`portfolio.md`](portfolio.md) | la scaletta delle 60 pagine, i testi e le domande per l'artista |
 
 Sul Drive le foto sono divise in `SERPENTINO`, `MARMO BIANCO DI CARRARA`, `LEGNO`,
 `DONAZIONI` e `RICICLO`. Il riciclo entra nella biografia del portfolio, come

@@ -1,6 +1,6 @@
 # Sauro Calamai — portfolio
 
-**A4 verticale, circa 40 pagine.** Prima stesura, 9 novembre 2026.
+**A4 verticale, 60 pagine.** Prima stesura, 9 novembre 2026.
 Le opere sono indicate con il codice di [`opere.md`](opere.md).
 
 > Testi in terza persona, con lo sguardo critico delle presentazioni d'artista
@@ -17,69 +17,89 @@ mi suggerisce mentre prende forma») e vale anche per il legno e per i ferri di 
 
 ---
 
-## La scaletta — 42 pagine
+## La scaletta — 60 pagine
 
-Un'opera per pagina quando la foto regge; due per pagina per gli animali piccoli e per le
-coppie di viste della stessa opera.
+Niente tetto a 40: **un'opera per pagina** ogni volta che l'opera lo merita e la foto lo
+regge. In coppia vanno solo gli animali piccoli e le due viste della stessa opera. Il
+totale è un multiplo di 4, come serve per la rilegatura: le due pagine in più sono i
+risguardi.
 
 | Pag. | Contenuto | Opere |
 |---|---|---|
 | 1 | Copertina | 104, in dettaglio |
-| 2 | Citazione dell'artista | — |
-| 3 | Presentazione | — |
-| 4–5 | Biografia · *Prima della pietra* | 005 ritratto al lavoro · 504 biga · 506 croce · 507 arpa |
-| 6 | La pietra verde del Monteferrato | 003 ritratto con la *Doppia testa* |
-| **7** | **I · Serpentino** — apertura | 115, in dettaglio |
-| 8 | | 104 *Doppia testa* |
-| 9 | | 105 *Volto con turbante* |
-| 10 | | 115 *Volto e mano* |
-| 11 | | 118 *Busto di donna con figura sul capo* |
-| 12 | | 112 *Busto di vecchio* · 111 *Figura seduta* |
-| 13 | | 106 *Busto con occhiali* · 117 *Busto con berretto* |
-| 14 | | 109 **Lotta tra lucertola e serpente**, 2023 |
-| 15 | | 102 *Serpente* · 108 **Lumaca**, 2019 |
-| 16 | | 114 *Leone* · 113 *Cane* |
-| 17 | | 110 *Tartaruga* · 107 **Edera**, 2024 |
-| 18 | | 101 *Pietra dell'alluvione*, con il suo testo |
-| **19** | **II · Marmo bianco** — apertura | 208, in dettaglio |
-| 20–21 | doppia pagina | 207 spento · 208 acceso |
-| 22 | | 203 *Profilo in controluce* |
-| 23 | | 204 · 205 *Testa al vento*, di profilo e di fronte |
-| 24 | | 209 **Donna al sole**, 2021 |
-| 25 | | 212 · 211 *Nudi in piedi* |
-| 26 | | 210 *Volto fra i capelli* · 213 *Maschera* |
-| 27 | | 202 *Torre* · 201 *Colomba sull'edera* |
-| **28** | **III · Legno** — apertura | 304, in dettaglio |
-| 29 | | 310 *Aquila* |
-| 30 | | 311 *Totem con aquila* · 314 *Cavallo* |
-| 31 | | 304 *Volto nel tronco* |
-| 32 | | 308 *Volto fra le rose* |
-| 33 | | 313 *Volto di donna* · 309 *Volto con conchiglia* |
-| 34 | | 301 *Lucertole sul tronco* · 305 *Salamandra* |
-| 35 | | 303 *Testa con turbante* · 312 *Agave* |
-| 36 | | 302 *Leggio* · 307 *Penna* |
-| **37** | **Appendice · Donazioni** — apertura | 408 nel tabernacolo |
-| 38 | Rocca di Montemurlo | 411 *Madonnina del Covid* · 404 · 409 |
-| 39 | Il tabernacolo del Ghiotto | 410 · 406 |
-| 40 | Alpini, Vaiano, Coiano, Bagnolo | 009 · 405 · 401 · 413 con 403 · 402 |
-| 41 | Cronologia · mostre · rassegna stampa | 008 · 001 |
-| 42 | Crediti e contatti | — |
+| 2 | Risguardo | — |
+| 3 | Citazione dell'artista | — |
+| 4 | Presentazione | — |
+| 5 | Ritratto | 003, a piena pagina |
+| 6 | Biografia | — |
+| 7–8 | *Prima della pietra*, doppia pagina | 504 · 502 biga · 506 croce · 507 arpa |
+| 9 | La pietra verde del Monteferrato | 005 ritratto al lavoro |
+| **10** | **I · Serpentino** — apertura | 115, in dettaglio |
+| 11 | | 104 *Doppia testa* |
+| 12 | | 105 *Volto con turbante* |
+| 13 | | 115 *Volto e mano* |
+| 14 | | 118 *Busto di donna con figura sul capo* |
+| 15 | | 112 *Busto di vecchio* |
+| 16 | | 111 *Figura seduta* |
+| 17 | | 106 *Busto con occhiali* |
+| 18 | | 117 *Busto con berretto* |
+| 19 | | 109 **Lotta tra lucertola e serpente**, 2023 |
+| 20 | | 107 **Edera**, 2024 |
+| 21 | | 102 *Serpente* · 108 **Lumaca**, 2019 |
+| 22 | | 114 *Leone* · 113 *Cane* |
+| 23 | | 110 *Tartaruga* |
+| 24 | | 101 *Pietra dell'alluvione*, con il suo testo |
+| 25 | *Altre pietre*, se l'artista conferma | 103 · 116 · 120 |
+| **26** | **II · Marmo bianco** — apertura | 208, in dettaglio |
+| 27–28 | doppia pagina | 207 spento · 208 acceso |
+| 29 | | 203 *Profilo in controluce* |
+| 30 | | 204 · 205 *Testa al vento*, di profilo e di fronte |
+| 31 | | 209 **Donna al sole**, 2021 |
+| 32 | | 212 *Nudo in piedi* |
+| 33 | | 211 *Nudo in piedi* · 210 *Volto fra i capelli* |
+| 34 | | 213 *Maschera* |
+| 35 | | 202 *Torre* |
+| 36 | | 201 *Colomba sull'edera* |
+| **37** | **III · Legno** — apertura | 304, in dettaglio |
+| 38 | | 310 *Aquila* |
+| 39 | | 311 *Totem con aquila* |
+| 40 | | 304 *Volto nel tronco* |
+| 41 | | 308 *Volto fra le rose* |
+| 42 | | 313 *Volto di donna* |
+| 43 | | 309 *Volto con conchiglia* |
+| 44 | | 303 *Testa con turbante* |
+| 45 | | 301 *Lucertole sul tronco* |
+| 46 | | 305 *Salamandra* · 315 *Lucertole* |
+| 47 | | 314 *Cavallo* |
+| 48 | | 312 *Agave* |
+| 49 | | 302 *Leggio* · 307 *Penna* |
+| **50** | **Appendice · Donazioni** — apertura | 408 nel tabernacolo |
+| 51 | | 411 *Madonnina del Covid*, con il suo testo |
+| 52 | Chiesa della Rocca | 404 *Madonna con Bambino* · 409 *Croce della Passione* |
+| 53 | Il tabernacolo del Ghiotto | 410 *Madonna delle Nevi* · 406 |
+| 54 | Gli Alpini | 009 *Penna e aquila* · 405 *Busto di alpino* |
+| 55 | Coiano | 413 *Amata Cerretelli* · 403 la targa |
+| 56 | Vaiano e Bagnolo | 401 *Libro con penna* · 402 *Pinocchio* |
+| 57 | Cronologia e mostre | 008 brochure di *Verde Pietra* |
+| 58 | Rassegna stampa | 001 · 007 |
+| 59 | Crediti e contatti | — |
+| 60 | Retro | — |
 
-Esclusi: i doppioni (119, 306, 316, 407, 414, 004, 501, 505, 508), la caldarrostiera (503) e
-le tre opere col materiale da chiarire (103, 116, 120). Le ultime tre possono rientrare nel
-serpentino a pagina 16–17 se l'artista conferma la pietra, o in una pagina *Altre pietre*.
+Esclusi: i doppioni (119, 306, 316, 407, 414, 004, 501, 505, 508) e la caldarrostiera (503).
+Se 103, 116 e 120 non vengono confermati, la pagina 25 salta e si toglie una pagina
+bianca in fondo, oppure si recupera un ritratto in più.
 
 ---
 
 ## I testi
 
-### Pag. 2 · Citazione
+### Pag. 3 · Citazione
 
 > «Ogni pietra ha un suo fascino: dal suo colore scuro profondo sorge sempre un colore che prevale, ed è mio dovere farlo emergere in una figura, un soggetto che la pietra stessa mi suggerisce mentre prende forma.»
 >
 > — Sauro Calamai
 
-### Pag. 3 · Presentazione
+### Pag. 4 · Presentazione
 
 > Sauro Calamai scolpisce ciò che trova. Le pietre del Monteferrato raccolte nei campi e nei cantieri di Montemurlo, i tronchi segnati dal tempo, i ferri di cavallo e le ruote di un vecchio aratro: la materia arriva prima del soggetto, e il soggetto ne asseconda la forma.
 >
@@ -91,7 +111,7 @@ serpentino a pagina 16–17 se l'artista conferma la pietra, o in una pagina *Al
 >
 > È una scultura di ascolto più che di progetto, radicata in un territorio e nella sua pietra. Ed è una scultura che si regala: molte opere di Calamai stanno in chiese, tabernacoli e sedi associative, dove la comunità le custodisce.
 
-### Pag. 4–5 · Biografia
+### Pag. 6–8 · Biografia
 
 > Sauro Calamai nasce a Prato il 27 ottobre 1954 e vive a Montemurlo.
 >
@@ -107,7 +127,7 @@ serpentino a pagina 16–17 se l'artista conferma la pietra, o in una pagina *Al
 - 506 · *Croce di ferri di cavallo, con testa in serpentino.*
 - 507 · *Arpa, dal legno di vecchi mobili.*
 
-### Pag. 6 · La pietra verde del Monteferrato
+### Pag. 9 · La pietra verde del Monteferrato
 
 > Il serpentino del Monteferrato, detto anche marmo verde di Prato, è una pietra verde scura, a volte variegata, con sfumature che vanno verso il grigio, il blu o un verde quasi nero. Usata fin dal Medioevo, anche per la somiglianza con il porfido verde antico, è dura e di lavorazione difficile.
 >
@@ -115,25 +135,25 @@ serpentino a pagina 16–17 se l'artista conferma la pietra, o in una pagina *Al
 >
 > Calamai la raccoglie nelle campagne di Montemurlo, ai piedi di quelle colline. «È una pietra che ci identifica e fa parte della nostra quotidianità.»
 
-### Pag. 7 · I · Serpentino
+### Pag. 10 · I · Serpentino
 
 > Volti e animali, lucidati dove serve la luce e lasciati grezzi dove la pietra deve restare pietra. Nei volti tornano i capelli, lunghi e solcati, che tengono insieme la figura e il blocco da cui esce; negli animali torna la campagna di Montemurlo: lucertole, serpi, una lumaca, una tartaruga.
 
-### Pag. 18 · *Pietra dell'alluvione*
+### Pag. 24 · *Pietra dell'alluvione*
 
 Dal cartellino dell'opera, riscritto. Da confermare con l'artista.
 
 > Pietra raccolta dopo l'alluvione del 2 novembre 2023. Calamai l'ha lavorata per ricordare il sacrificio delle tante persone coinvolte in quei giorni.
 
-### Pag. 19 · II · Marmo bianco
+### Pag. 26 · II · Marmo bianco
 
 > Il marmo di Carrara porta Calamai verso la figura intera e verso la luce. I nudi femminili si distendono nel bassorilievo o si alzano sottili, i capelli si muovono come al vento. In alcune lastre il marmo si assottiglia fino a diventare traslucido: illuminato da dietro, il rilievo cambia, e la stessa opera ha due volti, spenta e accesa.
 
-### Pag. 28 · III · Legno
+### Pag. 37 · III · Legno
 
 > Nel legno è il tronco a decidere. Calamai segue la fibra, i nodi, le spaccature: un ramo diventa il dorso di una lucertola, un ceppo spaccato il profilo di un volto, la sommità di un tronco un'aquila. Il legno prende i toni caldi del miele e del bruno, e lascia leggere ogni passaggio dello scalpello.
 
-### Pag. 37 · Appendice · Donazioni
+### Pag. 50 · Appendice · Donazioni
 
 > Molte opere di Sauro Calamai sono state donate, e oggi stanno dove la comunità le incontra. Una Madonna in una chiesa, un'altra in un tabernacolo lungo il Cammino di San Jacopo, un busto nella sede degli Alpini, un Pinocchio in un circolo sportivo. Sono il modo in cui il suo lavoro è entrato nel territorio da cui viene la sua pietra.
 
@@ -151,7 +171,7 @@ Dal cartellino dell'opera, riscritto. Da confermare con l'artista.
 | 413 · 403 | *Amata Cerretelli*, serpentino, 2024. Chiesina di Coiano (Prato), dedicata alla laica carmelitana. |
 | 402 | *Pinocchio*, legno, 2023. Circolo sportivo di Bagnolo di Montemurlo. |
 
-### Pag. 41 · Cronologia
+### Pag. 57–58 · Cronologia e rassegna stampa
 
 | Anno | |
 |---|---|
@@ -169,7 +189,7 @@ Dal cartellino dell'opera, riscritto. Da confermare con l'artista.
 scolpendo il marmo verde del Monteferrato». Con la Madonnina del Covid, gli Alpini di
 Montemurlo stampano una cartolina distribuita ai cittadini.
 
-### Pag. 42 · Crediti
+### Pag. 59 · Crediti
 
 > Fotografie: BE Art Gallery
 > Progetto grafico e testi: BE Art Gallery & Creative Lab · beartgallery.eu
