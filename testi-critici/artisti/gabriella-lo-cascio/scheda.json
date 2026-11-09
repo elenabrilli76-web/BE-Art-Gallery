@@ -1,0 +1,19 @@
+{
+  "nome": "Gabriella Lo Cascio",
+  "presentazione": {
+    "it": "Gabriella Lo Cascio dipinge con il gesto prima che con il disegno. Larghe pennellate d'olio girano attorno alla figura come un vortice, e il colore, quasi uno solo, prende tutto lo spazio: un rosso che va dall'arancio al bordeaux e non lascia margini. In mezzo, il volto di una donna è risolto in pochi segni scuri, gli occhi chiusi, il capo chino. Fra espressionismo e sintesi grafica, la figura diventa un'emozione resa visibile. Il rosso che la avvolge resta ambiguo, ed è la sua forza: può essere passione o assedio, abbraccio o prigione.",
+    "en": "Gabriella Lo Cascio paints with gesture before drawing. Broad strokes of oil turn around the figure like a whirlpool, and colour, almost a single one, takes up all the space: a red that runs from orange to burgundy and leaves no margins. In the middle, a woman's face is resolved in a few dark marks, eyes closed, head bowed. Between expressionism and graphic synthesis, the figure becomes an emotion made visible. The red that wraps her stays ambiguous, and that is its strength: it can be passion or siege, embrace or prison."
+  },
+  "opere": [
+    {
+      "titolo": "Sono circondata di rosso",
+      "tecnica": "olio su tela",
+      "misure": "50 × 40 cm",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Il rosso gira attorno alla donna come un vortice e la avvolge fino alle spalle. Lei chiude gli occhi e china il capo, il volto pallido nel centro. Il titolo lascia aperta la domanda: quel rosso è passione che scalda o qualcosa che stringe e non lascia uscire?",
+        "en": "Red spins around the woman like a whirlpool and wraps her up to the shoulders. She closes her eyes and bows her head, her pale face at the centre. The title leaves the question open: is that red a passion that warms, or something that tightens and will not let her out?"
+      }
+    }
+  ]
+}

@@ -101,7 +101,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Roberta Grillanda | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Manuela Romanelli | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
 | Sipontina Paloscia | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
-| Gabriella Lo Cascio · Grazia Barbieri · Serena D'Onofrio | in attesa |
+| Gabriella Lo Cascio | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
+| Grazia Barbieri · Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -247,6 +248,19 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   ai piedi di una donna viva. È la voce più esplicita, con *NO!*.
 - **Frase da tenere**: l'oggetto che cancella diventa il modo per restare.
 
+### Gabriella Lo Cascio — il rosso che avvolge
+
+- **Poetica**: gesto e colore prima del disegno; pennellate d'olio a vortice,
+  un rosso quasi unico, il volto in pochi segni. (Provvisoria: un'opera.)
+- **In mostra**: *Sono circondata di rosso* (olio, 50 × 40) — la donna a
+  occhi chiusi, capo chino, avvolta da un vortice rosso.
+- **Parole chiave**: identità, relazioni.
+- **Dialoga con**: Romanelli (la donna chiusa nello spazio colorato),
+  Barletta (la stanza rossa), Paloscia e Massai (il rosso come segno).
+- **Per il tema**: opera aperta — il rosso può essere passione o assedio,
+  abbraccio o prigione. Non va chiusa in una lettura sola.
+- **Frase da tenere**: passione che scalda o qualcosa che stringe.
+
 ## Il tema trasversale: la violenza contro le donne
 
 Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
@@ -271,8 +285,7 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *Nessuno mi può comandare* | Paloscia | la risposta in prima persona: non mi faccio cancellare |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
-Da verificare con Lo Cascio (*Sono circondata di Rosso*: il rosso che
-avvolge, rifugio o assedio), D'Onofrio (gli occhi arrossati) e Barbieri.
+Da verificare con D'Onofrio (gli occhi arrossati) e Barbieri.
 
 **Dove sta il tema — decisioni di Elena del 9 novembre.**
 - le **presentazioni degli artisti non si toccano**: sono riutilizzabili e
