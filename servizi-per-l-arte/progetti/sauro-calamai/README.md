@@ -52,16 +52,27 @@ I tempi valgono se arrivano i materiali completi.
 dei materiali, il preventivo firmato e le foto. Quello che ci metti dentro
 resta in locale e non va su GitHub.
 
-**Qui**: [`testo.md`](testo.md), i testi estratti dalla scansione: biografia,
-poetica, mostre e donazioni, Madonnina del Covid, brochure di *Verde Pietra*,
-rassegna stampa.
+**Qui**:
+
+| File | Cosa contiene |
+|---|---|
+| [`testo.md`](testo.md) | i testi estratti dalla scansione: biografia, poetica, mostre e donazioni, Madonnina del Covid, brochure di *Verde Pietra*, rassegna stampa |
+| [`opere.md`](opere.md) | tutte le foto del Drive con un codice, cosa ritraggono, dove vanno |
+| [`brochure.md`](brochure.md) | le sei facciate: opere scelte e testi |
+| [`portfolio.md`](portfolio.md) | la scaletta delle 60 pagine, i testi e le domande per l'artista |
+
+Sul Drive le foto sono divise in `SERPENTINO`, `MARMO BIANCO DI CARRARA`, `LEGNO`,
+`DONAZIONI` e `RICICLO`. Il riciclo entra nella biografia del portfolio, come
+*Prima della pietra*.
 
 ## Stato
 
 - [x] preventivo finale confermato, acconto ricevuto
 - [x] testi estratti dalla scansione
-- [ ] sessione fotografica
+- [x] foto del Drive catalogate (9 novembre 2026)
+- [x] prima stesura di brochure e portfolio: opere scelte e testi
+- [ ] risposte dell'artista alle domande in `portfolio.md`
 - [ ] schede delle opere (titolo, anno, materiale, misure)
-- [ ] testi di brochure e portfolio, nella voce della galleria
+- [ ] sessione fotografica
 - [ ] prima revisione
 - [ ] consegna finale
