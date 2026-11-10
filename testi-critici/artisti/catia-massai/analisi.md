@@ -102,7 +102,7 @@ dell'arco, dipinti come tessere.
 
 | | |
 |---|---|
-| **Opere analizzate** | *Due sguardi*, grafite su carta, 33 × 48 cm · *Marie-Thérèse – omaggio a Picasso*, acrilico su tela, 40 × 50 cm · *Sensualità*, 2026, matite colorate su cartoncino nero, 22 × 33 cm · *La ragazza con la pistola*, acrilico su tela, 40 × 60 cm · *NO!*, ceramica con applicazioni su tavola |
+| **Opere analizzate** | *Due sguardi*, grafite su carta, 33 × 48 cm · *Marie-Thérèse – omaggio a Picasso*, acrilico su tela, 40 × 50 cm · *Sensualità*, 2026, matite colorate su cartoncino nero, 22 × 33 cm · *La ragazza con la pistola*, acrilico su tela, 40 × 60 cm · *NO!*, terracotta con applicazioni su tavola |
 | **Stesura** | 9 novembre 2026 · presentazione v2 e 5 didascalie |
 | **Fonti** | foto delle opere dal Drive; titoli, tecniche e misure dall'artista; titolo «NO!» dato da Elena |
 
@@ -158,15 +158,15 @@ dell'arco, dipinti come tessere.
 
 > Op-art miniskirt, white boots, a pistol held with nonchalance: the girl strides between black and white stripes as if in a Sixties film. It is the irony of a pop icon who reverses the roles and says, smiling, that she can defend herself.
 
-### *NO!* — ceramica con applicazioni su tavola
+### *NO!* — terracotta con applicazioni su tavola
 
-**Italiano** — _297 caratteri_
+**Italiano** — _299 caratteri_
 
-> Un piccolo busto di donna in ceramica, su una tavola di legno, la biancheria di pizzo bianco, un cuore rosso sul petto e sul ventre sottili segni rossi. In alto, scritta a mano, una sola parola: NO! Il corpo esposto pronuncia il rifiuto più semplice, quello che ogni violenza finge di non sentire.
+> Un piccolo busto di donna in terracotta, su una tavola di legno, la biancheria di pizzo bianco, un cuore rosso sul petto e sul ventre sottili segni rossi. In alto, scritta a mano, una sola parola: NO! Il corpo esposto pronuncia il rifiuto più semplice, quello che ogni violenza finge di non sentire.
 
-**English** — _267 characters_
+**English** — _270 characters_
 
-> A small ceramic torso of a woman on a wooden board, white lace lingerie, a red heart on the chest and thin red marks on the belly. Above, handwritten, a single word: NO! The exposed body speaks the simplest refusal, the one every act of violence pretends not to hear.
+> A small terracotta torso of a woman on a wooden board, white lace lingerie, a red heart on the chest and thin red marks on the belly. Above, handwritten, a single word: NO! The exposed body speaks the simplest refusal, the one every act of violence pretends not to hear.
 
 ## Note di analisi
 
@@ -175,7 +175,7 @@ dell'arco, dipinti come tessere.
 - **Marie-Thérèse – omaggio a Picasso**: copia dichiarata de *Il sogno* (1932): poltrona rossa, fondo verde a motivi, collana gialla, volto diviso, mani in grembo. Campiture piatte, contorni neri.
 - **Sensualità**: cartoncino nero, matite rossa e bianca: un profilo femminile reclinato, labbra rosse dischiuse, collo teso; firma e data «8.3.26», l'8 marzo.
 - **La ragazza con la pistola**: acrilico; una ragazza in minigonna optical bianca e nera e stivali bianchi, una pistola in mano, su fondo a strisce bianche e nere che crea una prospettiva teatrale. Gusto pop, anni Sessanta.
-- **NO!**: piccola scultura: busto femminile in ceramica montato su tavola di legno, con applicazioni; reggiseno di pizzo bianco con un cuore rosso, slip di tulle e pizzo; sul ventre sottili segni rossi; in alto a destra «NO!» scritto a mano in rosso.
+- **NO!**: piccola scultura: busto femminile in terracotta montato su tavola di legno, con applicazioni; reggiseno di pizzo bianco con un cuore rosso, slip di tulle e pizzo; sul ventre sottili segni rossi; in alto a destra «NO!» scritto a mano in rosso.
 - le opere di *I Luoghi dell'Anima* (giardino oltre l'arco, girotondo attorno all'albero): pittura narrativa a piccoli tocchi.
 
 ### Ciò che ritorna
@@ -191,6 +191,6 @@ Massai è un'interprete più che una stilista: sceglie il linguaggio adatto a ci
 Omaggio e appropriazione (Picasso), illustrazione e pop; nella presentazione i nomi entrano come soggetti delle opere, non come confronti.
 
 ### Cosa resta aperto
-- **NO!**: titolo dato da Elena; ceramica con applicazioni (Elena, 9 novembre); misure non indicate
+- **NO!**: titolo dato da Elena; in sala sta in un punto diverso dai quadri, quindi ha un foglio a sé (Elena, 10 novembre); terracotta con applicazioni (Elena, 9 novembre); misure non indicate
 - **anni**: *Sensualità* è datata 8.3.26; per *Due sguardi* l'anno resta fuori (Elena, 9 novembre)
 - la presentazione v1 (giardini e bambine) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`

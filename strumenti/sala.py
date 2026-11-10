@@ -17,6 +17,11 @@ giusta: vedi critica.per_mostra.
 Produce in testi-critici/mostre/<mostra>/: schede.pdf, una pagina per
 artista, e in artisti/ lo stesso diviso in un PDF per artista.
 
+Se le opere di un artista stanno in punti diversi della galleria, ogni opera
+porta nella scheda il campo "foglio" (es. "quadri", "scultura"): l'artista ha
+allora un foglio per gruppo, ciascuno con nome e presentazione, e il PDF si
+chiama nome-artista-foglio.pdf.
+
     py strumenti\\sala.py donne-femminile-plurale
     py strumenti\\sala.py donne-femminile-plurale --prova    una pagina di esempio
 """
@@ -184,10 +189,14 @@ def main() -> None:
         s = c.per_mostra(json.loads(f.read_text(encoding="utf-8")), mostra)
         lista = [o for o in s["opere"] if o.get("didascalia", {}).get("it")]
         if prova or lista:
-            schede.append((s, lista))
+            # Opere esposte in punti diversi della galleria: il campo "foglio"
+            # le divide, e ogni foglio è una pagina intera con la presentazione
+            fogli = list(dict.fromkeys(o.get("foglio", "") for o in lista)) or [""]
+            for fo in fogli:
+                schede.append((s, [o for o in lista if o.get("foglio", "") == fo], fo if len(fogli) > 1 else ""))
     if prova:
         # le schede già in archivio, con le opere che hanno, solo per vedere la grafica
-        schede = [(s, l or [o for o in s["opere"] if o.get("didascalia", {}).get("it")]) for s, l in schede]
+        schede = [(s, l or [o for o in s["opere"] if o.get("didascalia", {}).get("it")], fo) for s, l, fo in schede]
     if not schede:
         print("Nessuna scheda pronta: niente da impaginare.")
         return
@@ -198,7 +207,7 @@ def main() -> None:
     cv.setTitle(f"{cfg['titolo']} — artisti e opere")
     cv.setAuthor("BE Art Gallery & Creative Lab")
     n = 0
-    for s, lista in schede:
+    for s, lista, _ in schede:
         pagina(cv, g, s, lista)
         cv.showPage()
         n += len(lista)
@@ -206,8 +215,10 @@ def main() -> None:
     # e un file per artista, da stampare o mandare uno per uno
     singole = uscita / f"artisti{suffisso}"
     singole.mkdir(exist_ok=True)
-    for s, lista in schede:
-        f = singole / f"{c.nome_file(s['nome'])}.pdf"
+    for vecchio in singole.glob("*.pdf"):
+        vecchio.unlink()                  # niente fogli rimasti da una divisione precedente
+    for s, lista, fo in schede:
+        f = singole / f"{c.nome_file(s['nome'])}{'-' + c.nome_file(fo) if fo else ''}.pdf"
         cv = Canvas(str(f), pagesize=A4)
         cv.setTitle(f"{cfg['titolo']} — {s['nome']}")
         cv.setAuthor("BE Art Gallery & Creative Lab")

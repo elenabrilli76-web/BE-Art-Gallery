@@ -42,7 +42,8 @@
       "didascalia": {
         "it": "Un nudo di donna in piedi e, alle sue spalle, un grande volto di profilo che la osserva; accanto, scritte a mano, le parole di Oriana Fallaci sul coraggio di nascere donna. Due sguardi sulla stessa figura: quello del corpo e quello della coscienza.",
         "en": "A standing female nude and, behind her, a large face in profile watching her; beside them, handwritten, Oriana Fallaci's words on the courage of being born a woman. Two gazes on the same figure: that of the body and that of awareness."
-      }
+      },
+      "foglio": "quadri"
     },
     {
       "titolo": "Marie-Thérèse – omaggio a Picasso",
@@ -52,7 +53,8 @@
       "didascalia": {
         "it": "Il Sogno di Picasso ridipinto con mano paziente: Marie-Thérèse abbandonata sulla poltrona rossa, il volto diviso, le mani raccolte in grembo. Più che una copia è un dialogo con il maestro, attraverso la donna che lui guardava dormire.",
         "en": "Picasso's Dream repainted with a patient hand: Marie-Thérèse abandoned in the red armchair, her face divided, her hands gathered in her lap. More than a copy, it is a dialogue with the master, through the woman he watched as she slept."
-      }
+      },
+      "foglio": "quadri"
     },
     {
       "titolo": "Sensualità",
@@ -63,7 +65,8 @@
       "didascalia": {
         "it": "Poche linee rosse e una bianca bastano a far emergere dal nero un profilo di donna, la bocca appena dischiusa, il collo teso. È il buio a dare forma alla figura: la sensualità sta tutta in ciò che il segno lascia indovinare.",
         "en": "A few red lines and a single white one are enough to draw a woman's profile out of the black, lips slightly parted, neck stretched. It is the darkness that shapes the figure: sensuality lies entirely in what the line lets you guess."
-      }
+      },
+      "foglio": "quadri"
     },
     {
       "titolo": "La ragazza con la pistola",
@@ -73,16 +76,18 @@
       "didascalia": {
         "it": "Minigonna optical, stivali bianchi, una pistola tenuta con disinvoltura: la ragazza avanza fra strisce bianche e nere come in un film anni Sessanta. È l'ironia di un'icona pop che rovescia i ruoli e dice, sorridendo, di sapersi difendere.",
         "en": "Op-art miniskirt, white boots, a pistol held with nonchalance: the girl strides between black and white stripes as if in a Sixties film. It is the irony of a pop icon who reverses the roles and says, smiling, that she can defend herself."
-      }
+      },
+      "foglio": "quadri"
     },
     {
       "titolo": "NO!",
-      "tecnica": "ceramica con applicazioni su tavola",
+      "tecnica": "terracotta con applicazioni su tavola",
       "mostra": "donne-femminile-plurale",
       "didascalia": {
-        "it": "Un piccolo busto di donna in ceramica, su una tavola di legno, la biancheria di pizzo bianco, un cuore rosso sul petto e sul ventre sottili segni rossi. In alto, scritta a mano, una sola parola: NO! Il corpo esposto pronuncia il rifiuto più semplice, quello che ogni violenza finge di non sentire.",
-        "en": "A small ceramic torso of a woman on a wooden board, white lace lingerie, a red heart on the chest and thin red marks on the belly. Above, handwritten, a single word: NO! The exposed body speaks the simplest refusal, the one every act of violence pretends not to hear."
-      }
+        "it": "Un piccolo busto di donna in terracotta, su una tavola di legno, la biancheria di pizzo bianco, un cuore rosso sul petto e sul ventre sottili segni rossi. In alto, scritta a mano, una sola parola: NO! Il corpo esposto pronuncia il rifiuto più semplice, quello che ogni violenza finge di non sentire.",
+        "en": "A small terracotta torso of a woman on a wooden board, white lace lingerie, a red heart on the chest and thin red marks on the belly. Above, handwritten, a single word: NO! The exposed body speaks the simplest refusal, the one every act of violence pretends not to hear."
+      },
+      "foglio": "scultura"
     }
   ]
 }

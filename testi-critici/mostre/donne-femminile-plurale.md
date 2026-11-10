@@ -176,7 +176,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **In mostra**: *Due sguardi* (nudo a grafite con le parole di Fallaci),
   *Marie-Thérèse – omaggio a Picasso*, *Sensualità* (matite su nero, datata
   8 marzo 2026), *La ragazza con la pistola* (pop anni Sessanta), *NO!*
-  (piccola scultura in ceramica con applicazioni: busto con pizzo, cuore
+  (piccola scultura in terracotta con applicazioni: busto con pizzo, cuore
   rosso e la scritta a mano).
 - **Parole chiave**: identità, autonomia.
 - **Dialoga con**: Maselli e Vangelisti (le donne dei racconti: qui Picasso e

@@ -187,3 +187,8 @@ cataloghi restano com'erano. Pagine di sala: `py strumenti\sala.py nome-mostra`.
 (decisione di Elena, 9 novembre 2026): lo script le salva in
 `testi-critici/mostre/nome-mostra/artisti/`, oltre al file unico
 `schede.pdf`. A Elena si mandano i PDF dei singoli artisti.
+
+Quando le opere di un artista stanno **in punti diversi della galleria**, ogni
+opera porta in `scheda.json` il campo `"foglio"` (es. `"quadri"`,
+`"scultura"`): l'artista ha un foglio per gruppo, ognuno con nome,
+presentazione e le sole didascalie di quel gruppo (`nome-artista-foglio.pdf`).
