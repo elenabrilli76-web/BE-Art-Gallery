@@ -60,6 +60,12 @@ delle pagine finali di *I Luoghi dell'Anima*, con i colori della locandina.
 - **una scheda separata per ogni artista**: un PDF ciascuno in
   `donne-femminile-plurale/artisti/` (decisione di Elena, 9 novembre 2026)
 
+**Fogli di sala divisi, catalogo unito** (Elena, 10 novembre): quando le opere
+di un artista stanno in punti diversi della galleria, i fogli di sala si
+dividono (campo `"foglio"`; per ora Massai: quadri e scultura). Nella
+presentazione generale e nel catalogo finale invece le opere di ogni artista
+stanno **tutte insieme**, in una sola sezione.
+
 ## Artisti e opere arrivate
 
 Stato al 6 novembre 2026. Nessun testo ancora scritto: si aspetta l'indicazione
