@@ -65,7 +65,7 @@ il filo che le tiene insieme. Dal testo critico, se c'è.]
 pietra e cotto di un palazzo del centro storico.]
 
 [5 · INFORMAZIONI PRATICHE]
-Orari: [gli orari di questa mostra]
+Orari: [dal sito — oggi: tutti i giorni 16–21, la mattina su appuntamento]
 Ingresso: [libero / solo se confermato]
 Info: +39 377 573 5187 · beartgallery.eu@gmail.com · beartgallery.eu
 

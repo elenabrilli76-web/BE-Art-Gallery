@@ -80,14 +80,17 @@ alternando i contenuti — non affastellandoli nello stesso post.
 
 ### Calendario in corso
 
-> ⚠️ Questa tabella invecchia. Va aggiornata quando un evento finisce o se ne
-> aggiunge uno. Le regole qui sopra invece restano valide sempre.
+> ⚠️ Questa tabella invecchia. **La fonte vera è
+> [beartgallery.eu/eventi](https://www.beartgallery.eu/eventi)**: se non
+> coincide, vale il sito e la tabella si aggiorna. Le regole qui sopra invece
+> restano valide sempre.
 
 | Evento | Tipo | Date |
 |---|---|---|
 | **E.B.Art** — Elena Brilli | personale | 29 ago – 6 set 2026 · inaugurazione sab 29/8 h 17 |
 | **ArtiAMO** — gruppo AMO.Art | collettiva su invito | 12 – 27 set 2026 · inaugurazione sab 12/9 h 17 |
 | **I Luoghi dell'Anima** | collettiva aperta | 10 – 25 ott 2026 · iscrizioni entro il **30 settembre** · consegna opere 7-8/10 |
+| **Siamo Donne, oltre la violenza c'è di più** — mostra *DONNE: Femminile Plurale* e programma di incontri | collettiva aperta, **iscrizioni chiuse** | 14 nov – 13 dic 2026 · inaugurazione sab 14/11 h 17 · vernissage di chiusura dom 13/12 h 18 |
 
 ## Come si lavora
 
@@ -160,7 +163,9 @@ breve e nostra, e il comunicato vero e proprio **in terza persona**, solo in
 italiano, con le cinque W nel primo paragrafo. Le redazioni sono in
 `comunicati-stampa/testate.md`, la struttura in `comunicati-stampa/modello.md`,
 un file per comunicato in `comunicati-stampa/archivio/`. L'invio lo fa sempre
-Elena. Vedi [`comunicati-stampa/README.md`](comunicati-stampa/README.md).
+Elena. **Le informazioni sugli eventi si prendono sempre da
+[beartgallery.eu/eventi](https://www.beartgallery.eu/eventi)**, con
+`node comunicati-stampa/leggi-sito.js`; i materiali da allegare li dà Elena. Vedi [`comunicati-stampa/README.md`](comunicati-stampa/README.md).
 
 ## Riservatezza
 
@@ -233,7 +238,7 @@ L'obiettivo dichiarato è uno solo: **esporre, essere visti, vendere.**
 - **Telefono / WhatsApp** — +39 377 573 5187
 - **Email** — beartgallery.eu@gmail.com
 - **Sito** — beartgallery.eu
-- **Orari** — su appuntamento e in occasione di mostre ed eventi
+- **Orari** — tutti i giorni dalle 16 alle 21, la mattina su appuntamento (dal sito, novembre 2026)
 
 ## Elena Brilli — E.B.Art
 

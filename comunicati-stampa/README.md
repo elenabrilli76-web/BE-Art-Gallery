@@ -8,14 +8,37 @@ eventi da mandare alle redazioni di Pistoia, distinti dai contenuti social.
 | [`testate.md`](testate.md) | le redazioni a cui scrivere, con indirizzo e carattere |
 | [`modello.md`](modello.md) | la struttura della mail e del comunicato, già nella voce della galleria |
 | `archivio/AAAA-MM-evento.md` | un file per comunicato: testo inviato, data, a chi |
+| [`leggi-sito.js`](leggi-sito.js) | legge la pagina eventi del sito e tutte le pagine evento collegate |
+
+## Da dove vengono le informazioni
+
+**Tutte le informazioni sugli eventi si prendono da
+[beartgallery.eu/eventi](https://www.beartgallery.eu/eventi)** e dalle pagine
+evento collegate. È la fonte fissa: titoli, date, orari, programma, stato delle
+iscrizioni. Non si chiedono a Elena, e non si prendono da `CLAUDE.md`, che può
+essere rimasto indietro.
+
+Il sito si costruisce con JavaScript: una richiesta semplice della pagina
+restituisce solo il titolo. Claude lo legge con il browser:
+
+```
+node comunicati-stampa/leggi-sito.js
+```
+
+Se il sito e una mail o un appunto dicono cose diverse, vale il sito — e si
+segnala la differenza a Elena, perché una delle due va corretta.
+
+**I materiali da allegare** — foto delle opere, locandina, PDF — li dà Elena di
+volta in volta. Non stanno sul sito né qui.
 
 ## Come si lavora
 
-1. **Elena dice di quale evento si parla**: titolo, tipo, date, inaugurazione,
-   artisti, cosa si vede.
+1. **Elena dice di quale evento si parla.** Claude legge tutto il resto dal sito:
+   titolo, tipo, date, inaugurazione, programma, orari. Chiede solo quello che
+   il sito non dice.
 2. **Claude scrive** il comunicato in `archivio/AAAA-MM-nome-evento.md`, seguendo
    [`modello.md`](modello.md): oggetto, testo della mail, comunicato completo.
-3. **Elena controlla e invia** dalla mail della galleria, con le foto in allegato.
+3. **Elena dà i materiali da allegare**, controlla e invia dalla mail della galleria, con le foto in allegato.
 4. Nel file si segna **quando** è partito e **a chi**: serve per il richiamo e
    per la volta dopo.
 
@@ -50,8 +73,7 @@ gli hashtag e l'inglese.
 - **Niente aggettivi da ente.** Non «appuntamento culturale di rilievo», non
   «evento imperdibile»: si dice cosa si vede e dove, e il resto lo decide la
   redazione.
-- **Orari veri.** La galleria apre su appuntamento e durante mostre ed eventi:
-  si scrivono gli orari della singola mostra, non un orario inventato.
+- **Orari veri**, quelli del sito: non un orario inventato.
 - **Ingresso, prezzi, quote** solo se confermati.
 - **Le foto**: 2–3, orizzontali e verticali, sotto i 3 MB l'una, rinominate
   `cognome-titolo-opera.jpg`. Si indica il credito da citare
