@@ -211,5 +211,6 @@ Mazzanti usa il gesto espressionista e i materiali poveri per prendere posizione
 - per l'allestimento: le opere sono già fotografate alle pareti della galleria
 
 ### Cosa resta aperto
+- **fogli di sala** (Elena, 11 novembre): *Fuga da Kandahar*, *L'agguato* e *Com'eri vestita?* insieme; *Basta* e *Attesa* separate. *Fuga da Kandahar* va nel primo foglio con `"foglio": "fuga-agguato-vestita"`
 - **Fuga da Kandahar**: manca, la foto sul Drive (7,9 MB) non si scarica; serve una versione più leggera
 - tecniche, misure, anni: non indicati (si vedono firme con anno su *Basta* e *Com'eri vestita?*)

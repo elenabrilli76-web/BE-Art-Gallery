@@ -67,28 +67,13 @@
       }
     },
     {
-      "titolo": "Basta",
-      "mostra": "donne-femminile-plurale",
-      "didascalia": {
-        "it": "Una donna velata guarda da sopra il niqab, gli occhi chiari e fermi. Sul suo corpo, in rosso, l'impronta di una mano aperta e una parola che cola come vernice fresca: BASTA. Lo sguardo e la scritta dicono la stessa cosa.",
-        "en": "A veiled woman looks out over her niqab, her pale eyes steady. Across her body, in red, the print of an open hand and a word dripping like fresh paint: BASTA, enough. The gaze and the writing say the same thing."
-      }
-    },
-    {
       "titolo": "L'agguato",
       "mostra": "donne-femminile-plurale",
       "didascalia": {
         "it": "Su una lamiera ondulata e corrosa, una figura femminile bianca, di spalle, e dietro di lei un'ombra nera d'uomo, più alta, che la segue da vicino. Una scia rossa scende lungo il metallo. Lei non lo vede ancora: chi guarda sì.",
         "en": "On a corrugated, corroded sheet of metal, a white female figure seen from behind, and behind her the black shadow of a man, taller, following close. A red trail runs down the metal. She does not see him yet: the viewer does."
-      }
-    },
-    {
-      "titolo": "Attesa",
-      "mostra": "donne-femminile-plurale",
-      "didascalia": {
-        "it": "Dipinto dentro una finestra vera, dietro il vetro, il volto di una donna si scioglie nell'azzurro, gli occhi spenti, una lacrima rossa. Nasce da una storia del Galleno: una giovane che aspettò alla finestra, per tutta la vita, il fidanzato partito per la guerra.",
-        "en": "Painted inside a real window, behind the glass, a woman's face dissolves into blue, eyes dimmed, a red tear. It comes from a story of Galleno: a young woman who waited at the window, all her life, for the fiancé who left for the war."
-      }
+      },
+      "foglio": "fuga-agguato-vestita"
     },
     {
       "titolo": "Com'eri vestita?",
@@ -96,7 +81,26 @@
       "didascalia": {
         "it": "Una donna torna a casa dopo la violenza: si vedono solo le gambe, i passi incerti, i piedi nudi, e nella mano le scarpe rosse, il simbolo del 25 novembre. Il titolo è la domanda che troppo spesso le viene rivolta, e il quadro la rimanda a chi la pone.",
         "en": "A woman walks home after the violence: only her legs can be seen, the unsteady steps, the bare feet, and in her hand the red shoes, the symbol of 25 November. The title is the question too often put to her, and the painting returns it to whoever asks."
-      }
+      },
+      "foglio": "fuga-agguato-vestita"
+    },
+    {
+      "titolo": "Basta",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Una donna velata guarda da sopra il niqab, gli occhi chiari e fermi. Sul suo corpo, in rosso, l'impronta di una mano aperta e una parola che cola come vernice fresca: BASTA. Lo sguardo e la scritta dicono la stessa cosa.",
+        "en": "A veiled woman looks out over her niqab, her pale eyes steady. Across her body, in red, the print of an open hand and a word dripping like fresh paint: BASTA, enough. The gaze and the writing say the same thing."
+      },
+      "foglio": "basta"
+    },
+    {
+      "titolo": "Attesa",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Dipinto dentro una finestra vera, dietro il vetro, il volto di una donna si scioglie nell'azzurro, gli occhi spenti, una lacrima rossa. Nasce da una storia del Galleno: una giovane che aspettò alla finestra, per tutta la vita, il fidanzato partito per la guerra.",
+        "en": "Painted inside a real window, behind the glass, a woman's face dissolves into blue, eyes dimmed, a red tear. It comes from a story of Galleno: a young woman who waited at the window, all her life, for the fiancé who left for the war."
+      },
+      "foglio": "attesa"
     }
   ]
 }
