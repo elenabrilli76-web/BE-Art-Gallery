@@ -131,7 +131,7 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 | | |
 |---|---|
-| **Opere analizzate** | *Basta* · *L'agguato* · *Attesa* · *Com'eri vestita?* — manca *Fuga da Kandahar* (foto troppo pesante, non scaricata) |
+| **Opere analizzate** | *Fuga da Kandahar* · *L'agguato* · *Com'eri vestita?* · *Basta* · *Attesa* |
 | **Stesura** | 11 novembre 2026 · presentazione v2 e 4 didascalie |
 | **Fonti** | foto dal Drive; messaggio dell'artista sulla *Donna alla finestra*; racconto «Quando l'amore è un ombrello» di Paolo Pianigiani su fossadeilupi.it (appendice a «La donna alla finestra» di Franco Polidori) |
 
@@ -187,9 +187,20 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 > She walks home barefoot, the red shoes in her hand and the weight of a night no one will give back to her. Behind her lingers a question, always the same, heavier than her steps. But the blame never lies in a dress: it lies in the gaze of whoever needs to ask.
 
+### *Fuga da Kandahar*
+
+**Italiano** — _267 caratteri_
+
+> Alle spalle il deserto e un tramonto che brucia come una città perduta; davanti, il velo rosso stretto fin sopra la bocca. Restano gli occhi, grandi e quieti come quelli della ragazza afghana di McCurry: hanno visto chiudersi una porta, e cercano ancora un orizzonte.
+
+**English** — _245 characters_
+
+> Behind her the desert and a sunset burning like a lost city; before her, the red veil drawn up over her mouth. The eyes remain, wide and still like those of McCurry's Afghan girl: they have seen a door close, and are still looking for a horizon.
+
 ## Note di analisi
 
 ### Analisi formale
+- **Fuga da Kandahar**: tela orizzontale. Volto di ragazza avvolto in un velo rosso che copre la bocca e il naso; occhi grigi, grandi, fermi. Dietro, deserto e montagne scure sotto un tramonto rosso, giallo e verde a pennellate rapide. Firma «Mazzanti» e «2021» in basso a destra (l'anno della caduta di Kabul).
 - **Basta**: tela verticale in cornice rossa. Donna con niqab nero, occhi chiari; fondo azzurro e bianco a pennellate rapide con macchie di colore; sopra, in rosso, l'impronta di una mano aperta e la scritta «BASTA» con colature. Firma «Mazzanti» e un anno in basso a sinistra.
 - **L'agguato**: pittura su lamiera ondulata ossidata, appesa direttamente al muro. Figura femminile bianca, di spalle, sagoma senza volto; dietro, un'ombra maschile nera più alta, con testa squadrata. Una scia rossa obliqua scende verso il basso. La ruggine resta a vista.
 - **Attesa**: dipinta dentro una finestra vera (telaio bianco, vetro con i marchi del produttore). Un volto azzurro e bianco che si dissolve, occhi come macchie scure con colature, una lacrima rossa che scende fino al bordo; in basso forse delle mani. Il vetro riflette chi guarda.
@@ -212,5 +223,4 @@ Mazzanti usa il gesto espressionista e i materiali poveri per prendere posizione
 
 ### Cosa resta aperto
 - **fogli di sala** (Elena, 11 novembre): *Fuga da Kandahar*, *L'agguato* e *Com'eri vestita?* insieme; *Basta* e *Attesa* separate. *Fuga da Kandahar* va nel primo foglio con `"foglio": "fuga-agguato-vestita"`
-- **Fuga da Kandahar**: manca, la foto sul Drive (7,9 MB) non si scarica; serve una versione più leggera
 - tecniche, misure, anni: non indicati (si vedono firme con anno su *Basta* e *Com'eri vestita?*)

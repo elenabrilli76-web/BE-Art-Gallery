@@ -109,7 +109,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Sipontina Paloscia | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
 | Gabriella Lo Cascio | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Grazia Barbieri | analizzata l'11 novembre — presentazione e 1 didascalia |
-| Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 4 didascalie; manca *Fuga da Kandahar* |
+| Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 5 didascalie |
 | Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
@@ -293,7 +293,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   dell'uomo), *Attesa* (dipinta dentro una finestra; la
   storia vera della donna del Galleno che aspettò tutta la vita il
   fidanzato partito per la guerra), *Com'eri vestita?* (la donna che torna a
-  casa dopo la violenza, scalza, con le scarpe rosse in mano), *Fuga da Kandahar* (da analizzare).
+  casa dopo la violenza, scalza, con le scarpe rosse in mano), *Fuga da Kandahar* (la ragazza dal velo rosso davanti al deserto al tramonto, 2021).
 - **Parole chiave**: relazioni, memoria, autonomia.
 - **Dialoga con**: Paloscia (le scarpe rosse), Andreini (la mano alzata),
   Romanelli (la casa e la soglia), Massai (la parola scritta: *NO!* e *BASTA*).
