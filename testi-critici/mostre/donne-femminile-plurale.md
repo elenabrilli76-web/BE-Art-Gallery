@@ -62,7 +62,7 @@ delle pagine finali di *I Luoghi dell'Anima*, con i colori della locandina.
 
 **Fogli di sala divisi, catalogo unito** (Elena, 10 novembre): quando le opere
 di un artista stanno in punti diversi della galleria, i fogli di sala si
-dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura; Mazzanti: Fuga da Kandahar, L'agguato e Com'eri vestita? insieme, Basta e Attesa insieme; Santi: Mater e La sposa appesa insieme, Hotel, Relic e Sirene ciascuna a sé). Nella
+dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura; Mazzanti: Fuga da Kandahar, L'agguato e Com'eri vestita? insieme, Basta e Attesa insieme, Ecce domina a sé; Santi: Mater e La sposa appesa insieme, Hotel, Relic e Sirene ciascuna a sé). Nella
 presentazione generale e nel catalogo finale invece le opere di ogni artista
 stanno **tutte insieme**, in una sola sezione.
 
@@ -102,7 +102,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Maria Maselli | analizzata il 9 novembre — presentazione e 4 didascalie |
 | Maria Cristina Andreini | analizzata il 9 novembre — presentazione v2 e 4 didascalie |
 | Donatella Bucchieri | analizzata il 9 novembre — presentazione e 3 didascalie |
-| Catia Massai | analizzata il 9 novembre — presentazione v2 e 5 didascalie |
+| Catia Massai | analizzata il 9 novembre — presentazione v2 e 6 didascalie |
 | Federica Barletta | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Roberta Grillanda | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Manuela Romanelli | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
@@ -294,7 +294,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   dell'uomo), *Attesa* (dipinta dentro una finestra; la
   storia vera della donna del Galleno che aspettò tutta la vita il
   fidanzato partito per la guerra), *Com'eri vestita?* (la donna che torna a
-  casa dopo la violenza, scalza, con le scarpe rosse in mano), *Fuga da Kandahar* (la ragazza dal velo rosso davanti al deserto al tramonto, 2021).
+  casa dopo la violenza, scalza, con le scarpe rosse in mano), *Fuga da Kandahar* (la ragazza dal velo rosso davanti al deserto al tramonto, 2021), *Ecce domina* (l'Ecce homo volto al femminile: la donna senza volto davanti a una croce di luce).
 - **Parole chiave**: relazioni, memoria, autonomia.
 - **Dialoga con**: Paloscia (le scarpe rosse), Andreini (la mano alzata),
   Romanelli (la casa e la soglia), Massai (la parola scritta: *NO!* e *BASTA*).

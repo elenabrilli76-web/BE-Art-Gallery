@@ -131,7 +131,7 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 | | |
 |---|---|
-| **Opere analizzate** | *Fuga da Kandahar* · *L'agguato* · *Com'eri vestita?* · *Basta* · *Attesa* |
+| **Opere analizzate** | *Fuga da Kandahar* · *L'agguato* · *Com'eri vestita?* · *Basta* · *Attesa* · *Ecce domina* |
 | **Stesura** | 11 novembre 2026 · presentazione v2 e 4 didascalie |
 | **Fonti** | foto dal Drive; messaggio dell'artista sulla *Donna alla finestra*; racconto «Quando l'amore è un ombrello» di Paolo Pianigiani su fossadeilupi.it (appendice a «La donna alla finestra» di Franco Polidori) |
 
@@ -197,9 +197,20 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 > Behind her the desert and a sunset burning like a lost city; before her, the red veil drawn up over her mouth. The eyes remain, wide and still like those of McCurry's Afghan girl: they have seen a door close, and are still looking for a horizon.
 
+### *Ecce domina*
+
+**Italiano** — _279 caratteri_
+
+> «Ecco l'uomo», disse Pilato mostrando il Cristo flagellato alla folla. Qui la croce di luce resta alle spalle e a esporsi è una donna: senza volto, il capo chino, il corpo acceso di ferite. Ecco la donna, con tutte quelle che hanno portato una croce che nessuno ha voluto vedere.
+
+**English** — _274 characters_
+
+> «Behold the man», said Pilate, showing the scourged Christ to the crowd. Here the cross of light stays behind, and it is a woman who stands exposed: faceless, head bowed, her body burning with wounds. Behold the woman, and all those who carried a cross no one wanted to see.
+
 ## Note di analisi
 
 ### Analisi formale
+- **Ecce domina**: tela verticale. Busto femminile senza volto, testa china di profilo, in rossi, arancio e ocra a spatola; dietro, una croce chiara formata dagli spazi fra quattro riquadri scuri. Titolo dell'artista «Ecce Homo», cambiato da Elena in *Ecce domina* (11-12 novembre): l'episodio evangelico (Gv 19,5) volto al femminile. Foglio di sala a sé.
 - **Fuga da Kandahar**: tela orizzontale. Volto di ragazza avvolto in un velo rosso che copre la bocca e il naso; occhi grigi, grandi, fermi. Dietro, deserto e montagne scure sotto un tramonto rosso, giallo e verde a pennellate rapide. Firma «Mazzanti» e «2021» in basso a destra (l'anno della caduta di Kabul).
 - **Basta**: tela verticale in cornice rossa. Donna con niqab nero, occhi chiari; fondo azzurro e bianco a pennellate rapide con macchie di colore; sopra, in rosso, l'impronta di una mano aperta e la scritta «BASTA» con colature. Firma «Mazzanti» e un anno in basso a sinistra.
 - **L'agguato**: pittura su lamiera ondulata ossidata, appesa direttamente al muro. Figura femminile bianca, di spalle, sagoma senza volto; dietro, un'ombra maschile nera più alta, con testa squadrata. Una scia rossa obliqua scende verso il basso. La ruggine resta a vista.

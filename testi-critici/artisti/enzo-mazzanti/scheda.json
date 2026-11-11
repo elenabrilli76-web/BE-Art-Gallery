@@ -110,6 +110,15 @@
         "en": "Behind real glass, a face dissolving into blue and a red tear. She is the woman of Galleno who waited at the window, all her life, for the one who left for the war: a love that never surrenders, and consumes."
       },
       "foglio": "basta-attesa"
+    },
+    {
+      "titolo": "Ecce domina",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "ecce-domina",
+      "didascalia": {
+        "it": "«Ecco l'uomo», disse Pilato mostrando il Cristo flagellato alla folla. Qui la croce di luce resta alle spalle e a esporsi è una donna: senza volto, il capo chino, il corpo acceso di ferite. Ecco la donna, con tutte quelle che hanno portato una croce che nessuno ha voluto vedere.",
+        "en": "«Behold the man», said Pilate, showing the scourged Christ to the crowd. Here the cross of light stays behind, and it is a woman who stands exposed: faceless, head bowed, her body burning with wounds. Behold the woman, and all those who carried a cross no one wanted to see."
+      }
     }
   ]
 }
