@@ -307,6 +307,11 @@ l'opera davanti; il testo gli dà un appiglio e una risonanza, non un
 inventario. Modello: la didascalia di *Com'eri vestita?* di Mazzanti. Le
 didascalie già scritte restano come sono.
 
+**È critica d'arte da galleria, non un libro di scuola** (Elena, 11
+novembre): niente spiegazioni, date e nozioni messe in fila. I riferimenti
+si evocano come fa un critico che li dà per condivisi con chi legge — un
+nome, un'immagine — e il testo resta asciutto, colto, emotivo.
+
 **I riferimenti**: pittori, stili e poetiche note con cui le opere
 dialogano — da usare nel testo della mostra, uno o due per volta, e nelle
 schede dei prossimi artisti. Mai come etichetta, sempre come risonanza.

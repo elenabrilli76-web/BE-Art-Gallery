@@ -146,6 +146,8 @@ da cartellino: **150–300 caratteri**, accanto a titolo, anno, tecnica e misure
   restituirà…»)
 - **una sola idea**, detta bene: la didascalia non riassume la ricerca
   dell'artista, accompagna lo sguardo davanti a quel quadro
+- **critica da galleria, non libro di scuola**: niente spiegazioni né
+  nozioni; i riferimenti si evocano, si danno per condivisi con chi legge
 - **un riferimento noto, quando serve** (Elena, novembre 2026): un pittore,
   uno stile, una poetica o un'opera celebre con cui il quadro dialoga, detto
   in modo evocativo, mai come etichetta o confronto («come una finestra di
