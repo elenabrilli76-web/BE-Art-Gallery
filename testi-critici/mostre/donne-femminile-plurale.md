@@ -108,7 +108,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Manuela Romanelli | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
 | Sipontina Paloscia | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
 | Gabriella Lo Cascio | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
-| Grazia Barbieri · Serena D'Onofrio | in attesa |
+| Grazia Barbieri | analizzata l'11 novembre — presentazione e 1 didascalia |
+| Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -267,6 +268,19 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   abbraccio o prigione. Non va chiusa in una lettura sola.
 - **Frase da tenere**: passione che scalda o qualcosa che stringe.
 
+### Grazia Barbieri — la regina che vince la partita
+
+- **Poetica**: realismo al limite dell'iperrealismo, impianto del ritratto
+  antico, volti e gesti di oggi; spesso nomi di donne del mito e della storia.
+  Lo sguardo è sempre diretto.
+- **In mostra**: *Caterina* — Caterina Sforza con corona e velluto blu, una
+  donna di oggi; sotto la sua mano il re degli scacchi è caduto.
+- **Parole chiave**: identità, autonomia, memoria.
+- **Dialoga con**: Maselli (il ritratto antico), Vangelisti e Massai (le
+  donne della storia e del mito), Andreini e Grillanda (lo sguardo).
+- **Per il tema**: la partita vinta — il potere che passa di mano.
+- **Frase da tenere**: la partita l'ha vinta lei.
+
 ## Il tema trasversale: la violenza contro le donne
 
 Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
@@ -291,7 +305,7 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *Nessuno mi può comandare* | Paloscia | la risposta in prima persona: non mi faccio cancellare |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
-Da verificare con D'Onofrio (gli occhi arrossati) e Barbieri.
+Da verificare con D'Onofrio (gli occhi arrossati).
 
 **Dove sta il tema — decisioni di Elena del 9 novembre.**
 - le **presentazioni degli artisti non si toccano**: sono riutilizzabili e
