@@ -153,6 +153,15 @@ per progetto in `progetti/nome-cognome/`. I materiali dell'artista restano sul
 Drive; qui solo i testi di lavoro. Vedi
 [`servizi-per-l-arte/README.md`](servizi-per-l-arte/README.md).
 
+## Comunicati stampa
+
+Claude scrive anche i **comunicati alla stampa locale** di Pistoia: una mail
+breve e nostra, e il comunicato vero e proprio **in terza persona**, solo in
+italiano, con le cinque W nel primo paragrafo. Le redazioni sono in
+`comunicati-stampa/testate.md`, la struttura in `comunicati-stampa/modello.md`,
+un file per comunicato in `comunicati-stampa/archivio/`. L'invio lo fa sempre
+Elena. Vedi [`comunicati-stampa/README.md`](comunicati-stampa/README.md).
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta
