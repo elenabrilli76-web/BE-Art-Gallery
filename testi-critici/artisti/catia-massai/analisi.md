@@ -191,6 +191,6 @@ Massai è un'interprete più che una stilista: sceglie il linguaggio adatto a ci
 Omaggio e appropriazione (Picasso), illustrazione e pop; nella presentazione i nomi entrano come soggetti delle opere, non come confronti.
 
 ### Cosa resta aperto
-- **NO!**: titolo dato da Elena; in sala sta in un punto diverso dai quadri, quindi ha un foglio a sé (Elena, 10 novembre); terracotta con applicazioni (Elena, 9 novembre); misure non indicate
+- **NO!**: titolo dato da Elena; in sala sta in un punto diverso dai quadri, quindi ha un foglio a sé (Elena, 10 novembre); anche *Marie-Thérèse – omaggio a Picasso* ha un foglio a sé (Elena, 11 novembre); terracotta con applicazioni (Elena, 9 novembre); misure non indicate
 - **anni**: *Sensualità* è datata 8.3.26; per *Due sguardi* l'anno resta fuori (Elena, 9 novembre)
 - la presentazione v1 (giardini e bambine) resta in `scheda.json` sotto `presentazioni_per_mostra` → `i-luoghi-dell-anima`
