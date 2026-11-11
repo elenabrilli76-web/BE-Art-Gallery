@@ -179,13 +179,13 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 ### *Com'eri vestita?*
 
-**Italiano** — _248 caratteri_
+**Italiano** — _251 caratteri_
 
-> Due gambe di donna sospese nel vuoto, le ginocchia snodate come quelle di una bambola, e accanto due scarpe rosse appese a un filo. Il titolo è la domanda che troppo spesso viene fatta a chi ha subito violenza, e il quadro la rimanda a chi la pone.
+> Una donna torna a casa dopo la violenza: si vedono solo le gambe, i passi incerti, i piedi nudi, e nella mano le scarpe rosse, il simbolo del 25 novembre. Il titolo è la domanda che troppo spesso le viene rivolta, e il quadro la rimanda a chi la pone.
 
-**English** — _248 characters_
+**English** — _251 characters_
 
-> Two female legs suspended in the void, the knees jointed like a doll's, and beside them two red shoes hanging from a string. The title is the question too often asked of those who have suffered violence, and the painting returns it to whoever asks.
+> A woman walks home after the violence: only her legs can be seen, the unsteady steps, the bare feet, and in her hand the red shoes, the symbol of 25 November. The title is the question too often put to her, and the painting returns it to whoever asks.
 
 ## Note di analisi
 
@@ -193,7 +193,7 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 - **Basta**: tela verticale in cornice rossa. Donna con niqab nero, occhi chiari; fondo azzurro e bianco a pennellate rapide con macchie di colore; sopra, in rosso, l'impronta di una mano aperta e la scritta «BASTA» con colature. Firma «Mazzanti» e un anno in basso a sinistra.
 - **L'agguato**: pittura su lamiera ondulata ossidata, appesa direttamente al muro. Figura femminile bianca, di spalle, sagoma senza volto; dietro, un'ombra maschile nera più alta, con testa squadrata. Una scia rossa obliqua scende verso il basso. La ruggine resta a vista.
 - **Attesa**: dipinta dentro una finestra vera (telaio bianco, vetro con i marchi del produttore). Un volto azzurro e bianco che si dissolve, occhi come macchie scure con colature, una lacrima rossa che scende fino al bordo; in basso forse delle mani. Il vetro riflette chi guarda.
-- **Com'eri vestita?**: tela verticale stretta in cornice rossa. Due gambe femminili dalla coscia ai piedi, sospese, con le ginocchia segnate come snodi di bambola o manichino; a destra due scarpe rosse appese a un filo; fondo turchese, viola e blu a spatola. Firma e anno in basso a destra.
+- **Com'eri vestita?**: tela verticale stretta in cornice rossa. Due gambe femminili dalla coscia ai piedi, scalze, che camminano; a destra le scarpe rosse tenute in mano (lettura di Elena, 11 novembre: la donna che rientra a casa dopo la violenza, le scarpe rosse in mano — il simbolo del 25 novembre); fondo turchese, viola e blu a spatola. Firma e anno in basso a destra.
 
 ### Ciò che ritorna (con le opere di I Luoghi dell'Anima)
 - il **rosso** come segno: il cappello del viandante, qui la mano, la scia, la lacrima, le scarpe

@@ -292,8 +292,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   *L'agguato* (su lamiera: la donna bianca di spalle, l'ombra nera
   dell'uomo), *Attesa* (dipinta dentro una finestra; la
   storia vera della donna del Galleno che aspettò tutta la vita il
-  fidanzato partito per la guerra), *Com'eri vestita?* (gambe sospese,
-  scarpe rosse appese), *Fuga da Kandahar* (da analizzare).
+  fidanzato partito per la guerra), *Com'eri vestita?* (la donna che torna a
+  casa dopo la violenza, scalza, con le scarpe rosse in mano), *Fuga da Kandahar* (da analizzare).
 - **Parole chiave**: relazioni, memoria, autonomia.
 - **Dialoga con**: Paloscia (le scarpe rosse), Andreini (la mano alzata),
   Romanelli (la casa e la soglia), Massai (la parola scritta: *NO!* e *BASTA*).
