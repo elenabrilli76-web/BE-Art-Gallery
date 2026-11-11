@@ -9,6 +9,7 @@ eventi da mandare alle redazioni di Pistoia, distinti dai contenuti social.
 | [`modello.md`](modello.md) | la struttura della mail e del comunicato, già nella voce della galleria |
 | `archivio/AAAA-MM-evento.md` | un file per comunicato: testo inviato, data, a chi |
 | [`leggi-sito.js`](leggi-sito.js) | legge la pagina eventi del sito e tutte le pagine evento collegate |
+| [`pdf.py`](pdf.py) | fa il PDF del comunicato da allegare: `py comunicati-stampa\pdf.py 2026-11-nome-evento` |
 
 ## Da dove vengono le informazioni
 
@@ -42,8 +43,22 @@ volta in volta. Non stanno sul sito né qui.
 4. Nel file si segna **quando** è partito e **a chi**: serve per il richiamo e
    per la volta dopo.
 
-> Claude prepara anche la bozza in Gmail, se si vuole: ma l'invio lo fa sempre
-> Elena, dopo aver riletto.
+> Claude prepara la **bozza in Gmail**, nell'account della galleria, con
+> destinatari in Ccn, testo nel corpo e PDF del comunicato già allegato.
+> Elena aggiunge foto e locandina, rilegge e invia: l'invio lo fa sempre lei.
+
+## Cosa si allega
+
+| Allegato | Chi lo fa | Note |
+|---|---|---|
+| **il comunicato in PDF** | Claude, con `pdf.py` | una pagina, con logo e carattere della galleria |
+| **la locandina in JPG** | Elena | anche il PDF va bene, ma molti siti pubblicano solo immagini |
+| **2–3 foto delle opere** | Elena | nominate `cognome-titolo.jpg`, sotto i 3 MB l'una; meglio una verticale e una orizzontale |
+| *una foto della galleria allestita* | Elena, dal Drive | se c'è: dice ai giornali dove siamo meglio di qualunque frase |
+
+In tutto **sotto i 10 MB**: tante redazioni respingono le mail più pesanti.
+Niente cartelle compresse e niente link a WeTransfer al primo invio: i
+giornalisti aprono quello che hanno davanti.
 
 ## I tempi
 
