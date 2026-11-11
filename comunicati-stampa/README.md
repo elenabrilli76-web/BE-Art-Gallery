@@ -54,6 +54,8 @@ volta in volta. Non stanno sul sito né qui.
 > con il testo del link pulito; ma il collegamento sotto resta quello di Google.
 > **Prima di inviare**, in Gmail si cancellano e si riscrivono a mano i link
 > (`www.beartgallery.eu` e la pagina dell'evento): Gmail li ricrea puliti.
+> Succede con qualunque formato, anche scrivendo l'indirizzo senza `https://`:
+> è un passaggio da fare ogni volta, ed è l'unico. Le email restano pulite.
 
 ## Cosa si allega
 

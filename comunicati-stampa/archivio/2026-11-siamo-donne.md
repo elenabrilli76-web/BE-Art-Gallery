@@ -1,12 +1,19 @@
 # Siamo Donne, oltre la violenza c'è di più — comunicato d'apertura
 
+## Prossimi passi
+
+- [ ] segnare qui gli indirizzi che rimbalzano, e toglierli da `testate.md`
+- [ ] domenica 15/11: 2–3 foto dell'inaugurazione alle redazioni, con una riga di testo (La Nazione anche su WhatsApp)
+- [ ] verso il 20/11: comunicato breve su *Violenze Anonime* del 25 novembre, Giornata contro la violenza sulle donne
+- [ ] Discover Pistoia: entro metà novembre, per il numero di dicembre (vernissage di chiusura del 13/12)
+
 | | |
 |---|---|
 | **Evento** | *Siamo Donne, oltre la violenza c'è di più* · mostra collettiva *DONNE: Femminile Plurale* e programma di incontri |
 | **Fonte** | [beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu](https://www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu), letta l'11/11/2026 · 14 artisti e ingresso libero da Elena |
-| **Stato** | bozza in Gmail (account della galleria) con PDF e 5 locandine · niente foto di opere |
-| **Inviato** | — |
-| **A chi** | — |
+| **Stato** | **inviato** con PDF e 5 locandine · niente foto di opere |
+| **Inviato** | 11 novembre 2026, da beartgallery.eu@gmail.com |
+| **A chi** | in Ccn: La Nazione, Il Tirreno Pistoia, Report Pistoia, Report Cultura, Pistoia Sette, Il Globo di Pistoia, Qui News, Pistoia Valdinievole News, La Voce di Pistoia, La Vita · **non** a Discover Pistoia (fuori tempo per il mensile) |
 
 ## Oggetto
 
