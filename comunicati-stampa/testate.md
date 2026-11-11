@@ -4,34 +4,66 @@ Gli indirizzi sono quelli **pubblici delle redazioni**, pubblicati dalle testate
 stesse. I contatti personali dei giornalisti, se arrivano, **non** si scrivono
 qui: il repository è pubblico.
 
-> ⚠️ **Da verificare prima del primo invio.** La lista viene da una ricerca
-> automatica, non da un controllo sui siti. Gli indirizzi segnati con ❓ sono
-> i più dubbi. Quando un indirizzo rimbalza o risponde qualcuno, si aggiorna qui.
+Ultimo controllo sui siti: **11 novembre 2026**.
 
-| Testata | Tipo | Email redazione | Altro | Note |
-|---|---|---|---|---|
-| **La Nazione** — Pistoia | quotidiano, carta + web | cronaca.pistoia@lanazione.net | WhatsApp 338 7832055 | la più letta in città; WhatsApp per le foto dell'inaugurazione |
-| **Il Tirreno** — Pistoia | quotidiano, carta + web | pistoia.cronaca@iltirreno.it | — | ❓ l'alternativa `lucca@iltirreno.it` è della redazione di Lucca: non usarla |
-| **Report Pistoia** | online | redazione@reportpistoia.com | 0573 365171 | cronaca e vita cittadina, aggiornato in tempo reale |
-| **Discover Pistoia** | online | redazione@discoverpistoia.it ❓ | — | solo eventi, cultura, turismo: il più adatto alle mostre |
-| **La Voce di Pistoia** | online | info@lavocedipistoia.it ❓ | — | città e dintorni |
-| **Pistoia Sette** | online | redazione@pistoiasette.net ❓ | — | cultura ed eventi del territorio |
+- ✅ l'indirizzo l'abbiamo trovato sul sito della testata
+- ❓ l'indirizzo circola ma non l'abbiamo trovato sul sito: si prova, e se rimbalza si toglie
+
+## Quotidiani
+
+| Testata | Email redazione | Telefono | Note |
+|---|---|---|---|
+| **La Nazione** — Pistoia | cronaca.pistoia@lanazione.net ❓ | WhatsApp 338 7832055 ❓ | la più letta in città. L'indirizzo non è sul sito: confermarlo per telefono o dalla gerenza dell'edizione cartacea |
+| **Il Tirreno** — Pistoia | pistoia@iltirreno.it ✅ | 0573 97791 | via Rodolico 90. Dalla gerenza ufficiale; lo stesso indirizzo è sulla pagina Facebook *Il Tirreno Pistoia* |
+| **Il Tirreno** — Montecatini | montecatini@iltirreno.it ✅ | 0572 772461 | solo se l'evento interessa la Valdinievole |
+
+## Online
+
+| Testata | Email redazione | Note |
+|---|---|---|
+| **Report Pistoia** | redazione@reportpistoia.com ✅ | tel. 0573 365171. Cronaca e vita cittadina |
+| **Report Cultura** | cult@reportpistoia.com ❓ | la sezione cultura e spettacoli di Report Pistoia: è quella giusta per le mostre. Mandare a entrambi gli indirizzi |
+| **Pistoia Sette** | redazione@pistoiasette.net ✅ | ha una sezione Arte, Cultura e Spettacolo |
+| **Il Globo di Pistoia** | redazione@ilglobodipistoia.it ✅ | ha sezioni Cultura ed Eventi |
+| **Qui News Pistoia** | redazione@toscanamedia.it ✅ | redazione comune a tutte le edizioni Qui News: nell'oggetto scrivere «Pistoia» |
+| **Pistoia Valdinievole News** | redazione@valdinievole.news ✅ | arte, cultura, eventi |
+| **La Voce di Pistoia / Valdinievole Oggi** | info@lavocedipistoia.it ❓ | il sito rimanda a *Valdinievole Oggi*, attivo; sul sito gli indirizzi email sono nascosti |
+
+## Mensili e settimanali
+
+Escono una volta al mese o alla settimana: il comunicato va mandato **prima**,
+almeno 3–4 settimane prima dell'inaugurazione per un mensile.
+
+| Testata | Email | Note |
+|---|---|---|
+| **Discover Pistoia** | redazione@discoverpistoia.it ✅ | mensile gratuito su eventi, cultura e arte, allegato a La Nazione il **primo sabato del mese**, 10.000 copie. Editore Giorgio Tesi Editrice. Per una mostra di novembre bisogna scrivere entro metà ottobre |
+| **La Vita** — settimanale della Diocesi | lavita@diocesipistoia.it ❓ | tel. 0573 975095, via Puccini 38. Esce dentro Toscana Oggi. Le fonti danno indirizzi diversi: questo è quello indicato dall'Ufficio comunicazioni sociali. Siamo di fronte a San Pier Maggiore: la vicinanza alla chiesa è un buon motivo per scriverle |
+
+## TV
+
+| Testata | Contatto | Note |
+|---|---|---|
+| **TVL Pistoia** | da trovare | sito tvl.it (al controllo non rispondeva); sede in via Monteleonese 95/21. Per un servizio sull'inaugurazione si telefona |
 
 ## Destinatari, pronti da incollare
 
 **A:** beartgallery.eu@gmail.com
-**Ccn:**
+**Ccn** — tutti gli indirizzi tranne i mensili, che hanno tempi diversi:
 
 ```
-cronaca.pistoia@lanazione.net, pistoia.cronaca@iltirreno.it, redazione@reportpistoia.com, redazione@discoverpistoia.it, info@lavocedipistoia.it, redazione@pistoiasette.net
+cronaca.pistoia@lanazione.net, pistoia@iltirreno.it, redazione@reportpistoia.com, cult@reportpistoia.com, redazione@pistoiasette.net, redazione@ilglobodipistoia.it, redazione@toscanamedia.it, redazione@valdinievole.news, info@lavocedipistoia.it, lavita@diocesipistoia.it
 ```
 
-In copia nascosta: una mail sola, e nessuna redazione vede le altre.
+**Discover Pistoia** a parte, con una mail sua e in anticipo.
+
+In copia nascosta: una mail sola, e nessuna redazione vede le altre. Dopo il
+primo invio, gli indirizzi che rimbalzano si tolgono da qui.
 
 ## Da aggiungere
 
-- Agende e calendari eventi online (Comune di Pistoia, Pistoia Musei,
-  Toscana eventi): spesso pubblicano tutto quello che ricevono
-- Radio e TV locali
+- Le agende eventi online: Comune di Pistoia, Pistoia Musei, Visit Pistoia
+  (visitpistoia.eu). Spesso pubblicano tutto quello che ricevono, e hanno un
+  modulo invece di una mail
+- Radio locali
 - Il nome di chi in redazione segue la cultura, quando lo si viene a sapere —
   **fuori da questo file**
