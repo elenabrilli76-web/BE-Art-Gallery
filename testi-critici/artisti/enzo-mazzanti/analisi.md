@@ -131,7 +131,7 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 | | |
 |---|---|
-| **Opere analizzate** | *Basta* · *L'agguato* · *La donna alla finestra* · *Com'eri vestita?* — manca *Fuga da Kandahar* (foto troppo pesante, non scaricata) |
+| **Opere analizzate** | *Basta* · *L'agguato* · *Attesa* · *Com'eri vestita?* — manca *Fuga da Kandahar* (foto troppo pesante, non scaricata) |
 | **Stesura** | 11 novembre 2026 · presentazione v2 e 4 didascalie |
 | **Fonti** | foto dal Drive; messaggio dell'artista sulla *Donna alla finestra*; racconto «Quando l'amore è un ombrello» di Paolo Pianigiani su fossadeilupi.it (appendice a «La donna alla finestra» di Franco Polidori) |
 
@@ -167,7 +167,7 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 > On a corrugated, corroded sheet of metal, a white female figure seen from behind, and behind her the black shadow of a man, taller, following close. A red trail runs down the metal. She does not see him yet: the viewer does.
 
-### *La donna alla finestra*
+### *Attesa*
 
 **Italiano** — _262 caratteri_
 
@@ -192,7 +192,7 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 ### Analisi formale
 - **Basta**: tela verticale in cornice rossa. Donna con niqab nero, occhi chiari; fondo azzurro e bianco a pennellate rapide con macchie di colore; sopra, in rosso, l'impronta di una mano aperta e la scritta «BASTA» con colature. Firma «Mazzanti» e un anno in basso a sinistra.
 - **L'agguato**: pittura su lamiera ondulata ossidata, appesa direttamente al muro. Figura femminile bianca, di spalle, sagoma senza volto; dietro, un'ombra maschile nera più alta, con testa squadrata. Una scia rossa obliqua scende verso il basso. La ruggine resta a vista.
-- **La donna alla finestra**: dipinta dentro una finestra vera (telaio bianco, vetro con i marchi del produttore). Un volto azzurro e bianco che si dissolve, occhi come macchie scure con colature, una lacrima rossa che scende fino al bordo; in basso forse delle mani. Il vetro riflette chi guarda.
+- **Attesa**: dipinta dentro una finestra vera (telaio bianco, vetro con i marchi del produttore). Un volto azzurro e bianco che si dissolve, occhi come macchie scure con colature, una lacrima rossa che scende fino al bordo; in basso forse delle mani. Il vetro riflette chi guarda.
 - **Com'eri vestita?**: tela verticale stretta in cornice rossa. Due gambe femminili dalla coscia ai piedi, sospese, con le ginocchia segnate come snodi di bambola o manichino; a destra due scarpe rosse appese a un filo; fondo turchese, viola e blu a spatola. Firma e anno in basso a destra.
 
 ### Ciò che ritorna (con le opere di I Luoghi dell'Anima)
@@ -206,11 +206,10 @@ Mazzanti usa il gesto espressionista e i materiali poveri per prendere posizione
 ### Per la mostra
 - è, con Massai e Paloscia, la voce più esplicita sul tema; tutte e quattro le opere lo toccano
 - *Com'eri vestita?* riprende la domanda rivolta alle vittime di stupro (cfr. la mostra itinerante «What were you wearing?»), e le **scarpe rosse** dialogano con *Scarpe rosse* di Paloscia
-- *La donna alla finestra*: storia vera del Galleno (fine della Grande Guerra), la «vecchina del Galleno» che aspettò con l'ombrello pronto; l'artista suggeriva un titolo come «Attesa» — si è tenuto *La donna alla finestra*, il titolo del file e del racconto di Polidori
+- *Attesa* (titolo scelto da Elena l'11 novembre; il file si chiamava «La donna alla finestra», come il racconto di Polidori): storia vera del Galleno, la «vecchina del Galleno» che aspettò con l'ombrello pronto
 - *Basta* dialoga con Andreini (*Ragazza occhi verdi*, la mano alzata) e Vangelisti/E.B.Art per il velo
 - per l'allestimento: le opere sono già fotografate alle pareti della galleria
 
 ### Cosa resta aperto
 - **Fuga da Kandahar**: manca, la foto sul Drive (7,9 MB) non si scarica; serve una versione più leggera
 - tecniche, misure, anni: non indicati (si vedono firme con anno su *Basta* e *Com'eri vestita?*)
-- titolo della *Donna alla finestra*: confermare con Elena

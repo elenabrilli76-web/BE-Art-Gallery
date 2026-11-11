@@ -290,7 +290,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   della mostra.
 - **In mostra**: *Basta* (donna velata, la mano rossa e la scritta),
   *L'agguato* (su lamiera: la donna bianca di spalle, l'ombra nera
-  dell'uomo), *La donna alla finestra* (dipinta dentro una finestra; la
+  dell'uomo), *Attesa* (dipinta dentro una finestra; la
   storia vera della donna del Galleno che aspettò tutta la vita il
   fidanzato partito per la guerra), *Com'eri vestita?* (gambe sospese,
   scarpe rosse appese), *Fuga da Kandahar* (da analizzare).
@@ -322,7 +322,7 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *Controluce*, *Controluce 2* | Romanelli | la casa che non protegge, la donna ai margini; blu, viola e rosso come un livido |
 | *Scarpe rosse* | Paloscia | il simbolo delle donne uccise, ai piedi di una donna viva |
 | *Nessuno mi può comandare* | Paloscia | la risposta in prima persona: non mi faccio cancellare |
-| *Basta*, *L'agguato*, *Com'eri vestita?*, *La donna alla finestra* | Mazzanti | la denuncia diretta; la minaccia che segue; la domanda rivolta alle vittime; l'attesa di una vita |
+| *Basta*, *L'agguato*, *Com'eri vestita?*, *Attesa* | Mazzanti | la denuncia diretta; la minaccia che segue; la domanda rivolta alle vittime; l'attesa di una vita |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
 Da verificare con D'Onofrio (gli occhi arrossati).
