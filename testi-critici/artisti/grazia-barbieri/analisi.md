@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Opere analizzate** | *Caterina* |
+| **Opere analizzate** | *Caterina*, 2022, olio su tela, 80 × 100 cm |
 | **Stesura** | 11 novembre 2026 · v1 |
 | **Fonti** | foto dell'opera dal Drive; sito dell'artista graziabarbieri.it (profilo, elenco dei ritratti, critiche), indicato da Elena |
 
@@ -22,7 +22,7 @@
 
 ## Didascalia
 
-### *Caterina*
+### *Caterina* — 2022, olio su tela, 80 × 100 cm
 
 **Italiano** — _271 caratteri_
 
@@ -48,4 +48,4 @@ Ritratto verticale a mezza figura, impianto da ritratto rinascimentale: fondo br
 - per il tema: la donna che vince la partita — potere e autonomia, senza violenza mostrata
 
 ### Cosa resta aperto
-- tecnica, misure, anno: non indicati né sul sito (probabilmente olio su tela; il premio è del 2019)
+- dati da Elena (11 novembre): olio, 80 × 100 cm, 2022. Il sito lega l'opera al Premio «Caterina Sforza» 2019: anno da tenere d'occhio, vale quello indicato da Elena
