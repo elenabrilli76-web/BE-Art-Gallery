@@ -48,6 +48,13 @@ volta in volta. Non stanno sul sito né qui.
 > destinatari in Ccn, testo nel corpo e PDF del comunicato già allegato.
 > Elena aggiunge foto e locandina, rilegge e invia: l'invio lo fa sempre lei.
 
+> ⚠️ **I link nelle bozze.** Il collegamento con cui Claude crea le bozze
+> riscrive ogni indirizzo web facendolo passare da google.com
+> (`https://www.google.com/url?q=…`). Per questo la bozza si scrive in HTML,
+> con il testo del link pulito; ma il collegamento sotto resta quello di Google.
+> **Prima di inviare**, in Gmail si cancellano e si riscrivono a mano i link
+> (`www.beartgallery.eu` e la pagina dell'evento): Gmail li ricrea puliti.
+
 ## Cosa si allega
 
 | Allegato | Chi lo fa | Note |
