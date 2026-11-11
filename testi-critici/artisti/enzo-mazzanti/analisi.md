@@ -149,33 +149,33 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 ### *Basta*
 
-**Italiano** — _220 caratteri_
+**Italiano** — _187 caratteri_
 
-> Una donna velata guarda da sopra il niqab, gli occhi chiari e fermi. Sul suo corpo, in rosso, l'impronta di una mano aperta e una parola che cola come vernice fresca: BASTA. Lo sguardo e la scritta dicono la stessa cosa.
+> Le hanno lasciato soltanto gli occhi, e con quelli dice tutto. Sopra, una mano rossa e una parola che non ha bisogno di spiegazioni. Basta: lo grida lo sguardo prima ancora della vernice.
 
-**English** — _211 characters_
+**English** — _179 characters_
 
-> A veiled woman looks out over her niqab, her pale eyes steady. Across her body, in red, the print of an open hand and a word dripping like fresh paint: BASTA, enough. The gaze and the writing say the same thing.
+> They left her only her eyes, and with them she says everything. Over her, a red hand and a word that needs no explanation. Basta, enough: her gaze shouts it even before the paint.
 
 ### *L'agguato*
 
-**Italiano** — _225 caratteri_
+**Italiano** — _219 caratteri_
 
-> Su una lamiera ondulata e corrosa, una figura femminile bianca, di spalle, e dietro di lei un'ombra nera d'uomo, più alta, che la segue da vicino. Una scia rossa scende lungo il metallo. Lei non lo vede ancora: chi guarda sì.
+> Lei cammina tranquilla, e alle sue spalle un'ombra si allunga. Non la vede ancora: la vediamo noi. Su quella lamiera arrugginita resta la scia rossa di tutto ciò che si poteva fermare, se qualcuno avesse guardato prima.
 
-**English** — _224 characters_
+**English** — _210 characters_
 
-> On a corrugated, corroded sheet of metal, a white female figure seen from behind, and behind her the black shadow of a man, taller, following close. A red trail runs down the metal. She does not see him yet: the viewer does.
+> She walks calmly, and behind her a shadow lengthens. She does not see it yet: we do. On that rusted sheet of metal remains the red trail of everything that could have been stopped, if someone had looked sooner.
 
 ### *Attesa*
 
-**Italiano** — _262 caratteri_
+**Italiano** — _219 caratteri_
 
-> Dipinto dentro una finestra vera, dietro il vetro, il volto di una donna si scioglie nell'azzurro, gli occhi spenti, una lacrima rossa. Nasce da una storia del Galleno: una giovane che aspettò alla finestra, per tutta la vita, il fidanzato partito per la guerra.
+> Dietro un vetro vero, un volto che si scioglie nell'azzurro e una lacrima rossa. È la donna del Galleno che aspettò alla finestra, per tutta la vita, chi era partito per la guerra: l'amore che non si arrende, e consuma.
 
-**English** — _233 characters_
+**English** — _208 characters_
 
-> Painted inside a real window, behind the glass, a woman's face dissolves into blue, eyes dimmed, a red tear. It comes from a story of Galleno: a young woman who waited at the window, all her life, for the fiancé who left for the war.
+> Behind real glass, a face dissolving into blue and a red tear. She is the woman of Galleno who waited at the window, all her life, for the one who left for the war: a love that never surrenders, and consumes.
 
 ### *Com'eri vestita?*
 

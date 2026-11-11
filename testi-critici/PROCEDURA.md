@@ -137,12 +137,13 @@ da cartellino: **150–300 caratteri**, accanto a titolo, anno, tecnica e misure
 
 - stesso metodo, applicato a un'opera sola: si parte da ciò che si vede
   (materia, composizione, colore, luce) e si arriva a ciò che significa
-- **una via di mezzo fra emozione e descrizione**: un appiglio concreto
-  — un colore, un gesto, un dettaglio — che porti lo sguardo dentro il
-  quadro, e da lì cosa l'opera fa provare. Né inventario di quello che si
-  vede (chi legge ha il quadro davanti), né lirica staccata dall'opera.
-  Riferimenti: *Visioni d'autunno* di Mugnaioni e *Arturo* di Vangelisti,
-  entrambe approvate da Elena
+- **evocativa, non descrittiva** (Elena, novembre 2026): chi legge ha il
+  quadro davanti, quindi non serve dire cosa c'è. Basta un solo appiglio
+  concreto — un colore, un gesto, un oggetto — e da lì cosa l'opera fa
+  sentire. Né inventario né lirica staccata dall'opera. Riferimento:
+  *Com'eri vestita?* di Enzo Mazzanti («Torna a casa a piedi nudi, con le
+  scarpe rosse in mano e il peso di una notte che nessuno le
+  restituirà…»)
 - **una sola idea**, detta bene: la didascalia non riassume la ricerca
   dell'artista, accompagna lo sguardo davanti a quel quadro
 - niente riferimenti ad altri artisti: in così poco spazio diventano etichette
