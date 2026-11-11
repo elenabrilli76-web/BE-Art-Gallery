@@ -300,6 +300,32 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Per il tema**: la voce più esplicita, con Massai e Paloscia.
 - **Frase da tenere**: il quadro rimanda la domanda a chi la pone.
 
+## Il tono e i riferimenti — per il testo di mostra e le prossime schede
+
+**Il tono** (Elena, 11 novembre): evocativo, non descrittivo. Chi legge ha
+l'opera davanti; il testo gli dà un appiglio e una risonanza, non un
+inventario. Modello: la didascalia di *Com'eri vestita?* di Mazzanti. Le
+didascalie già scritte restano come sono.
+
+**I riferimenti**: pittori, stili e poetiche note con cui le opere
+dialogano — da usare nel testo della mostra, uno o due per volta, e nelle
+schede dei prossimi artisti. Mai come etichetta, sempre come risonanza.
+
+| Artista | Riferimenti possibili |
+|---|---|
+| Vangelisti | il mito omerico riletto al femminile, da Madeline Miller (*Circe*) a Margaret Atwood (*Il canto di Penelope*); i volti doppi del surrealismo; il riuso e l'assemblaggio (Louise Nevelson) |
+| Maselli | la pittura di genere del Seicento, le popolane di Caravaggio e Murillo; Vermeer per la luce raccolta |
+| Andreini | il ritratto «parlante» per sguardi, fino alla *Ragazza afghana* di Steve McCurry |
+| Bucchieri | il kintsugi, l'arte di riparare con l'oro; l'action painting e il dripping (Pollock), qui reso fluido |
+| Massai | Picasso e Marie-Thérèse (*Il sogno*, 1932); Oriana Fallaci; la Pop Art e il cinema anni Sessanta; per *NO!* la scultura come corpo-messaggio (Louise Bourgeois) |
+| Barletta | le Veneri paleolitiche (Willendorf); la «grande madre» di Marija Gimbutas; il surrealismo onirico (Leonora Carrington, Remedios Varo); l'Ultima Cena rovesciata al femminile |
+| Grillanda | il dettaglio ingrandito di Georgia O'Keeffe; l'occhio-paesaggio del surrealismo (Magritte, *Il falso specchio*) |
+| Romanelli | le stanze di Edward Hopper e di Vilhelm Hammershøi: donne sole in interni silenziosi |
+| Lo Cascio | l'espressionismo del colore (i Fauves, Munch per l'emozione che avvolge la figura) |
+| Paloscia | le *Zapatos Rojos* di Elina Chauvet, origine del simbolo delle scarpe rosse; la parola scritta nell'arte femminista (Barbara Kruger) |
+| Barbieri | il ritratto rinascimentale di corte; Caterina Sforza; l'iperrealismo; Artemisia Gentileschi per le eroine (Giuditta) che ricorrono nel suo lavoro |
+| Mazzanti | i materiali poveri dell'Arte povera e di Burri (la lamiera ossidata); il manifesto di denuncia; *What Were You Wearing?*, la mostra che raccoglie gli abiti delle sopravvissute |
+
 ## Il tema trasversale: la violenza contro le donne
 
 Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
