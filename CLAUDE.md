@@ -237,7 +237,7 @@ L'obiettivo dichiarato è uno solo: **esporre, essere visti, vendere.**
 - **Indirizzo** — Via San Pietro 24, 51100 Pistoia
 - **Telefono / WhatsApp** — +39 377 573 5187
 - **Email** — beartgallery.eu@gmail.com
-- **Sito** — beartgallery.eu
+- **Sito** — **www.beartgallery.eu** (con il www: senza, le pagine interne non si aprono)
 - **Orari** — tutti i giorni dalle 16 alle 21, la mattina su appuntamento (dal sito, novembre 2026)
 
 ## Elena Brilli — E.B.Art
@@ -284,7 +284,7 @@ Ne discendono quattro costanti, in **ogni** contenuto:
 |---|---|
 | **Nome** | BE Art Gallery compare nel testo, non solo nell'account |
 | **Logo** | in alto a sinistra su ogni immagine e su tutta la durata dei video — lo mette il comando da solo, scegliendo fra la versione trasparente e quella su fondo nero secondo il fondo |
-| **Sito** | `beartgallery.eu` in chiusura |
+| **Sito** | `www.beartgallery.eu` in chiusura |
 | **Hashtag di casa** | i primi sono sempre quelli della galleria, poi quelli del contenuto |
 
 Gli artisti in mostra si nominano e si valorizzano, ma restano **ospiti dello

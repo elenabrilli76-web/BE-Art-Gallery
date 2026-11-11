@@ -36,7 +36,7 @@ Un saluto,
 Elena Brilli
 Direttrice artistica — BE Art Gallery & Creative Lab
 +39 377 573 5187
-beartgallery.eu
+www.beartgallery.eu
 ```
 
 ## Il comunicato
@@ -67,7 +67,7 @@ pietra e cotto di un palazzo del centro storico.]
 [5 · INFORMAZIONI PRATICHE]
 Orari: [dal sito — oggi: tutti i giorni 16–21, la mattina su appuntamento]
 Ingresso: [libero / solo se confermato]
-Info: +39 377 573 5187 · beartgallery.eu@gmail.com · beartgallery.eu
+Info: +39 377 573 5187 · beartgallery.eu@gmail.com · www.beartgallery.eu
 
 BE Art Gallery & Creative Lab è una galleria d'arte contemporanea nel centro
 storico di Pistoia: settanta metri quadrati su tre livelli, in un palazzo

@@ -32,7 +32,7 @@ Un saluto,
 Elena Brilli
 Direttrice artistica — BE Art Gallery & Creative Lab
 +39 377 573 5187
-beartgallery.eu
+www.beartgallery.eu
 ```
 
 ## Comunicato
@@ -65,8 +65,9 @@ Mostra, letture e incontri sono pensati come un unico percorso, in cui opere, pa
 ## INFORMAZIONI
 
 Dove: BE Art Gallery & Creative Lab, via San Pietro 24, Pistoia
+Programma: www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu
 Orari: tutti i giorni dalle 16 alle 21, la mattina su appuntamento · ingresso libero
-Info: +39 377 573 5187 · beartgallery.eu@gmail.com · beartgallery.eu
+Info: +39 377 573 5187 · beartgallery.eu@gmail.com · www.beartgallery.eu
 
 ---
 

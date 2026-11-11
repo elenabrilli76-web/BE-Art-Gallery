@@ -70,7 +70,9 @@ def blocco_comunicato(md: str) -> list[str]:
 
 
 def corsivo_titoli(t: str) -> str:
-    return re.sub(r"«([^»]+)»", r"«<font name='Cormorant-Italic'>\1</font>»", escape(t))
+    t = re.sub(r"«([^»]+)»", r"«<font name='Cormorant-Italic'>\1</font>»", escape(t))
+    # gli indirizzi del sito diventano link cliccabili nel PDF
+    return re.sub(r"\b(www\.beartgallery\.eu[^\s·<]*)", r"<a href='https://\1'>\1</a>", t)
 
 
 def costruisci(righe: list[str]) -> list:
