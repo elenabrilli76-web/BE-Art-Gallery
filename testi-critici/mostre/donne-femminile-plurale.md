@@ -62,7 +62,7 @@ delle pagine finali di *I Luoghi dell'Anima*, con i colori della locandina.
 
 **Fogli di sala divisi, catalogo unito** (Elena, 10 novembre): quando le opere
 di un artista stanno in punti diversi della galleria, i fogli di sala si
-dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura; Mazzanti: Fuga da Kandahar, L'agguato e Com'eri vestita? insieme, Basta e Attesa insieme). Nella
+dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura; Mazzanti: Fuga da Kandahar, L'agguato e Com'eri vestita? insieme, Basta e Attesa insieme; Santi: Mater e La sposa appesa insieme, Hotel, Relic e Sirene ciascuna a sé). Nella
 presentazione generale e nel catalogo finale invece le opere di ogni artista
 stanno **tutte insieme**, in una sola sezione.
 

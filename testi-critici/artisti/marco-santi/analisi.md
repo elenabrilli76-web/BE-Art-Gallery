@@ -94,5 +94,8 @@ Realismo levigato e simbolo; il sacro (pala d'altare, reliquia, Madonna) riporta
 - *Sirene* porta la **sorellanza**, il rovescio del giudizio fra donne di Barletta
 - *La sposa appesa* e *Relic* toccano il tema del corpo posseduto e consumato, senza mostrare violenza
 
+### Fogli di sala
+*Mater* e *La sposa appesa* insieme; *Hotel*, *Relic* e *Sirene* ciascuna in un foglio a sé (Elena, 11 novembre).
+
 ### Cosa resta aperto
 - tecniche, misure, anni, città: non indicati
