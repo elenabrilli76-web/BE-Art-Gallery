@@ -110,6 +110,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Gabriella Lo Cascio | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Grazia Barbieri | analizzata l'11 novembre — presentazione e 1 didascalia |
 | Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 5 didascalie |
+| Marco Santi | analizzato l'11 novembre — presentazione e 5 didascalie |
 | Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
@@ -300,6 +301,20 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Per il tema**: la voce più esplicita, con Massai e Paloscia.
 - **Frase da tenere**: il quadro rimanda la domanda a chi la pone.
 
+### Marco Santi — sacro e profano
+
+- **Poetica**: realismo levigato, quasi fotografico, caricato di simboli; il
+  sacro (pala, reliquia, Madonna) riportato al corpo femminile, con ironia.
+- **In mostra**: *Mater* (la madre come Madonna del parto laica), *La sposa
+  appesa* (la sposa che precipita), *Hotel* (la signora anni Venti in
+  pelliccia), *Relic* (il perizoma-reliquiario), *Sirene* (due donne nella
+  vasca: la sorellanza).
+- **Parole chiave**: identità, relazioni, cura.
+- **Dialoga con**: Barletta (le madri, il giudizio / qui la sorellanza),
+  Barbieri (il ritratto in posa), Mazzanti (l'altra voce maschile).
+- **Frase da tenere**: le sirene non sono più una trappola per marinai, ma
+  un patto di sorellanza.
+
 ## Il tono e i riferimenti — per il testo di mostra e le prossime schede
 
 **Il tono** (Elena, 11 novembre): evocativo, non descrittivo. Chi legge ha
@@ -329,6 +344,7 @@ schede dei prossimi artisti. Mai come etichetta, sempre come risonanza.
 | Lo Cascio | l'espressionismo del colore (i Fauves, Munch per l'emozione che avvolge la figura) |
 | Paloscia | le *Zapatos Rojos* di Elina Chauvet, origine del simbolo delle scarpe rosse; la parola scritta nell'arte femminista (Barbara Kruger) |
 | Barbieri | il ritratto rinascimentale di corte; Caterina Sforza; l'iperrealismo; Artemisia Gentileschi per le eroine (Giuditta) che ricorrono nel suo lavoro |
+| Santi | la Madonna del parto di Piero; le bagnanti di Degas; il sacro-profano di Pierre et Gilles |
 | Mazzanti | i materiali poveri dell'Arte povera e di Burri (la lamiera ossidata); il manifesto di denuncia; *What Were You Wearing?*, la mostra che raccoglie gli abiti delle sopravvissute |
 
 ## Il tema trasversale: la violenza contro le donne

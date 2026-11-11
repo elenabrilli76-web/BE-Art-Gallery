@@ -1,0 +1,49 @@
+{
+  "nome": "Marco Santi",
+  "presentazione": {
+    "it": "Marco Santi dipinge il corpo femminile con un realismo levigato, quasi fotografico, e poi lo carica di simboli finché la superficie comincia a parlare d'altro. Gli ori e le seppie delle tele più antiche evocano icone e pale d'altare; i colori pieni delle altre portano la stessa precisione nelle stanze di oggi, fra vasche da bagno, pellicce, biancheria. Sacro e profano si sfiorano senza chiedere permesso: la madre diventa una Madonna laica, un indumento si fa reliquia. Una pittura sensuale e ironica, che interroga gli sguardi con cui la donna è stata guardata.",
+    "en": "Marco Santi paints the female body with a smooth, almost photographic realism, then loads it with symbols until the surface begins to speak of something else. The golds and sepias of some canvases recall icons and altarpieces; the full colours of others bring the same precision into today's rooms, among bathtubs, furs and lingerie. Sacred and profane brush against each other without asking leave: the mother becomes a secular Madonna, a garment turns into a relic. A sensual, ironic painting that questions the ways women have been looked at."
+  },
+  "opere": [
+    {
+      "titolo": "Mater",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Il ventre pieno, una luce stretta fra le mani come un segreto, e intorno putti che volano nella notte. È una Madonna del parto senza aureola, che guarda dritto e non chiede devozione: la maternità come potenza, non come destino.",
+        "en": "A full belly, a light held between her hands like a secret, and around her cherubs flying through the night. She is a Madonna del Parto without a halo, looking straight ahead and asking for no devotion: motherhood as power, not as destiny."
+      }
+    },
+    {
+      "titolo": "La sposa appesa",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Il velo diventa un'ala, e la sposa precipita a testa in giù in un cielo d'oro bruciato. Raccolta su di sé, stringe le mani come per proteggere qualcosa: il giorno che doveva essere un volo, e che invece è una caduta.",
+        "en": "The veil becomes a wing, and the bride falls headlong through a sky of burnt gold. Curled into herself, she clasps her hands as if protecting something: the day that was meant to be a flight, and turned out to be a fall."
+      }
+    },
+    {
+      "titolo": "Hotel",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Un cappello di perle, una pelliccia bianca, un sorriso appena trattenuto: sembra uscita da una vecchia fotografia degli anni Venti. Eppure resta un'ombra in quella grazia, come in certe feste in cui tutti sorridono e nessuno sa davvero chi c'è.",
+        "en": "A pearl cap, a white fur, a smile barely held back: she seems to have stepped out of an old photograph from the Twenties. Yet a shadow lingers in that grace, as at certain parties where everyone smiles and no one really knows who is there."
+      }
+    },
+    {
+      "titolo": "Relic",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Un indumento minimo, ricamato d'oro come un reliquiario. Sacro e profano si guardano in faccia: è il corpo femminile che il mondo ha venerato e insieme consumato, esposto qui come una reliquia, con un'ironia che graffia.",
+        "en": "A minimal garment, embroidered in gold like a reliquary. Sacred and profane stare each other down: it is the female body the world has worshipped and consumed at once, displayed here like a relic, with an irony that scratches."
+      }
+    },
+    {
+      "titolo": "Sirene",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Due donne nella stessa vasca, una sigaretta, una bottiglia, gli occhi chiusi. Non cantano per attirare nessuno: si tengono compagnia. Le sirene, qui, non sono più una trappola per marinai, ma un patto di sorellanza.",
+        "en": "Two women in the same bathtub, a cigarette, a bottle, eyes closed. They do not sing to lure anyone: they keep each other company. Here the sirens are no longer a trap for sailors, but a pact of sisterhood."
+      }
+    }
+  ]
+}
