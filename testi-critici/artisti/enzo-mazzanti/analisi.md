@@ -179,13 +179,13 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 
 ### *Com'eri vestita?*
 
-**Italiano** — _251 caratteri_
+**Italiano** — _268 caratteri_
 
-> Una donna torna a casa dopo la violenza: si vedono solo le gambe, i passi incerti, i piedi nudi, e nella mano le scarpe rosse, il simbolo del 25 novembre. Il titolo è la domanda che troppo spesso le viene rivolta, e il quadro la rimanda a chi la pone.
+> Torna a casa a piedi nudi, con le scarpe rosse in mano e il peso di una notte che nessuno le restituirà. Dietro di lei resta una domanda, sempre la stessa, che pesa più dei passi. Ma la colpa non sta mai in un vestito: sta nello sguardo di chi ha bisogno di chiederlo.
 
-**English** — _251 characters_
+**English** — _260 characters_
 
-> A woman walks home after the violence: only her legs can be seen, the unsteady steps, the bare feet, and in her hand the red shoes, the symbol of 25 November. The title is the question too often put to her, and the painting returns it to whoever asks.
+> She walks home barefoot, the red shoes in her hand and the weight of a night no one will give back to her. Behind her lingers a question, always the same, heavier than her steps. But the blame never lies in a dress: it lies in the gaze of whoever needs to ask.
 
 ## Note di analisi
 
