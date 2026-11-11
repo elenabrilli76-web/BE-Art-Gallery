@@ -47,7 +47,14 @@ def stile(nome, **kw):
     return ParagraphStyle(nome, **base)
 
 
-S = {
+def stili(scala: float = 1.0) -> dict:
+    """Gli stili, ridotti di `scala` quando il testo non sta in una pagina."""
+    return {k: ParagraphStyle(k, parent=v, fontSize=v.fontSize * scala, leading=v.leading * scala,
+                              spaceBefore=v.spaceBefore * scala, spaceAfter=v.spaceAfter * scala)
+            for k, v in BASE.items()}
+
+
+BASE = {
     "etichetta": stile("etichetta", fontName="Cormorant-SemiBold", fontSize=10, textColor=ORO),
     "data": stile("data", fontSize=10, textColor=GRIGIO, spaceAfter=10),
     "titolo": stile("titolo", fontName="Cormorant-Bold", fontSize=22, leading=25, spaceAfter=4),
@@ -75,9 +82,9 @@ def corsivo_titoli(t: str) -> str:
     return re.sub(r"\b(www\.beartgallery\.eu[^\s·<]*)", r"<a href='https://\1'>\1</a>", t)
 
 
-def costruisci(righe: list[str]) -> list:
-    out = [Image(str(LOGO), width=22 * mm, height=22 * mm * _rapporto(), hAlign="LEFT"),
-           Spacer(1, 5 * mm)]
+def costruisci(righe: list[str], S: dict) -> list:
+    out = [Image(str(LOGO), width=18 * mm, height=18 * mm * _rapporto(), hAlign="LEFT"),
+           Spacer(1, 3 * mm)]
     paragrafo, iniziato, nota = [], False, False
 
     def chiudi():
@@ -136,10 +143,17 @@ def main():
     sorgente = QUI / "archivio" / f"{nome}.md"
     uscita = QUI / "archivio" / "pdf" / f"{nome}.pdf"
     uscita.parent.mkdir(exist_ok=True)
-    doc = SimpleDocTemplate(str(uscita), pagesize=A4, leftMargin=22 * mm, rightMargin=22 * mm,
-                            topMargin=12 * mm, bottomMargin=12 * mm,
-                            title="Comunicato stampa", author="BE Art Gallery")
-    doc.build(costruisci(blocco_comunicato(sorgente.read_text(encoding="utf-8"))))
+    righe = blocco_comunicato(sorgente.read_text(encoding="utf-8"))
+    # un comunicato sta in una pagina: se non ci sta, il carattere scende un poco
+    for scala in (1.0, 0.97, 0.94, 0.91, 0.88):
+        doc = SimpleDocTemplate(str(uscita), pagesize=A4, leftMargin=22 * mm, rightMargin=22 * mm,
+                                topMargin=12 * mm, bottomMargin=12 * mm,
+                                title="Comunicato stampa", author="BE Art Gallery")
+        doc.build(costruisci(righe, stili(scala)))
+        if doc.page == 1:
+            break
+    else:
+        print("Attenzione: il comunicato non sta in una pagina, conviene accorciarlo.")
     print(f"Salvato: {uscita}")
 
 

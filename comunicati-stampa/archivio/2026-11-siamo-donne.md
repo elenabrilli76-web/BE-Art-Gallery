@@ -50,17 +50,18 @@ Da sabato 14 novembre a domenica 13 dicembre BE Art Gallery presenta «Siamo Don
 
 Le opere guardano al femminile nella sua complessità: identità, relazioni, corpo, memoria, cura, autonomia, possibilità di scelta. Il progetto sceglie un linguaggio sobrio e non illustrativo, e non usa la violenza come immagine da consumare. «Oltre», nel titolo, non vuol dire dimenticare: vuol dire riconoscere, nominare e costruire spazio per l'autonomia, la memoria e la scelta.
 
-Il mese di mostra è accompagnato da un programma di incontri, tutti in galleria:
+Il programma, dall'apertura alla chiusura, tutto in galleria:
 
+· sabato 14 novembre, ore 17 — inaugurazione di «Siamo Donne, oltre la violenza c'è di più» e apertura della mostra collettiva «DONNE: Femminile Plurale»
 · sabato 21 novembre, ore 18:30 — incontro editoriale con Cristina Mensi, «Incipit. Il segreto di Giselda Pons»: un romanzo di segreti familiari, fragilità e verità da ricomporre
 · mercoledì 25 novembre, ore 21:30, Giornata internazionale per l'eliminazione della violenza contro le donne — «Violenze Anonime», prima lettura condivisa, con Elena Brilli e le voci del pubblico: un testo liberamente ispirato a fatti realmente accaduti, testimonianze e cronache. Non una scena da guardare, ma un cerchio di voci da ascoltare
 · sabato 28 novembre, ore 18:30 — «Violenze Anonime», seconda lettura condivisa
 · sabato 5 dicembre, ore 18:30 — incontro editoriale con Serena Pisaneschi, «Il resto della vita»: un romanzo corale di radici, amicizia femminile e seconde possibilità
-· domenica 13 dicembre, ore 18 — vernissage di chiusura
+· domenica 13 dicembre, ore 18 — vernissage di chiusura della mostra «DONNE: Femminile Plurale» e ultimo appuntamento di «Siamo Donne, oltre la violenza c'è di più»
 
 Le letture contengono riferimenti alla violenza di genere, e chi partecipa può uscire liberamente in ogni momento. Il numero antiviolenza e antistalking 1522 è gratuito e attivo 24 ore su 24.
 
-Mostra, letture e incontri sono pensati come un unico percorso, in cui opere, parole e persone si incontrano nello stesso spazio: settanta metri quadrati fra volte, pietra e cotto di un palazzo storico, di fronte alla chiesa di San Pier Maggiore.
+Mostra, letture e incontri sono un unico percorso, in cui opere, parole e persone si incontrano fra le volte, la pietra e il cotto di un palazzo storico, di fronte alla chiesa di San Pier Maggiore.
 
 ## INFORMAZIONI
 
