@@ -2,8 +2,14 @@
   "nome": "Enzo Mazzanti",
   "vive_e_lavora": "Montemurlo",
   "presentazione": {
-    "it": "Nella pittura di Enzo Mazzanti c'è sempre qualcuno che cammina. Un viandante dal cappello rosso, curvo sul bastone, attraversa boschi innevati, vicoli stretti fra palazzi scuri, sentieri accesi di rosa: è la stessa figura, piccola e di spalle, e ogni volta il mondo intorno si fa più grande. Il gesto è espressionista, a spatola e a colpi rapidi, e arriva fino al ferro ossidato. In quel punto rosso si raccoglie lo sguardo: la solitudine non come abbandono, ma come cammino. Una pittura di viaggio interiore, che parla di chi va e di chi resta.",
-    "en": "In Enzo Mazzanti's painting there is always someone walking. A wanderer in a red hat, bent over his staff, crosses snowy woods, narrow alleys between dark buildings, paths glowing pink: the same figure, small and seen from behind, while each time the world around him grows larger. The gesture is expressionist, laid with the knife in quick strokes, and reaches as far as oxidised iron. The eye gathers on that red point: solitude not as abandonment but as a journey. A painting of inner travel, about those who leave and those who stay."
+    "it": "Enzo Mazzanti dipinge per prendere posizione. Il gesto è espressionista, a spatola e a colpi rapidi, e non si ferma alla tela: arriva alla lamiera ossidata, al vetro di una finestra vera. Accanto al viandante dal cappello rosso, che attraversa boschi e città in solitudine, la sua pittura si fa testimonianza: volti velati, ombre che incombono, scritte tracciate come su un muro. Il rosso è il suo segno, un punto di calore o una ferita che cola. Una pittura civile e insieme intima, che guarda chi resta solo e chi subisce, e non accetta di tacere.",
+    "en": "Enzo Mazzanti paints to take a stand. His gesture is expressionist, palette knife and quick strokes, and it does not stop at the canvas: it reaches rusted sheet metal, the glass of a real window. Beside the wanderer in the red hat, crossing woods and cities alone, his painting becomes testimony: veiled faces, looming shadows, words traced as if on a wall. Red is his mark, a point of warmth or a wound that drips. A painting both civic and intimate, that looks at those left alone and those who suffer, and refuses to keep silent."
+  },
+  "presentazioni_per_mostra": {
+    "i-luoghi-dell-anima": {
+      "it": "Nella pittura di Enzo Mazzanti c'è sempre qualcuno che cammina. Un viandante dal cappello rosso, curvo sul bastone, attraversa boschi innevati, vicoli stretti fra palazzi scuri, sentieri accesi di rosa: è la stessa figura, piccola e di spalle, e ogni volta il mondo intorno si fa più grande. Il gesto è espressionista, a spatola e a colpi rapidi, e arriva fino al ferro ossidato. In quel punto rosso si raccoglie lo sguardo: la solitudine non come abbandono, ma come cammino. Una pittura di viaggio interiore, che parla di chi va e di chi resta.",
+      "en": "In Enzo Mazzanti's painting there is always someone walking. A wanderer in a red hat, bent over his staff, crosses snowy woods, narrow alleys between dark buildings, paths glowing pink: the same figure, small and seen from behind, while each time the world around him grows larger. The gesture is expressionist, laid with the knife in quick strokes, and reaches as far as oxidised iron. The eye gathers on that red point: solitude not as abandonment but as a journey. A painting of inner travel, about those who leave and those who stay."
+    }
   },
   "opere": [
     {
@@ -58,6 +64,38 @@
       "didascalia": {
         "it": "Una folla immensa, fatta di colori accesi, si allunga fino all'orizzonte verso una luce che non arriva. In disparte, il viandante dal cappello rosso guarda passare un popolo in cammino: un omaggio alla Palestina e a tutti i popoli scacciati dalla propria terra.",
         "en": "An immense crowd of bright colours stretches to the horizon towards a light that never comes. Apart from it, the wanderer in the red hat watches a people on the move: a tribute to Palestine and to all peoples driven from their own land."
+      }
+    },
+    {
+      "titolo": "Basta",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Una donna velata guarda da sopra il niqab, gli occhi chiari e fermi. Sul suo corpo, in rosso, l'impronta di una mano aperta e una parola che cola come vernice fresca: BASTA. Lo sguardo e la scritta dicono la stessa cosa.",
+        "en": "A veiled woman looks out over her niqab, her pale eyes steady. Across her body, in red, the print of an open hand and a word dripping like fresh paint: BASTA, enough. The gaze and the writing say the same thing."
+      }
+    },
+    {
+      "titolo": "L'agguato",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Su una lamiera ondulata e corrosa, una figura femminile bianca, di spalle, e dietro di lei un'ombra nera d'uomo, più alta, che la segue da vicino. Una scia rossa scende lungo il metallo. Lei non lo vede ancora: chi guarda sì.",
+        "en": "On a corrugated, corroded sheet of metal, a white female figure seen from behind, and behind her the black shadow of a man, taller, following close. A red trail runs down the metal. She does not see him yet: the viewer does."
+      }
+    },
+    {
+      "titolo": "La donna alla finestra",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Dipinto dentro una finestra vera, dietro il vetro, il volto di una donna si scioglie nell'azzurro, gli occhi spenti, una lacrima rossa. Nasce da una storia del Galleno: una giovane che aspettò alla finestra, per tutta la vita, il fidanzato partito per la guerra.",
+        "en": "Painted inside a real window, behind the glass, a woman's face dissolves into blue, eyes dimmed, a red tear. It comes from a story of Galleno: a young woman who waited at the window, all her life, for the fiancé who left for the war."
+      }
+    },
+    {
+      "titolo": "Com'eri vestita?",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Due gambe di donna sospese nel vuoto, le ginocchia snodate come quelle di una bambola, e accanto due scarpe rosse appese a un filo. Il titolo è la domanda che troppo spesso viene fatta a chi ha subito violenza, e il quadro la rimanda a chi la pone.",
+        "en": "Two female legs suspended in the void, the knees jointed like a doll's, and beside them two red shoes hanging from a string. The title is the question too often asked of those who have suffered violence, and the painting returns it to whoever asks."
       }
     }
   ]

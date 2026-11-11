@@ -124,3 +124,93 @@ intero in cammino — la solitudine del singolo accanto all'esilio di molti.
 ### Cosa resta aperto
 - la numerazione I–IV del ciclo: da confermare con l'artista
 - gli anni: non indicati
+
+---
+
+# DONNE: Femminile Plurale — 2026
+
+| | |
+|---|---|
+| **Opere analizzate** | *Basta* · *L'agguato* · *La donna alla finestra* · *Com'eri vestita?* — manca *Fuga da Kandahar* (foto troppo pesante, non scaricata) |
+| **Stesura** | 11 novembre 2026 · presentazione v2 e 4 didascalie |
+| **Fonti** | foto dal Drive; messaggio dell'artista sulla *Donna alla finestra*; racconto «Quando l'amore è un ombrello» di Paolo Pianigiani su fossadeilupi.it (appendice a «La donna alla finestra» di Franco Polidori) |
+
+## Presentazione dell'artista — v2, con le opere nuove
+
+**Italiano** — _549 caratteri spazi inclusi_
+
+> Enzo Mazzanti dipinge per prendere posizione. Il gesto è espressionista, a spatola e a colpi rapidi, e non si ferma alla tela: arriva alla lamiera ossidata, al vetro di una finestra vera. Accanto al viandante dal cappello rosso, che attraversa boschi e città in solitudine, la sua pittura si fa testimonianza: volti velati, ombre che incombono, scritte tracciate come su un muro. Il rosso è il suo segno, un punto di calore o una ferita che cola. Una pittura civile e insieme intima, che guarda chi resta solo e chi subisce, e non accetta di tacere.
+
+**English** — _532 characters_
+
+> Enzo Mazzanti paints to take a stand. His gesture is expressionist, palette knife and quick strokes, and it does not stop at the canvas: it reaches rusted sheet metal, the glass of a real window. Beside the wanderer in the red hat, crossing woods and cities alone, his painting becomes testimony: veiled faces, looming shadows, words traced as if on a wall. Red is his mark, a point of warmth or a wound that drips. A painting both civic and intimate, that looks at those left alone and those who suffer, and refuses to keep silent.
+
+## Didascalie delle singole opere
+
+### *Basta*
+
+**Italiano** — _220 caratteri_
+
+> Una donna velata guarda da sopra il niqab, gli occhi chiari e fermi. Sul suo corpo, in rosso, l'impronta di una mano aperta e una parola che cola come vernice fresca: BASTA. Lo sguardo e la scritta dicono la stessa cosa.
+
+**English** — _211 characters_
+
+> A veiled woman looks out over her niqab, her pale eyes steady. Across her body, in red, the print of an open hand and a word dripping like fresh paint: BASTA, enough. The gaze and the writing say the same thing.
+
+### *L'agguato*
+
+**Italiano** — _225 caratteri_
+
+> Su una lamiera ondulata e corrosa, una figura femminile bianca, di spalle, e dietro di lei un'ombra nera d'uomo, più alta, che la segue da vicino. Una scia rossa scende lungo il metallo. Lei non lo vede ancora: chi guarda sì.
+
+**English** — _224 characters_
+
+> On a corrugated, corroded sheet of metal, a white female figure seen from behind, and behind her the black shadow of a man, taller, following close. A red trail runs down the metal. She does not see him yet: the viewer does.
+
+### *La donna alla finestra*
+
+**Italiano** — _262 caratteri_
+
+> Dipinto dentro una finestra vera, dietro il vetro, il volto di una donna si scioglie nell'azzurro, gli occhi spenti, una lacrima rossa. Nasce da una storia del Galleno: una giovane che aspettò alla finestra, per tutta la vita, il fidanzato partito per la guerra.
+
+**English** — _233 characters_
+
+> Painted inside a real window, behind the glass, a woman's face dissolves into blue, eyes dimmed, a red tear. It comes from a story of Galleno: a young woman who waited at the window, all her life, for the fiancé who left for the war.
+
+### *Com'eri vestita?*
+
+**Italiano** — _248 caratteri_
+
+> Due gambe di donna sospese nel vuoto, le ginocchia snodate come quelle di una bambola, e accanto due scarpe rosse appese a un filo. Il titolo è la domanda che troppo spesso viene fatta a chi ha subito violenza, e il quadro la rimanda a chi la pone.
+
+**English** — _248 characters_
+
+> Two female legs suspended in the void, the knees jointed like a doll's, and beside them two red shoes hanging from a string. The title is the question too often asked of those who have suffered violence, and the painting returns it to whoever asks.
+
+## Note di analisi
+
+### Analisi formale
+- **Basta**: tela verticale in cornice rossa. Donna con niqab nero, occhi chiari; fondo azzurro e bianco a pennellate rapide con macchie di colore; sopra, in rosso, l'impronta di una mano aperta e la scritta «BASTA» con colature. Firma «Mazzanti» e un anno in basso a sinistra.
+- **L'agguato**: pittura su lamiera ondulata ossidata, appesa direttamente al muro. Figura femminile bianca, di spalle, sagoma senza volto; dietro, un'ombra maschile nera più alta, con testa squadrata. Una scia rossa obliqua scende verso il basso. La ruggine resta a vista.
+- **La donna alla finestra**: dipinta dentro una finestra vera (telaio bianco, vetro con i marchi del produttore). Un volto azzurro e bianco che si dissolve, occhi come macchie scure con colature, una lacrima rossa che scende fino al bordo; in basso forse delle mani. Il vetro riflette chi guarda.
+- **Com'eri vestita?**: tela verticale stretta in cornice rossa. Due gambe femminili dalla coscia ai piedi, sospese, con le ginocchia segnate come snodi di bambola o manichino; a destra due scarpe rosse appese a un filo; fondo turchese, viola e blu a spatola. Firma e anno in basso a destra.
+
+### Ciò che ritorna (con le opere di I Luoghi dell'Anima)
+- il **rosso** come segno: il cappello del viandante, qui la mano, la scia, la lacrima, le scarpe
+- i **supporti di recupero**: lamiera ossidata, finestra vera (già la finestrella con la lastra di *Solitudine III*)
+- la **figura sola**, piccola o di spalle; qui diventa la donna sola davanti a una minaccia
+
+### Poetica dedotta
+Mazzanti usa il gesto espressionista e i materiali poveri per prendere posizione: la solitudine del viandante e la denuncia sono due facce della stessa attenzione per chi resta solo. La presentazione v1 (il viandante) resta per *I Luoghi dell'Anima*.
+
+### Per la mostra
+- è, con Massai e Paloscia, la voce più esplicita sul tema; tutte e quattro le opere lo toccano
+- *Com'eri vestita?* riprende la domanda rivolta alle vittime di stupro (cfr. la mostra itinerante «What were you wearing?»), e le **scarpe rosse** dialogano con *Scarpe rosse* di Paloscia
+- *La donna alla finestra*: storia vera del Galleno (fine della Grande Guerra), la «vecchina del Galleno» che aspettò con l'ombrello pronto; l'artista suggeriva un titolo come «Attesa» — si è tenuto *La donna alla finestra*, il titolo del file e del racconto di Polidori
+- *Basta* dialoga con Andreini (*Ragazza occhi verdi*, la mano alzata) e Vangelisti/E.B.Art per il velo
+- per l'allestimento: le opere sono già fotografate alle pareti della galleria
+
+### Cosa resta aperto
+- **Fuga da Kandahar**: manca, la foto sul Drive (7,9 MB) non si scarica; serve una versione più leggera
+- tecniche, misure, anni: non indicati (si vedono firme con anno su *Basta* e *Com'eri vestita?*)
+- titolo della *Donna alla finestra*: confermare con Elena

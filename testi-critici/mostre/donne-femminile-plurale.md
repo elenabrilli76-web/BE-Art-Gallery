@@ -109,6 +109,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Sipontina Paloscia | analizzata il 9 novembre — presentazione provvisoria (due opere) e 2 didascalie |
 | Gabriella Lo Cascio | analizzata il 9 novembre — presentazione provvisoria (un'opera) e 1 didascalia |
 | Grazia Barbieri | analizzata l'11 novembre — presentazione e 1 didascalia |
+| Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 4 didascalie; manca *Fuga da Kandahar* |
 | Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
@@ -281,6 +282,24 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 - **Per il tema**: la partita vinta — il potere che passa di mano.
 - **Frase da tenere**: la partita l'ha vinta lei.
 
+### Enzo Mazzanti — dipingere per prendere posizione
+
+- **Poetica**: gesto espressionista, materiali poveri (lamiera ossidata, una
+  finestra vera), il rosso come segno. Dal viandante solitario alla
+  denuncia: la stessa attenzione per chi resta solo. L'unica voce maschile
+  della mostra.
+- **In mostra**: *Basta* (donna velata, la mano rossa e la scritta),
+  *L'agguato* (su lamiera: la donna bianca di spalle, l'ombra nera
+  dell'uomo), *La donna alla finestra* (dipinta dentro una finestra; la
+  storia vera della donna del Galleno che aspettò tutta la vita il
+  fidanzato partito per la guerra), *Com'eri vestita?* (gambe sospese,
+  scarpe rosse appese), *Fuga da Kandahar* (da analizzare).
+- **Parole chiave**: relazioni, memoria, autonomia.
+- **Dialoga con**: Paloscia (le scarpe rosse), Andreini (la mano alzata),
+  Romanelli (la casa e la soglia), Massai (la parola scritta: *NO!* e *BASTA*).
+- **Per il tema**: la voce più esplicita, con Massai e Paloscia.
+- **Frase da tenere**: il quadro rimanda la domanda a chi la pone.
+
 ## Il tema trasversale: la violenza contro le donne
 
 Indicazione di Elena (9 novembre): la violenza contro le donne attraversa
@@ -303,6 +322,7 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *Controluce*, *Controluce 2* | Romanelli | la casa che non protegge, la donna ai margini; blu, viola e rosso come un livido |
 | *Scarpe rosse* | Paloscia | il simbolo delle donne uccise, ai piedi di una donna viva |
 | *Nessuno mi può comandare* | Paloscia | la risposta in prima persona: non mi faccio cancellare |
+| *Basta*, *L'agguato*, *Com'eri vestita?*, *La donna alla finestra* | Mazzanti | la denuncia diretta; la minaccia che segue; la domanda rivolta alle vittime; l'attesa di una vita |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
 Da verificare con D'Onofrio (gli occhi arrossati).
