@@ -8,6 +8,7 @@ eventi da mandare alle redazioni di Pistoia, distinti dai contenuti social.
 | [`testate.md`](testate.md) | le redazioni a cui scrivere, con indirizzo e carattere |
 | [`modello.md`](modello.md) | la struttura della mail e del comunicato, già nella voce della galleria |
 | `archivio/AAAA-MM-evento.md` | un file per comunicato: testo inviato, data, a chi |
+| `archivio/locandine/AAAA-MM-evento/` | le locandine dell'evento, pronte da allegare — sono pubbliche, possono stare qui |
 | [`leggi-sito.js`](leggi-sito.js) | legge la pagina eventi del sito e tutte le pagine evento collegate |
 | [`pdf.py`](pdf.py) | fa il PDF del comunicato da allegare: `py comunicati-stampa\pdf.py 2026-11-nome-evento` |
 
@@ -52,7 +53,7 @@ volta in volta. Non stanno sul sito né qui.
 | Allegato | Chi lo fa | Note |
 |---|---|---|
 | **il comunicato in PDF** | Claude, con `pdf.py` | una pagina, con logo e carattere della galleria |
-| **la locandina in JPG** | Elena | anche il PDF va bene, ma molti siti pubblicano solo immagini |
+| **la locandina in JPG** | Elena, una volta: poi sta in `archivio/locandine/` | anche il PDF va bene, ma molti siti pubblicano solo immagini |
 | **2–3 foto delle opere** | Elena | nominate `cognome-titolo.jpg`, sotto i 3 MB l'una; meglio una verticale e una orizzontale |
 | *una foto della galleria allestita* | Elena, dal Drive | se c'è: dice ai giornali dove siamo meglio di qualunque frase |
 

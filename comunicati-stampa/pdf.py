@@ -42,7 +42,7 @@ for nome, file in [("Cormorant", "Regular"), ("Cormorant-Bold", "Bold"),
 
 
 def stile(nome, **kw):
-    base = dict(fontName="Cormorant", fontSize=11.5, leading=14.5, textColor=INCHIOSTRO)
+    base = dict(fontName="Cormorant", fontSize=11, leading=13.8, textColor=INCHIOSTRO)
     base.update(kw)
     return ParagraphStyle(nome, **base)
 
