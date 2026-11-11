@@ -2,7 +2,9 @@
 
 ## Prossimi passi
 
-- [ ] segnare qui gli indirizzi che rimbalzano, e toglierli da `testate.md`
+- [x] rimbalzi controllati l'11/11, mezz'ora dopo l'invio: 9 consegnati, 1 respinto
+  - **Il Globo di Pistoia** — `redazione@ilglobodipistoia.it`: casella piena (*550 user is over quota*). L'indirizzo esiste: si riprova fra qualche giorno, da solo
+- [ ] ricontrollare i rimbalzi venerdì 13/11: alcuni server rispondono in ritardo
 - [ ] domenica 15/11: 2–3 foto dell'inaugurazione alle redazioni, con una riga di testo (La Nazione anche su WhatsApp)
 - [ ] verso il 20/11: comunicato breve su *Violenze Anonime* del 25 novembre, Giornata contro la violenza sulle donne
 - [ ] Discover Pistoia: entro metà novembre, per il numero di dicembre (vernissage di chiusura del 13/12)
