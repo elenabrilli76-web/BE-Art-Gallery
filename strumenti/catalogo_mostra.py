@@ -19,9 +19,10 @@ testi-critici/mostre/catalogo/foto/<mostra>/:
 
 Le pagine, in ordine: copertina, frontespizio, testo della mostra, gli
 artisti (una pagina con presentazione e prime opere, poi le altre a gruppi),
-l'evento, la galleria, il retro nero col marchio. Per arrivare al multiplo di
-4, prima entra la pagina dell'evento, poi il testo della mostra si allarga su
-una pagina in più; solo in ultimo si aggiungono pagine per le note.
+l'elenco delle opere, l'evento, la galleria, le note, il retro nero col
+marchio. Per arrivare al multiplo di 4 entrano, nell'ordine e solo se servono,
+la pagina dell'evento, l'elenco delle opere e una pagina per le note; solo in
+ultimo il testo della mostra si allarga su più pagine.
 
 Produce in testi-critici/mostre/catalogo/:
 
@@ -445,6 +446,46 @@ class Libro:
             cv.showPage()
         return y
 
+    def elenco(self, cv, schede, n, disegna=True, k=1.0):
+        """Le opere in mostra, artista per artista, su due colonne: titolo e
+        tecnica. Il corpo si adatta finché l'elenco sta nella pagina."""
+        x0, largo = self.x(n)
+        if disegna:
+            for k in [1.1 - 0.02 * i for i in range(40)]:
+                if self.elenco(None, schede, n, False, k):
+                    break
+            self.carta(cv, n)
+        giunto = 7 * mm * self.K
+        col = (largo - giunto) / 2
+        nome = self.st("en", 10.5 * k, 13 * k, fontName="Cormorant-Corsivo", textColor=self.g.accento)
+        opera = self.st("eo", 8.6 * k, 10.6 * k)
+        grigio = self.g.grigio.hexval()[2:]
+        cima = (self.etichetta(cv, "Le opere in mostra", x0, self.cima) if disegna
+                else self.cima - 8.5 * self.K * 1.5) - 3 * mm * self.K
+        y, colonna = cima, 0
+        for s in schede:
+            righe = [(s["nome"], nome)]
+            for o in s["opere"]:
+                if o.get("didascalia", {}).get("it"):
+                    t = o["titolo"] + (f' <font color="#{grigio}">· {o["tecnica"]}</font>' if o.get("tecnica") else "")
+                    righe.append((t, opera))
+            alto = sum(c.misura(t, st, col) for t, st in righe) + 2.5 * mm * k
+            if y - alto < self.fondo_testo:
+                colonna += 1
+                y = cima
+                if colonna == 2:
+                    return False
+            if disegna:
+                xx = x0 + colonna * (col + giunto)
+                yy = y
+                for t, st in righe:
+                    yy = c.scrivi(cv, t, st, xx, yy, col)
+            y -= alto
+        if disegna:
+            self.piede(cv, n)
+            cv.showPage()
+        return True
+
     def note(self, cv, n):
         self.carta(cv, n)
         x, largo = self.x(n)
@@ -495,10 +536,11 @@ class Libro:
         manca = (-fisse) % 4
         p_evento = 1 if evento and manca else 0
         manca -= p_evento
-        if manca:                                                  # il testo si allarga di una pagina
-            p_testo += 1
-            manca -= 1
-        p_note = manca
+        p_elenco = 1 if manca else 0                               # poi l'elenco delle opere
+        manca -= p_elenco
+        p_note = min(manca, 1)                                     # poi una pagina per le note
+        manca -= p_note
+        p_testo += manca                                           # solo in ultimo il testo si allarga
         k = self.adatta(p_testo)
 
         self.copertina(cv)
@@ -513,6 +555,9 @@ class Libro:
             for i, gruppo in enumerate(self.gruppi(s)):
                 self.pagina_opere(cv, s, gruppo, n, i == 0)
                 n += 1
+        if p_elenco:
+            self.elenco(cv, schede, n)
+            n += 1
         if p_evento:
             self.pagina_evento(cv, n)
             n += 1
