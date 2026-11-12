@@ -73,6 +73,15 @@ stanno **tutte insieme**, in una sola sezione.
   **due facciate** da appendere in sala: due colonne, fascia stretta, in fondo
   gli artisti in mostra e la riga di *Siamo Donne*. Si può stampare anche in A3
 
+**Catalogo** (Elena, 12 novembre) — `py strumenti\catalogo_mostra.py donne-femminile-plurale`
+(`--a5` per l'A5): prima l'A4, poi l'A5, sempre in **multipli di 4 pagine**
+(fogli piegati e pinzati). Copertina con la locandina, frontespizio con gli
+artisti, testo della mostra, poi ogni artista con presentazione e tutte le
+opere con foto e didascalia, la galleria, il retro nero col marchio. Niente
+città sotto il nome. Le foto delle opere, ritagliate sul quadro, stanno in
+locale in `catalogo/foto/donne-femminile-plurale/<artista>/<opera>.jpg`; i PDF
+del catalogo restano in locale (contengono le foto).
+
 ## Artisti e opere arrivate
 
 Stato al 6 novembre 2026. Nessun testo ancora scritto: si aspetta l'indicazione
