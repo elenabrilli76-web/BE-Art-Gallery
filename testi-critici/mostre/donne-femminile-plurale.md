@@ -80,7 +80,6 @@ di Elena su per chi procedere.
 | **Donatella Bucchieri** | *Petali di coraggio* · *Oltre il genere: Noi* · *Ecosistema interiore* | titoli | ha mandato un commento alle opere. Tecnica a colore versato (pouring) per due tele; *Noi* con foglia d'oro e mandala. Misure, anno e città da chiedere |
 | **Gabriella Lo Cascio** | *Sono circondata di Rosso* (olio) | titolo, tecnica, misure | una sola opera |
 | **Grazia Barbieri** | *Caterina* | solo titolo | una sola opera; tecnica, misure e anno da chiedere |
-| **Serena D'Onofrio** | un dipinto senza titolo (firma «SerenArt») | nessuno | una sola opera; titolo, tecnica, misure da chiedere |
 
 Per Vangelisti, Massai e Andreini le presentazioni in archivio nascono dalle
 opere di *I Luoghi dell'Anima* e raccontano un'altra parte del loro lavoro:
@@ -113,7 +112,8 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Marco Santi | analizzato l'11 novembre — presentazione e 5 didascalie |
 | Innocenzo Melani | due stampe (cartella «extra»), 12 novembre — presentazione e 2 didascalie, titoli proposti |
 | E.B.Art | 12 novembre — presentazione e 14 didascalie, *Rosaspina* compresa |
-| Serena D'Onofrio | in attesa |
+
+Serena D'Onofrio non è in mostra (Elena, 12 novembre): gli artisti sono 15.
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
 
@@ -155,7 +155,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   *Giovane donna occhi grigi*.
 - **Parole chiave**: identità, autonomia.
 - **Dialoga con**: è il cuore del tema dello sguardo, che attraversa tutta la
-  mostra (D'Onofrio, Barbieri, il volto di *Noi* di Bucchieri); *Ragazza occhi
+  mostra (Barbieri, il volto di *Noi* di Bucchieri); *Ragazza occhi
   verdi*, con la mano alzata e la bocca coperta, è l'immagine più vicina al
   senso dell'evento: un silenzio imposto che lo sguardo rifiuta.
 - **Frase da tenere**: gli occhi delle donne parlano, basta saper leggere
@@ -223,7 +223,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   combatteremo per la nostra libertà».
 - **Parole chiave**: identità, autonomia, relazioni.
 - **Dialoga con**: Andreini e la nota «gli occhi delle donne parlano» — lo
-  stesso titolo, quasi; Bucchieri (*Noi*), D'Onofrio. È l'immagine più
+  stesso titolo, quasi; Bucchieri (*Noi*). È l'immagine più
   vicina al claim: il plurale in un solo sguardo.
 - **Frase da tenere**: lo sguardo di una diventa lo sguardo di tutte.
 
@@ -397,8 +397,6 @@ Appunto di lavoro per il testo della mostra — **non** da mostrare come elenco:
 | *Basta*, *L'agguato*, *Com'eri vestita?*, *Attesa* | Mazzanti | la denuncia diretta; la minaccia che segue; la domanda rivolta alle vittime; l'attesa di una vita |
 | *Il cesto di fiori* | Maselli | lo sguardo che non si lascia guardare, ma interroga |
 
-Da verificare con D'Onofrio (gli occhi arrossati).
-
 **Dove sta il tema — decisioni di Elena del 9 novembre.**
 - le **presentazioni degli artisti non si toccano**: sono riutilizzabili e
   per alcune ricerche la violenza non è il centro
@@ -444,7 +442,7 @@ dell'evento: oltre la violenza c'è di più.
 Appunti, da verificare quando si scrivono i testi.
 
 - **Lo sguardo.** Quasi ogni opera si regge su uno sguardo: gli occhi che
-  parlano sopra il velo di Andreini, quelli arrossati di D'Onofrio, lo
+  parlano sopra il velo di Andreini, lo
   sguardo fermo di *Caterina*, la donna del *Cesto di fiori* che non si
   lascia guardare ma interroga, il volto di *Noi* che segue chi passa.
 - **Il velo e la maschera.** Veli che coprono la bocca (Andreini), veli che
@@ -462,7 +460,6 @@ Appunti, da verificare quando si scrivono i testi.
 - **Femminile plurale anche nei linguaggi.** Realismo da tradizione antica
   (Barbieri, Maselli), figurazione realista (Andreini), pittura a colore
   versato (Bucchieri), gesto espressionista (Lo Cascio), omaggio e pop
-  (Massai), mito e assemblaggio (Vangelisti), segno grafico contemporaneo
-  (D'Onofrio).
+  (Massai), mito e assemblaggio (Vangelisti).
 - **Lasciar andare.** Il titolo del trittico di Vangelisti tiene insieme
   autonomia e relazioni, due delle cinque parole chiave della mostra.

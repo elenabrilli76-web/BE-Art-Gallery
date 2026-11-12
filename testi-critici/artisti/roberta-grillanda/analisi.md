@@ -41,7 +41,7 @@ Foglio orizzontale, sotto passe-partout grigio e cornice in legno con filetto do
 Il dettaglio ingrandito fino a diventare luogo; l'acquerello come materia fluida fermata da segni precisi. Il cartoncino dell'artista, letto dopo, conferma la lettura del volto come geografia: «dalle montagne (le sopracciglia), dal mare (la pupilla), dalle campagne (le borse sotto gli occhi) tutte assieme unite combatteremo per la nostra libertà».
 
 ### Per la mostra
-- è il centro del tema dello **sguardo**, con Andreini, Bucchieri (*Noi*), D'Onofrio
+- è il centro del tema dello **sguardo**, con Andreini, Bucchieri (*Noi*)
 - porta il «plurale» del titolo in una sola immagine: un occhio che è tutte le donne
 
 ### Cosa resta aperto
