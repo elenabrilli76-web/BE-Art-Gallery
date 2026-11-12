@@ -66,6 +66,13 @@ dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura;
 presentazione generale e nel catalogo finale invece le opere di ogni artista
 stanno **tutte insieme**, in una sola sezione.
 
+**Presentazione e pannello di sala** (Elena, 12 novembre) — `py strumenti\presentazione.py`:
+- `presentazione.pdf`: in copertina la locandina a pagina piena, poi il testo
+  della mostra, poi una pagina per artista con tutte le didascalie insieme
+- `pannello-sala.pdf`: **il testo della mostra per intero**, non riassunto, su
+  **due facciate** da appendere in sala: due colonne, fascia stretta, in fondo
+  gli artisti in mostra e la riga di *Siamo Donne*. Si può stampare anche in A3
+
 ## Artisti e opere arrivate
 
 Stato al 6 novembre 2026. Nessun testo ancora scritto: si aspetta l'indicazione

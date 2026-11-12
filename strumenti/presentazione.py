@@ -9,9 +9,9 @@ La presentazione di una mostra, con la stessa grafica delle pagine di sala
                       più pagine A4, poi una pagina per artista con la
                       presentazione e TUTTE le didascalie insieme, anche
                       quando in sala le opere sono divise in più fogli
-- pannello-sala.pdf   la versione breve in due facciate A4 da appendere in
-                      sala ("pannello" nella scheda: una lista di paragrafi
-                      per facciata), con l'elenco degli artisti in fondo
+- pannello-sala.pdf   lo stesso testo della mostra, per intero, su due
+                      facciate A4 da appendere in sala, con l'elenco degli
+                      artisti in fondo
 
     py strumenti\\presentazione.py donne-femminile-plurale
 """
@@ -136,37 +136,112 @@ def testo_mostra(cv, g, cfg, n):
 
 
 def pannello(cv, g, cfg, nomi):
-    """Due facciate, carattere grande, da leggere in piedi davanti al muro."""
-    pagine = cfg["pannello"]
+    """Il testo della mostra per intero, con i titoletti, su due facciate da
+    appendere in sala: due colonne, la fascia più stretta, lo stesso corpo su
+    entrambe le facciate, il più grande che ci sta. In fondo alla seconda
+    l'elenco degli artisti e la riga dell'evento. Pensato per l'A4, si
+    stampa uguale in A3."""
+    import io
+    voci = cfg["testo"]
+    fascia, x, giunto = 16 * mm, 15 * mm, 7 * mm
+    largo = W - fascia - x - 10 * mm
+    col = (largo - giunto) / 2
+    fondo_ultima = 62 * mm                   # sotto: artisti in mostra e riga
 
-    def entra(k):
-        corpo = g.stile("p", fontSize=15 * k, leading=22 * k, alignment=TA_JUSTIFY)
-        for p, paragrafi in enumerate(pagine):
-            alto = sum(c.misura(t, corpo, LARGO) + 6 * mm for t in paragrafi)
-            disponibile = H - (115 * mm if p == 0 else 50 * mm) - (75 * mm if p == len(pagine) - 1 else 40 * mm)
-            if alto > disponibile:
+    def testa(tela, prima):
+        """Intestazione compatta; restituisce la y sotto."""
+        y = H - 16 * mm
+        if prima:
+            y = c.scrivi(tela, cfg["titolo"], g.stile("t", fontName="Cormorant-Forte", fontSize=28, leading=31),
+                         x, y - 4 * mm, largo)
+            y = c.scrivi(tela, cfg["sottotitolo"], g.stile("s", fontName="Cormorant-Corsivo", fontSize=13,
+                         leading=16, textColor=g.accento), x, y - 1, largo)
+            y = c.scrivi(tela, cfg["luogo"], g.stile("l", fontSize=10, leading=12, textColor=g.grigio),
+                         x, y, largo) - 4 * mm
+            g.filetto(tela, x, y, 22 * mm, 1)
+            if cfg.get("claim"):
+                y = c.scrivi(tela, f"«{cfg['claim']}»", g.stile("c", fontName="Cormorant-Corsivo", fontSize=14,
+                             leading=17, textColor=g.oro), x, y - 5 * mm, largo)
+            return y - 7 * mm
+        y = g.etichetta(tela, cfg["titolo"], x, y, 9)
+        return c.scrivi(tela, cfg["sottotitolo"], g.stile("d", fontName="Cormorant-Corsivo", fontSize=11,
+                        leading=14, textColor=g.accento), x, y - 1, largo) - 7 * mm
+
+    def piedino(tela):
+        g.filetto(tela, x, 24 * mm, largo, 0.4)
+        c.logo(tela, x, 20 * mm, 15 * mm)
+        c.scrivi(tela, "BE Art Gallery & Creative Lab<br/>Via San Pietro 24, Pistoia · beartgallery.eu",
+                 g.stile("p", fontSize=8, leading=10.5, textColor=g.grigio), x + 19 * mm, 18 * mm, largo - 19 * mm)
+
+    def impagina(tela, k):
+        """Scorre il testo in quattro colonne, due per facciata; False se non sta."""
+        corpo = g.stile("p", fontSize=11 * k, leading=14.5 * k, alignment=TA_JUSTIFY)
+        tit = g.stile("h", fontName="Cormorant-Corsivo", fontSize=14 * k, leading=17 * k, textColor=g.accento)
+        riquadro = 0                          # 0, 1: prima facciata; 2, 3: seconda
+        g.fondo(tela, A4, fascia)
+        cima = y = testa(tela, True)
+
+        def basso():
+            return 28 * mm if riquadro < 2 else fondo_ultima
+
+        def xx():
+            return x + (riquadro % 2) * (col + giunto)
+
+        def avanti():
+            nonlocal riquadro, y, cima
+            riquadro += 1
+            if riquadro == 4:
                 return False
+            if riquadro == 2:
+                piedino(tela)
+                tela.showPage()
+                g.fondo(tela, A4, fascia)
+                cima = testa(tela, False)
+            y = cima
+            return True
+
+        for v in voci:
+            if isinstance(v, dict):
+                serve = c.misura(v["titolo"], tit, col) + 3 * mm * k + 3 * corpo.leading
+                if y - serve < basso() and not avanti():
+                    return False
+                if y < cima:
+                    y -= 2.5 * mm * k
+                y = c.scrivi(tela, v["titolo"], tit, xx(), y, col) - 1 * mm * k
+                continue
+            par = Paragraph(v.replace("'", "’"), corpo)
+            while True:
+                _, alto = par.wrap(col, 10_000)
+                if y - alto >= basso():
+                    par.drawOn(tela, xx(), y - alto)
+                    y -= alto + 2 * mm * k
+                    break
+                pezzi = par.split(col, y - basso())
+                if len(pezzi) == 2:
+                    _, h0 = pezzi[0].wrap(col, 10_000)
+                    pezzi[0].drawOn(tela, xx(), y - h0)
+                    par = pezzi[1]
+                if not avanti():
+                    return False
+        while riquadro < 2:                   # sempre due facciate
+            avanti()
+        g.filetto(tela, x, fondo_ultima - 3 * mm, largo, 0.4)
+        y = g.etichetta(tela, "Artisti in mostra", x, fondo_ultima - 7 * mm, 8.5) - 1 * mm
+        y = c.scrivi(tela, "  ·  ".join(nomi), g.stile("n", fontSize=10.5, leading=13.5), x, y, largo)
+        if cfg.get("riga_presentazione"):
+            c.scrivi(tela, cfg["riga_presentazione"], g.stile("r", fontName="Cormorant-Corsivo", fontSize=10,
+                     leading=13, textColor=g.accento), x, y - 2.5 * mm, largo)
+        piedino(tela)
+        tela.showPage()
         return True
 
-    k = next(k for k in [1.5 - 0.03 * i for i in range(30)] if entra(k))   # lo stesso corpo su ogni facciata
-    corpo = g.stile("p", fontSize=15 * k, leading=22 * k, alignment=TA_JUSTIFY)
-    for p, paragrafi in enumerate(pagine):
-        g.fondo(cv, A4, FASCIA)
-        y = intestazione(cv, g, cfg, grande=(p == 0))
-        for i, t in enumerate(paragrafi):
-            ultimo = p == len(pagine) - 1 and i == len(paragrafi) - 1
-            st = g.stile("cl", fontName="Cormorant-Corsivo", fontSize=17, leading=22, textColor=g.oro) if ultimo \
-                else corpo
-            y = c.scrivi(cv, t, st, X, y, LARGO) - 6 * mm
-        if p == len(pagine) - 1:
-            y -= 4 * mm
-            y = g.etichetta(cv, "Artisti in mostra", X, y, 8.5) - 1 * mm
-            c.scrivi(cv, "  ·  ".join(nomi), g.stile("n", fontSize=11, leading=16), X, y, LARGO)
-            if cfg.get("riga_presentazione"):
-                c.scrivi(cv, cfg["riga_presentazione"], g.stile("r", fontName="Cormorant-Corsivo", fontSize=10,
-                         leading=13, textColor=g.accento), X, 40 * mm, LARGO)
-        piede(cv, g)
-        cv.showPage()
+    k = next((k for k in [1.4 - 0.01 * i for i in range(70)]
+              if impagina(Canvas(io.BytesIO(), pagesize=A4), k)), None)
+    if k is None:
+        print("   ⚠ il testo della mostra non sta in due facciate")
+        return
+    impagina(cv, k)
+    print(f"   pannello: corpo {11 * k:.1f} pt")
 
 
 def main() -> None:
