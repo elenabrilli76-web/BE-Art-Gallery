@@ -1,0 +1,140 @@
+{
+  "nome": "E.B.Art",
+  "sottotitolo": "Elena Brilli",
+  "presentazione": {
+    "it": "Per E.B.Art il femminile non ha un volto solo. In quasi dieci anni di ricerca la sua pittura ha cambiato pelle più volte: la linea nera che incide un ritratto, l'oro steso come una reliquia, i colori a pattern che vibrano come un tessuto, la tela stropicciata che diventa abito. Sembrano mani diverse, ed è la stessa emozione che cambia forma: la chiama metamorfismo emotivo, come la pietra che sotto pressione si trasforma senza perdersi. Al centro c'è sempre una donna, fragile e indomita, che guarda, sogna, accusa. E, nonostante tutto, resiste.",
+    "en": "For E.B.Art the feminine has more than one face. Over almost ten years of research her painting has changed skin many times: the black line that carves a portrait, gold laid like a relic, patterned colours that vibrate like fabric, crumpled canvas that becomes a dress. They look like different hands, and it is the same emotion changing form: she calls it emotional metamorphism, like stone that transforms under pressure without losing itself. At the centre there is always a woman, fragile and untamed, who looks, dreams, accuses. And, in spite of everything, endures."
+  },
+  "opere": [
+    {
+      "titolo": "Madama",
+      "tecnica": "chine acquerellate su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "ritratti",
+      "didascalia": {
+        "it": "Gli occhi chiusi, il capo chino, il volto racchiuso in archi di colore come una vetrata. Madama non si lascia guardare: si raccoglie in sé, e in quella quiete trattenuta c'è tutta la dignità di chi non ha bisogno di mostrarsi per esistere.",
+        "en": "Eyes closed, head bowed, her face enclosed in arcs of colour like stained glass. Madama does not let herself be looked at: she gathers into herself, and in that held-back calm lies all the dignity of one who need not show herself in order to exist."
+      }
+    },
+    {
+      "titolo": "Gold Butterflies and me",
+      "tecnica": "gessi acquarellati, acrilici e foglia d'oro su cartone telato",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "ritratti",
+      "didascalia": {
+        "it": "Farfalle d'oro si posano sul fondo come scaglie di un sogno, e dagli orecchini pendono ali di vetro. Lo sguardo è quello di chi si riconosce fragile, e proprio per questo capace di trasformarsi: la crisalide che sa già di poter volare.",
+        "en": "Gold butterflies settle on the ground like flakes of a dream, and glass wings hang from her earrings. Hers is the gaze of one who knows herself fragile, and for that very reason able to transform: the chrysalis that already knows it can fly."
+      }
+    },
+    {
+      "titolo": "Flower in the hair",
+      "tecnica": "acrilici e chine su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "ritratti",
+      "didascalia": {
+        "it": "Un fiore esplode fra i capelli come un fuoco d'artificio, un occhio guarda di fronte e l'altro di profilo, come nei volti doppi di Picasso. Intorno, una pioggia di bolle d'oro: la femminilità come festa, gioco, libertà di essere molte cose insieme.",
+        "en": "A flower bursts in her hair like a firework, one eye looking ahead and the other in profile, as in Picasso's double faces. All around, a rain of golden bubbles: femininity as celebration, play, the freedom to be many things at once."
+      }
+    },
+    {
+      "titolo": "Belle époque",
+      "tecnica": "acquerelli, acrilici e polveri su cartone telato",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "ritratti",
+      "didascalia": {
+        "it": "Di spalle, la nuca scoperta, un fiore d'oro fra i capelli raccolti e un abito che cade in pieghe lucenti. Non sappiamo il suo volto, e non importa: è un'eleganza di un altro tempo che porta con sé un segreto, e non ha fretta di svelarlo.",
+        "en": "From behind, her nape bare, a golden flower in her gathered hair and a dress falling in shining folds. We do not know her face, and it does not matter: hers is an elegance from another time that carries a secret, and is in no hurry to reveal it."
+      }
+    },
+    {
+      "titolo": "Mother in war",
+      "tecnica": "acrilici e smalti su cartone telato",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "ritratti",
+      "didascalia": {
+        "it": "Il colore cola come pioggia sporca sul volto di una madre, gli occhi azzurri spalancati e bagnati. È dedicato alla guerra in Ucraina, ma parla di ogni madre che vede il mondo crollare e resta in piedi, perché qualcuno deve pur restare.",
+        "en": "Colour runs like dirty rain down a mother's face, her blue eyes wide and wet. It is dedicated to the war in Ukraine, but it speaks of every mother who watches the world collapse and stays standing, because someone has to stay."
+      }
+    },
+    {
+      "titolo": "Holy Mother of Gaza",
+      "tecnica": "tecnica mista su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "denuncia",
+      "didascalia": {
+        "it": "Un velo d'oro e di porpora, stropicciato come una veste antica, incornicia un volto immobile. Lo sguardo azzurro non chiede pietà: chiede di essere visto. È la Madre delle icone, e insieme ogni madre di Palestina che veglia sui figli e non smette di aspettare.",
+        "en": "A veil of gold and purple, crumpled like an ancient robe, frames a motionless face. The blue gaze does not ask for pity: it asks to be seen. She is the Mother of the icons, and at the same time every mother in Palestine who watches over her children and never stops waiting."
+      }
+    },
+    {
+      "titolo": "J'accuse",
+      "tecnica": "tecnica mista su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "denuncia",
+      "didascalia": {
+        "it": "Del volto restano soltanto gli occhi, e guardano dritto chi passa. Linee nere stringono la figura come una rete, intorno il blu è notte. Il titolo è quello di Zola, ma l'accusa è sua: una donna afghana che il regime fa scomparire punta lo sguardo su di noi, sul mondo che guarda e lascia fare.",
+        "en": "Only the eyes remain of the face, and they look straight at whoever passes. Black lines tighten around the figure like a net; around it, the blue is night. The title is Zola's, but the accusation is hers: an Afghan woman whom the regime is making disappear fixes her gaze on us, on the world that watches and lets it happen."
+      }
+    },
+    {
+      "titolo": "Nonostante",
+      "tecnica": "tecnica mista su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "nonostante",
+      "didascalia": {
+        "it": "Fiori rossi le sbocciano attorno al viso, sulle spalle, sul cuore, e lei chiude gli occhi come chi ha scelto di non lasciarsi spezzare. Nonostante: una parola sola, piccola e ostinata, che tiene in piedi tutto il resto.",
+        "en": "Red flowers bloom around her face, on her shoulders, over her heart, and she closes her eyes like someone who has chosen not to be broken. Nonostante, in spite of: a single word, small and stubborn, that holds up everything else."
+      }
+    },
+    {
+      "titolo": "Notte nel deserto",
+      "tecnica": "tecnica mista su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "notte-nel-deserto",
+      "didascalia": {
+        "it": "Il velo è un mosaico di colori che non si spengono nemmeno al buio, e l'oro brilla sulle labbra come una stella. Dalla notte del deserto ci guarda una donna che porta addosso tutti i suoi colori, anche dove le chiedono di nasconderli.",
+        "en": "The veil is a mosaic of colours that do not fade even in the dark, and gold shines on her lips like a star. From the desert night a woman looks at us, wearing all her colours, even where she is asked to hide them."
+      }
+    },
+    {
+      "titolo": "Red passion",
+      "tecnica": "tecnica mista su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "red-passion",
+      "didascalia": {
+        "it": "Non c'è corpo, eppure c'è tutto: un abito rosso di tela stropicciata che si torce su un fondo d'oro, come se lei fosse appena uscita di scena. La passione resta impressa nelle pieghe, più eloquente di qualunque volto.",
+        "en": "There is no body, and yet everything is there: a red dress of crumpled canvas twisting against a gold ground, as if she had just left the stage. Passion stays pressed into the folds, more eloquent than any face."
+      }
+    },
+    {
+      "titolo": "Resilienza",
+      "tecnica": "tecnica mista multimaterica",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "resilienza",
+      "didascalia": {
+        "it": "Tre fiori si alzano su steli sottili, contornati da un segno scuro in rilievo che li regge come un'armatura. Uno si piega, gli altri tengono; intorno, cerchi e strisce scure come ferite. Fragili e tenaci insieme: resilienza è restare in fiore anche quando il vento gira.",
+        "en": "Three flowers rise on slender stems, outlined by a dark raised line that holds them up like armour. One bends, the others stand; around them, circles and dark strips like wounds. Fragile and tenacious at once: resilience is staying in bloom even when the wind turns."
+      }
+    },
+    {
+      "titolo": "Turning page",
+      "tecnica": "pennarelli e grafite su carta spessa",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "turning-page",
+      "didascalia": {
+        "it": "Poche linee, una schiena che si volta, un nodo di capelli raccolti. È il gesto di chi gira pagina: non dimentica ciò che è stato, ma smette di lasciarsene scrivere. Il resto del foglio resta bianco, pronto.",
+        "en": "A few lines, a back turning away, a knot of gathered hair. It is the gesture of one who turns the page: she does not forget what has been, but stops letting it write her. The rest of the sheet stays white, ready."
+      }
+    },
+    {
+      "titolo": "I can hardly express",
+      "tecnica": "acrilici e polveri colorate su tela",
+      "mostra": "donne-femminile-plurale",
+      "foglio": "i-can-hardly-express",
+      "didascalia": {
+        "it": "Gli occhi chiusi, una lacrima sottile, i capelli d'oro che si arricciano come in un mosaico di Klimt. Ci sono emozioni troppo grandi per le parole: qui restano sospese fra il pianto e la bellezza, senza bisogno di essere spiegate.",
+        "en": "Eyes closed, a thin tear, golden hair curling as in a Klimt mosaic. Some emotions are too large for words: here they remain suspended between tears and beauty, with no need to be explained."
+      }
+    }
+  ]
+}

@@ -62,7 +62,7 @@ delle pagine finali di *I Luoghi dell'Anima*, con i colori della locandina.
 
 **Fogli di sala divisi, catalogo unito** (Elena, 10 novembre): quando le opere
 di un artista stanno in punti diversi della galleria, i fogli di sala si
-dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura; Mazzanti: Fuga da Kandahar, L'agguato e Com'eri vestita? insieme, Basta e Attesa insieme, Ecce domina a sé; Santi: Mater e La sposa appesa insieme, Hotel, Relic e Sirene ciascuna a sé). Nella
+dividono (campo `"foglio"`; per ora Massai: quadri, omaggio a Picasso, scultura; E.B.Art: i cinque ritratti insieme, Holy Mother of Gaza e J'accuse insieme, le altre una per foglio; Mazzanti: Fuga da Kandahar, L'agguato e Com'eri vestita? insieme, Basta e Attesa insieme, Ecce domina a sé; Santi: Mater e La sposa appesa insieme, Hotel, Relic e Sirene ciascuna a sé). Nella
 presentazione generale e nel catalogo finale invece le opere di ogni artista
 stanno **tutte insieme**, in una sola sezione.
 
@@ -112,6 +112,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 5 didascalie |
 | Marco Santi | analizzato l'11 novembre — presentazione e 5 didascalie |
 | Innocenzo Melani | due stampe (cartella «extra»), 12 novembre — presentazione e 2 didascalie, titoli proposti |
+| E.B.Art | 12 novembre — presentazione e 12 didascalie; manca *Rosaspina* |
 | Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
@@ -324,6 +325,20 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   un'immagine ideale che fa da contrappunto alle voci di denuncia.
 - **Dialoga con**: *Attesa* di Mazzanti (la stessa attesa, rovesciata in
   dolore), Maselli e Santi (la donna in posa).
+
+### E.B.Art — il metamorfismo emotivo
+
+- **Poetica**: la stessa emozione che cambia forma — linea nera, oro,
+  pattern, tela stropicciata. Al centro sempre una donna, fragile e indomita.
+- **In mostra**: cinque ritratti (*Madama*, *Gold Butterflies and me*,
+  *Flower in the hair*, *Belle époque*, *Mother in war*); il dittico di
+  denuncia (*Holy Mother of Gaza*, *J'accuse*); e *Nonostante*, *Notte nel
+  deserto*, *Red passion*, *Resilienza*, *Turning page*, *I can hardly
+  express*, *Rosaspina*.
+- **Per il tema**: la denuncia (Gaza, Afghanistan, Ucraina) e la resistenza
+  (*Nonostante*, *Resilienza*, *Turning page*).
+- **Frase da tenere**: e, nonostante tutto, resiste.
+- La galleria ne parla in terza persona, come di ogni artista.
 
 ## Il tono e i riferimenti — per il testo di mostra e le prossime schede
 
