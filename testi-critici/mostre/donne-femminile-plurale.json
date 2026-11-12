@@ -18,9 +18,50 @@
     "accento": "#8C3A1E",
     "oro": "#A8844A",
     "grigio": "#6E6560",
-    "fascia": "donne-femminile-plurale/fascia.jpg"
+    "fascia": "donne-femminile-plurale/fascia.jpg",
+    "locandina": "donne-femminile-plurale/locandina-mostra.jpg"
   },
-  "testo": [],
+  "testo": [
+    "Ci sono parole che, al singolare, non bastano. Donna è una di queste. Dentro ci stanno la madre e la ragazza, la regina e la donna del mercato, chi aspetta alla finestra e chi parte, chi resiste e chi, finalmente, dice di no. Per questa collettiva abbiamo chiesto a quindici artisti di dipingerla al plurale: non un ritratto, ma una moltitudine. Ne è nata una mostra che per un mese attraversa le sale di via San Pietro con voci diversissime, che però, accostate, parlano la stessa lingua.",
+    "Femminile plurale è prima di tutto un fatto di grammatica: la desinenza che tiene insieme molte cose diverse senza cancellarne nessuna. È anche il modo in cui abbiamo pensato l'allestimento. Identità, memoria, relazioni, autonomia, cura: cinque parole che tornano, in forme sempre nuove, da una parete all'altra, e che chi visita ritroverà senza bisogno di cercarle.",
+    {
+      "titolo": "Infinite sfaccettature"
+    },
+    "Basta un giro delle sale per vedere quanto sono lontani i modi di dipingere. Grazia Barbieri e Maria Maselli guardano alla tradizione del ritratto antico, con la luce che scolpisce e i fondi scuri; Marco Santi porta la stessa precisione levigata fino al confine della fotografia. Maria Cristina Andreini resta nella figurazione realista, intima, quasi sottovoce. Enzo Mazzanti e Gabriella Lo Cascio dipingono di gesto, a spatola, e lasciano che sia il colore a fare il lavoro dell'emozione. Donatella Bucchieri versa l'acrilico e gli permette di trovare da sé la propria forma.",
+    "Patrizia Vangelisti e Catia Massai cambiano linguaggio a seconda di ciò che devono dire, fino alla scultura; Sipontina Paloscia incolla sulla tela gli oggetti di ogni giorno e ci scrive sopra. Roberta Grillanda affida all'acquerello un solo, enorme dettaglio. Federica Barletta dipinge con la logica del sogno, Manuela Romanelli con quella di una stanza in cui qualcosa non torna. E.B.Art fa del cambiare forma il nome stesso della sua ricerca: metamorfismo emotivo. Innocenzo Melani, infine, con due fotolitografie degli anni Ottanta, ricorda come la donna è stata a lungo immaginata e appesa nelle case: un'immagine di grazia sospesa, il punto da cui tutte le altre voci si muovono.",
+    {
+      "titolo": "Lo sguardo"
+    },
+    "Se c'è un filo che corre dall'ingresso alla sala voltata, è lo sguardo. Le ragazze di Andreini hanno il volto coperto fino agli occhi, e con gli occhi dicono tutto: in Ragazza occhi verdi la bocca è velata, la mano si alza, e lo sguardo rifiuta il silenzio. Grillanda ingrandisce un solo occhio finché diventa paesaggio, montagna, mare e campagna: lo sguardo di una che è lo sguardo di tutte. La Caterina di Barbieri guarda dritta senza sorridere; la donna del Cesto di fiori di Maselli rovescia la posa e, invece di lasciarsi guardare, interroga.",
+    "Lo stesso accade in Fuga da Kandahar di Mazzanti e in Notte nel deserto di E.B.Art: due volti velati, due sguardi che il velo non riesce a spegnere. Viene in mente la ragazza afghana di Steve McCurry, che una copertina rese il ritratto di un'epoca. Qui gli occhi sono tanti, e nessuno si abbassa.",
+    {
+      "titolo": "Le donne dei racconti"
+    },
+    "Molte opere passano per il mito, la letteratura, la storia, come se per parlare delle donne di oggi servisse prima riprendersi quelle di ieri. Vangelisti dipinge Circe e Calipso, le due donne che nell'Odissea trattengono Ulisse e poi lo lasciano andare, e fra loro mette una piccola Geisha fatta di cocci ricomposti. Maselli prende i titoli dall'opera lirica e dal romanzo, da Mozart a Victor Hugo, e fa della donna del mercato la protagonista di un melodramma. Massai ridipinge la Marie-Thérèse del Sogno di Picasso con mano di donna, restituendole il sonno; Barbieri veste da ragazza di oggi Caterina Sforza, e sotto la sua mano il re degli scacchi è caduto.",
+    "Barletta riporta attorno a una tavola le madri più antiche, le Veneri della preistoria, severe come il tempo, e lascia una sedia vuota per chi guarda. Santi gioca col sacro: la madre diventa una Madonna del parto senza aureola, le sirene smettono di essere una trappola per marinai e diventano un patto di sorellanza. E Mazzanti volge al femminile l'Ecce homo: ecco la donna, con tutte quelle che hanno portato una croce che nessuno ha voluto vedere.",
+    {
+      "titolo": "La casa e il corpo"
+    },
+    "La casa dovrebbe essere il primo riparo. Nelle stanze di Romanelli, in blu, viola e rosso, le donne stanno ai margini, sul bordo di una poltrona o oltre una soglia, più spente degli oggetti che le circondano, come nei silenzi degli interni di Hopper. La stanza di Barletta è rossa come un grembo, e Lo Cascio avvolge la sua figura in un vortice dello stesso colore, lasciando aperta la domanda: passione che scalda o qualcosa che stringe? Mazzanti dipinge Attesa dentro una finestra vera, per la ragazza del Galleno che aspettò tutta la vita chi era partito per la guerra; e le donne in bianco di Melani, accanto alla gondola, rispondono a distanza con un'attesa più lieve, quella del ricordo.",
+    "Anche il corpo è un luogo da abitare, o da riprendersi. Massai lo disegna nudo accanto alle parole di Oriana Fallaci; Santi lo espone come una reliquia ricamata d'oro, con un'ironia che graffia; E.B.Art ne lascia soltanto l'abito, una tela rossa stropicciata su un fondo d'oro, più eloquente di qualunque volto. Bucchieri, all'opposto, guarda dentro: un ecosistema di correnti e radici in cui ogni emozione trova il suo flusso.",
+    {
+      "titolo": "La ferita e l'oro"
+    },
+    "Ci sono poi opere che non nascondono la ferita, ma la attraversano. I Petali di coraggio di Bucchieri esplodono rossi dal nero, in un formato volutamente piccolo, la misura di chi si è sentita rimpicciolita e torna a fiorire; nel suo Oltre il genere: Noi le fratture del volto sono riempite d'oro, come nell'antica arte giapponese del kintsugi. La Geisha di Vangelisti è fatta di cocci che nessuno voleva più. Mother in war e Holy Mother of Gaza di E.B.Art guardano le madri che restano in piedi mentre il mondo crolla, e Resilienza e Nonostante dicono con una parola sola ciò che tiene insieme tutto il resto. La Sposa appesa di Santi precipita in un cielo d'oro bruciato: il giorno che doveva essere un volo.",
+    {
+      "titolo": "La parola"
+    },
+    "A volte la pittura non basta, e allora si scrive. Sul busto in terracotta di Massai c'è una sola parola, la più breve che esista: NO! Paloscia incolla sulla tela le rotelle dei correttori, gli oggetti che servono a cancellare, e intorno scrive le sue risposte: io sono viva, non mi faccio cancellare, decido da sola. Mazzanti fa colare sul velo di una donna una mano rossa e una parola, BASTA, e intitola un quadro con una domanda, Com'eri vestita?, quella che troppo spesso viene rivolta a chi ha subito violenza, per rimandarla a chi la pone. E.B.Art scrive J'accuse, ma l'accusa la pronuncia una donna, con gli occhi. Come nelle opere di Barbara Kruger, qui le parole non spiegano le immagini: sono immagini anch'esse, e pesano.",
+    {
+      "titolo": "Oltre la violenza c'è di più"
+    },
+    "La mostra si apre il 14 novembre e attraversa il 25, Giornata internazionale per l'eliminazione della violenza contro le donne. Non è un caso: fa parte di Siamo Donne — oltre la violenza c'è di più, un progetto che parte dall'arte e arriva alla parola, con letture e incontri, per aprire nel cuore storico di Pistoia uno spazio di ascolto, consapevolezza e presenza. Le scarpe rosse, diventate il simbolo di questa giornata da quando Elina Chauvet le allineò in una piazza di Ciudad Juárez, tornano due volte: ai piedi della donna di Paloscia, viva, che guarda dritto, e nella mano di quella di Mazzanti, che torna a casa a piedi nudi.",
+    "Ma nessuna opera, qui, illustra la violenza. Le opere rispondono: con uno sguardo che non si abbassa, con un corpo che si riprende, con una relazione libera, con una parola scritta a mano. È questo il di più che il titolo promette.",
+    {
+      "titolo": "Un'unica grande forza"
+    },
+    "Infinite sfaccettature, un'unica grande forza: è la frase che abbiamo scelto per la mostra, e camminando fra le opere si capisce perché. Quindici artisti, dodici donne e tre uomini, linguaggi lontanissimi, generazioni diverse. Nessuno di loro dipinge la donna: ciascuno ne dipinge una, e tutte insieme diventano un plurale che nessuna, da sola, potrebbe contenere. Fra le volte, le travi e i mattoni di via San Pietro, questo coro trova la sua cassa di risonanza. Per un mese, il femminile si declina qui."
+  ],
   "ordine": [
     "patrizia-vangelisti",
     "catia-massai",
@@ -38,5 +79,16 @@
     "marco-santi",
     "innocenzo-melani",
     "eb-art-donne"
+  ],
+  "pannello": [
+    [
+      "Ci sono parole che, al singolare, non bastano. Donna è una di queste. Dentro ci stanno la madre e la ragazza, la regina e la donna del mercato, chi aspetta alla finestra e chi parte, chi resiste e chi, finalmente, dice di no. Per questa collettiva quindici artisti l'hanno dipinta al plurale: non un ritratto, ma una moltitudine.",
+      "Le voci sono lontanissime: la tradizione del ritratto e il colore versato, il gesto a spatola e l'acquerello, la scultura di cocci e le parole scritte a mano. Eppure, accostate, parlano la stessa lingua. La parla lo sguardo, che attraversa la mostra da una parete all'altra e non si abbassa mai. La parlano le donne dei racconti, Circe e Calipso, Esmeralda, Caterina Sforza, le madri della preistoria, riprese per raccontare quelle di oggi. La parlano la casa e il corpo, luoghi da abitare o da riprendersi."
+    ],
+    [
+      "Alcune opere attraversano la ferita: la ricompongono con l'oro, la fanno fiorire dal nero. Altre prendono la parola: NO!, BASTA, io sono viva, non mi faccio cancellare.",
+      "La mostra attraversa il 25 novembre, Giornata internazionale per l'eliminazione della violenza contro le donne, ed è parte di Siamo Donne — oltre la violenza c'è di più. Nessuna opera, qui, illustra la violenza: le opere rispondono, con uno sguardo che non si abbassa, con un corpo che si riprende, con una parola scritta a mano. È questo il di più.",
+      "Infinite sfaccettature, un'unica grande forza."
+    ]
   ]
 }
