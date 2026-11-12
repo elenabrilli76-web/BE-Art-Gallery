@@ -111,6 +111,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Grazia Barbieri | analizzata l'11 novembre — presentazione e 1 didascalia |
 | Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 5 didascalie |
 | Marco Santi | analizzato l'11 novembre — presentazione e 5 didascalie |
+| Innocenzo Melani | due stampe (cartella «extra»), 12 novembre — presentazione e 2 didascalie, titoli proposti |
 | Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare
@@ -314,6 +315,15 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
   Barbieri (il ritratto in posa), Mazzanti (l'altra voce maschile).
 - **Frase da tenere**: le sirene non sono più una trappola per marinai, ma
   un patto di sorellanza.
+
+### Innocenzo Melani — l'attesa romantica (stampe)
+
+- Due stampe d'arte, non originali: donne in bianco con cappello di paglia e
+  fiori, accanto a una gondola, a spatola in rosa e azzurri. Firma «ML».
+- Il registro più lieve della mostra: la donna dell'attesa e del ricordo,
+  un'immagine ideale che fa da contrappunto alle voci di denuncia.
+- **Dialoga con**: *Attesa* di Mazzanti (la stessa attesa, rovesciata in
+  dolore), Maselli e Santi (la donna in posa).
 
 ## Il tono e i riferimenti — per il testo di mostra e le prossime schede
 

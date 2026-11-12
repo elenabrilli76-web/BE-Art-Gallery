@@ -1,0 +1,27 @@
+{
+  "nome": "Innocenzo Melani",
+  "presentazione": {
+    "it": "Innocenzo Melani ha dato forma a un'idea di donna sospesa fra sogno e memoria. Le sue figure, in abiti chiari e grandi cappelli di paglia, hanno il volto appena accennato: più che persone sono presenze, silhouette di luce. Il colore si stende a spatola in pochi toni, rosa, azzurri, avori, quasi un monocromo che cerca la dolcezza più che il racconto. Sullo sfondo, la laguna e le gondole di Venezia, un orizzonte che sfuma. Una pittura dell'attesa e del ricordo, che nelle stampe d'arte degli anni Ottanta ha portato nelle case un'immagine di grazia senza tempo.",
+    "en": "Innocenzo Melani gave shape to an idea of woman suspended between dream and memory. His figures, in pale dresses and wide straw hats, have faces barely sketched: more presences than people, silhouettes of light. Colour is laid with the palette knife in a few tones, pinks, blues, ivories, almost a monochrome seeking sweetness rather than story. In the background, the lagoon and the gondolas of Venice, a horizon that fades away. A painting of waiting and remembrance, which through the art prints of the Eighties brought into many homes an image of timeless grace."
+  },
+  "opere": [
+    {
+      "titolo": "Donna alla gondola",
+      "tecnica": "stampa d'arte",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Si sporge verso la barca ormeggiata, il mazzo di fiori lasciato pendere dalla mano. Non sappiamo chi aspetta né se arriverà: resta il gesto, sospeso come la luce rosa sulla laguna, di chi ha imparato che l'attesa è già un modo di amare.",
+        "en": "She leans toward the moored boat, the bouquet hanging loose from her hand. We do not know who she is waiting for, or whether they will come: what remains is the gesture, suspended like the pink light on the lagoon, of someone who has learned that waiting is already a way of loving."
+      }
+    },
+    {
+      "titolo": "La partenza",
+      "tecnica": "stampa d'arte",
+      "mostra": "donne-femminile-plurale",
+      "didascalia": {
+        "it": "Il gondoliere è pronto, la città sfuma all'orizzonte. Lei resta sulla riva con i fiori fra le mani, il capo chino sotto la tesa. È il momento prima di salire, o di restare: tutta la grazia di una scelta che ancora non ha nome.",
+        "en": "The gondolier is ready, the city fades on the horizon. She stays on the bank with flowers in her hands, head bowed beneath the brim. It is the moment before stepping aboard, or staying: all the grace of a choice that has no name yet."
+      }
+    }
+  ]
+}
