@@ -112,7 +112,7 @@ cartelle `testi-critici/artisti/…`; le pagine di sala in
 | Enzo Mazzanti | analizzato l'11 novembre — presentazione v2 e 5 didascalie |
 | Marco Santi | analizzato l'11 novembre — presentazione e 5 didascalie |
 | Innocenzo Melani | due stampe (cartella «extra»), 12 novembre — presentazione e 2 didascalie, titoli proposti |
-| E.B.Art | 12 novembre — presentazione e 12 didascalie; manca *Rosaspina* |
+| E.B.Art | 12 novembre — presentazione e 14 didascalie, *Rosaspina* compresa |
 | Serena D'Onofrio | in attesa |
 
 ### Patrizia Vangelisti — ricomporre, lasciar andare

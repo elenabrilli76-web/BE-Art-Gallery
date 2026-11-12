@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Opere** | 13: un gruppo di cinque ritratti, il dittico di denuncia (*Holy Mother of Gaza*, *J'accuse*), sei opere singole; *Rosaspina* non ancora inclusa |
+| **Opere** | 14: un gruppo di cinque ritratti, il dittico di denuncia (*Holy Mother of Gaza*, *J'accuse*), sette opere singole |
 | **Stesura** | 12 novembre 2026 · tono evocativo |
 | **Fonti** | foto dal Drive (cartella E.B.Art, sottocartelle 1 e 2); certificati di autenticità per titoli e tecniche. **Misure e anni non si riportano** (Elena, 12 novembre) |
 
@@ -99,11 +99,17 @@
 
 > Eyes closed, a thin tear, golden hair curling as in a Klimt mosaic. Some emotions are too large for words: here they remain suspended between tears and beauty, with no need to be explained.
 
+### *Rosaspina* — acrilici, pennarelli e multimateriali su tela · foglio `rosaspina`
+
+> Una linea nera continua, come nei volti di Matisse, disegna il viso, e al posto del secondo occhio sboccia una rosa. Rosaspina è la bella addormentata dei Grimm, ma questa non dorme: l'occhio azzurro è aperto, e le spine le ha già attraversate.
+
+> A single unbroken black line, as in Matisse's faces, draws the face, and in place of the second eye a rose blooms. Rosaspina is the Grimms' Sleeping Beauty, but this one is not asleep: her blue eye is open, and she has already made her way through the thorns.
+
 ## Note
 
 - **Fogli di sala**: `ritratti` (Madama, Gold Butterflies and me, Flower in the hair, Belle époque, Mother in war — sottocartella 1); `denuncia` (Holy Mother of Gaza, J'accuse — sottocartella 2); tutte le altre una per foglio
 - *Holy Mother of Gaza* (sul certificato precedente «Holy Mother»), *J'accuse* e *Resilienza*: didascalie già approvate per *I Luoghi dell'Anima*, riprese uguali
 - *Mother in war*: dedicata dall'artista alla guerra in Ucraina (dal nome del file)
 - tecniche dai certificati; per *Nonostante*, *Notte nel deserto*, *Red passion* il certificato non era fra le foto: «tecnica mista su tela», da verificare
-- **Rosaspina** (acrilici, pennarelli e multimateriali su tela): la foto sul Drive è troppo pesante per essere scaricata; serve una versione più leggera per scrivere la didascalia
-- riferimenti evocati: Picasso (*Flower in the hair*), Klimt (*I can hardly express*)
+- *Rosaspina*: foto mandata da Elena in chat il 12 novembre (quella sul Drive era troppo pesante)
+- riferimenti evocati: Picasso (*Flower in the hair*), Klimt (*I can hardly express*), Matisse e la fiaba dei Grimm (*Rosaspina*)
