@@ -7,7 +7,7 @@
 | **Opere** | due stampe d'arte, non dipinti originali (cartella «extra» della mostra) |
 | **Autore** | identificato da Elena (12 novembre): Innocenzo Melani, firma a monogramma «ML» |
 | **Stesura** | 12 novembre 2026 · v1, tono evocativo |
-| **Fonti** | foto dal Drive; schede di vendita online (1stdibs, Artsper, venderequadri.it), non verificate |
+| **Fonti** | foto dal Drive; screenshot di ricerca di Elena; schede di vendita online (1stdibs, Artsper, venderequadri.it), non verificate |
 
 ## Presentazione dell'artista
 
@@ -21,7 +21,7 @@
 
 ## Didascalie
 
-### *Donna alla gondola* — stampa d'arte
+### *Donna alla gondola* — fotolitografia da dipinto su tela
 
 **Italiano** — _236 caratteri_
 
@@ -31,7 +31,7 @@
 
 > She leans toward the moored boat, the bouquet hanging loose from her hand. We do not know who she is waiting for, or whether they will come: what remains is the gesture, suspended like the pink light on the lagoon, of someone who has learned that waiting is already a way of loving.
 
-### *La partenza* — stampa d'arte
+### *La partenza* — fotolitografia da dipinto su tela
 
 **Italiano** — _226 caratteri_
 
@@ -45,5 +45,5 @@
 
 - dalle fonti online: nato a Milano, morto a Spilimbergo nel 2010; noto negli anni Settanta e Ottanta per figure femminili ideali, con grandi cappelli e volto indefinito, e per le fotolitografie; tavolozza quasi monocroma. Le fonti sono commerciali: niente date o luoghi nel testo critico
 - **titoli proposti** (*Donna alla gondola*, *La partenza*): le stampe non riportano titolo; da confermare o sostituire
-- tecnica: «stampa d'arte»; se dal retro risulta litografia o fotolitografia, va precisato
+- tecnica: fotolitografia originale tratta da un dipinto su tela (screenshot di Elena, 12 novembre: annunci Subito «Fotolito originale dipinti Innocenzo Melani», certificato d'originalità sul retro, circa 44 × 64 cm con cornice). Il prezzo di mercato non entra nei testi
 - per la mostra: la donna dell'attesa romantica, da leggere accanto ad *Attesa* di Mazzanti e alle donne in posa di Maselli e Santi; il registro più lieve della mostra
