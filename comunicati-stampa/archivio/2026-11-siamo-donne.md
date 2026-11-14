@@ -1,5 +1,16 @@
 # Siamo Donne, oltre la violenza c'è di più — comunicato d'apertura
 
+## Uscite
+
+Controllo del 14/11/2026, sui siti delle testate e con ricerche sul web.
+
+| Testata | Uscito? | Link |
+|---|---|---|
+| **La Voce di Pistoia / Valdinievole Oggi** | ✅ articolo | [Al via «Siamo donne, oltre la violenza c'è di più»](https://www.valdinievoleoggi.it/a134923-al-via-siamo-donne-oltre-la-violenza-c-e-di-piu-un-progetto-contr) — riprende il comunicato |
+| Report Pistoia, Report Cultura, Pistoia Sette, Qui News, Pistoia Valdinievole News, La Vita | non ancora | — |
+| La Nazione, Il Tirreno | non verificabile online | edizioni cartacee e siti in parte a pagamento: guardare il giornale |
+| Il Globo di Pistoia | non ricevuto | casella piena |
+
 ## Prossimi passi
 
 - [x] rimbalzi controllati l'11/11, mezz'ora dopo l'invio: 9 consegnati, 1 respinto

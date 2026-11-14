@@ -61,6 +61,14 @@ primo invio, gli indirizzi che rimbalzano si tolgono da qui.
 
 ## Da aggiungere
 
+- **Corriere Pistoiese** (corrierepistoiese.it) — testata online con una sezione
+  «Cultura ed eventi», trovata il 14/11/2026: indirizzo della redazione da cercare
+- **Tempo Libero Toscana** e **Arte Eventi News** — agende eventi che hanno
+  ripreso il programma del Comune per il 25 novembre
+- **Il programma del Comune per il 25 novembre** («Oltre il silenzio», con il
+  Centro antiviolenza Aiutodonna): chiedere di inserire gli appuntamenti della
+  galleria negli anni prossimi
+
 - Le agende eventi online: Comune di Pistoia, Pistoia Musei, Visit Pistoia
   (visitpistoia.eu). Spesso pubblicano tutto quello che ricevono, e hanno un
   modulo invece di una mail
