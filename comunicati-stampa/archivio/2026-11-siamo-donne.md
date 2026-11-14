@@ -2,7 +2,7 @@
 
 ## Uscite
 
-Controllo del 14/11/2026, sui siti delle testate e con ricerche sul web.
+Controlli del 14/11/2026 (mattina e sera, il giorno dell'inaugurazione), sui siti delle testate e con ricerche sul web. Guardati anche Corriere Pistoiese, Tempo Libero Toscana, Arte Eventi News: niente.
 
 | Testata | Uscito? | Link |
 |---|---|---|
