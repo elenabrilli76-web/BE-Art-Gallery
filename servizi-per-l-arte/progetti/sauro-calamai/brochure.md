@@ -57,7 +57,7 @@ Colori, numero di venature e varianti stanno in `impaginazione.json`, alla voce
 
 > Sauro Calamai nasce a Prato nel 1954 e vive a Montemurlo. Autodidatta, lavora a lungo il legno, il ferro e il cuoio prima di arrivare alla pietra. Dal 2010 scolpisce il serpentino del Monteferrato, la pietra verde che da piccolo andava a vedere a Galceti e che oggi raccoglie dove la terra viene smossa: nei campi, nei cantieri.
 >
-> Accanto alla pietra verde lavora il marmo bianco di Carrara e il legno. Nel 2024 espone ventisette opere nella personale *Verde Pietra*, nella sala consiliare del Comune di Vaiano. Molti suoi lavori sono in chiese, tabernacoli e sedi associative del suo territorio, donati alle comunità che li custodiscono.
+> Accanto alla pietra verde lavora il marmo bianco di Carrara e il legno. Nel 2018 espone nella mostra *Verde come l'olio e… il serpentino*, alla Pieve di San Giovanni Decollato della Rocca di Montemurlo, per la Festa dell'olio; nel 2024 presenta ventisette opere nella personale *Verde Pietra*, nella sala consiliare del Comune di Vaiano. Alcuni suoi lavori sono in chiese, tabernacoli e sedi associative del suo territorio, donati alle comunità che li custodiscono.
 
 ### 3 · La pietra
 
@@ -82,9 +82,9 @@ Colori, numero di venature e varianti stanno in `impaginazione.json`, alla voce
 > **Sauro Calamai**
 > Montemurlo (Prato)
 >
-> *[contatti dell'artista: telefono, email — da inserire nel file di stampa, non qui]*
+> *[telefono ed email dell'artista: stanno in `materiali/privato.json`, non qui]*
 >
-> *[QR code alla pagina artista, se attiva]*
+> QR code alla pagina dell'artista: beartgallery.eu/servizi-curatoriali/artisti/sauro-calamai
 >
 > Foto: BE Art Gallery
 > Progetto grafico: BE Art Gallery & Creative Lab · beartgallery.eu

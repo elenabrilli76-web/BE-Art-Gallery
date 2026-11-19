@@ -38,6 +38,12 @@ from reportlab.platypus import Paragraph
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import critica as c  # noqa: E402  — carattere, colori e funzioni comuni
 
+from reportlab.pdfbase.pdfmetrics import registerFontFamily  # noqa: E402
+
+# Il tondo e il suo corsivo come famiglia: senza, <i> nei testi non fa niente
+registerFontFamily("Cormorant", normal="Cormorant", bold="Cormorant-Forte",
+                   italic="Cormorant-Corsivo", boldItalic="Cormorant-Corsivo")
+
 PROGETTI = c.RADICE / "servizi-per-l-arte" / "progetti"
 LOGO_CHIARO = c.CARTELLA / "marchio" / "logo.png"   # chiaro su trasparente: vuole un fondo scuro
 
@@ -124,8 +130,9 @@ class Foto:
         return im.height / im.width if im else 0.75
 
     def posa(self, cv, codice, x, y, largo, alto, taglia=False, lato=1800, in_alto=False):
-        """Dentro il riquadro con il bordo basso in y. Senza taglio la foto
-        si centra intera; con il taglio riempie il riquadro come una finestra."""
+        """Dentro il riquadro con il bordo basso in y. La regola è che le foto
+        non si tagliano: si centrano intere. Il taglio, che riempie il riquadro
+        come una finestra, si usa solo dove il JSON lo chiede ("taglia": true)."""
         im = self.immagine(codice)
         if im is None:
             cv.setStrokeColor(c.GRIGIO)
@@ -301,6 +308,25 @@ def blocchi(cv, lista, x, y, largo, k, chiaro=False, disegna=True):
                 par(cv, a, st(k, corpo=10.5, fontName="Cormorant-Forte", textColor=c.ORO), x, y, col, disegna)
                 y = y2 - 1.6 * mm * k
             y -= 3 * mm * k
+        elif "qr" in b:
+            # il QR su un quadrato chiaro: scuro su chiaro si legge con qualunque telefono
+            lato = b.get("lato", 24) * mm * k
+            if disegna:
+                from reportlab.graphics import renderPDF
+                from reportlab.graphics.barcode.qr import QrCodeWidget
+                from reportlab.graphics.shapes import Drawing
+                q = QrCodeWidget(b["qr"], barBorder=2)
+                x0, y0, x1, y1 = q.getBounds()
+                d = Drawing(lato, lato, transform=[lato / (x1 - x0), 0, 0, lato / (y1 - y0), 0, 0])
+                d.add(q)
+                cv.setFillColor(c.CARTA)
+                cv.rect(x, y - lato, lato, lato, stroke=0, fill=1)
+                renderPDF.draw(d, cv, x, y - lato)
+            y -= lato + 2 * mm * k
+            if b.get("dida"):
+                y = par(cv, b["dida"], st(k, corpo=9, textColor=HexColor("#D9D3C7") if chiaro else c.GRIGIO),
+                        x, y, largo, disegna)
+            y -= 3 * mm * k
         elif "spazio" in b:
             y -= b["spazio"] * mm * k
     return y
@@ -357,7 +383,7 @@ def p_copertina(cv, R, p, F):
         F.posa(cv, p["foto"], R.x + R.m, R.y + banda, R.utile, R.h - banda - R.m)
     else:
         fondo(cv, R, SCURO)
-        F.posa(cv, p["foto"], R.x, R.y + banda, R.w, R.h - banda, taglia=True)
+        F.posa(cv, p["foto"], R.x, R.y + banda, R.w, R.h - banda, taglia=p.get("taglia", False))
     k = R.k
     y = R.y + banda - R.m * 0.9
     y = par(cv, p["titolo"], st(k, corpo=40, leading=44 * k, textColor=c.CARTA), R.x + R.m, y, R.utile)
@@ -558,8 +584,20 @@ def main():
         sys.exit(__doc__)
     progetto = PROGETTI / sys.argv[1]
     cosa = sys.argv[2:] or ["portfolio", "brochure"]
-    cfg = json.loads((progetto / "impaginazione.json").read_text(encoding="utf-8"))
+    testo = (progetto / "impaginazione.json").read_text(encoding="utf-8")
     materiali = progetto / "materiali"
+    # I dati privati dell'artista — telefono, email — non stanno nel repository,
+    # che è pubblico: stanno in materiali/privato.json, che resta sul computer.
+    # Nel JSON si scrivono come {{telefono}}; senza il file restano segnaposto.
+    privato = materiali / "privato.json"
+    dati = json.loads(privato.read_text(encoding="utf-8")) if privato.exists() else {}
+    for chiave in set(re.findall(r"\{\{(\w+)\}\}", testo)):
+        valore = dati.get(chiave)
+        if valore is None:
+            print(f"   ⚠ manca «{chiave}» in materiali/privato.json: resta un segnaposto")
+            valore = f"[{chiave}]"
+        testo = testo.replace("{{" + chiave + "}}", json.dumps(valore, ensure_ascii=False)[1:-1])
+    cfg = json.loads(testo)
     F = Foto(materiali / "foto", cfg["foto"], cfg.get("ruota"))
     if "portfolio" in cosa:
         n = portfolio(cfg, F, materiali / "portfolio.pdf")

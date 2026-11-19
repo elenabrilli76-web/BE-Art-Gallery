@@ -23,6 +23,12 @@ La cartella `materiali/` arriva sul PC con il pull, ma quello che ci metti
 dentro **non va su GitHub**: resta in locale, e gli originali stanno sul
 Google Drive. Per un progetto nuovo basta copiare la cartella di uno esistente.
 
+## Le foto
+
+**Non si tagliano**, salvo diversa indicazione di Elena: in pagina vanno intere, dentro i
+margini. Il comando di impaginazione taglia solo dove il file del progetto lo chiede
+esplicitamente.
+
 ## Riservatezza
 
 Il repository è pubblico. Nei progetti non vanno indirizzi, telefoni, email

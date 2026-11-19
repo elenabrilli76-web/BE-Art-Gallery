@@ -75,6 +75,20 @@ sostituiscono i file, o si aggiornano i percorsi in `impaginazione.json`, e si r
 
 Finché le foto sono quelle di WhatsApp, ogni pagina porta la scritta rossa *Bozza*.
 
+**I contatti dell'artista** — telefono ed email, stampati sul retro della brochure e
+nei crediti del portfolio — non stanno nel repository, che è pubblico. Stanno in
+`materiali/privato.json`, che resta sul computer:
+
+```json
+{
+ "telefono": "tel. …",
+ "email": "…"
+}
+```
+
+In `impaginazione.json` compaiono come `{{telefono}}` e `{{email}}`: il comando li
+sostituisce al momento di fare il PDF. Senza il file restano segnaposto fra quadre.
+
 Sul Drive le foto sono divise in `SERPENTINO`, `MARMO BIANCO DI CARRARA`, `LEGNO`,
 `DONAZIONI` e `RICICLO`. Nel portfolio il riciclo è una sezione breve, di due pagine,
 prima delle donazioni.

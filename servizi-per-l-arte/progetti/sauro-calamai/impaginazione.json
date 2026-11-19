@@ -80,7 +80,8 @@
   "505": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.23.jpeg",
   "506": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22 2.jpeg",
   "507": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22 1.jpeg",
-  "508": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22.jpeg"
+  "508": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22.jpeg",
+  "010": "Locandina Verde come l'olio 2018.jpg"
  },
  "portfolio": {
   "titolo": "Sauro Calamai — Quello che la pietra suggerisce",
@@ -125,7 +126,7 @@
       "par": "Il marmo bianco apre un'altra strada: la lastra si assottiglia finché la luce la attraversa, e il bassorilievo si accende da dentro."
      },
      {
-      "par": "È una scultura di ascolto più che di progetto, radicata in un territorio e nella sua pietra. Ed è una scultura che si regala: molte opere di Calamai stanno in chiese, tabernacoli e sedi associative, dove la comunità le custodisce."
+      "par": "È una scultura di ascolto più che di progetto, radicata in un territorio e nella sua pietra. Ed è una scultura che si regala: alcune opere di Calamai stanno in chiese, tabernacoli e sedi associative, dove la comunità le custodisce."
      }
     ]
    },
@@ -152,7 +153,7 @@
       "par": "Nel 2010 comincia a scolpire la pietra verde del Monteferrato, che da piccolo andava a vedere a Galceti, e non smette più. La raccoglie dove la terra viene smossa: nei campi, nei cantieri, dopo l'alluvione del novembre 2023. Accanto al serpentino lavora il marmo bianco di Carrara e torna al legno."
      },
      {
-      "par": "Espone per la prima volta nel 2018, alla Festa dell'olio della Rocca di Montemurlo. Dal 2023 fa parte del gruppo AmoArt, con cui espone soprattutto nella Sala Banti di Montemurlo. Nel 2024 la personale <i>Verde Pietra</i>, nella sala consiliare del Comune di Vaiano, presenta ventisette opere. Nel 2026 espone per la prima volta a Pistoia, alla BE Art Gallery."
+      "par": "Espone per la prima volta nella mostra <i>Verde come l'olio e… il serpentino</i>. <i>Dalla cava Paci di Bagnolo alla bottega dell'arte</i>, a cura di Cinzia Menichetti, nella Pieve di San Giovanni Decollato alla Rocca di Montemurlo, dall'11 novembre 2018 al 28 gennaio 2019, nell'ambito della Festa dell'olio. Dal 2023 fa parte del gruppo AmoArt, con cui espone soprattutto nella Sala Banti di Montemurlo. Nel 2024 la personale <i>Verde Pietra</i>, nella sala consiliare del Comune di Vaiano, presenta ventisette opere. Nel 2026 espone per la prima volta a Pistoia, alla BE Art Gallery."
      }
     ]
    },
@@ -726,7 +727,7 @@
     "etichetta": "Appendice",
     "titolo": "Donazioni",
     "foto": "408",
-    "testo": "Molte opere di Sauro Calamai sono state donate, e oggi stanno dove la comunità le incontra. Una Madonna in una chiesa, un'altra in un tabernacolo lungo il Cammino di San Jacopo, un busto nella sede degli Alpini, un Pinocchio in un circolo sportivo. Sono il modo in cui il suo lavoro è entrato nel territorio da cui viene la sua pietra."
+    "testo": "Alcune opere di Sauro Calamai sono state donate, e oggi stanno dove la comunità le incontra. Una Madonna in una chiesa, un'altra in un tabernacolo lungo il Cammino di San Jacopo, un busto nella sede degli Alpini, un Pinocchio in un circolo sportivo. Sono il modo in cui il suo lavoro è entrato nel territorio da cui viene la sua pietra."
    },
    {
     "tipo": "testo",
@@ -912,7 +913,7 @@
        ],
        [
         "2018",
-        "Prima mostra, <i>Verde come l'olio</i>, Festa dell'olio, Pieve di San Giovanni Decollato, Rocca di Montemurlo"
+        "Prima mostra, <i>Verde come l'olio e… il serpentino</i>, a cura di Cinzia Menichetti, Festa dell'olio, Pieve di San Giovanni Decollato, Rocca di Montemurlo, 11 novembre 2018 – 28 gennaio 2019"
        ],
        [
         "2020",
@@ -943,13 +944,19 @@
     ],
     "foto": [
      {
+      "foto": "010",
+      "dida": [
+       "<i>Verde come l'olio e… il serpentino</i>, 2018"
+      ]
+     },
+     {
       "foto": "008",
       "dida": [
        "<i>Verde Pietra</i>, Vaiano 2024"
       ]
      }
     ],
-    "quota_foto": 0.4
+    "quota_foto": 0.42
    },
    {
     "tipo": "gruppo",
@@ -993,7 +1000,18 @@
       "etichetta": "Contatti"
      },
      {
-      "par": "[contatti dell'artista]"
+      "par": "Sauro Calamai · Montemurlo (Prato)"
+     },
+     {
+      "par": "{{telefono}} · {{email}}"
+     },
+     {
+      "spazio": 4
+     },
+     {
+      "qr": "https://www.beartgallery.eu/servizi-curatoriali/artisti/sauro-calamai",
+      "dida": "La pagina dell'artista su beartgallery.eu",
+      "lato": 28
      }
     ]
    },
@@ -1058,7 +1076,7 @@
     "tipo": "retro",
     "blocchi": [
      {
-      "spazio": 20
+      "spazio": 14
      },
      {
       "titolo": "Sauro Calamai"
@@ -1067,13 +1085,21 @@
       "par": "Montemurlo (Prato)"
      },
      {
-      "par": "[contatti dell'artista]"
+      "par": "{{telefono}}"
      },
      {
-      "par": "[QR code alla pagina artista]"
+      "par": "{{email}}"
      },
      {
-      "spazio": 10
+      "spazio": 3
+     },
+     {
+      "qr": "https://www.beartgallery.eu/servizi-curatoriali/artisti/sauro-calamai",
+      "dida": "La pagina dell'artista su beartgallery.eu",
+      "lato": 24
+     },
+     {
+      "spazio": 2
      },
      {
       "par": "Foto: BE Art Gallery"
@@ -1103,7 +1129,7 @@
       "par": "Sauro Calamai nasce a Prato nel 1954 e vive a Montemurlo. Autodidatta, lavora a lungo il legno, il ferro e il cuoio prima di arrivare alla pietra. Dal 2010 scolpisce il serpentino del Monteferrato, la pietra verde che da piccolo andava a vedere a Galceti e che oggi raccoglie dove la terra viene smossa: nei campi, nei cantieri."
      },
      {
-      "par": "Accanto alla pietra verde lavora il marmo bianco di Carrara e il legno. Nel 2024 espone ventisette opere nella personale <i>Verde Pietra</i>, nella sala consiliare del Comune di Vaiano. Molti suoi lavori sono in chiese, tabernacoli e sedi associative del suo territorio, donati alle comunità che li custodiscono."
+      "par": "Accanto alla pietra verde lavora il marmo bianco di Carrara e il legno. Nel 2018 espone nella mostra <i>Verde come l'olio e… il serpentino</i>, alla Pieve di San Giovanni Decollato della Rocca di Montemurlo, per la Festa dell'olio; nel 2024 presenta ventisette opere nella personale <i>Verde Pietra</i>, nella sala consiliare del Comune di Vaiano. Alcuni suoi lavori sono in chiese, tabernacoli e sedi associative del suo territorio, donati alle comunità che li custodiscono."
      }
     ],
     "foto": [
