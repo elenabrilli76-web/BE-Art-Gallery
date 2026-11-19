@@ -5,7 +5,7 @@
 | **Evento** | incontro editoriale, sabato 21 novembre 2026 ore 18:30, dentro *Siamo Donne, oltre la violenza c'è di più* |
 | **Fonte** | [www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu](https://www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu), letta il 19/11/2026 · libro e autrice dalla [pagina dell'editore](https://www.foxandsparrowsedizioni.it/prodotto/incipit-il-segreto-di-giselda-pons/) |
 | **Foto** | Drive, `Foto ufficiali allestimento e inaugurazione`, scatti del 14/11 |
-| **Stato** | testo e PDF pronti · bozza Gmail non creata: allegati oltre il limite del collegamento (4,1 MB, massimo circa 3,1) |
+| **Stato** | bozza in Gmail, allegati ridotti (2,7 MB) |
 | **Inviato** | — |
 | **A chi** | — |
 
@@ -22,7 +22,7 @@ Gentile Redazione,
 
 sabato 21 novembre alle 18:30 BE Art Gallery, in via San Pietro 24 a Pistoia, ospita Cristina Mensi con il suo romanzo d'esordio, «Incipit. Il segreto di Giselda Pons». È il primo incontro editoriale di «Siamo Donne, oltre la violenza c'è di più», il progetto contro la violenza di genere che la galleria ha inaugurato sabato 14 novembre con la collettiva «DONNE: Femminile Plurale». Ingresso libero.
 
-Il comunicato è qui sotto e in allegato in PDF, con la locandina dell'incontro, quella del progetto e quattro foto dell'inaugurazione, libere da pubblicare citando «foto BE Art Gallery».
+Il comunicato è qui sotto e in allegato in PDF, con la locandina dell'incontro, quella del progetto, la copertina del libro e cinque foto della galleria nei giorni dell'inaugurazione, libere da pubblicare citando «foto BE Art Gallery».
 
 Per intervistare l'autrice o per altre immagini, chiamateci pure.
 
@@ -79,9 +79,13 @@ BE Art Gallery & Creative Lab è una galleria d'arte contemporanea nel centro st
 | `BE-Art-Gallery_Cristina-Mensi_comunicato.pdf` | `py comunicati-stampa\pdf.py 2026-11-cristina-mensi` |
 | `Cristina-Mensi_21-novembre.jpg` | locandina dell'incontro, in `locandine/2026-11-siamo-donne/` |
 | `Siamo-Donne_locandina.jpg` | locandina del progetto |
-| `inaugurazione-1_piano-ingresso.jpg` | il pubblico al piano d'ingresso, parete in pietra e opere (IMG-20261114-WA0005) |
+| `Cristina-Mensi_Incipit_copertina.jpg` | copertina, dalla pagina dell'editore (534×831: solo web) |
+| `inaugurazione-1_piano-ingresso.jpg` | il pubblico al piano d'ingresso (IMG-20261114-WA0005) |
 | `inaugurazione-2_sala-voltata.jpg` | visitatori nella sala voltata (IMG_20261114_170824) |
-| `inaugurazione-3_ingresso-via-San-Pietro-24.jpg` | l'ingresso della galleria la sera dell'inaugurazione (IMG_20261114_171329) |
-| `inaugurazione-4_scala-volte.jpg` | la scala sotto le volte, verticale (IMG_20261114_170905) |
+| `inaugurazione-3_ingresso-banner.jpg` | il banner all'ingresso, ritagliato senza persone (da IMG_20261114_171329) |
+| `inaugurazione-4_scala-volte.jpg` | la scala sotto le volte (IMG_20261114_170905) |
+| `inaugurazione-5_vetrina-via-San-Pietro-24.jpg` | la vetrina da fuori, insegna e locandine, senza persone (IMG_20261113_202131) |
+
+Foto ridotte a 1600 px sul lato lungo: il collegamento con Gmail accetta circa 3 MB di allegati per bozza.
 
 Le foto restano sul Drive: qui solo l'elenco.
