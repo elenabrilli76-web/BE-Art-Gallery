@@ -123,7 +123,7 @@ quando l'artista avrà spiegato il trattamento.
 >
 > Il marmo bianco apre un'altra strada: la lastra si assottiglia finché la luce la attraversa, e il bassorilievo si accende da dietro.
 >
-> È una scultura di ascolto più che di progetto, radicata in un territorio e nella sua pietra. Ed è una scultura che si regala: molte opere di Calamai stanno in chiese, tabernacoli e sedi associative, dove la comunità le custodisce.
+> È una scultura di ascolto più che di progetto, radicata in un territorio e nella sua pietra. Ed è una scultura che si regala: alcune opere di Calamai stanno in chiese, tabernacoli e sedi associative, dove la comunità le custodisce.
 
 ### Biografia
 
@@ -133,7 +133,7 @@ quando l'artista avrà spiegato il trattamento.
 >
 > Nel 2010 comincia a scolpire la pietra verde del Monteferrato, che da piccolo andava a vedere a Galceti, e non smette più. La raccoglie dove la terra viene smossa: nei campi, nei cantieri, dopo l'alluvione del novembre 2023. Accanto al serpentino lavora il marmo bianco di Carrara e torna al legno.
 >
-> Espone per la prima volta nel 2018, alla Festa dell'olio della Rocca di Montemurlo. Dal 2023 fa parte del gruppo AmoArt, con cui espone soprattutto nella Sala Banti di Montemurlo. Nel 2024 la personale *Verde Pietra*, nella sala consiliare del Comune di Vaiano, presenta ventisette opere. Nel 2026 espone per la prima volta a Pistoia, alla BE Art Gallery.
+> Espone per la prima volta nella mostra *Verde come l'olio e… il serpentino*. *Dalla cava Paci di Bagnolo alla bottega dell'arte*, a cura di Cinzia Menichetti, nella Pieve di San Giovanni Decollato alla Rocca di Montemurlo, dall'11 novembre 2018 al 28 gennaio 2019, nell'ambito della Festa dell'olio. Dal 2023 fa parte del gruppo AmoArt, con cui espone soprattutto nella Sala Banti di Montemurlo. Nel 2024 la personale *Verde Pietra*, nella sala consiliare del Comune di Vaiano, presenta ventisette opere. Nel 2026 espone per la prima volta a Pistoia, alla BE Art Gallery.
 
 
 ### La pietra verde del Monteferrato
@@ -178,7 +178,7 @@ non a fare un capitolo a sé. Titolo alternativo, se *Riciclo* suona troppo tecn
 
 ### Appendice · Donazioni
 
-> Molte opere di Sauro Calamai sono state donate, e oggi stanno dove la comunità le incontra. Una Madonna in una chiesa, un'altra in un tabernacolo lungo il Cammino di San Jacopo, un busto nella sede degli Alpini, un Pinocchio in un circolo sportivo. Sono il modo in cui il suo lavoro è entrato nel territorio da cui viene la sua pietra.
+> Alcune opere di Sauro Calamai sono state donate, e oggi stanno dove la comunità le incontra. Una Madonna in una chiesa, un'altra in un tabernacolo lungo il Cammino di San Jacopo, un busto nella sede degli Alpini, un Pinocchio in un circolo sportivo. Sono il modo in cui il suo lavoro è entrato nel territorio da cui viene la sua pietra.
 
 **Didascalie delle donazioni**
 
@@ -200,7 +200,7 @@ non a fare un capitolo a sé. Titolo alternativo, se *Riciclo* suona troppo tecn
 |---|---|
 | 1954 | Nasce a Prato il 27 ottobre |
 | 2010 | Comincia a scolpire la pietra verde del Monteferrato |
-| 2018 | Prima mostra, *Verde come l'olio*, Festa dell'olio, Pieve di San Giovanni Decollato, Rocca di Montemurlo |
+| 2018 | Prima mostra, *Verde come l'olio e… il serpentino*, a cura di Cinzia Menichetti, Festa dell'olio, Pieve di San Giovanni Decollato, Rocca di Montemurlo, 11 novembre 2018 – 28 gennaio 2019 |
 | 2020 | *Madonnina del Covid*, donata alla chiesa della Rocca |
 | 2021 | *Madonna delle Nevi* per il tabernacolo del Ghiotto |
 | 2023 | Entra nel gruppo AmoArt |
@@ -217,7 +217,9 @@ Montemurlo stampano una cartolina distribuita ai cittadini.
 > Fotografie: BE Art Gallery
 > Progetto grafico e testi: BE Art Gallery & Creative Lab · beartgallery.eu
 >
-> *[contatti dell'artista — da inserire nel file di stampa, non qui]*
+> Sauro Calamai · Montemurlo (Prato)
+> *[telefono ed email: stanno in `materiali/privato.json`, non qui]*
+> QR code alla pagina dell'artista su beartgallery.eu
 
 ---
 

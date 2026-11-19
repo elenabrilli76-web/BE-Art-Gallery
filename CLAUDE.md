@@ -153,6 +153,15 @@ per progetto in `progetti/nome-cognome/`. I materiali dell'artista restano sul
 Drive; qui solo i testi di lavoro. Vedi
 [`servizi-per-l-arte/README.md`](servizi-per-l-arte/README.md).
 
+Portfolio e brochure si impaginano con `py strumenti\servizi.py nome-cognome`. Due regole:
+
+- **L'opera è sempre intera.** Una foto si può ritagliare per togliere quello che sta
+  intorno (pareti, tavoli, sfondi), mai l'opera: nemmeno un bordo. Il ritaglio si decide
+  foto per foto, in `impaginazione.json` alla voce `ritaglio`; il comando non taglia da
+  solo.
+- **I contatti dell'artista** (telefono, email) non entrano nel repository: stanno in
+  `materiali/privato.json` del progetto, che resta sul computer.
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta

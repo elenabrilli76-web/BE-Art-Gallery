@@ -41,6 +41,13 @@ sono rassegna stampa, la brochure di *Verde Pietra* e una foto che va fra le don
 
 Il file `11-06 10.22.51` della cartella principale è identico a 005.
 
+| Codice | File | Cosa si vede | Uso |
+|---|---|---|---|
+| 010 | `Locandina Verde come l'olio 2018.jpg` — mandata da Sauro il 19 novembre 2026 | Locandina della mostra *Verde come l'olio e… il serpentino*, Pieve di San Giovanni Decollato, Rocca di Montemurlo, 11 novembre 2018 – 28 gennaio 2019, a cura di Cinzia Menichetti | P cronologia |
+
+Questa non è sul Drive: va salvata con quel nome nella cartella principale di
+`materiali/foto/`.
+
 ## 1 · Serpentino
 
 | Codice | Nome sul Drive | Opera | Uso |
