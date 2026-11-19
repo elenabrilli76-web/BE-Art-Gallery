@@ -56,6 +56,12 @@ volta in volta. Non stanno sul sito né qui.
 > (`www.beartgallery.eu` e la pagina dell'evento): Gmail li ricrea puliti.
 > Succede con qualunque formato, anche scrivendo l'indirizzo senza `https://`:
 > è un passaggio da fare ogni volta, ed è l'unico. Le email restano pulite.
+>
+> Per questo **la bozza si crea una volta sola**, quando testo e allegati sono
+> approvati: prima Claude mostra testo e allegati in chat, Elena dice «va bene»,
+> poi nasce la bozza. Le correzioni successive Elena le fa direttamente in Gmail,
+> con il testo esatto che le dà Claude; Claude rifà la bozza solo se cambiano gli
+> allegati, e dopo aver chiesto di chiudere quella aperta.
 
 ## Cosa si allega
 
