@@ -6,8 +6,17 @@
 | **Fonte** | [www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu](https://www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu), letta il 19/11/2026 · libro e autrice dalla [pagina dell'editore](https://www.foxandsparrowsedizioni.it/prodotto/incipit-il-segreto-di-giselda-pons/) |
 | **Foto** | Drive, `Foto ufficiali allestimento e inaugurazione`, scatti del 14/11 |
 | **Stato** | **invio programmato** da beartgallery.eu@gmail.com · 8 allegati, 2,6 MB |
-| **Inviato** | programmato per giovedì 19 novembre 2026, ore 9:35 |
+| **Inviato** | giovedì 19 novembre 2026, ore 9:35 (programmato) |
 | **A chi** | in Ccn le stesse 10 redazioni del primo comunicato (Il Globo riprovato: la volta prima aveva la casella piena) |
+
+## Rimbalzi e uscite
+
+Controllo del 19/11/2026, ore 12:45.
+
+- **Rimbalzi:** 8 redazioni su 10 nessun avviso. Respinte:
+  - `redazione@ilglobodipistoia.it` — casella piena, **seconda volta** (*550 user is over quota*)
+  - `redazione@tgitalinternational.it` — casella piena. Non è fra i nostri destinatari: qualcuno inoltra in automatico le mail a questo indirizzo, probabilmente Il Globo, che sta sullo stesso server
+- **Uscite:** ancora nessuna, né sui siti delle testate né nelle ricerche sul web. Mandato stamattina: da ricontrollare venerdì 20 e lunedì 23
 
 ## Oggetto
 

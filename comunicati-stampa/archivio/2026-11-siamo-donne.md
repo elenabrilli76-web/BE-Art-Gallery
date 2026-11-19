@@ -11,6 +11,8 @@ Controlli del 14/11/2026 (mattina e sera, il giorno dell'inaugurazione), sui sit
 | La Nazione, Il Tirreno | non verificabile online | edizioni cartacee e siti in parte a pagamento: guardare il giornale |
 | Il Globo di Pistoia | non ricevuto | casella piena |
 
+Secondo controllo, 19/11/2026: nessuna nuova uscita oltre a La Voce di Pistoia / Valdinievole Oggi.
+
 ## Prossimi passi
 
 - [x] rimbalzi controllati l'11/11, mezz'ora dopo l'invio: 9 consegnati, 1 respinto

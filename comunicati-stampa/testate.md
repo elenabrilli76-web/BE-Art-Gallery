@@ -24,7 +24,7 @@ Ultimo controllo sui siti: **11 novembre 2026**. Primo invio: 11 novembre 2026, 
 | **Report Pistoia** | redazione@reportpistoia.com ✅ | tel. 0573 365171. Cronaca e vita cittadina |
 | **Report Cultura** | cult@reportpistoia.com ❓ | la sezione cultura e spettacoli di Report Pistoia: è quella giusta per le mostre. Mandare a entrambi gli indirizzi |
 | **Pistoia Sette** | redazione@pistoiasette.net ✅ | ha una sezione Arte, Cultura e Spettacolo |
-| **Il Globo di Pistoia** | redazione@ilglobodipistoia.it ✅ | ha sezioni Cultura ed Eventi. ⚠️ 11/11/2026: casella piena, mail respinta — l'indirizzo esiste, riprovare |
+| **Il Globo di Pistoia** | redazione@ilglobodipistoia.it ✅ | ha sezioni Cultura ed Eventi. ⚠️ casella piena l'11/11 e di nuovo il 19/11: per ora inutile scrivere qui. Cercare un altro contatto (telefono o modulo sul sito) |
 | **Qui News Pistoia** | redazione@toscanamedia.it ✅ | redazione comune a tutte le edizioni Qui News: nell'oggetto scrivere «Pistoia» |
 | **Pistoia Valdinievole News** | redazione@valdinievole.news ✅ | arte, cultura, eventi |
 | **La Voce di Pistoia / Valdinievole Oggi** | info@lavocedipistoia.it ❓ | il sito rimanda a *Valdinievole Oggi*, attivo; sul sito gli indirizzi email sono nascosti |
