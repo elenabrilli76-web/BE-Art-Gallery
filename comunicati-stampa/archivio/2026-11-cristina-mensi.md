@@ -5,9 +5,9 @@
 | **Evento** | incontro editoriale, sabato 21 novembre 2026 ore 18:30, dentro *Siamo Donne, oltre la violenza c'è di più* |
 | **Fonte** | [www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu](https://www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu), letta il 19/11/2026 · libro e autrice dalla [pagina dell'editore](https://www.foxandsparrowsedizioni.it/prodotto/incipit-il-segreto-di-giselda-pons/) |
 | **Foto** | Drive, `Foto ufficiali allestimento e inaugurazione`, scatti del 14/11 |
-| **Stato** | bozza in Gmail, allegati ridotti (2,7 MB) |
-| **Inviato** | — |
-| **A chi** | — |
+| **Stato** | **invio programmato** da beartgallery.eu@gmail.com · 8 allegati, 2,6 MB |
+| **Inviato** | programmato per giovedì 19 novembre 2026, ore 9:35 |
+| **A chi** | in Ccn le stesse 10 redazioni del primo comunicato (Il Globo riprovato: la volta prima aveva la casella piena) |
 
 ## Oggetto
 
