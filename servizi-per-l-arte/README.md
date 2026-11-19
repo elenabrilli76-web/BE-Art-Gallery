@@ -25,9 +25,14 @@ Google Drive. Per un progetto nuovo basta copiare la cartella di uno esistente.
 
 ## Le foto
 
-**Non si tagliano**, salvo diversa indicazione di Elena: in pagina vanno intere, dentro i
-margini. Il comando di impaginazione taglia solo dove il file del progetto lo chiede
-esplicitamente.
+**L'opera è sempre intera.** Una foto si può ritagliare per togliere quello che sta
+intorno — la parete, il tavolo, il cuscino su cui è appoggiata — ma l'opera non si taglia
+mai, nemmeno di un bordo.
+
+Il ritaglio si decide foto per foto, guardandola, in `impaginazione.json` alla voce
+`ritaglio`: per ogni codice, la porzione da tenere in frazioni della foto, da sinistra,
+dall'alto, a destra, in basso (`"104": [0.05, 0.1, 0.95, 0.9]`). Il comando da solo non
+taglia: mette la foto intera dentro i margini.
 
 ## Riservatezza
 

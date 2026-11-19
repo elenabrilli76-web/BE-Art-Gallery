@@ -155,8 +155,10 @@ Drive; qui solo i testi di lavoro. Vedi
 
 Portfolio e brochure si impaginano con `py strumenti\servizi.py nome-cognome`. Due regole:
 
-- **Le foto non si tagliano**, salvo diversa indicazione di Elena: si mostrano intere,
-  dentro i margini.
+- **L'opera è sempre intera.** Una foto si può ritagliare per togliere quello che sta
+  intorno (pareti, tavoli, sfondi), mai l'opera: nemmeno un bordo. Il ritaglio si decide
+  foto per foto, in `impaginazione.json` alla voce `ritaglio`; il comando non taglia da
+  solo.
 - **I contatti dell'artista** (telefono, email) non entrano nel repository: stanno in
   `materiali/privato.json` del progetto, che resta sul computer.
 

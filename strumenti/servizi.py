@@ -103,9 +103,12 @@ def etichetta(cv, testo, x, y, k, colore=c.ORO, centro=None, disegna=True):
 # ----------------------------------------------------------------------------
 
 class Foto:
-    def __init__(self, cartella: Path, mappa: dict, ruota: dict | None = None):
+    def __init__(self, cartella: Path, mappa: dict, ruota: dict | None = None, ritaglio: dict | None = None):
         self.cartella, self.mappa, self.cache = cartella, mappa, {}
         self.ruota = ruota or {}   # codice → gradi in senso antiorario, per le foto scattate di traverso
+        # codice → [sinistra, alto, destra, basso] in frazioni della foto: toglie quello
+        # che sta intorno all'opera, deciso guardando la foto. L'opera resta intera
+        self.ritaglio = ritaglio or {}
         self.mancanti = set()
 
     def file(self, codice):
@@ -122,6 +125,9 @@ class Foto:
                 im = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
                 if self.ruota.get(codice):
                     im = im.rotate(self.ruota[codice], expand=True)
+                if self.ritaglio.get(codice):
+                    a, b, c_, d = self.ritaglio[codice]
+                    im = im.crop((int(a * im.width), int(b * im.height), int(c_ * im.width), int(d * im.height)))
                 self.cache[codice] = im
         return self.cache[codice]
 
@@ -130,9 +136,10 @@ class Foto:
         return im.height / im.width if im else 0.75
 
     def posa(self, cv, codice, x, y, largo, alto, taglia=False, lato=1800, in_alto=False):
-        """Dentro il riquadro con il bordo basso in y. La regola è che le foto
-        non si tagliano: si centrano intere. Il taglio, che riempie il riquadro
-        come una finestra, si usa solo dove il JSON lo chiede ("taglia": true)."""
+        """Dentro il riquadro con il bordo basso in y. La regola: l'opera è
+        sempre intera. La foto si centra intera; il taglio al centro, che riempie
+        il riquadro come una finestra, si usa solo dove il JSON lo chiede
+        ("taglia": true), perché da solo non sa dov'è l'opera."""
         im = self.immagine(codice)
         if im is None:
             cv.setStrokeColor(c.GRIGIO)
@@ -598,7 +605,7 @@ def main():
             valore = f"[{chiave}]"
         testo = testo.replace("{{" + chiave + "}}", json.dumps(valore, ensure_ascii=False)[1:-1])
     cfg = json.loads(testo)
-    F = Foto(materiali / "foto", cfg["foto"], cfg.get("ruota"))
+    F = Foto(materiali / "foto", cfg["foto"], cfg.get("ruota"), cfg.get("ritaglio"))
     if "portfolio" in cosa:
         n = portfolio(cfg, F, materiali / "portfolio.pdf")
         print(f"✓ materiali/portfolio.pdf — {n} pagine")
