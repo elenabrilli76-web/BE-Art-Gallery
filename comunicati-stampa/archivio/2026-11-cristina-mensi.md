@@ -16,7 +16,16 @@ Controllo del 19/11/2026, ore 12:45.
 - **Rimbalzi:** 8 redazioni su 10 nessun avviso. Respinte:
   - `redazione@ilglobodipistoia.it` — casella piena, **seconda volta** (*550 user is over quota*)
   - `redazione@tgitalinternational.it` — casella piena. Non è fra i nostri destinatari: qualcuno inoltra in automatico le mail a questo indirizzo, probabilmente Il Globo, che sta sullo stesso server
-- **Uscite:** ancora nessuna, né sui siti delle testate né nelle ricerche sul web. Mandato stamattina: da ricontrollare venerdì 20 e lunedì 23
+- **Uscite** (controllo del 20/11/2026, notte):
+
+| Testata | Quando | Link | Note |
+|---|---|---|---|
+| **Report Pistoia** | 19/11, ore 19:12 | [«Incipit: il segreto di Giselda Pons» di Cristina Mensi alla BE Art Gallery](https://www.reportpistoia.com/incipit-il-segreto-di-giselda-pons-di-cristina-mensi-alla-be-art-gallery/) | nelle brevi, sezione libro/Pistoia; comunicato ripreso quasi parola per parola |
+| **La Voce di Pistoia / Valdinievole Oggi** | 19/11, ore 13:15 | [Cristina Mensi presenta «Incipit. Il segreto di Giselda Pons»](https://www.valdinievoleoggi.it/a135076-cristina-mensi-presenta-incipit-il-segreto-di-giselda-pons.html) | comunicato ripreso per intero |
+| Pistoia Sette, Qui News, Pistoia Valdinievole News, La Vita, Corriere Pistoiese | — | — | niente sui siti |
+| La Nazione, Il Tirreno | — | — | online niente; guardare il cartaceo di venerdì e sabato |
+
+Da ricontrollare lunedì 23.
 
 ## Oggetto
 
