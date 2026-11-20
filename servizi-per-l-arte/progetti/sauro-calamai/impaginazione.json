@@ -89,7 +89,7 @@
   "pagine": [
    {
     "tipo": "copertina",
-    "foto": "104",
+    "foto": "003",
     "titolo": "Sauro Calamai",
     "sottotitolo": "Quello che la pietra suggerisce",
     "riga": "Serpentino del Monteferrato · marmo · legno"
@@ -132,7 +132,7 @@
    },
    {
     "tipo": "piena",
-    "foto": "003"
+    "foto": "005"
    },
    {
     "tipo": "testo",
@@ -178,13 +178,14 @@
     ],
     "foto": [
      {
-      "foto": "005",
+      "foto": "010",
       "dida": [
-       "Sauro Calamai al lavoro"
+       "<i>Verde come l'olio e… il serpentino. Dalla cava Paci di Bagnolo alla bottega dell'arte</i>",
+       "Rocca di Montemurlo, 2018"
       ]
      }
     ],
-    "quota_foto": 0.5
+    "quota_foto": 0.55
    },
    {
     "tipo": "sezione",
@@ -943,12 +944,6 @@
      }
     ],
     "foto": [
-     {
-      "foto": "010",
-      "dida": [
-       "<i>Verde come l'olio e… il serpentino</i>, 2018"
-      ]
-     },
      {
       "foto": "008",
       "dida": [

@@ -31,7 +31,7 @@ sono rassegna stampa, la brochure di *Verde Pietra* e una foto che va fra le don
 |---|---|---|---|
 | 001 | 11-02 21.23.22 2 | Giornale del Bisenzio, articolo *«Il mio tributo alla natura scolpendo il marmo verde del Monteferrato»*, pagina intera | P rassegna |
 | 002 | 11-02 21.23.22 | Giornale del Bisenzio, copertina del numero | P rassegna, piccola |
-| 003 | 11-05 12.08.00 | **Ritratto**: l'artista seduto accanto alla doppia testa in serpentino (104), che qui è intera | **C brochure · P** |
+| 003 | 11-05 12.08.00 | **Ritratto**: l'artista seduto accanto alla doppia testa in serpentino (104), che qui è intera | **C** brochure e catalogo |
 | 004 | 11-02 21.23.22 4 | Stesso articolo, doppia pagina | — doppione di 001 |
 | 005 | 11-05 20.38.35 | **Ritratto al lavoro**: l'artista scolpisce all'aperto una Madonna con Bambino in marmo bianco | **B · P** |
 | 006 | 11-02 21.23.22 1 | Seconda pagina dell'articolo, con la foto della sala consiliare | P rassegna |
@@ -43,7 +43,7 @@ Il file `11-06 10.22.51` della cartella principale è identico a 005.
 
 | Codice | File | Cosa si vede | Uso |
 |---|---|---|---|
-| 010 | `Locandina Verde come l'olio 2018.jpg` — mandata da Sauro il 19 novembre 2026 | Locandina della mostra *Verde come l'olio e… il serpentino*, Pieve di San Giovanni Decollato, Rocca di Montemurlo, 11 novembre 2018 – 28 gennaio 2019, a cura di Cinzia Menichetti | P cronologia |
+| 010 | `Locandina Verde come l'olio 2018.jpg` — mandata da Sauro il 19 novembre 2026 | Locandina della mostra *Verde come l'olio e… il serpentino*, Pieve di San Giovanni Decollato, Rocca di Montemurlo, 11 novembre 2018 – 28 gennaio 2019, a cura di Cinzia Menichetti | P pagina sulla pietra verde |
 
 Questa non è sul Drive: va salvata con quel nome nella cartella principale di
 `materiali/foto/`.
