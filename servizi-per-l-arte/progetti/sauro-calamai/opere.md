@@ -56,6 +56,7 @@ Questa non è sul Drive: va salvata con quel nome nella cartella principale di
 | 102 | 12.08.01 | *Serpente* attorcigliato su una pietra | P |
 | 103 | 12.08.00 5 | *Elefante*: serpentino trattato, a patina bronzea, su lastra grigia | P |
 | 104 | 12.08.00 4 | *Doppia testa*: due volti, uomo e donna, uniti dai capelli. È l'opera dell'articolo e del ritratto 003 | **C · B · P** ⭐ |
+|  | | ↳ La foto ha la scultura già tagliata ai lati, in origine. In pagina è ritagliata sopra e sotto (parete e ripiano). **Da rifare** nella sessione fotografica, con margine ai lati. | |
 | 105 | 12.08.00 3 | *Volto con turbante e barba*: volto lucidato, barba lasciata a solchi | **B · P** |
 | 106 | 12.08.00 2 | *Busto d'uomo con occhiali*, su base in marmo e serpentino | P · ? chi ritrae |
 | 107 | 12.08.00 1 | **Edera**, 2024 — foglie in rilievo sulla pietra | **B · P** |
