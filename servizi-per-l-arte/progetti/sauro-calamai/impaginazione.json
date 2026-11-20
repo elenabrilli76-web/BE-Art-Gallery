@@ -81,8 +81,7 @@
   "506": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22 2.jpeg",
   "507": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22 1.jpeg",
   "508": "RICICLO/WhatsApp Image 2026-11-06 at 07.58.22.jpeg",
-  "010": "Locandina Verde come l'olio 2018.jpg",
-  "003b": "WhatsApp Image 2026-11-05 at 12.08.00.jpeg"
+  "010": "Locandina Verde come l'olio 2018.jpg"
  },
  "portfolio": {
   "titolo": "Sauro Calamai — Quello che la pietra suggerisce",
@@ -1064,9 +1063,9 @@
     ],
     "foto": [
      {
-      "foto": "003b",
+      "foto": "107",
       "dida": [
-       "<i>Doppia testa</i>",
+       "<i>Edera</i>, 2024",
        "serpentino"
       ]
      }
@@ -1113,7 +1112,7 @@
    },
    {
     "tipo": "copertina",
-    "foto": "107",
+    "foto": "003",
     "titolo": "Sauro Calamai",
     "sottotitolo": "Quello che la pietra suggerisce",
     "riga": "Serpentino · marmo · legno"
@@ -1206,18 +1205,6 @@
    0.065,
    1.0,
    0.775
-  ],
-  "003b": [
-   0.49,
-   0.47,
-   0.995,
-   0.81
-  ],
-  "107": [
-   0.0,
-   0.1,
-   1.0,
-   0.8
   ]
  }
 }
