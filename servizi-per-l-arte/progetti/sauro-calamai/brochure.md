@@ -84,7 +84,8 @@ Colori, numero di venature e varianti stanno in `impaginazione.json`, alla voce
 >
 > *[telefono ed email dell'artista: stanno in `materiali/privato.json`, non qui]*
 >
-> QR code alla pagina dell'artista: beartgallery.eu/servizi-curatoriali/artisti/sauro-calamai
+> QR code alla pagina dell'artista, con sotto il link scritto:
+> beartgallery.eu/servizi-curatoriali/artisti/sauro-calamai
 >
 > Foto: BE Art Gallery
 > Progetto grafico: BE Art Gallery & Creative Lab · beartgallery.eu
