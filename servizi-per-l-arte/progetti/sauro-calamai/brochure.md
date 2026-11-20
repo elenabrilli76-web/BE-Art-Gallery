@@ -24,11 +24,11 @@ un mosaico di foto piccole. Le altre opere stanno nel portfolio.
 
 | Facciata | Opere |
 |---|---|
-| 1 · copertina | **104** *Doppia testa*, serpentino, a piena anta |
+| 1 · copertina | **107** *Edera*, serpentino — tolto il muro sotto |
 | 2 · chi è | **005** ritratto al lavoro |
 | 3 · la pietra | **115** *Volto e mano* |
 | 4 · marmo e legno | **208** *Nudo disteso*, acceso · **310** *Aquila* |
-| 5 · aletta | **107** *Edera* |
+| 5 · aletta | **003b** *Doppia testa*, ritagliata dal ritratto di Sauro (003): l'unica foto in cui è intera |
 | 6 · retro | nessuna opera: contatti, crediti e logo |
 
 Alternative: 105 *Volto con turbante* al posto di 115, 308 *Volto fra le rose* al posto di 310.
