@@ -30,13 +30,13 @@ La scaletta qui sotto è ricavata da `impaginazione.json`, che è il file da cui
 
 | Pag. | Contenuto | Opere |
 |---|---|---|
-| 1 | Copertina | 104 |
+| 1 | Copertina | 003 Sauro accanto alla *Doppia testa*, intera |
 | 2 | Seconda di copertina: solo il fondo venato | — |
 | 3 | Citazione dell'artista, in grande | — |
 | 4 | Presentazione | — |
-| 5 | Ritratto a piena pagina | 003 |
+| 5 | Ritratto a piena pagina | 005 Sauro al lavoro sul marmo |
 | 6 | Biografia | — |
-| 7 | La materia | 005 |
+| 7 | La materia | 010 locandina di *Verde come l'olio e… il serpentino*, 2018 |
 | 8 | **I · Serpentino** — apertura | 115, intera |
 | 9 | Presentazione della sezione: *La pietra che decide il colore* | — |
 | 10 |  | 104 *Doppia testa* |
