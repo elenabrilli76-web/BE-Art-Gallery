@@ -35,3 +35,10 @@ servizi-per-l-arte/progetti/*/materiali/*
 testi-critici/mostre/*/*-prova.pdf
 testi-critici/mostre/*/prova-*.png
 testi-critici/mostre/*/artisti-prova/
+
+# I laboratori: foto dei lavori, immagini delle opere di riferimento, iscritti,
+# contatti e quote restano in locale. Le cartelle arrivano vuote con il pull
+laboratori/*/materiali/*
+!laboratori/*/materiali/.gitkeep
+laboratori/privato/*
+!laboratori/privato/.gitkeep
