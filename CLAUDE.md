@@ -168,8 +168,8 @@ I progetti dei laboratori stanno in `laboratori/`. Il primo è **«Dipingere
 con…»**: un atelier permanente, ogni mercoledì alle 21, in cui si dipinge
 senza pennello (mani, spugne, pellicola, palloncini, bolle di sapone,
 foglie e oggetti come stampi, racla, musica). Niente colore versato:
-nessuno sversamento di colore in galleria. Ci sono due percorsi distinti, uno per gli adulti e uno per i bambini. Accanto ci
-sono altri **dieci filoni** di quattro serate ciascuno (la terra, la
+nessuno sversamento di colore in galleria. Ci sono due percorsi distinti,
+uno per gli adulti e uno per i bambini. Accanto ci sono altri **dieci filoni** di quattro serate ciascuno (la terra, la
 geometria romanica, la linea lenta, la parola, le mappe, il taglio, il filo,
 il cadavere squisito, ritratto senza volto, le carte). Nascono dai temi
 dell'arteterapia ma partono da un precedente vero della storia dell'arte.
