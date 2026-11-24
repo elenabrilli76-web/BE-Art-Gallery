@@ -53,6 +53,9 @@ dopo.
   di colori diversi
 - È la stessa logica della tarsia romanica: chi ha fatto anche quel filone
   la riconosce
+- **Lo stencil.** Il foglio forato si usa anche come mascherina: lo si
+  appoggia su un foglio bianco e si passa il colore nel buco con la spugna.
+  La stessa forma si ripete, si sposta, si sovrappone in colori diversi
 
 ### III · Il fotomontaggio
 
@@ -76,6 +79,8 @@ dopo.
 - forbici buone, di misure diverse; taglierini e tappetini
 - riviste, vecchie fotografie, cartoline
 - colla vinilica e colla stick, spilli per comporre prima di incollare
+- spugne e un po' di colore per lo stencil; cartoncino più rigido per le
+  mascherine che si usano più volte
 
 ---
 
@@ -88,7 +93,7 @@ bisogno di saper disegnare.
 |---|---|
 | **La regola** | «Niente matita: si disegna con le forbici» |
 | **Le forme di Matisse** | si tagliano foglie, alghe, stelle, e si compongono su un fondo blu |
-| **Il buco** | da ogni forma tagliata resta un buco: si tiene anche quello |
+| **Il buco** | da ogni forma tagliata resta un buco: si tiene anche quello, e ci si passa dentro il colore con la spugna |
 | **La parete di tutti** | le forme di tutti i bambini su un grande foglio comune, appeso nella sala |
 
 Forbici con punta arrotondata per i più piccoli, e carte già dipinte prima:

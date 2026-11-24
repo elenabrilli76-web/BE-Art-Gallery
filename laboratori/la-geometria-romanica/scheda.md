@@ -51,6 +51,11 @@ a mano libera: tutto nasce da riga, squadra e compasso.
   interrotte da un arco
 - Si colorano a tempera, in due colori, con pazienza. È il lavoro più
   meditativo del ciclo
+- **Il nastro.** Per fasce nette si coprono con nastro di carta le strisce
+  che devono restare bianche, si passa il colore con la spugna o la racla,
+  e si stacca il nastro quando il colore è appena asciutto. Il bordo esce
+  pulito come una lastra di marmo. Anche Mondrian, negli ultimi anni a New
+  York, componeva i quadri con il nastro colorato prima di dipingerli
 
 ### III · La tarsia
 
@@ -76,6 +81,7 @@ a mano libera: tutto nasce da riga, squadra e compasso.
   verde scuro, oppure nero)
 - tempera o gouache in due colori, pennelli piatti piccoli
 - taglierini e tappetini da taglio
+- nastro di carta da carrozziere, di larghezze diverse
 
 ## Possibile uscita
 
@@ -93,7 +99,7 @@ proprio per questo.
 |---|---|
 | **La regola** | «Due colori soli, e niente a mano libera» |
 | **Il primo cerchio** | si impara a usare il compasso: chi ci riesce, lo insegna al vicino |
-| **Le strisce** | un rotolo lungo, a terra: ognuno aggiunge una fascia, bianca o verde, alternando |
+| **Le strisce** | un rotolo lungo, a terra: ognuno aggiunge una fascia, bianca o verde, alternando. Con il nastro di carta le fasce vengono dritte anche ai più piccoli |
 | **Il rosone di tutti** | un cerchio grande diviso in spicchi, uno per bambino, che poi si ricompone |
 
 Compassi con la punta protetta, o compassi a rotella senza punta.

@@ -47,6 +47,10 @@ e non va sottolineato.
 - Si disegna con il filo come con una matita: una linea che gira, si spezza,
   torna indietro. Niente figure
 - Come Maria Lai: un ricamo che sembra scrittura
+- **Sul dipinto.** Al posto della tela grezza, un foglio dipinto in
+  «Dipingere con…»: una macchia di spugna, una passata di racla, una
+  stampa di foglia. Il filo segue un bordo del colore, lo attraversa, lo
+  ripete. Chi ha fatto il primo ciclo ritrova un suo lavoro e lo continua
 
 ### III · Il rammendo
 
@@ -87,7 +91,7 @@ e non va sottolineato.
 | | |
 |---|---|
 | **La regola** | «Il filo disegna» |
-| **Cucire il cartone** | cartoncini già bucati e aghi di plastica a punta tonda: si unisce un buco all'altro con la lana colorata |
+| **Cucire il cartone** | cartoncini già bucati e aghi di plastica a punta tonda: si unisce un buco all'altro con la lana colorata. Il cartoncino può essere uno dei loro fogli dipinti in «Dipingere con…» |
 | **La ragnatela** | un telaio di legno e tanti fili tesi, intrecciati da tutti insieme |
 | **Il filo di tutti** | come Maria Lai: un nastro che lega i lavori di ogni bambino, appesi nella sala |
 

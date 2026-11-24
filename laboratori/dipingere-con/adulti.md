@@ -130,9 +130,18 @@ tranquilla e insieme la più carica di tensione.
   cerchi, chiari su scuro. Si lavora sulla **ripetizione**: lo stesso gesto
   dieci volte, e le piccole differenze diventano il ritmo
 - Si può sovrapporre un cerchio a un altro ancora fresco
+- **Il palloncino che solleva.** Seconda parte della serata: sul foglio si
+  stendono con la spatola due o tre colori, vicini e un po' spessi, senza
+  mescolarli. Si preme il palloncino nel colore ancora fresco, lo si
+  schiaccia appena, e lo si **solleva** piano. Il colore si stacca e si apre
+  in forme a fiore, a cellula, a corolla. Lo stesso palloncino, premuto in
+  un altro punto, porta con sé il colore di prima
+- Il colore si stende, non si versa: resta sul foglio, sul tavolo non cola
+  niente
 
 **Materiali in più.** Palloncini **senza lattice** (allergie), di misure
-diverse. Fondo preparato con acrilico scuro.
+diverse. Fondo preparato con acrilico scuro. Per il palloncino che solleva:
+acrilico denso, spatole, carta pesante che non si imbarchi.
 
 ---
 
@@ -162,18 +171,101 @@ nella cannuccia, vicino alla bocca, evita incidenti.
 
 ---
 
-## VI · Tutto insieme
+## VI · Dipingere con le foglie (e con le cose)
+
+**Lo sguardo.** Nel *Codice Atlantico* Leonardo annerisce una foglia di
+salvia e la preme sul foglio: è una delle prime stampe dalla natura, fatta
+per avere le venature esatte, senza disegnarle. Quattro secoli e mezzo dopo,
+nel 1953, Robert Rauschenberg fa passare un'automobile, con la ruota
+inchiostrata, su sette metri di carta: *Automobile Tire Print*. Una foglia e
+uno pneumatico: qualunque cosa abbia una superficie può diventare uno stampo.
+
+**Il vincolo.** Un solo colore per ogni stampa. Si sovrappone, ma non si
+mescola.
+
+**Svolgimento.**
+- Sul tavolo, due cesti. **Elementi naturali**: foglie fresche con le
+  venature in rilievo (felce, edera, ginkgo, vite, salvia), steli, cortecce
+  sottili. **Elementi trovati**: carta stagnola stropicciata, pluriball,
+  pizzo, spago, rete, cartone ondulato
+- Gesto a vuoto: con il rullo di gomma si stende il colore su una lastra, lo
+  si passa sullo stampo, lo si appoggia sulla carta, si copre con un foglio
+  pulito e si preme con il rullo o con il dorso di un cucchiaio. Si prova
+  ogni stampo una volta: si scopre quale tiene il colore e quale no
+- Sul foglio buono: prima il colore più chiaro, poi quelli più scuri. La
+  stessa foglia stampata più volte, sempre più scarica, fa una sfumatura che
+  nessun pennello darebbe
+- Si sceglie se tenere separati i due cesti o farli incontrare: la venatura
+  della foglia accanto alla piega della stagnola
+
+**Materiali in più.** Rulli di gomma, lastre di vetro o plexiglass per
+stendere il colore, acrilico con ritardante o inchiostri da stampa ad acqua,
+carta liscia e leggera (prende meglio l'impronta). Le foglie si raccolgono
+**il giorno stesso**: secche si sbriciolano.
+
+---
+
+## VII · Dipingere con la racla
+
+**Lo sguardo.** Gerhard Richter, dagli anni Ottanta: le grandi astrazioni
+fatte con la *racla*, una lunga spatola che trascina il colore sulla tela.
+Strato dopo strato, ogni passata ne strappa una parte e ne scopre un'altra.
+Il pittore decide la direzione e la forza; il resto lo decide il colore.
+
+**Il vincolo.** Una passata sola per ogni strato. Non si torna indietro.
+
+**Svolgimento.**
+- Gesto a vuoto: poche gocce di colore, di due o tre colori, sul bordo del
+  foglio. Si trascinano con una vecchia tessera, una spatola, un raschietto
+  da vetri. Piano e forte, dritto e ondulato
+- Sul foglio buono: un primo strato, lasciato asciugare qualche minuto. Poi
+  un secondo, di traverso, che copre e scopre il primo. Tre strati al massimo
+- Le racle di larghezze diverse fanno lavori diversi: con quella stretta si
+  scrive, con quella larga si copre
+
+**Materiali in più.** Tessere di plastica scadute, spatole da stucco,
+raschietti da vetri in gomma, carta pesante o cartoncino telato. Lo strato
+è sottile: asciuga in fretta, e il lavoro si porta a casa la sera stessa.
+
+---
+
+## VIII · Dipingere ascoltando
+
+**Lo sguardo.** Kandinsky, nel 1911, ascolta un concerto di Schönberg a
+Monaco e nei giorni dopo dipinge *Impressione III (Concerto)*: una grande
+macchia gialla che è il suono, la sagoma nera del pianoforte. Per lui
+colori e suoni erano parenti stretti.
+
+**Il vincolo.** Si dipinge solo mentre la musica suona. Quando si ferma, ci
+si ferma.
+
+**Svolgimento.**
+- Tre brani, scelti molto diversi fra loro: uno lento, uno ritmico, uno
+  senza melodia. Un foglio per brano
+- Gli strumenti sono liberi, scelti tra quelli delle sere precedenti: le
+  mani, la spugna, la racla
+- Nel giro finale si ascolta di nuovo un brano, guardando i lavori fatti su
+  quel brano
+
+**Materiali in più.** Una buona cassa. Se si trova un musicista disposto a
+suonare dal vivo, la serata diventa un piccolo evento, e si comunica come
+tale.
+
+---
+
+## IX · Tutto insieme
 
 **Lo sguardo.** Nessuna opera da fuori: si guardano, appesi al filo, i
-cinque lavori fatti nel ciclo. Chi viene per la prima volta guarda quelli
-degli altri.
+lavori fatti nel ciclo. Chi viene per la prima volta guarda quelli degli
+altri.
 
 **Il vincolo.** Un foglio grande, 50 × 70. Si scelgono **due strumenti** —
 non di più — e si decide quale viene prima.
 
 **Svolgimento.**
-- Si comincia con lo strumento che lascia tracce larghe (spugna, pellicola),
-  si finisce con quello che lascia tracce precise (mani, palloncini, bolle)
+- Si comincia con lo strumento che lascia tracce larghe (spugna, racla,
+  pellicola), si finisce con quello che lascia tracce precise (mani,
+  palloncini, bolle, foglie)
 - È la sera in cui si sceglie il lavoro da proporre per la **collettiva di
   fine stagione**
 - Il giro finale è più lungo: si guarda anche il percorso, non solo il foglio

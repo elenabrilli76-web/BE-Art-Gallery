@@ -120,23 +120,33 @@ Qui si parte dall'opposto: **nessun soggetto, un vincolo preciso**.
 
 ## Il ciclo di «Dipingere con…»
 
-Cinque strumenti più una sessione che li mette insieme: **sei mercoledì**.
-Poi il ciclo ricomincia con un supporto o un vincolo diverso (prima la carta,
-poi la tela; prima due colori, poi il bianco e nero), così chi torna non
-ripete mai la stessa sera.
+Otto strumenti più una sessione che li mette insieme: **nove mercoledì**.
+Poi il ciclo ricomincia con un
+supporto o un vincolo diverso (prima la carta, poi la tela; prima due
+colori, poi il bianco e nero), così chi torna non ripete mai la stessa sera.
 
 | # | Strumento | Il riferimento | Cosa si scopre |
 |---|---|---|---|
 | I | **le mani** | le mani delle grotte, Gao Qipei, Shiraga | il segno del corpo, senza mediazione |
 | II | **le spugne** | Yves Klein, i rilievi di spugna | la superficie, la stratificazione |
 | III | **la pellicola** | Domínguez ed Ernst, la decalcomania | il caso guidato, la texture |
-| IV | **i palloncini** | Kandinsky, *Alcuni cerchi* | il cerchio, il ritmo, la ripetizione |
+| IV | **i palloncini** | Kandinsky, *Alcuni cerchi* | il cerchio, il ritmo, la ripetizione; il colore sollevato che si apre in forme |
 | V | **le bolle di sapone** | Chardin, *Bolle di sapone* | l'effimero, la traccia leggera |
-| VI | **tutto insieme** | — | un lavoro solo, scegliendo gli strumenti |
+| VI | **le foglie e le cose** | Leonardo, la foglia di salvia; Rauschenberg, *Automobile Tire Print* | l'impronta, la superficie delle cose |
+| VII | **la racla** | Gerhard Richter, le astrazioni | lo strato che copre e scopre |
+| VIII | **l'ascolto** | Kandinsky, *Impressione III (Concerto)* | il colore che segue il suono |
+| IX | **tutto insieme** | — | un lavoro solo, scegliendo gli strumenti |
 
 **Ogni sessione sta in piedi da sola**: si può venire una sera sola, senza
-aver fatto le precedenti. Chi fa il ciclo intero, però, alla sesta sera ha
-cinque fogli suoi e un linguaggio da combinare.
+aver fatto le precedenti. Chi fa il ciclo intero, però, all'ultima sera ha
+i suoi fogli e un linguaggio da combinare.
+
+> Le tecniche della racla e delle varianti con nastro, stencil e ricamo
+> vengono anche dai tutorial di **Mii Paintings** (Veronika Mii). Come per i
+> manuali di arteterapia, ne prendiamo i gesti, non i soggetti decorativi.
+> **Niente colore versato** (acrylic pouring): nessuno sversamento di colore
+> in galleria. Il colore si stende con spatola, spugna o rullo; il
+> palloncino e le bolle lavorano su colore steso, non versato.
 
 > **Da confermare con Elena:** negli appunti c'è «palloncini (pellicola)».
 > Qui sono due strumenti distinti — il palloncino premuto sul colore e la
