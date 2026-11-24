@@ -4,8 +4,8 @@
 |---|---|
 | **Evento** | lettura condivisa, mercoledì 25 novembre ore 21:30 e sabato 28 novembre ore 18:30, dentro *Siamo Donne, oltre la violenza c'è di più* |
 | **Fonte** | [www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu](https://www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu), letta il 24/11/2026 · locandina `Violenze-Anonime_25-28-novembre.jpg` |
-| **Stato** | approvato il 24/11 · bozza in Gmail |
-| **Inviato** | — |
+| **Stato** | **inviato** da Elena · 4 allegati, 1,7 MB |
+| **Inviato** | martedì 24 novembre 2026, pomeriggio |
 | **A chi** | in Ccn le 9 redazioni dell'elenco, senza Il Globo (casella piena due volte) |
 
 ## Oggetto
