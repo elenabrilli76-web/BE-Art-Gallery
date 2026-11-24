@@ -194,6 +194,22 @@ mindfulness, creatività* (da sola), *lavoretti*.
 
 ---
 
+## Sul computer
+
+Come per i Servizi per l'Arte, alcune cartelle arrivano **vuote** con il
+pull e quello che ci metti dentro **resta sul computer**: non va mai su
+GitHub.
+
+| Cartella | Cosa ci va |
+|---|---|
+| `nome-filone/materiali/` | le immagini delle opere di riferimento da proiettare, le foto dei lavori fatti durante le serate, le stampe da preparare (le mappe a contorno, le carte di prova) |
+| `privato/` | iscritti e prenotazioni, contatti dei partecipanti, quote e conti |
+
+Le immagini delle opere di riferimento — Klein, Matisse, Maria Lai — sono
+protette dal diritto d'autore, e i nomi dei partecipanti sono dati
+personali: per questo restano fuori dal repository, che è pubblico. Le
+schede `scheda.md` invece viaggiano: sono il progetto.
+
 ## Da decidere
 
 - **Bambini, quando:** proposta il mercoledì alle 17, oppure il sabato mattina
