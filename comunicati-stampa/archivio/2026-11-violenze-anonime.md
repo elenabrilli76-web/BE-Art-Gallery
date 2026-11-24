@@ -6,7 +6,7 @@
 | **Fonte** | [www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu](https://www.beartgallery.eu/eventi/siamo-donne-oltre-la-violenza-ce-di-piu), letta il 24/11/2026 · locandina `Violenze-Anonime_25-28-novembre.jpg` |
 | **Stato** | approvato il 24/11 · bozza in Gmail |
 | **Inviato** | — |
-| **A chi** | — |
+| **A chi** | in Ccn le 9 redazioni dell'elenco, senza Il Globo (casella piena due volte) |
 
 ## Oggetto
 
