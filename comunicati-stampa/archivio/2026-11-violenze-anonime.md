@@ -48,8 +48,6 @@ Mercoledì 25 novembre, Giornata internazionale per l'eliminazione della violenz
 
 Il testo è liberamente ispirato a fatti realmente accaduti, testimonianze e cronache, ed è stato rielaborato in forma di reading teatrale da Elena Brilli. Non una scena da guardare, ma un cerchio di voci da ascoltare: la violenza non viene messa in scena, viene nominata, una storia dopo l'altra. Chi lo desidera può prestare la propria voce alla lettura; chi preferisce, ascolta.
 
-La lettura contiene riferimenti alla violenza di genere, e chi partecipa può uscire liberamente in ogni momento. Il numero antiviolenza e antistalking 1522 è gratuito e attivo 24 ore su 24.
-
 «Violenze Anonime» fa parte di «Siamo Donne, oltre la violenza c'è di più», il progetto contro la violenza di genere che BE Art Gallery porta avanti fino al 13 dicembre. Al centro c'è la mostra collettiva «DONNE: Femminile Plurale», con le opere di quattordici artisti sui tre livelli della galleria, visitabile anche nelle sere della lettura.
 
 ## I PROSSIMI APPUNTAMENTI
