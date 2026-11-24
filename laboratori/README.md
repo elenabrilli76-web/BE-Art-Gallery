@@ -4,8 +4,9 @@ Il terzo pilastro della galleria: **come le antiche botteghe, si impara facendo.
 Qui stanno i progetti dei laboratori: l'impostazione, le schede delle singole
 sessioni, quello che serve per condurle.
 
-> Stato: **prima stesura**. Gli orari dei bambini, i costi e chi conduce sono
-> ancora da decidere: vedi in fondo.
+> Stato: **prima stesura**, partenza a **gennaio 2027**. Undici filoni
+> impostati: «Dipingere con…» e altri dieci. Gli orari dei bambini, i costi e
+> chi conduce sono ancora da decidere: vedi in fondo.
 
 ---
 
@@ -27,6 +28,40 @@ centro la materia.
 I due percorsi usano gli **stessi strumenti**, ma non sono uno la versione
 ridotta dell'altro: cambiano il ritmo, lo scopo e il modo di guardare il
 lavoro finito.
+
+---
+
+## Gli altri filoni
+
+Dieci filoni, ognuno di **quattro serate**, che nascono dai temi
+dell'arteterapia ma li riportano a un precedente vero della storia dell'arte.
+Ogni scheda dice da quale tema parte e cosa cambiamo.
+
+Tutti seguono **la stessa serata** di «Dipingere con…» — la soglia, lo
+sguardo, il gesto a vuoto, il lavoro, il giro, la chiusura: vedi
+[`dipingere-con/adulti.md`](dipingere-con/adulti.md). E gli stessi principi
+qui sotto.
+
+| Filone | Dall'arteterapia | Il riferimento | Bambini |
+|---|---|---|---|
+| [**La terra**](la-terra/scheda.md) | manipolare l'argilla | l'Impruneta, Leoncillo, Fontana | dai 4 anni |
+| [**La geometria romanica**](la-geometria-romanica/scheda.md) | il mandala | le facciate a fasce di Pistoia | dai 7 anni |
+| [**La linea lenta**](la-linea-lenta/scheda.md) | il disegno meditativo | Agnes Martin, Kusama, Opalka | no |
+| [**La parola**](la-parola/scheda.md) | il diario di scrittura | Isgrò, Tom Phillips, il Gruppo 70 | dai 10 anni |
+| [**Le mappe**](le-mappe/scheda.md) | la mappa delle emozioni | la *Carta del Tenero*, Boetti | dai 6 anni |
+| [**Il taglio**](il-taglio/scheda.md) | il collage terapeutico | Matisse, Höch, Fontana | dai 5 anni |
+| [**Il filo**](il-filo/scheda.md) | cucito e ricamo | Maria Lai, Louise Bourgeois | dai 7 anni |
+| [**Il cadavere squisito**](il-cadavere-squisito/scheda.md) | lo scarabocchio a due | i surrealisti | in famiglia |
+| [**Ritratto senza volto**](ritratto-senza-volto/scheda.md) | l'autostima | Van Gogh, Spoerri, Cornell | un incontro, dai 6 anni |
+| [**Le carte**](le-carte/scheda.md) | le carte contro le paure | Eno e Schmidt, Yoko Ono | con un mazzo dedicato |
+
+I filoni **si parlano**: i fogli di «Dipingere con…» diventano carta per *Il
+taglio*; la tarsia della *Geometria romanica* ritorna nel pieno e vuoto del
+*Taglio*; le impronte della *Terra* e le mappe del palazzo usano lo stesso
+spazio. Chi segue più cicli ritrova le cose fatte, trasformate.
+
+*Il cadavere squisito* è il filone giusto per **aprire** con un gruppo nuovo:
+fa ridere, e nessuno è autore da solo.
 
 ---
 
@@ -83,7 +118,7 @@ Qui si parte dall'opposto: **nessun soggetto, un vincolo preciso**.
 
 ---
 
-## Il ciclo
+## Il ciclo di «Dipingere con…»
 
 Cinque strumenti più una sessione che li mette insieme: **sei mercoledì**.
 Poi il ciclo ricomincia con un supporto o un vincolo diverso (prima la carta,
@@ -167,4 +202,6 @@ mindfulness, creatività* (da sola), *lavoretti*.
   anticipo, e se c'è un minimo di partecipanti per confermare la serata
 - **Quote:** singola serata, ciclo di sei, eventuale tessera. Restano qui,
   fuori dai post, finché non sono confermate
-- **Data di partenza** del primo ciclo
+- **Da quale filone partire** a gennaio
+- **La terra:** la cottura (argilla autoindurente o un forno in convenzione)
+- **Le carte:** il mazzo stampato della galleria, e se venderlo
