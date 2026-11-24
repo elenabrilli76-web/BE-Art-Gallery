@@ -19,7 +19,7 @@ Comunicato stampa · 25 novembre, «Violenze Anonime»: una lettura condivisa da
 ```
 Gentile Redazione,
 
-domani, mercoledì 25 novembre, Giornata internazionale per l'eliminazione della violenza contro le donne, BE Art Gallery in via San Pietro 24 a Pistoia ospita alle 21:30 «Violenze Anonime», una lettura condivisa con Elena Brilli e le voci del pubblico. Si replica sabato 28 novembre alle 18:30. Ingresso libero, senza prenotazione.
+domani, mercoledì 25 novembre, Giornata internazionale per l'eliminazione della violenza contro le donne, BE Art Gallery in via San Pietro 24 a Pistoia ospita alle 21:30 «Violenze Anonime», lettura condivisa di un testo originale di Elena Brilli, con l'autrice e le voci del pubblico. Si replica sabato 28 novembre alle 18:30. Ingresso libero, senza prenotazione.
 
 Il comunicato è qui sotto e in allegato in PDF, con la locandina della lettura, quella del progetto «Siamo Donne, oltre la violenza c'è di più» e una foto della mostra, libera da pubblicare citando «foto BE Art Gallery».
 
@@ -46,7 +46,7 @@ Pistoia, 24 novembre 2026
 
 Mercoledì 25 novembre, Giornata internazionale per l'eliminazione della violenza contro le donne, BE Art Gallery ospita alle 21:30 «Violenze Anonime», una lettura condivisa con Elena Brilli e le voci del pubblico. La lettura si ripete sabato 28 novembre alle 18:30. Entrambe le serate si tengono nella galleria di via San Pietro 24, nel centro storico di Pistoia, e sono a ingresso libero, senza prenotazione.
 
-Il testo è liberamente ispirato a fatti realmente accaduti, testimonianze e cronache, ed è stato rielaborato in forma di reading teatrale da Elena Brilli. Non una scena da guardare, ma un cerchio di voci da ascoltare: la violenza non viene messa in scena, viene nominata, una storia dopo l'altra. Chi lo desidera può prestare la propria voce alla lettura; chi preferisce, ascolta.
+Il testo è un'opera originale di Elena Brilli, scritta in forma di reading teatrale e liberamente ispirata a fatti realmente accaduti, testimonianze e cronache. Non una scena da guardare, ma un cerchio di voci da ascoltare: la violenza non viene messa in scena, viene nominata, una storia dopo l'altra. Chi lo desidera può prestare la propria voce alla lettura; chi preferisce, ascolta.
 
 «Violenze Anonime» fa parte di «Siamo Donne, oltre la violenza c'è di più», il progetto contro la violenza di genere che BE Art Gallery porta avanti fino al 13 dicembre. Al centro c'è la mostra collettiva «DONNE: Femminile Plurale», con le opere di quattordici artisti sui tre livelli della galleria, visitabile anche nelle sere della lettura.
 
@@ -72,6 +72,6 @@ BE Art Gallery & Creative Lab è una galleria d'arte contemporanea nel centro st
 | File | Note |
 |---|---|
 | `BE-Art-Gallery_Violenze-Anonime_comunicato.pdf` | `py comunicati-stampa\pdf.py 2026-11-violenze-anonime` |
-| `Violenze-Anonime_25-28-novembre.jpg` | locandina della lettura |
+| `Violenze-Anonime_25-28-novembre.jpg` | locandina della lettura, versione per la stampa senza il 1522 (`Violenze-Anonime_25-28-novembre_stampa.jpg`) |
 | `Siamo-Donne_locandina.jpg` | locandina del progetto |
 | `inaugurazione-2_sala-voltata.jpg` | una foto della galleria con le opere, già mandata il 19/11 |
