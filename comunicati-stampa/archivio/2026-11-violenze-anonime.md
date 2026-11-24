@@ -72,6 +72,6 @@ BE Art Gallery & Creative Lab è una galleria d'arte contemporanea nel centro st
 | File | Note |
 |---|---|
 | `BE-Art-Gallery_Violenze-Anonime_comunicato.pdf` | `py comunicati-stampa\pdf.py 2026-11-violenze-anonime` |
-| `Violenze-Anonime_25-28-novembre.jpg` | locandina della lettura, versione per la stampa senza il 1522 (`Violenze-Anonime_25-28-novembre_stampa.jpg`) |
+| `Violenze-Anonime_25-28-novembre.jpg` | locandina della lettura, versione per la stampa: senza il 1522 e senza l'avvertenza, con «Testo liberamente tratto e riadattato da fatti di cronaca e testimonianze reali» (`Violenze-Anonime_25-28-novembre_stampa.jpg`) |
 | `Siamo-Donne_locandina.jpg` | locandina del progetto |
 | `inaugurazione-2_sala-voltata.jpg` | una foto della galleria con le opere, già mandata il 19/11 |
