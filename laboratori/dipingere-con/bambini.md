@@ -78,9 +78,16 @@ Il non-giudizio con i bambini passa da poche frasi, sempre le stesse.
 | I | **le mani** | sul foglio grande solo impronte, e ogni impronta deve toccarne un'altra | mano aperta, chiusa, il pugno, il dito: ognuna lascia un segno diverso. Il foglio diventa una mappa di tutti |
 | II | **le spugne** | si comincia con il colore chiaro, si finisce con lo scuro, e non si torna indietro | i colori sopra i colori: il giallo sotto il blu fa un'altra cosa |
 | III | **la pellicola** | si stropiccia la pellicola sul colore bagnato, poi la si stacca subito | cosa c'era sotto? Le «montagne» e i «fiumi» che si vedono |
-| IV | **i palloncini** | solo cerchi, palloncini di grandezze diverse | grande e piccolo, pieno e vuoto. Il palloncino si schiaccia e il cerchio cambia |
+| IV | **i palloncini** | solo cerchi, palloncini di grandezze diverse; poi si preme il palloncino nel colore steso e lo si solleva piano | grande e piccolo, pieno e vuoto. Il palloncino si schiaccia e il cerchio cambia; quando si solleva, il colore si apre come un fiore |
 | V | **le bolle di sapone** | si soffia, si appoggia il foglio, si guarda | la bolla scoppia ma lascia il segno. È la sera della meraviglia |
-| VI | **tutto insieme** | il foglio grande, e ognuno sceglie il suo strumento preferito | un lavoro collettivo da tenere per l'installazione di fine stagione |
+| VI | **le foglie e le cose** | prima si raccolgono le foglie, poi si stampa: ogni stampo una volta sola sul foglio grande | la foglia lascia le sue vene, la stagnola le sue pieghe, il pluriball i suoi puntini. Si indovina quale stampo ha fatto quale segno |
+| VII | **la racla** | una tessera di plastica, tre gocce di colore, una passata sola | il colore si allunga, si mescola, scopre quello sotto. Ogni passata è una sorpresa |
+| VIII | **la musica** | si dipinge solo quando la musica suona: quando si ferma, mani in alto | il colore va piano con la musica lenta e corre con quella veloce |
+| IX | **tutto insieme** | il foglio grande, e ognuno sceglie il suo strumento preferito | un lavoro collettivo da tenere per l'installazione di fine stagione |
+
+**Le foglie con i bambini** sono anche un'occasione per uscire: dieci
+minuti a raccogliere foglie diverse prima di cominciare, oppure ognuno ne
+porta tre da casa. Pistoia è la città dei vivai: basta chiedere.
 
 Per i più piccoli la pellicola si stacca subito, non la settimana dopo come
 per gli adulti: l'attesa di sette giorni a quattro anni non ha senso.
@@ -99,6 +106,10 @@ per gli adulti: l'attesa di sette giorni a quattro anni non ha senso.
 - per le bolle: cannucce con un **forellino vicino alla bocca**, così non si
   può aspirare. Sotto i 6 anni le bolle le soffia l'adulto accanto
 - acqua e sapone vicini; niente salviette come unico modo di pulirsi
+- per le stampe: rulli di gomma piccoli e foglie **non velenose** — niente
+  oleandro, tasso, edera dai bambini piccoli che si mettono le mani in bocca.
+  Felce, vite, ginkgo, platano, tiglio vanno bene
+- per la racla: tessere di plastica, mai spatole di metallo
 
 ---
 
