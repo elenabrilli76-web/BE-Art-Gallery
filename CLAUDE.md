@@ -162,6 +162,27 @@ Portfolio e brochure si impaginano con `py strumenti\servizi.py nome-cognome`. D
 - **I contatti dell'artista** (telefono, email) non entrano nel repository: stanno in
   `materiali/privato.json` del progetto, che resta sul computer.
 
+## Laboratori — Creative Lab
+
+I progetti dei laboratori stanno in `laboratori/`. Il primo è **«Dipingere
+con…»**: un atelier permanente, ogni mercoledì alle 21, in cui si dipinge
+senza pennello (mani, spugne, pellicola, palloncini, bolle di sapone). Ci sono
+due percorsi distinti, uno per gli adulti e uno per i bambini. Accanto ci
+sono altri **dieci filoni** di quattro serate ciascuno (la terra, la
+geometria romanica, la linea lenta, la parola, le mappe, il taglio, il filo,
+il cadavere squisito, ritratto senza volto, le carte). Nascono dai temi
+dell'arteterapia ma partono da un precedente vero della storia dell'arte.
+Una cartella per filone, con dentro `scheda.md`. Si parte a gennaio 2027.
+
+**Non è arteterapia e non è un corso.** Nessun soggetto assegnato, un vincolo
+per sessione, un'opera della storia dell'arte come riferimento, i lavori si
+descrivono e non si giudicano. Nella comunicazione non si usano mai «terapia»
+né promesse di benessere. La CTA è **prenota il posto**.
+
+I manuali di arteterapia nel Drive (`Arte Terapia`) sono una fonte di tecniche,
+non di contenuti: sono materiale acquistato e non si copiano qui.
+Vedi [`laboratori/README.md`](laboratori/README.md).
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta
@@ -260,7 +281,8 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 
 - I nomi degli artisti in curatela, quando la selezione è chiusa
 - La biografia di Elena Brilli: formazione, mostre precedenti, riconoscimenti
-- Cosa diventerà il Creative Lab in concreto: quali laboratori, per chi, quando
+- Il Creative Lab: impostato il primo laboratorio, «Dipingere con…» (vedi
+  `laboratori/`). Restano da decidere l'orario dei bambini, chi conduce e le quote
 
 ---
 
@@ -393,5 +415,6 @@ Vanno nel **primo commento**, non nella caption, così il testo resta pulito.
   che non hanno funzionato: sono la guida migliore
 - Gli hashtag di contenuto che funzionano davvero: quelli di casa sono fissati,
   gli altri vanno affinati guardando da dove arrivano le visite
-- Il tono per il Creative Lab, quando partirà: rivolgersi a famiglie e bambini
-  richiede un registro diverso da quello per collezionisti e artisti
+- Il tono per il Creative Lab: una prima impostazione è in
+  `laboratori/README.md` (per i bambini si parla ai genitori; mai «terapia»).
+  Va verificata sui primi post
