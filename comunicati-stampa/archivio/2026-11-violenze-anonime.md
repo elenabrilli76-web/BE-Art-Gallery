@@ -21,7 +21,7 @@ Gentile Redazione,
 
 domani, mercoledì 25 novembre, Giornata internazionale per l'eliminazione della violenza contro le donne, BE Art Gallery in via San Pietro 24 a Pistoia ospita alle 21:30 «Violenze Anonime», una lettura condivisa con Elena Brilli e le voci del pubblico. Si replica sabato 28 novembre alle 18:30. Ingresso libero, senza prenotazione.
 
-Il comunicato è qui sotto e in allegato in PDF, con la locandina della lettura e quella del progetto «Siamo Donne, oltre la violenza c'è di più».
+Il comunicato è qui sotto e in allegato in PDF, con la locandina della lettura, quella del progetto «Siamo Donne, oltre la violenza c'è di più» e una foto della mostra, libera da pubblicare citando «foto BE Art Gallery».
 
 Se volete seguire la serata, vi teniamo un posto: basta una telefonata.
 
