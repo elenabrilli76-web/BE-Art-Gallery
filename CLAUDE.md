@@ -189,6 +189,17 @@ I manuali di arteterapia nel Drive (`Arte Terapia`) sono una fonte di tecniche,
 non di contenuti: sono materiale acquistato e non si copiano qui.
 Vedi [`laboratori/README.md`](laboratori/README.md).
 
+## Nuovi progetti
+
+Le proposte ancora in valutazione — mostre, artisti, iniziative — stanno in
+`nuovi-progetti/`, una cartella per proposta in `progetti/nome-cognome/`.
+Quando un progetto **va in porto**, si sposta nei posti giusti (il calendario
+qui sopra, `testi-critici/`, `laboratori/`, `servizi-per-l-arte/`): è già
+successo così per «Siamo Donne, oltre la violenza c'è di più», nata come
+proposta e oggi l'evento che contiene DONNE: Femminile Plurale.
+
+Vedi [`nuovi-progetti/README.md`](nuovi-progetti/README.md).
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta
