@@ -18,7 +18,7 @@ a creare il rito, e il rito a far stare tranquilli.
 
 | Ora | Momento | Cosa succede |
 |---|---|---|
-| 21.00 | **La soglia** | si arriva, si lascia il telefono in un cestino, una tisana. Grembiuli |
+| 21.00 | **La soglia** | si arriva, si lascia il telefono in un cestino, una tisana. Grembiuli. Poi un minuto fermi, seduti, le mani appoggiate sul foglio bianco: si arriva anche con la testa |
 | 21.10 | **Lo sguardo** | un'opera proiettata nella sala voltata. Chi conduce la racconta in cinque minuti: chi, quando, come l'ha fatta. Niente lezione |
 | 21.20 | **Il gesto a vuoto** | si prova lo strumento su carta da pacchi, senza preoccuparsi di niente. Si scopre cosa fa |
 | 21.30 | **Il lavoro** | si annuncia il vincolo della sera e si lavora sul foglio buono. Musica bassa, poche parole |

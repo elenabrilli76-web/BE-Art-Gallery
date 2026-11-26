@@ -106,6 +106,12 @@ per gli adulti: l'attesa di sette giorni a quattro anni non ha senso.
 - per le bolle: cannucce con un **forellino vicino alla bocca**, così non si
   può aspirare. Sotto i 6 anni le bolle le soffia l'adulto accanto
 - acqua e sapone vicini; niente salviette come unico modo di pulirsi
+- **la regola del rotolo**: tutto quello che un bambino può prendere in mano
+  deve essere più grande di un pugno. Se passa dentro il rotolo della carta
+  igienica, è troppo piccolo: niente tappi piccoli, perline, bottoni
+- foglie, sassi e rametti si lavano e si controllano prima: niente bacche,
+  funghi o piante sconosciute
+- acqua in bicchieri bassi e larghi, che non si rovesciano
 - per le stampe: rulli di gomma piccoli e foglie **non velenose** — niente
   oleandro, tasso, edera dai bambini piccoli che si mettono le mani in bocca.
   Felce, vite, ginkgo, platano, tiglio vanno bene
