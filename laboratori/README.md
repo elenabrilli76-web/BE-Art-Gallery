@@ -118,6 +118,72 @@ Qui si parte dall'opposto: **nessun soggetto, un vincolo preciso**.
 
 ---
 
+## Il patto dell'atelier
+
+Sei righe, stampate su un cartoncino con il carattere della galleria e
+appoggiate sul tavolo ogni sera. La prima volta chi conduce le legge ad alta
+voce; poi restano lì, e non serve ripeterle.
+
+> Qui non si giudica: né il proprio lavoro, né quello degli altri.
+> Si dice cosa si vede, non cosa significa.
+> Il lavoro di un altro non si tocca, se non è il gioco della sera.
+> Si può sempre passare, senza spiegare perché.
+> Quello che si dice al tavolo resta al tavolo.
+> I materiali sono di tutti: alla fine si rimettono a posto insieme.
+
+Per i bambini il patto diventa tre regole, dette a voce in cerchio: *non si
+dice «brutto»*, *si può dire «passo»*, *si pulisce insieme*.
+
+---
+
+## Come si conduce
+
+Poche regole pratiche, che valgono per tutti i filoni.
+
+- **Una consegna alla volta.** Si spiega solo il passo che serve adesso, si
+  mostra il gesto per dieci secondi, poi si lascia lavorare
+- **Un segnale per i cambi di fase**, non la voce: un campanello, una
+  ciotola tibetana, un battito di mani. Il passaggio dal gesto a vuoto al
+  lavoro, dal lavoro al giro, si sente, non si annuncia
+- **Il tempo si vede.** Un orologio o un timer grande sul tavolo. Chi sa
+  quanto manca lavora più tranquillo
+- **I materiali si preparano prima** che arrivi qualcuno: colori già divisi
+  per tavolo, fogli contati, teli stesi. Il caos dei materiali si mangia la
+  serata
+- **Chi non vuole fare, può guardare.** Gli si offre un posto al tavolo e, se
+  vuole, un compito leggero: tenere il tempo, distribuire la carta. Non si
+  insiste e non si chiede perché
+- **Se il gruppo arriva agitato**, si comincia con un gesto che «tiene»:
+  una linea ripetuta, la matita, un formato piccolo. Se arriva spento, con
+  un gesto che «scorre»: il colore steso con il palmo, la spugna, il foglio
+  grande
+- **Chi conduce prova ogni serata su di sé**, almeno una volta, prima di
+  proporla
+
+## Se qualcosa pesa
+
+Anche se non è arteterapia, dipingere con le mani, cucire un foglio strappato,
+scegliere gli oggetti che si hanno in tasca può muovere qualcosa. Succede, e
+non è un errore di nessuno.
+
+- **Si rallenta.** Chi conduce propone a tutti, senza indicare nessuno, un
+  minuto di gesto ripetitivo — righe, puntini — prima di andare avanti
+- **Si offre una pausa**: un bicchiere d'acqua, la possibilità di uscire
+  dalla sala e tornare quando si vuole. Il lavoro si può girare e mettere via
+- **Non si chiede di spiegare** il disegno, né davanti agli altri né dopo
+- **A fine serata**, se serve, due parole in privato. Chi conduce non è un
+  terapeuta e non deve fare da terapeuta: se una persona sta male da tempo,
+  la cosa giusta è suggerirle con delicatezza il medico di base o uno
+  psicologo
+- **Con i bambini**, l'adulto resta accanto con calma, senza fare domande sul
+  foglio
+
+Numeri da tenere in galleria, vicino al telefono: **112** emergenze ·
+**Telefono Amico 02 2327 2327** · **Telefono Azzurro 19696** per bambini e
+ragazzi · **1522** contro la violenza e lo stalking.
+
+---
+
 ## Il ciclo di «Dipingere con…»
 
 Otto strumenti più una sessione che li mette insieme: **nove mercoledì**.
@@ -147,6 +213,12 @@ i suoi fogli e un linguaggio da combinare.
 > **Niente colore versato** (acrylic pouring): nessuno sversamento di colore
 > in galleria. Il colore si stende con spatola, spugna o rullo; il
 > palloncino e le bolle lavorano su colore steso, non versato.
+>
+> Dal corso **Atelier delle Emozioni** (nel Drive, `Arte Terapia`) vengono
+> invece alcune regole di metodo: il patto scritto, i segnali per i cambi
+> di fase, cosa fare se qualcosa pesa, le regole di sicurezza per i più
+> piccoli. Riscritte con parole nostre: le sue 120 attività, le carte e i
+> percorsi restano materiale acquistato e non si copiano.
 
 > **Da confermare con Elena:** negli appunti c'è «palloncini (pellicola)».
 > Qui sono due strumenti distinti — il palloncino premuto sul colore e la
@@ -226,8 +298,21 @@ schede `scheda.md` invece viaggiano: sono il progetto.
 - **Chi conduce:** Elena, oppure a rotazione con gli artisti del gruppo
 - **Prenotazione:** come si prenota (WhatsApp della galleria?), con quanto
   anticipo, e se c'è un minimo di partecipanti per confermare la serata
-- **Quote:** singola serata, ciclo di sei, eventuale tessera. Restano qui,
+- **Quote:** singola serata, ciclo intero, eventuale tessera. Restano qui,
   fuori dai post, finché non sono confermate
 - **Da quale filone partire** a gennaio
 - **La terra:** la cottura (argilla autoindurente o un forno in convenzione)
 - **Le carte:** il mazzo stampato della galleria, e se venderlo
+- **Il nome.** «Atelier delle Emozioni» è il nome di un prodotto in
+  commercio: usarlo uguale crea confusione e può creare problemi. Se piace
+  l'idea di «atelier», va trovata una forma nostra
+- **L'accessibilità.** Il palazzo è su tre livelli con scale: va detto
+  prima, nella comunicazione, quali serate si fanno al piano d'ingresso e
+  quali nella sala voltata
+- **Due pubblici nuovi**, da valutare: le **classi** delle scuole di
+  Pistoia, la mattina, e i **gruppi di adulti** (aziende, associazioni) su
+  richiesta. Gli stessi filoni, condotti per un gruppo chiuso
+- **Il taccuino del ciclo:** un piccolo quaderno della galleria da dare a
+  chi si iscrive a un ciclo, con una pagina per serata e una pagina libera
+  per la settimana in mezzo. Anche questo si potrebbe vendere
+- **L'app:** idea tenuta da parte, vedi [`idee/app.md`](idee/app.md)
