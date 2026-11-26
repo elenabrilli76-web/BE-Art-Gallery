@@ -28,6 +28,11 @@ Due eventi, due CTA, due contenuti separati.
 > filone già programmato lì (un gioco di istruzioni generative, non legato
 > ai tarocchi): questa resta una serata a sé, legata a questa mostra.
 
+## La proposta all'artista
+
+Bozza in [`proposta.md`](proposta.md): mostra, serata, cosa fa la galleria,
+cosa si chiede all'artista, cosa resta da decidere al colloquio.
+
 ## Da fissare
 
 - Data in calendario

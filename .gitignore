@@ -42,3 +42,7 @@ laboratori/*/materiali/*
 !laboratori/*/materiali/.gitkeep
 laboratori/privato/*
 !laboratori/privato/.gitkeep
+
+# Nuovi progetti: immagini, PDF della proposta e condizioni restano in locale
+nuovi-progetti/progetti/*/materiali/*
+!nuovi-progetti/progetti/*/materiali/.gitkeep
