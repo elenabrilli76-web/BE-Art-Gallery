@@ -34,7 +34,9 @@ Per il testo critico ne servono altre, in buona risoluzione.
 
 ## Formula decisa
 
-- **Mostra** — personale, CTA *vieni a visitare*
+- **Sala delle lame** — le 22 lame nella **sola sala voltata**, dentro un
+  progetto più ampio che occupa gli altri livelli (Elena, 26 novembre 2026:
+  22 quadri di 20 × 20 non reggono tre livelli). CTA *vieni a visitare*
 - **Serata a tema «La lama»** — dentro Handle with ART, a metà mostra, CTA
   *prenota il posto*
 
