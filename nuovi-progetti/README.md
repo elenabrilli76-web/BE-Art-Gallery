@@ -29,4 +29,4 @@ fuori da GitHub.
 
 | Proposta | Artista | Stato |
 |---|---|---|
-| [`patrizia-vangelisti-ofe`](progetti/patrizia-vangelisti-ofe/) | Patrizia Vangelisti (Ofe) — *Le Carte di Ofe* | formula decisa, in attesa di data e immagini |
+| [`patrizia-vangelisti-ofe`](progetti/patrizia-vangelisti-ofe/) | Patrizia Vangelisti (Ofe) — *Le Carte di Ofe* | proposta all'artista in bozza, v2 |

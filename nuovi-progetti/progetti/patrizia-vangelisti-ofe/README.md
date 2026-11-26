@@ -8,6 +8,30 @@ de Saint Phalle a Capalbio.
 > Plurale — trittico *Circe*, *Calipso*, *Geisha*, opere diverse, già in
 > [`testi-critici/artisti/patrizia-vangelisti/`](../../../testi-critici/artisti/patrizia-vangelisti/).
 
+## Dai materiali dell'artista
+
+Patrizia ha mandato il progetto il 9 novembre 2026: una presentazione con due
+schede didattiche, e la griglia dei significati delle lame. I file stanno
+nella posta e, se servono, in `materiali/`, solo sul PC.
+
+| | |
+|---|---|
+| **Le opere** | le 22 lame degli arcani maggiori, 0 Il Matto + da 01 Il Mago a 21 Il Mondo · tecnica mista su tela, 20 × 20 cm circa · iniziate nel 2023, finite nel luglio 2024 |
+| **Il mazzo** | le lame fotografate e stampate in formato quadrato, da smazzare. Sul retro una «cabala» disegnata dall'artista: una margherita di 21 petali, il più grande li unisce, la corolla è lo 0 |
+| **Gli elementi** | ogni lama ha un elemento: terra 04 05 08 16 20 · aria 09 10 12 13 17 · acqua 02 03 14 18 21 · fuoco 0 06 07 11 15 19 · Il Mago tutti e quattro |
+| **Il nome** | *Ofe* è un nome igbo (Nigeria) di buon auspicio |
+| **Il riferimento** | Niki de Saint Phalle, Giardino dei Tarocchi, Capalbio: il progetto nasce da una visita con le classi |
+| **L'intento** | «lettura intuitiva» delle immagini, esplicitamente **non** divinazione; uso didattico per medie e primo biennio delle superiori |
+| **La proposta di Patrizia** | usare le lame anche per spiegare al pubblico le opere di altre mostre, in forma di laboratorio |
+| **Titolo** | i file dicono *Le Carte di Ofe*, la mail *Le Lame di Ofe* |
+
+**Immagini viste** (tre, nella presentazione): *01 Il Mago*, rosso e giallo
+divisi da una spirale blu con un occhio, punti dorati; *18 La Luna*, falce
+gialla con un volto di profilo fra onde e spirali azzurre, perline viola;
+*09 L'Eremita*, figura curva con il bastone e un grande cuore rosa sulle
+spalle, fondo ocra. Numero in un angolo, firma *Ofe* in basso a destra.
+Per il testo critico ne servono altre, in buona risoluzione.
+
 ## Formula decisa
 
 - **Mostra** — personale, CTA *vieni a visitare*
@@ -36,7 +60,7 @@ cosa si chiede all'artista, cosa resta da decidere al colloquio.
 ## Da fissare
 
 - Data in calendario
-- Testo critico (servono 3-5 immagini buone delle opere)
+- Testo critico (servono 3-5 immagini buone delle opere: per ora ne abbiamo tre, piccole)
 - Colloquio con l'artista
 
 ---
