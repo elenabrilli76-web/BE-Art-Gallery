@@ -290,6 +290,15 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 - Il Creative Lab: i laboratori si chiamano *Handle with ART · Fare arte con
   cura* (vedi `laboratori/`). Restano da decidere l'orario dei bambini, chi
   conduce e le quote
+- **Patrizia Vangelisti (Ofe)** — *Le Carte di Ofe*: proposta di personale,
+  separata dalla sua partecipazione a DONNE: Femminile Plurale (artista e
+  opere diverse). 22 dipinti 20×20 tecnica mista, ispirati al linguaggio dei
+  tarocchi. Formula decisa: mostra (vieni a visitare) + serata a tema «La
+  lama» (prenota il posto) a metà mostra — due eventi, due CTA. **Non è un
+  laboratorio di Handle with ART**: resta un progetto a sé, ancora in fase di
+  valutazione, finché non è deciso vive solo nel ramo `nuovi-progetti`.
+  Restano da fissare: data, testo critico (servono 3-5 immagini buone),
+  colloquio con l'artista
 
 ---
 
