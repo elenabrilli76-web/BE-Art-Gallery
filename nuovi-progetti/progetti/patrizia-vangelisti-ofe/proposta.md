@@ -28,11 +28,11 @@ nella tua mail.
 
 | | |
 |---|---|
-| **Titolo** | *Le Carte di Ofe* `[o «Le Lame di Ofe», come nella tua mail?]` |
+| **Titolo** | *Le Carte di Ofe* |
 | **Formula** | una sala dedicata, la sala voltata, dentro `[il progetto più ampio — da definire]` + una serata a tema, «La lama» |
 | **Opere** | le 22 lame degli arcani maggiori, dal Matto al Mondo · tecnica mista su tela, 20 × 20 cm circa · 2023 – 2024 |
 | **Con le opere** | il mazzo stampato, con la margherita della cabala sul retro |
-| **Periodo** | `[due settimane, primavera 2027 — da fissare]` |
+| **Periodo** | primavera 2027, due settimane `[date da fissare con il progetto più ampio]` |
 | **Inaugurazione** | `[sabato, ore 17]` |
 | **Serata «La lama»** | `[un mercoledì a metà mostra, ore 21]` |
 
@@ -159,8 +159,7 @@ se vuoi che sia in vendita in galleria.
 
 ## 7 · Da decidere insieme
 
-- Il **titolo**: *Carte* o *Lame*
-- Il **progetto più ampio** in cui entra la sala, e il **periodo**
+- Il **progetto più ampio** in cui entra la sala, e le **date** precise in primavera
 - L'**allestimento**: per elementi o in sequenza
 - **Chi conduce** la serata, e quante persone
 - Se il mazzo stampato è **in vendita**

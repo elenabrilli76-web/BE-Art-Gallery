@@ -23,7 +23,7 @@ nella posta e, se servono, in `materiali/`, solo sul PC.
 | **Il riferimento** | Niki de Saint Phalle, Giardino dei Tarocchi, Capalbio: il progetto nasce da una visita con le classi |
 | **L'intento** | «lettura intuitiva» delle immagini, esplicitamente **non** divinazione; uso didattico per medie e primo biennio delle superiori |
 | **La proposta di Patrizia** | usare le lame anche per spiegare al pubblico le opere di altre mostre, in forma di laboratorio |
-| **Titolo** | i file dicono *Le Carte di Ofe*, la mail *Le Lame di Ofe* |
+| **Titolo** | *Le Carte di Ofe*, deciso il 26 novembre 2026 (nella mail compariva anche *Le Lame di Ofe*) |
 
 **Immagini viste** (tre, nella presentazione): *01 Il Mago*, rosso e giallo
 divisi da una spirale blu con un occhio, punti dorati; *18 La Luna*, falce
@@ -61,7 +61,8 @@ cosa si chiede all'artista, cosa resta da decidere al colloquio.
 
 ## Da fissare
 
-- Data in calendario
+- Il progetto più ampio che contiene la sala voltata: **ancora da scegliere**
+- Date precise: il periodo è la **primavera 2027**
 - Testo critico (servono 3-5 immagini buone delle opere: per ora ne abbiamo tre, piccole)
 - Colloquio con l'artista
 
