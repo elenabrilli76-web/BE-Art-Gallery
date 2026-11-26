@@ -189,6 +189,17 @@ I manuali di arteterapia nel Drive (`Arte Terapia`) sono una fonte di tecniche,
 non di contenuti: sono materiale acquistato e non si copiano qui.
 Vedi [`laboratori/README.md`](laboratori/README.md).
 
+## Nuovi progetti
+
+Le proposte ancora in valutazione — mostre, artisti, iniziative — stanno in
+`nuovi-progetti/`, una cartella per proposta in `progetti/nome-cognome/`.
+Quando un progetto **va in porto**, si sposta nei posti giusti (il calendario
+qui sopra, `testi-critici/`, `laboratori/`, `servizi-per-l-arte/`): è già
+successo così per «Siamo Donne, oltre la violenza c'è di più», nata come
+proposta e oggi l'evento che contiene DONNE: Femminile Plurale.
+
+Vedi [`nuovi-progetti/README.md`](nuovi-progetti/README.md).
+
 ## Riservatezza
 
 Questo repository è **pubblico**. Non vanno messi qui: token di accesso a Meta
@@ -290,15 +301,6 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 - Il Creative Lab: i laboratori si chiamano *Handle with ART · Fare arte con
   cura* (vedi `laboratori/`). Restano da decidere l'orario dei bambini, chi
   conduce e le quote
-- **Patrizia Vangelisti (Ofe)** — *Le Carte di Ofe*: proposta di personale,
-  separata dalla sua partecipazione a DONNE: Femminile Plurale (artista e
-  opere diverse). 22 dipinti 20×20 tecnica mista, ispirati al linguaggio dei
-  tarocchi. Formula decisa: mostra (vieni a visitare) + serata a tema «La
-  lama» (prenota il posto) a metà mostra — due eventi, due CTA. **Non è un
-  laboratorio di Handle with ART**: resta un progetto a sé, ancora in fase di
-  valutazione, finché non è deciso vive solo nel ramo `nuovi-progetti`.
-  Restano da fissare: data, testo critico (servono 3-5 immagini buone),
-  colloquio con l'artista
 
 ---
 
