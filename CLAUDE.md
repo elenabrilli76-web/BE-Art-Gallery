@@ -51,6 +51,18 @@ di un contenuto discende dal **tipo** di evento, non dal suo nome.
 | **Performance, evento culturale** | pubblico | vieni a visitare |
 | **Evento esclusivo o privato** | su invito | non si comunica prima; semmai un racconto dopo |
 
+### Handle with ART
+
+**Handle with ART** è il contenitore delle serate a tema che affiancano una
+mostra personale: un incontro a partecipazione pratica, non una semplice
+presentazione. Resta un evento di tipo **Presentazione, convegno, incontro**
+— CTA "vieni · prenota il posto" — ma si comunica come appuntamento a sé,
+**separato dalla mostra che lo ospita**: due eventi, due CTA, due contenuti,
+anche quando cadono a metà della stessa mostra.
+
+La prima serata è **La lama**, dentro la personale di Patrizia Vangelisti
+(Ofe) — vedi "Da completare" più sotto.
+
 ### La regola che si sbaglia più spesso
 
 Su una **collettiva aperta**, quando le iscrizioni si chiudono **la CTA cambia**:
@@ -250,11 +262,18 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 
 - I nomi degli artisti in curatela, quando la selezione è chiusa
 - La biografia di Elena Brilli: formazione, mostre precedenti, riconoscimenti
-- Cosa diventerà il Creative Lab in concreto: quali laboratori, per chi, quando
+- Cosa diventerà il Creative Lab in concreto: quali laboratori, per chi,
+  quando — il primo formato concreto è **Handle with ART** (serate a tema
+  con pittura partecipata, es. *La lama*), gli altri restano da immaginare
 - **Violenze Anonime** (reading del 29/11): chi legge il testo — Elena Brilli
   o attori/collaboratori esterni — ancora da decidere
 - Cosa fare per il 25 novembre, Giornata internazionale contro la violenza
   sulle donne: contenuto separato dalla mostra, ancora da pensare
+- **Patrizia Vangelisti (Ofe)** — *Le Carte di Ofe*: personale confermata.
+  Formula decisa: mostra (vieni a visitare) + serata **Handle with ART**
+  «La lama» (prenota il posto) a metà mostra — due eventi, due CTA, due
+  contenuti. Restano da fissare: data in calendario, testo critico (servono
+  3-5 immagini buone delle opere), colloquio con l'artista
 
 ---
 
