@@ -1,4 +1,4 @@
-# Idea da parte: l'app dei laboratori
+# Idea da parte: l'app di Handle with ART
 
 > **Stato: tenuta da parte.** Non si sviluppa adesso. Si riprende quando i
 > laboratori saranno partiti e avremo visto cosa funziona davvero.

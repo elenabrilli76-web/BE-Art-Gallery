@@ -1,8 +1,42 @@
-# Laboratori — Creative Lab
+# Handle with ART · Fare arte con cura
 
-Il terzo pilastro della galleria: **come le antiche botteghe, si impara facendo.**
-Qui stanno i progetti dei laboratori: l'impostazione, le schede delle singole
-sessioni, quello che serve per condurle.
+**I laboratori di BE Art Gallery**, dentro il Creative Lab: il terzo pilastro
+della galleria, **come le antiche botteghe, si impara facendo.** Qui stanno i
+progetti dei laboratori: l'impostazione, le schede delle singole sessioni,
+quello che serve per condurle.
+
+## Il nome
+
+**Handle with ART** gioca sulla scritta dei pacchi fragili, *handle with
+care*, «maneggiare con cura», e mette l'arte al posto della cura. Dice tre
+cose insieme:
+
+- **handle**, maneggiare: si lavora con le mani, la materia si tocca
+- **with care**, con delicatezza: ognuno qui è trattato con riguardo, il
+  proprio lavoro anche
+- **ART**: la cura passa dall'arte, non da una terapia
+
+Il sottotitolo italiano lo dice in chiaro: **Fare arte con cura**. La cura è
+quella dell'artigiano e del curatore — l'attenzione, il gesto lento, i
+materiali buoni — non quella del medico. Non promette guarigione: descrive
+un modo di lavorare.
+
+| | |
+|---|---|
+| **Come si scrive** | *Handle with ART*, con ART in maiuscolo; il sottotitolo *Fare arte con cura* |
+| **Nelle caption in inglese** | *Handle with ART · making art, with care* |
+| **Per i bambini** | *Handle with ART · piccoli* · in famiglia: *Handle with ART · in famiglia* |
+| **Con i filoni** | *Handle with ART · Dipingere con le mani*, *Handle with ART · La terra* |
+| **Hashtag** | `#handlewithart`, dopo quelli di casa |
+
+```
+BE Art Gallery & Creative Lab
+└── Creative Lab
+    └── Handle with ART · Fare arte con cura
+        ├── Dipingere con…
+        ├── La terra, Le mappe, Il filo…
+        └── … gli altri filoni
+```
 
 > Stato: **prima stesura**, partenza a **gennaio 2027**. Undici filoni
 > impostati: «Dipingere con…» e altri dieci. Gli orari dei bambini, i costi e
@@ -74,7 +108,7 @@ un paziente: è una persona che passa la serata a dipingere in una galleria.
 **Non è un corso di pittura.** Non si insegna a fare bene una cosa: non c'è
 una cosa giusta da fare.
 
-**È un atelier.** Uno spazio protetto in cui il risultato non si giudica, ma
+**È una bottega.** Uno spazio protetto in cui il risultato non si giudica, ma
 si **prende sul serio**: carta buona, colori veri, un'opera di riferimento
 della storia dell'arte, il lavoro firmato e datato. L'effetto rilassante
 arriva da sé — dalla lentezza, dal gesto, dalla materia — e proprio per
@@ -118,7 +152,7 @@ Qui si parte dall'opposto: **nessun soggetto, un vincolo preciso**.
 
 ---
 
-## Il patto dell'atelier
+## Il patto del tavolo
 
 Sei righe, stampate su un cartoncino con il carattere della galleria e
 appoggiate sul tavolo ogni sera. La prima volta chi conduce le legge ad alta
@@ -261,6 +295,11 @@ ha: **i lavori si possono esporre**.
 È un evento del tipo **«presentazione, convegno, incontro»**: la CTA è
 **prenota il posto**. Una sola, sempre.
 
+Il programma si presenta sempre con il suo nome, **Handle with ART · Fare
+arte con cura**, accanto a quello della galleria. Non si usano «atelier» —
+a Pistoia è già il nome dei laboratori della Fondazione Marino Marini — né
+«Atelier delle Emozioni», che è un prodotto in commercio.
+
 Il tono per i laboratori segue la Voce di `CLAUDE.md`, con due attenzioni:
 
 - **Mai la parola «terapia»** e mai promesse di effetti: niente «ritrova te
@@ -270,7 +309,7 @@ Il tono per i laboratori segue la Voce di `CLAUDE.md`, con due attenzioni:
 - **Per i bambini si parla ai genitori.** Concreti: età, orario, grembiule,
   se resta un adulto. Niente diminutivi («i nostri piccoli artisti»).
 
-Parole che usiamo: *atelier, serata, materia, gesto, colore, senza pennello,
+Parole che usiamo: *bottega, serata, materia, gesto, colore, senza pennello,
 senza giudizio*. Parole che evitiamo: *terapia, seduta, benessere interiore,
 mindfulness, creatività* (da sola), *lavoretti*.
 
@@ -303,9 +342,6 @@ schede `scheda.md` invece viaggiano: sono il progetto.
 - **Da quale filone partire** a gennaio
 - **La terra:** la cottura (argilla autoindurente o un forno in convenzione)
 - **Le carte:** il mazzo stampato della galleria, e se venderlo
-- **Il nome.** «Atelier delle Emozioni» è il nome di un prodotto in
-  commercio: usarlo uguale crea confusione e può creare problemi. Se piace
-  l'idea di «atelier», va trovata una forma nostra
 - **L'accessibilità.** Il palazzo è su tre livelli con scale: va detto
   prima, nella comunicazione, quali serate si fanno al piano d'ingresso e
   quali nella sala voltata

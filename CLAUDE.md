@@ -162,10 +162,14 @@ Portfolio e brochure si impaginano con `py strumenti\servizi.py nome-cognome`. D
 - **I contatti dell'artista** (telefono, email) non entrano nel repository: stanno in
   `materiali/privato.json` del progetto, che resta sul computer.
 
-## Laboratori — Creative Lab
+## Laboratori — Handle with ART
+
+I laboratori del Creative Lab si chiamano **Handle with ART · Fare arte con
+cura**: la cura dell'artigiano e del curatore, non quella del medico. Il nome
+gioca su *handle with care*, la scritta dei pacchi fragili. Mai «atelier».
 
 I progetti dei laboratori stanno in `laboratori/`. Il primo è **«Dipingere
-con…»**: un atelier permanente, ogni mercoledì alle 21, in cui si dipinge
+con…»**: un laboratorio permanente, ogni mercoledì alle 21, in cui si dipinge
 senza pennello (mani, spugne, pellicola, palloncini, bolle di sapone,
 foglie e oggetti come stampi, racla, musica). Niente colore versato:
 nessuno sversamento di colore in galleria. Ci sono due percorsi distinti,
@@ -283,8 +287,9 @@ da dare a chi chiede perché le opere sembrino di mani diverse.
 
 - I nomi degli artisti in curatela, quando la selezione è chiusa
 - La biografia di Elena Brilli: formazione, mostre precedenti, riconoscimenti
-- Il Creative Lab: impostato il primo laboratorio, «Dipingere con…» (vedi
-  `laboratori/`). Restano da decidere l'orario dei bambini, chi conduce e le quote
+- Il Creative Lab: i laboratori si chiamano *Handle with ART · Fare arte con
+  cura* (vedi `laboratori/`). Restano da decidere l'orario dei bambini, chi
+  conduce e le quote
 
 ---
 
