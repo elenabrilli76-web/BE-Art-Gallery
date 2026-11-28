@@ -18,7 +18,7 @@ Controllo del 24/11/2026, ore 20:25.
 | Testata | Link | Note |
 |---|---|---|
 | **La Voce di Pistoia / Valdinievole Oggi** | [Be Art Gallery ospita «Violenze anonime», lettura condivisa con Elena Brilli](https://www.valdinievoleoggi.it/a135192-be-art-gallery-ospita-violenze-anonime-lettura-condivisa-con-elena-brilli.html) | uscito in serata, terzo comunicato su tre ripreso |
-| le altre | — | niente sui siti; ricontrollare il 25 mattina |
+| le altre | — | niente sui siti, né il 25 né al controllo del 28/11 notte |
 
 ## Oggetto
 

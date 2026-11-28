@@ -112,3 +112,14 @@ gli hashtag e l'inglese.
   delle opere sono degli artisti.
 - **San Pier Maggiore** una volta sola, per dire dove siamo.
 - **Una notizia per comunicato.** Due mostre, due comunicati.
+
+## Cosa abbiamo imparato
+
+- **Novembre 2026, *Siamo Donne*.** Tre comunicati, tutti ripresi da La Voce di
+  Pistoia / Valdinievole Oggi in poche ore; Report Pistoia ha ripreso quello su
+  Cristina Mensi, come breve. Gli annunci escono quasi parola per parola: il
+  testo va scritto già pronto da pubblicare.
+- Negli stessi giorni una mostra sullo stesso tema a Serravalle ha avuto su
+  Report Pistoia un **articolo firmato sull'inaugurazione**, con molte più
+  letture di una breve. Il racconto *dopo* l'evento, con foto della serata e
+  qualche nome, è il pezzo che ci manca: va mandato il giorno dopo.
